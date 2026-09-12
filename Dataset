@@ -1,0 +1,6 @@
+The dataset contains 180,519 records across 53 features, covering order management, logistics, customer demographics, product catalog, and financial performance.
+We can Choose a relational database like MySQL.
+We can design fact table and dimensional table.
+Preprocessing:
+We can drop some of the colums which have missing values like "Product description".
+Datetime Conversions: Convert order date (DateOrders) and shipping date (DateOrders) to proper SQL/pandas datetime objects.
