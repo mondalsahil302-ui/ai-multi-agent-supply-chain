@@ -2,7 +2,21 @@
 
 An AI-powered supply-chain decision platform for demand planning, inventory intelligence, supplier selection, warehouse operations, and route optimization.
 
-This repository currently provides the project data foundation: operational workbooks, product and location masters, and Kolkata weather and festival context. The workbook files are stored with [Git LFS](https://git-lfs.com/) because several are larger than GitHub's normal file-size limit.
+The project is being built in phases. The current focus is **Phase 1: Data Foundation**: establish a clean, reproducible, and documented data layer before preprocessing, PostgreSQL, machine learning, or agents are added. Excel workbooks are stored with [Git LFS](https://git-lfs.com/) because several are larger than GitHub's normal file-size limit.
+
+## Current Phase
+
+### Phase 1: Data Foundation
+
+The data foundation follows this order:
+
+1. Audit and inventory the raw datasets.
+2. Organize raw files by business domain.
+3. Define the logical database design in the [data dictionary](docs/data_dictionary.xlsx).
+4. Add preprocessing and validation without changing raw files.
+5. Create PostgreSQL tables from the approved dictionary.
+
+The repository currently completes the first three design activities. PostgreSQL tables, preprocessing pipelines, and AI agents are intentionally not part of the raw-data foundation yet.
 
 ## What This Project Connects
 
@@ -31,48 +45,97 @@ The agents are designed to share the same trusted product, location, and time-ba
 
 ```mermaid
 flowchart TD
-	ROOT[ai-multi-agent-supply-chain] --> DATA[Datasets]
-	DATA --> MASTER[Reference masters]
-	DATA --> OPS[Operational workbooks]
-	DATA --> CONTEXT[External context]
-	DATA --> DOCS[README.md]
-
-	MASTER --> LOC[Location_ID_Master_40_For_Sharing.csv]
-	MASTER --> PROD[Product_ID_Master_200_For_Sharing.csv]
-	OPS --> INV[Inventory and warehouse workbooks]
-	OPS --> DEM[Demand and sales history workbooks]
-	CONTEXT --> WEATHER[kolkata_actual_weather_anchors_2024_2025_weekly.csv]
-	CONTEXT --> FEST[kolkata_festival_calendar_2024_2025.csv]
+	ROOT[ai-multi-agent-supply-chain] --> DATA[datasets/raw]
+	ROOT --> DOCS[docs]
+	ROOT --> DB[database]
+	ROOT --> AGENTS[agents]
+	DATA --> MASTER[master]
+	DATA --> DEM[demand]
+	DATA --> INV[inventory]
+	DATA --> SUP[supplier]
+	DATA --> WH[warehouse]
+	DATA --> EXT[external]
+	DOCS --> DI[data_dictionary.xlsx]
 ```
+
+Only raw data is stored under `datasets/raw`. The raw files keep their original filenames and must not be edited in place. `database/` and `agents/` are reserved for later phases.
 
 ## Dataset Catalog
 
-### Reference masters
+The audit found 13 datasets across six domains. The names below are the filenames currently present in the repository; no duplicate datasets have been merged or renamed.
 
-| File | Purpose | Key fields |
+### 1. Master data
+
+Master data identifies the entities used throughout the system. These files should change less frequently than operational data.
+
+| File | What it represents | Planned logical table |
 | --- | --- | --- |
-| `Location_ID_Master_40_For_Sharing.csv` | 40 Kolkata locations and their regions | `location_id`, `region_of_kolkata` |
-| `Product_ID_Master_200_For_Sharing.csv` | Product, brand, category, pack-size, cost, and selling-price reference | `product_id`, `category_code`, `product_name`, `brand`, `unit_type`, `cp_*_rs`, `sp_*_rs` |
+| `datasets/raw/master/products.csv` | Product identity and reference records | Products |
+| `datasets/raw/master/locations.csv.csv` | Kolkata location and region records | Locations |
+| `datasets/raw/master/Final product list.xlsx` | Product-level reference data | Products |
 
-### Operational workbooks
+### 2. Demand data
 
-| File | Intended use |
+Demand data records historical customer activity and provides the main training inputs for the future Demand Agent.
+
+| File | What it represents | Planned logical table |
+| --- | --- | --- |
+| `datasets/raw/demand/sales_history.xlsx` | Historical sales observations | Sales |
+| `datasets/raw/demand/Demand of last 2 years.xlsx` | Two-year demand history | Sales |
+| `datasets/raw/demand/final_demand_agent_training_2_years_kolkata (1).xlsx` | Demand-agent training dataset | Sales |
+
+### 3. Inventory data
+
+Inventory data describes current stock and stock movements. It will support replenishment calculations and the future Inventory Agent.
+
+| File | What it represents | Planned logical table |
+| --- | --- | --- |
+| `datasets/raw/inventory/inventory_stock.xlsx` | Current inventory stock snapshot | Inventory |
+| `datasets/raw/inventory/inventory_transactions.xlsx` | Inventory stock movements | Inventory or inventory transactions |
+
+### 4. Supplier data
+
+Supplier data supports procurement decisions, including supplier-product relationships, lead times, and cost comparisons.
+
+| File | What it represents | Planned logical table |
+| --- | --- | --- |
+| `datasets/raw/supplier/supplier_inventory.xlsx` | Supplier and supply inventory information | Suppliers |
+
+### 5. Warehouse data
+
+Warehouse data describes warehouse identity, capacity, and the locations served. It will later support allocation and warehouse planning.
+
+| File | What it represents | Planned logical table |
+| --- | --- | --- |
+| `datasets/raw/warehouse/warehouses.xlsx` | Warehouse reference records | Warehouses |
+| `datasets/raw/warehouse/final_warehouse_dataset_kolkata.xlsx` | Kolkata warehouse dataset | Warehouses |
+
+### 6. External intelligence
+
+External data provides context that can influence demand. Weather joins by week or reference date, while festival information joins by event date or an agreed look-ahead window.
+
+| File | What it represents | Planned logical table |
+| --- | --- | --- |
+| `datasets/raw/external/weather_weekly.csv` | Weekly weather observations | Weather & Festival |
+| `datasets/raw/external/festival_calendar.csv` | Festival and holiday calendar | Weather & Festival |
+
+The initial planning notes referenced several different filenames, such as `Product_ID_Master_200_For_Sharing.csv` and `SELL of past 2 years.xlsx`. Those files were not present during the repository audit, so the actual files above are the source of truth for the current phase.
+
+## Data Dictionary
+
+[docs/data_dictionary.xlsx](docs/data_dictionary.xlsx) is the database blueprint for Phase 1.2. It contains seven sheets:
+
+| Sheet | Purpose |
 | --- | --- |
-| `Complete dataset for inventory.xlsx` | Inventory analysis and replenishment inputs |
-| `Inventory agent trasaction.xlsx` | Inventory transaction records |
-| `Demand of last 2 years.xlsx` | Historical demand analysis |
-| `SELL of past 2 years.xlsx` | Historical sales analysis |
-| `Final product list.xlsx` | Product-level operational reference |
-| `Warehouselist.xlsx` | Warehouse reference data |
-| `final_warehouse_dataset_kolkata.xlsx` | Kolkata warehouse dataset |
-| `final_demand_agent_training_2_years_kolkata (1).xlsx` | Demand-agent training data |
+| `Products` | Product identifiers, names, brands, categories, units, and prices |
+| `Locations` | Location identifiers, region names, and coordinates |
+| `Warehouses` | Warehouse identifiers, locations, capacities, and service radii |
+| `Sales` | Weekly product sales, units, revenue, and business keys |
+| `Inventory` | Warehouse-product stock, shelf, quantity, and reorder information |
+| `Suppliers` | Supplier-product relationships, lead times, and cost prices |
+| `Weather_Festival` | Weather measures, festival names, and holiday flags |
 
-### Context datasets
-
-| File | Purpose |
-| --- | --- |
-| `kolkata_actual_weather_anchors_2024_2025_weekly.csv` | Weekly temperature, rainfall, humidity, season, and weather condition |
-| `kolkata_festival_calendar_2024_2025.csv` | Festival event dates for calendar-based demand features |
+Each sheet records the proposed column name, PostgreSQL type, key or foreign-key constraint, nullability, description, and source dataset. The workbook defines the logical design; it does not create PostgreSQL tables or alter raw files.
 
 ## Data Relationships
 
@@ -117,7 +180,7 @@ erDiagram
 	FESTIVAL_CALENDAR }o--o{ INVENTORY_TRANSACTIONS : influences
 ```
 
-The exact columns in the Excel workbooks may vary by file. Treat the two CSV masters as the stable identifiers when joining product, location, and contextual data.
+The exact columns in the raw workbooks may vary by file. Treat the approved data dictionary as the target logical design and the raw files as immutable source material until a preprocessing decision has been documented.
 
 ## Agent Decision Flow
 
@@ -144,6 +207,15 @@ sequenceDiagram
 	Route-->>Orchestrator: Route plan and cost estimate
 	Orchestrator-->>User: Explainable recommendation
 ```
+
+## Phase 1 Data Rules
+
+- Never edit raw files in place.
+- Keep every dataset under its assigned `datasets/raw/<domain>/` directory.
+- Preserve the original filename of every raw dataset.
+- Do not merge duplicate or overlapping datasets during the audit stage.
+- Do not create processed folders until preprocessing is approved.
+- Do not create PostgreSQL tables until the data dictionary is approved.
 
 ## Typical Data Pipeline
 
@@ -189,8 +261,8 @@ Example Python inspection:
 ```python
 import pandas as pd
 
-products = pd.read_csv("Datasets/Product_ID_Master_200_For_Sharing.csv")
-locations = pd.read_csv("Datasets/Location_ID_Master_40_For_Sharing.csv")
+products = pd.read_csv("datasets/raw/master/products.csv")
+locations = pd.read_csv("datasets/raw/master/locations.csv.csv")
 
 print(products.shape)
 print(locations.shape)
@@ -201,8 +273,8 @@ print(products[["product_id", "product_name", "brand"]].head())
 
 Before training an agent or joining datasets, check that:
 
-- `product_id` values exist in `Product_ID_Master_200_For_Sharing.csv`.
-- `location_id` values exist in `Location_ID_Master_40_For_Sharing.csv`.
+- `product_id` values exist in `datasets/raw/master/products.csv` or the approved product reference.
+- `location_id` values exist in `datasets/raw/master/locations.csv.csv`.
 - Dates use a consistent format and timezone assumption.
 - Quantity, cost, and price fields are numeric and use consistent units.
 - Weather data is joined by week and festival data is joined by event date or a defined look-ahead window.
@@ -213,8 +285,8 @@ Before training an agent or joining datasets, check that:
 Excel files are tracked with Git LFS. Keep that enabled when adding or updating large workbooks:
 
 ```bash
-git lfs track "Datasets/*.xlsx"
-git add .gitattributes Datasets/
+git lfs track "datasets/raw/**/*.xlsx"
+git add .gitattributes datasets/
 git commit -m "Update supply chain datasets"
 git push
 ```
