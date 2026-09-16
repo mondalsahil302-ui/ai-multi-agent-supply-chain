@@ -1,6 +1,6 @@
-Datasets/*.xlsx filter=lfs diff=lfs merge=lfs -text
-Datasets/**/*.xlsx filter=lfs diff=lfs merge=lfs -text
-Datasets/raw[[:space:]]data/inventory_transactions.xlsx filter=lfs diff=lfs merge=lfs -text
-Datasets/raw[[:space:]]data/sales_history.xlsx filter=lfs diff=lfs merge=lfs -text
-Datasets/raw/demand/sales_history.xlsx filter=lfs diff=lfs merge=lfs -text
-Datasets/raw/inventory/inventory_transactions.xlsx filter=lfs diff=lfs merge=lfs -text
+datasets/*.xlsx filter=lfs diff=lfs merge=lfs -text
+datasets/**/*.xlsx filter=lfs diff=lfs merge=lfs -text
+datasets/raw[[:space:]]data/inventory_transactions.xlsx filter=lfs diff=lfs merge=lfs -text
+datasets/raw[[:space:]]data/sales_history.xlsx filter=lfs diff=lfs merge=lfs -text
+datasets/raw/demand/sales_history.xlsx filter=lfs diff=lfs merge=lfs -text
+datasets/raw/inventory/inventory_transactions.xlsx filter=lfs diff=lfs merge=lfs -text

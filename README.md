@@ -18,6 +18,13 @@ The data foundation follows this order:
 
 The repository currently completes the first three design activities. PostgreSQL tables, preprocessing pipelines, and AI agents are intentionally not part of the raw-data foundation yet.
 
+## Phase 1 Progress
+
+- ✅ Phase 1.1 Dataset Organization
+- ✅ Phase 1.2 Data Dictionary
+- ✅ Phase 1.3 Data Lineage & Entity Mapping
+- ⏳ Phase 1.4 Data Validation
+
 ## What This Project Connects
 
 ```mermaid
