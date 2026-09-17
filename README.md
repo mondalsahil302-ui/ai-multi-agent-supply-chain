@@ -189,6 +189,31 @@ erDiagram
 
 The exact columns in the raw workbooks may vary by file. Treat the approved data dictionary as the target logical design and the raw files as immutable source material until a preprocessing decision has been documented.
 
+## Entity Mapping
+
+```mermaid
+flowchart LR
+	PRODUCTS[Products<br/>PK: product_id]
+	LOCATIONS[Locations<br/>PK: location_id]
+	WAREHOUSES[Warehouses<br/>PK: warehouse_id]
+	SUPPLIERS[Suppliers<br/>PK: supplier_id]
+	SALES[Sales<br/>PK: sale_id]
+	INVENTORY[Inventory<br/>PK: inventory_id]
+	WEATHER[Weather<br/>PK: weather_id]
+	FESTIVALS[Festivals<br/>PK: festival_id]
+
+	SALES -->|product_id| PRODUCTS
+	SALES -->|location_id| LOCATIONS
+	INVENTORY -->|warehouse_id| WAREHOUSES
+	INVENTORY -->|product_id| PRODUCTS
+	SUPPLIERS -->|product_id| PRODUCTS
+	WAREHOUSES -->|location_id| LOCATIONS
+	WEATHER -->|week_date| SALES
+	FESTIVALS -->|week_date| SALES
+```
+
+This mapping is the reference layer used before feature engineering and 30-day demand prediction. See [Entity Mapping](docs/Entity_Mapping.md) for the collection definitions and lineage notes.
+
 ## Agent Decision Flow
 
 ```mermaid

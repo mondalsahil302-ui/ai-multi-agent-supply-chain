@@ -1,0 +1,16 @@
+warehouse_id,warehouse_name,area,city,capacity_units,daily_dispatch_capacity_units,location_id
+WH-001,South City Mall Warehouse,Jadavpur,Kolkata,20000,7000,KOL-LOC-001
+WH-002,Quest Mall Warehouse,Park Circus,Kolkata,16000,5600,KOL-LOC-002
+WH-003,Acropolis Mall Warehouse,Kasba,Kolkata,18000,6300,KOL-LOC-003
+WH-004,Mani Square Warehouse,Kankurgachi,Kolkata,18000,6300,KOL-LOC-004
+WH-005,City Centre I Warehouse,Salt Lake,Kolkata,20000,7000,KOL-LOC-005
+WH-006,City Centre II Warehouse,New Town,Kolkata,24000,8400,KOL-LOC-006
+WH-007,Axis Mall Warehouse,New Town,Kolkata,18000,6300,KOL-LOC-007
+WH-008,Lake Mall Warehouse,Rashbehari,Kolkata,12000,4200,KOL-LOC-008
+WH-009,Forum Courtyard Warehouse,Elgin,Kolkata,15000,5250,KOL-LOC-009
+WH-010,Diamond Plaza Warehouse,Dum Dum,Kolkata,16000,5600,KOL-LOC-010
+WH-011,Gariahat Mall Warehouse,Gariahat,Kolkata,13000,4550,KOL-LOC-011
+WH-012,Merlin Homeland Warehouse,Bhowanipore,Kolkata,12000,4200,KOL-LOC-012
+WH-013,Metro Plaza Warehouse,Park Street,Kolkata,10000,3500,KOL-LOC-013
+WH-014,E-Mall Warehouse,Chittaranjan Avenue,Kolkata,11000,3850,KOL-LOC-014
+WH-015,The Enclave Mall Warehouse,Alipore,Kolkata,12000,4200,KOL-LOC-015
