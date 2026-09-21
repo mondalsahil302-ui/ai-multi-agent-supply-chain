@@ -1,0 +1,41 @@
+location_id,region_of_kolkata,location_name,city,latitude,longitude,source_file,standardized_at
+KOL-LOC-001,Lake Gardens,Lake Gardens,Kolkata,22.5065,88.3554,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-002,Jadavpur,Jadavpur,Kolkata,22.4993,88.3708,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-003,Dhakuria,Dhakuria,Kolkata,22.5133,88.3657,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-004,Gariahat,Gariahat,Kolkata,22.5174,88.365,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-005,Ballygunge,Ballygunge,Kolkata,22.5252,88.365,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-006,Jodhpur Park,Jodhpur Park,Kolkata,22.5004,88.3692,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-007,Tollygunge,Tollygunge,Kolkata,22.4955,88.3488,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-008,Golf Green,Golf Green,Kolkata,22.4856,88.3481,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-009,Garia,Garia,Kolkata,22.465,88.3886,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-010,Kasba,Kasba,Kolkata,22.5215,88.386,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-011,Mukundapur,Mukundapur,Kolkata,22.4931,88.409,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-012,Santoshpur,Santoshpur,Kolkata,22.49,88.386,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-013,New Alipore,New Alipore,Kolkata,22.5078,88.3347,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-014,Behala,Behala,Kolkata,22.496,88.318,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-015,Chetla,Chetla,Kolkata,22.51,88.344,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-016,Alipore,Alipore,Kolkata,22.535,88.3327,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-017,Kalighat,Kalighat,Kolkata,22.5203,88.3426,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-018,Bhawanipore,Bhawanipore,Kolkata,22.535,88.3515,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-019,Park Street,Park Street,Kolkata,22.5535,88.351,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-020,Esplanade,Esplanade,Kolkata,22.5626,88.3518,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-021,Entally,Entally,Kolkata,22.557,88.37,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-022,Sealdah,Sealdah,Kolkata,22.5673,88.372,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-023,Tangra,Tangra,Kolkata,22.553,88.383,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-024,Topsia,Topsia,Kolkata,22.5425,88.3835,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-025,Beliaghata,Beliaghata,Kolkata,22.565,88.388,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-026,Maniktala,Maniktala,Kolkata,22.589,88.3865,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-027,Kankurgachi,Kankurgachi,Kolkata,22.584,88.3955,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-028,Ultadanga,Ultadanga,Kolkata,22.602,88.387,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-029,Lake Town,Lake Town,Kolkata,22.604,88.4,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-030,Dum Dum,Dum Dum,Kolkata,22.62,88.414,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-031,Nagerbazar,Nagerbazar,Kolkata,22.646,88.427,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-032,Shyambazar,Shyambazar,Kolkata,22.598,88.373,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-033,Salt Lake,Salt Lake,Kolkata,22.586,88.417,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-034,Sector V,Sector V,Kolkata,22.5726,88.4335,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-035,New Town,New Town,Kolkata,22.5885,88.469,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-036,Rajarhat,Rajarhat,Kolkata,22.621,88.475,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-037,Anandapur,Anandapur,Kolkata,22.5125,88.405,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-038,Patuli,Patuli,Kolkata,22.468,88.38,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-039,Nayabad,Nayabad,Kolkata,22.477,88.409,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-040,Chak Garia,Chak Garia,Kolkata,22.46,88.389,locations.csv.csv + supplier_inventory.xlsx/Area_Master,2026-09-21T14:25:30.977573+00:00

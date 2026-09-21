@@ -473,3 +473,4 @@ lines.append("")
 md_text = "\n".join(lines)
 (DOC / "DATA_DICTIONARY.md").write_text(md_text, encoding="utf-8")
 print(f"DATA_DICTIONARY.md written: {len(lines)} lines")
+

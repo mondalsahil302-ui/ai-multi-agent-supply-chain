@@ -10,6 +10,7 @@ stages = [
     "pipeline\\stage_04_features.py",
     "pipeline\\stage_05_validation.py",
     "pipeline\\stage_06_mapping_docs.py",
+    "pipeline\\stage_07_data_dictionary.py",
 ]
 
 env = os.environ.copy()

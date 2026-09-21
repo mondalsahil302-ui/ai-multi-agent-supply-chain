@@ -1,6 +1,6 @@
 # FINAL DATA FOUNDATION REPORT
 ## Kolkata Multi-Agent Supply Chain System
-**Generated**: 2026-09-21T13:26:30.071015+00:00
+**Generated**: 2026-09-21T14:37:48.280721+00:00
 
 ---
 
@@ -26,6 +26,52 @@
 
 ## 2. Dataset Counts
 
+### 2.1 Staging Layer (`data/03_staging/`)
+| Staged File | Records | Source |
+|---|---|---|
+| `stg_locations.csv` | 40 | `locations.csv.csv` |
+| `stg_products.csv` | 200 | `products.csv` |
+| `stg_final_product_list_master.csv` | 200 | `Final product list.xlsx` / `product_master` |
+| `stg_category_summary.csv` | 20 | `Final product list.xlsx` / `category_summary` |
+| `stg_festival_calendar.csv` | 36 | `festival_calendar.csv` |
+| `stg_weather_weekly.csv` | 105 | `weather_weekly.csv` |
+| `stg_demand_history.csv` | 27,800 | `Demand of last 2 years.xlsx` / `demand_training_data` |
+| `stg_demand_training.csv` | 20,800 | `final_demand_agent_training_2_years_kolkata (1).xlsx` |
+| `stg_inventory_position.csv` | 3,000 | `inventory_stock.xlsx` / `Inventory_Position` |
+| `stg_inventory_control.csv` | 3,000 | `inventory_stock.xlsx` / `Inventory_Control` |
+| `stg_inventory_valuation.csv` | 3,000 | `inventory_stock.xlsx` / `Inventory_Valuation` |
+| `stg_inventory_shelf_master.csv` | 600 | `inventory_stock.xlsx` / `Shelf_Master` |
+| `stg_inventory_product_shelf.csv` | 3,000 | `inventory_stock.xlsx` / `Product_Shelf_Assignment` |
+| `stg_supplier_master.csv` | 200 | `supplier_inventory.xlsx` / `Supplier_Master` |
+| `stg_supplier_area_master.csv` | 40 | `supplier_inventory.xlsx` / `Area_Master` |
+| `stg_supplier_area_options.csv` | 200 | `supplier_inventory.xlsx` / `Area_Supplier_Options` |
+| `stg_supplier_product_catalog.csv` | 8,000 | `supplier_inventory.xlsx` / `Supplier_Product_Catalog` |
+| `stg_warehouses_primary.csv` | 15 | `warehouses.xlsx` / `warehouse` |
+| `stg_warehouses_kolkata.csv` | 15 | `final_warehouse_dataset_kolkata.xlsx` / `warehouse` |
+| `stg_sales_history_lfs_pointer.csv` | 1 (metadata) | `sales_history.xlsx` (Git-LFS pointer) |
+| `stg_inventory_transactions_lfs_pointer.csv` | 1 (metadata) | `inventory_transactions.xlsx` (Git-LFS pointer) |
+
+### 2.2 Standardized Layer (`data/04_standardized/`)
+| Standardized File | Records | Cleaning & Transformation Highlights |
+|---|---|---|
+| `std_locations.csv` | 40 | Validated IDs, trimmed names, enriched with lat/lon |
+| `std_products.csv` | 200 | Normalized snake_case, verified 20 categories × 10 items |
+| `std_product_variants.csv` | 1,000 | Unpivoted 5 sizes to normalized variant entity with base units |
+| `std_festival_calendar.csv` | 36 | ISO dates, derived Monday-week start, inferred categories |
+| `std_weather_weekly.csv` | 105 | Parsed metrics, non-negative rainfall, 0–100% humidity |
+| `std_calendar_week.csv` | 105 | Normalized `YYYYMMDD` week keys, week number, season |
+| `std_warehouses.csv` | 15 | Consolidated facility specs, dispatch, and vehicle counts |
+| `std_supplier_master.csv` | 200 | Standardized MOQ, lead times, max limits, vehicle fleet |
+| `std_supplier_area_options.csv` | 200 | Standardized area-to-supplier options and rankings |
+| `std_supplier_product_catalog.csv` | 8,000 | Preserved unmapped column 10 in quarantine |
+| `std_inventory_position.csv` | 3,000 | Recalculated `weeks_of_cover`, `reorder_flag`, `target_stock`, `shortage` |
+| `std_inventory_shelf.csv` | 600 | Standardized shelf capacity and space utilization % |
+| `std_demand_history.csv` | 27,800 | Fully typed demand history with promotions, holidays, weather |
+| `std_demand_training.csv` | 20,800 | Standardized secondary training dataset |
+| `std_sales_history_unavailable.csv` | 1 (blocked) | Git-LFS pointer metadata |
+| `std_inventory_transactions_unavailable.csv` | 1 (blocked) | Git-LFS pointer metadata |
+
+### 2.3 Curated Canonical Layer (`data/06_curated/`)
 | Entity | Records |
 |---|---|
 | DIM_PRODUCT | 200 |

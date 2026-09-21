@@ -1,201 +1,201 @@
-location_id,location_name,supplier_id,supplier_type_id,supplier_type_name,supplier_latitude,supplier_longitude,distance_from_location_center_km,supplier_option_rank,service_available_flag,source_file,pipeline_timestamp
-KOL-LOC-001,Lake Gardens,SUP-KOL-001-01,SUP-T01,Fresh Produce & Chilled,22.5051,88.3542,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-001,Lake Gardens,SUP-KOL-001-02,SUP-T02,Staples & Cooking,22.5078,88.3544,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-001,Lake Gardens,SUP-KOL-001-03,SUP-T03,Packaged Foods & Bakery,22.5055,88.3569,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-001,Lake Gardens,SUP-KOL-001-04,SUP-T04,Beverages,22.5076,88.3568,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-001,Lake Gardens,SUP-KOL-001-05,SUP-T05,"Home, Personal & Family",22.5065,88.3554,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-002,Jadavpur,SUP-KOL-002-01,SUP-T01,Fresh Produce & Chilled,22.49805,88.36945,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-002,Jadavpur,SUP-KOL-002-02,SUP-T02,Staples & Cooking,22.50075,88.36965,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-002,Jadavpur,SUP-KOL-002-03,SUP-T03,Packaged Foods & Bakery,22.49845,88.37215,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-002,Jadavpur,SUP-KOL-002-04,SUP-T04,Beverages,22.50055,88.37205,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-002,Jadavpur,SUP-KOL-002-05,SUP-T05,"Home, Personal & Family",22.49945,88.37065,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-003,Dhakuria,SUP-KOL-003-01,SUP-T01,Fresh Produce & Chilled,22.51175,88.36465,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-003,Dhakuria,SUP-KOL-003-02,SUP-T02,Staples & Cooking,22.51445,88.36485,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-003,Dhakuria,SUP-KOL-003-03,SUP-T03,Packaged Foods & Bakery,22.51215,88.36735,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-003,Dhakuria,SUP-KOL-003-04,SUP-T04,Beverages,22.51425,88.36725,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-003,Dhakuria,SUP-KOL-003-05,SUP-T05,"Home, Personal & Family",22.51315,88.36585,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-004,Gariahat,SUP-KOL-004-01,SUP-T01,Fresh Produce & Chilled,22.516,88.3638,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-004,Gariahat,SUP-KOL-004-02,SUP-T02,Staples & Cooking,22.5187,88.364,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-004,Gariahat,SUP-KOL-004-03,SUP-T03,Packaged Foods & Bakery,22.5164,88.3665,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-004,Gariahat,SUP-KOL-004-04,SUP-T04,Beverages,22.5185,88.3664,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-004,Gariahat,SUP-KOL-004-05,SUP-T05,"Home, Personal & Family",22.5174,88.365,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-005,Ballygunge,SUP-KOL-005-01,SUP-T01,Fresh Produce & Chilled,22.52395,88.36365,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-005,Ballygunge,SUP-KOL-005-02,SUP-T02,Staples & Cooking,22.52665,88.36385,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-005,Ballygunge,SUP-KOL-005-03,SUP-T03,Packaged Foods & Bakery,22.52435,88.36635,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-005,Ballygunge,SUP-KOL-005-04,SUP-T04,Beverages,22.52645,88.36625,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-005,Ballygunge,SUP-KOL-005-05,SUP-T05,"Home, Personal & Family",22.52535,88.36485,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-006,Jodhpur Park,SUP-KOL-006-01,SUP-T01,Fresh Produce & Chilled,22.49885,88.36815,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-006,Jodhpur Park,SUP-KOL-006-02,SUP-T02,Staples & Cooking,22.50155,88.36835,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-006,Jodhpur Park,SUP-KOL-006-03,SUP-T03,Packaged Foods & Bakery,22.49925,88.37085,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-006,Jodhpur Park,SUP-KOL-006-04,SUP-T04,Beverages,22.50135,88.37075,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-006,Jodhpur Park,SUP-KOL-006-05,SUP-T05,"Home, Personal & Family",22.50025,88.36935,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-007,Tollygunge,SUP-KOL-007-01,SUP-T01,Fresh Produce & Chilled,22.4941,88.3476,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-007,Tollygunge,SUP-KOL-007-02,SUP-T02,Staples & Cooking,22.4968,88.3478,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-007,Tollygunge,SUP-KOL-007-03,SUP-T03,Packaged Foods & Bakery,22.4945,88.3503,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-007,Tollygunge,SUP-KOL-007-04,SUP-T04,Beverages,22.4966,88.3502,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-007,Tollygunge,SUP-KOL-007-05,SUP-T05,"Home, Personal & Family",22.4955,88.3488,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-008,Golf Green,SUP-KOL-008-01,SUP-T01,Fresh Produce & Chilled,22.48435,88.34675,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-008,Golf Green,SUP-KOL-008-02,SUP-T02,Staples & Cooking,22.48705,88.34695,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-008,Golf Green,SUP-KOL-008-03,SUP-T03,Packaged Foods & Bakery,22.48475,88.34945,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-008,Golf Green,SUP-KOL-008-04,SUP-T04,Beverages,22.48685,88.34935,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-008,Golf Green,SUP-KOL-008-05,SUP-T05,"Home, Personal & Family",22.48575,88.34795,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-009,Garia,SUP-KOL-009-01,SUP-T01,Fresh Produce & Chilled,22.46345,88.38755,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-009,Garia,SUP-KOL-009-02,SUP-T02,Staples & Cooking,22.46615,88.38775,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-009,Garia,SUP-KOL-009-03,SUP-T03,Packaged Foods & Bakery,22.46385,88.39025,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-009,Garia,SUP-KOL-009-04,SUP-T04,Beverages,22.46595,88.39015,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-009,Garia,SUP-KOL-009-05,SUP-T05,"Home, Personal & Family",22.46485,88.38875,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-010,Kasba,SUP-KOL-010-01,SUP-T01,Fresh Produce & Chilled,22.5201,88.3848,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-010,Kasba,SUP-KOL-010-02,SUP-T02,Staples & Cooking,22.5228,88.385,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-010,Kasba,SUP-KOL-010-03,SUP-T03,Packaged Foods & Bakery,22.5205,88.3875,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-010,Kasba,SUP-KOL-010-04,SUP-T04,Beverages,22.5226,88.3874,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-010,Kasba,SUP-KOL-010-05,SUP-T05,"Home, Personal & Family",22.5215,88.386,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-011,Mukundapur,SUP-KOL-011-01,SUP-T01,Fresh Produce & Chilled,22.49185,88.40765,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-011,Mukundapur,SUP-KOL-011-02,SUP-T02,Staples & Cooking,22.49455,88.40785,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-011,Mukundapur,SUP-KOL-011-03,SUP-T03,Packaged Foods & Bakery,22.49225,88.41035,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-011,Mukundapur,SUP-KOL-011-04,SUP-T04,Beverages,22.49435,88.41025,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-011,Mukundapur,SUP-KOL-011-05,SUP-T05,"Home, Personal & Family",22.49325,88.40885,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-012,Santoshpur,SUP-KOL-012-01,SUP-T01,Fresh Produce & Chilled,22.48845,88.38495,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-012,Santoshpur,SUP-KOL-012-02,SUP-T02,Staples & Cooking,22.49115,88.38515,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-012,Santoshpur,SUP-KOL-012-03,SUP-T03,Packaged Foods & Bakery,22.48885,88.38765,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-012,Santoshpur,SUP-KOL-012-04,SUP-T04,Beverages,22.49095,88.38755,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-012,Santoshpur,SUP-KOL-012-05,SUP-T05,"Home, Personal & Family",22.48985,88.38615,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-013,New Alipore,SUP-KOL-013-01,SUP-T01,Fresh Produce & Chilled,22.5064,88.3335,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-013,New Alipore,SUP-KOL-013-02,SUP-T02,Staples & Cooking,22.5091,88.3337,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-013,New Alipore,SUP-KOL-013-03,SUP-T03,Packaged Foods & Bakery,22.5068,88.3362,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-013,New Alipore,SUP-KOL-013-04,SUP-T04,Beverages,22.5089,88.3361,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-013,New Alipore,SUP-KOL-013-05,SUP-T05,"Home, Personal & Family",22.5078,88.3347,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-014,Behala,SUP-KOL-014-01,SUP-T01,Fresh Produce & Chilled,22.49475,88.31665,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-014,Behala,SUP-KOL-014-02,SUP-T02,Staples & Cooking,22.49745,88.31685,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-014,Behala,SUP-KOL-014-03,SUP-T03,Packaged Foods & Bakery,22.49515,88.31935,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-014,Behala,SUP-KOL-014-04,SUP-T04,Beverages,22.49725,88.31925,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-014,Behala,SUP-KOL-014-05,SUP-T05,"Home, Personal & Family",22.49615,88.31785,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-015,Chetla,SUP-KOL-015-01,SUP-T01,Fresh Produce & Chilled,22.50845,88.34295,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-015,Chetla,SUP-KOL-015-02,SUP-T02,Staples & Cooking,22.51115,88.34315,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-015,Chetla,SUP-KOL-015-03,SUP-T03,Packaged Foods & Bakery,22.50885,88.34565,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-015,Chetla,SUP-KOL-015-04,SUP-T04,Beverages,22.51095,88.34555,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-015,Chetla,SUP-KOL-015-05,SUP-T05,"Home, Personal & Family",22.50985,88.34415,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-016,Alipore,SUP-KOL-016-01,SUP-T01,Fresh Produce & Chilled,22.5336,88.3315,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-016,Alipore,SUP-KOL-016-02,SUP-T02,Staples & Cooking,22.5363,88.3317,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-016,Alipore,SUP-KOL-016-03,SUP-T03,Packaged Foods & Bakery,22.534,88.3342,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-016,Alipore,SUP-KOL-016-04,SUP-T04,Beverages,22.5361,88.3341,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-016,Alipore,SUP-KOL-016-05,SUP-T05,"Home, Personal & Family",22.535,88.3327,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-017,Kalighat,SUP-KOL-017-01,SUP-T01,Fresh Produce & Chilled,22.51905,88.34125,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-017,Kalighat,SUP-KOL-017-02,SUP-T02,Staples & Cooking,22.52175,88.34145,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-017,Kalighat,SUP-KOL-017-03,SUP-T03,Packaged Foods & Bakery,22.51945,88.34395,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-017,Kalighat,SUP-KOL-017-04,SUP-T04,Beverages,22.52155,88.34385,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-017,Kalighat,SUP-KOL-017-05,SUP-T05,"Home, Personal & Family",22.52045,88.34245,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-018,Bhawanipore,SUP-KOL-018-01,SUP-T01,Fresh Produce & Chilled,22.53345,88.35045,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-018,Bhawanipore,SUP-KOL-018-02,SUP-T02,Staples & Cooking,22.53615,88.35065,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-018,Bhawanipore,SUP-KOL-018-03,SUP-T03,Packaged Foods & Bakery,22.53385,88.35315,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-018,Bhawanipore,SUP-KOL-018-04,SUP-T04,Beverages,22.53595,88.35305,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-018,Bhawanipore,SUP-KOL-018-05,SUP-T05,"Home, Personal & Family",22.53485,88.35165,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-019,Park Street,SUP-KOL-019-01,SUP-T01,Fresh Produce & Chilled,22.5521,88.3498,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-019,Park Street,SUP-KOL-019-02,SUP-T02,Staples & Cooking,22.5548,88.35,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-019,Park Street,SUP-KOL-019-03,SUP-T03,Packaged Foods & Bakery,22.5525,88.3525,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-019,Park Street,SUP-KOL-019-04,SUP-T04,Beverages,22.5546,88.3524,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-019,Park Street,SUP-KOL-019-05,SUP-T05,"Home, Personal & Family",22.5535,88.351,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-020,Esplanade,SUP-KOL-020-01,SUP-T01,Fresh Produce & Chilled,22.56135,88.35045,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-020,Esplanade,SUP-KOL-020-02,SUP-T02,Staples & Cooking,22.56405,88.35065,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-020,Esplanade,SUP-KOL-020-03,SUP-T03,Packaged Foods & Bakery,22.56175,88.35315,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-020,Esplanade,SUP-KOL-020-04,SUP-T04,Beverages,22.56385,88.35305,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-020,Esplanade,SUP-KOL-020-05,SUP-T05,"Home, Personal & Family",22.56275,88.35165,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-021,Entally,SUP-KOL-021-01,SUP-T01,Fresh Produce & Chilled,22.55545,88.36895,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-021,Entally,SUP-KOL-021-02,SUP-T02,Staples & Cooking,22.55815,88.36915,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-021,Entally,SUP-KOL-021-03,SUP-T03,Packaged Foods & Bakery,22.55585,88.37165,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-021,Entally,SUP-KOL-021-04,SUP-T04,Beverages,22.55795,88.37155,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-021,Entally,SUP-KOL-021-05,SUP-T05,"Home, Personal & Family",22.55685,88.37015,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-022,Sealdah,SUP-KOL-022-01,SUP-T01,Fresh Produce & Chilled,22.5659,88.3708,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-022,Sealdah,SUP-KOL-022-02,SUP-T02,Staples & Cooking,22.5686,88.371,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-022,Sealdah,SUP-KOL-022-03,SUP-T03,Packaged Foods & Bakery,22.5663,88.3735,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-022,Sealdah,SUP-KOL-022-04,SUP-T04,Beverages,22.5684,88.3734,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-022,Sealdah,SUP-KOL-022-05,SUP-T05,"Home, Personal & Family",22.5673,88.372,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-023,Tangra,SUP-KOL-023-01,SUP-T01,Fresh Produce & Chilled,22.55175,88.38165,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-023,Tangra,SUP-KOL-023-02,SUP-T02,Staples & Cooking,22.55445,88.38185,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-023,Tangra,SUP-KOL-023-03,SUP-T03,Packaged Foods & Bakery,22.55215,88.38435,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-023,Tangra,SUP-KOL-023-04,SUP-T04,Beverages,22.55425,88.38425,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-023,Tangra,SUP-KOL-023-05,SUP-T05,"Home, Personal & Family",22.55315,88.38285,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-024,Topsia,SUP-KOL-024-01,SUP-T01,Fresh Produce & Chilled,22.54095,88.38245,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-024,Topsia,SUP-KOL-024-02,SUP-T02,Staples & Cooking,22.54365,88.38265,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-024,Topsia,SUP-KOL-024-03,SUP-T03,Packaged Foods & Bakery,22.54135,88.38515,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-024,Topsia,SUP-KOL-024-04,SUP-T04,Beverages,22.54345,88.38505,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-024,Topsia,SUP-KOL-024-05,SUP-T05,"Home, Personal & Family",22.54235,88.38365,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-025,Beliaghata,SUP-KOL-025-01,SUP-T01,Fresh Produce & Chilled,22.5636,88.3868,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-025,Beliaghata,SUP-KOL-025-02,SUP-T02,Staples & Cooking,22.5663,88.387,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-025,Beliaghata,SUP-KOL-025-03,SUP-T03,Packaged Foods & Bakery,22.564,88.3895,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-025,Beliaghata,SUP-KOL-025-04,SUP-T04,Beverages,22.5661,88.3894,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-025,Beliaghata,SUP-KOL-025-05,SUP-T05,"Home, Personal & Family",22.565,88.388,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-026,Maniktala,SUP-KOL-026-01,SUP-T01,Fresh Produce & Chilled,22.58775,88.38515,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-026,Maniktala,SUP-KOL-026-02,SUP-T02,Staples & Cooking,22.59045,88.38535,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-026,Maniktala,SUP-KOL-026-03,SUP-T03,Packaged Foods & Bakery,22.58815,88.38785,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-026,Maniktala,SUP-KOL-026-04,SUP-T04,Beverages,22.59025,88.38775,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-026,Maniktala,SUP-KOL-026-05,SUP-T05,"Home, Personal & Family",22.58915,88.38635,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-027,Kankurgachi,SUP-KOL-027-01,SUP-T01,Fresh Produce & Chilled,22.58245,88.39445,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-027,Kankurgachi,SUP-KOL-027-02,SUP-T02,Staples & Cooking,22.58515,88.39465,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-027,Kankurgachi,SUP-KOL-027-03,SUP-T03,Packaged Foods & Bakery,22.58285,88.39715,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-027,Kankurgachi,SUP-KOL-027-04,SUP-T04,Beverages,22.58495,88.39705,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-027,Kankurgachi,SUP-KOL-027-05,SUP-T05,"Home, Personal & Family",22.58385,88.39565,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-028,Ultadanga,SUP-KOL-028-01,SUP-T01,Fresh Produce & Chilled,22.6006,88.3858,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-028,Ultadanga,SUP-KOL-028-02,SUP-T02,Staples & Cooking,22.6033,88.386,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-028,Ultadanga,SUP-KOL-028-03,SUP-T03,Packaged Foods & Bakery,22.601,88.3885,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-028,Ultadanga,SUP-KOL-028-04,SUP-T04,Beverages,22.6031,88.3884,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-028,Ultadanga,SUP-KOL-028-05,SUP-T05,"Home, Personal & Family",22.602,88.387,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-029,Lake Town,SUP-KOL-029-01,SUP-T01,Fresh Produce & Chilled,22.60275,88.39865,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-029,Lake Town,SUP-KOL-029-02,SUP-T02,Staples & Cooking,22.60545,88.39885,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-029,Lake Town,SUP-KOL-029-03,SUP-T03,Packaged Foods & Bakery,22.60315,88.40135,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-029,Lake Town,SUP-KOL-029-04,SUP-T04,Beverages,22.60525,88.40125,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-029,Lake Town,SUP-KOL-029-05,SUP-T05,"Home, Personal & Family",22.60415,88.39985,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-030,Dum Dum,SUP-KOL-030-01,SUP-T01,Fresh Produce & Chilled,22.61845,88.41295,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-030,Dum Dum,SUP-KOL-030-02,SUP-T02,Staples & Cooking,22.62115,88.41315,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-030,Dum Dum,SUP-KOL-030-03,SUP-T03,Packaged Foods & Bakery,22.61885,88.41565,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-030,Dum Dum,SUP-KOL-030-04,SUP-T04,Beverages,22.62095,88.41555,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-030,Dum Dum,SUP-KOL-030-05,SUP-T05,"Home, Personal & Family",22.61985,88.41415,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-031,Nagerbazar,SUP-KOL-031-01,SUP-T01,Fresh Produce & Chilled,22.6446,88.4258,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-031,Nagerbazar,SUP-KOL-031-02,SUP-T02,Staples & Cooking,22.6473,88.426,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-031,Nagerbazar,SUP-KOL-031-03,SUP-T03,Packaged Foods & Bakery,22.645,88.4285,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-031,Nagerbazar,SUP-KOL-031-04,SUP-T04,Beverages,22.6471,88.4284,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-031,Nagerbazar,SUP-KOL-031-05,SUP-T05,"Home, Personal & Family",22.646,88.427,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-032,Shyambazar,SUP-KOL-032-01,SUP-T01,Fresh Produce & Chilled,22.59675,88.37165,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-032,Shyambazar,SUP-KOL-032-02,SUP-T02,Staples & Cooking,22.59945,88.37185,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-032,Shyambazar,SUP-KOL-032-03,SUP-T03,Packaged Foods & Bakery,22.59715,88.37435,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-032,Shyambazar,SUP-KOL-032-04,SUP-T04,Beverages,22.59925,88.37425,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-032,Shyambazar,SUP-KOL-032-05,SUP-T05,"Home, Personal & Family",22.59815,88.37285,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-033,Salt Lake,SUP-KOL-033-01,SUP-T01,Fresh Produce & Chilled,22.58445,88.41595,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-033,Salt Lake,SUP-KOL-033-02,SUP-T02,Staples & Cooking,22.58715,88.41615,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-033,Salt Lake,SUP-KOL-033-03,SUP-T03,Packaged Foods & Bakery,22.58485,88.41865,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-033,Salt Lake,SUP-KOL-033-04,SUP-T04,Beverages,22.58695,88.41855,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-033,Salt Lake,SUP-KOL-033-05,SUP-T05,"Home, Personal & Family",22.58585,88.41715,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-034,Sector V,SUP-KOL-034-01,SUP-T01,Fresh Produce & Chilled,22.5712,88.4323,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-034,Sector V,SUP-KOL-034-02,SUP-T02,Staples & Cooking,22.5739,88.4325,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-034,Sector V,SUP-KOL-034-03,SUP-T03,Packaged Foods & Bakery,22.5716,88.435,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-034,Sector V,SUP-KOL-034-04,SUP-T04,Beverages,22.5737,88.4349,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-034,Sector V,SUP-KOL-034-05,SUP-T05,"Home, Personal & Family",22.5726,88.4335,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-035,New Town,SUP-KOL-035-01,SUP-T01,Fresh Produce & Chilled,22.58725,88.46765,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-035,New Town,SUP-KOL-035-02,SUP-T02,Staples & Cooking,22.58995,88.46785,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-035,New Town,SUP-KOL-035-03,SUP-T03,Packaged Foods & Bakery,22.58765,88.47035,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-035,New Town,SUP-KOL-035-04,SUP-T04,Beverages,22.58975,88.47025,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-035,New Town,SUP-KOL-035-05,SUP-T05,"Home, Personal & Family",22.58865,88.46885,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-036,Rajarhat,SUP-KOL-036-01,SUP-T01,Fresh Produce & Chilled,22.61945,88.47395,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-036,Rajarhat,SUP-KOL-036-02,SUP-T02,Staples & Cooking,22.62215,88.47415,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-036,Rajarhat,SUP-KOL-036-03,SUP-T03,Packaged Foods & Bakery,22.61985,88.47665,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-036,Rajarhat,SUP-KOL-036-04,SUP-T04,Beverages,22.62195,88.47655,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-036,Rajarhat,SUP-KOL-036-05,SUP-T05,"Home, Personal & Family",22.62085,88.47515,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-037,Anandapur,SUP-KOL-037-01,SUP-T01,Fresh Produce & Chilled,22.5111,88.4038,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-037,Anandapur,SUP-KOL-037-02,SUP-T02,Staples & Cooking,22.5138,88.404,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-037,Anandapur,SUP-KOL-037-03,SUP-T03,Packaged Foods & Bakery,22.5115,88.4065,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-037,Anandapur,SUP-KOL-037-04,SUP-T04,Beverages,22.5136,88.4064,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-037,Anandapur,SUP-KOL-037-05,SUP-T05,"Home, Personal & Family",22.5125,88.405,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-038,Patuli,SUP-KOL-038-01,SUP-T01,Fresh Produce & Chilled,22.46675,88.37865,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-038,Patuli,SUP-KOL-038-02,SUP-T02,Staples & Cooking,22.46945,88.37885,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-038,Patuli,SUP-KOL-038-03,SUP-T03,Packaged Foods & Bakery,22.46715,88.38135,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-038,Patuli,SUP-KOL-038-04,SUP-T04,Beverages,22.46925,88.38125,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-038,Patuli,SUP-KOL-038-05,SUP-T05,"Home, Personal & Family",22.46815,88.37985,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-039,Nayabad,SUP-KOL-039-01,SUP-T01,Fresh Produce & Chilled,22.47545,88.40795,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-039,Nayabad,SUP-KOL-039-02,SUP-T02,Staples & Cooking,22.47815,88.40815,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-039,Nayabad,SUP-KOL-039-03,SUP-T03,Packaged Foods & Bakery,22.47585,88.41065,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-039,Nayabad,SUP-KOL-039-04,SUP-T04,Beverages,22.47795,88.41055,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-039,Nayabad,SUP-KOL-039-05,SUP-T05,"Home, Personal & Family",22.47685,88.40915,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-040,Chak Garia,SUP-KOL-040-01,SUP-T01,Fresh Produce & Chilled,22.4586,88.3878,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-040,Chak Garia,SUP-KOL-040-02,SUP-T02,Staples & Cooking,22.4613,88.388,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-040,Chak Garia,SUP-KOL-040-03,SUP-T03,Packaged Foods & Bakery,22.459,88.3905,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-040,Chak Garia,SUP-KOL-040-04,SUP-T04,Beverages,22.4611,88.3904,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
-KOL-LOC-040,Chak Garia,SUP-KOL-040-05,SUP-T05,"Home, Personal & Family",22.46,88.389,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T13:22:09.034261+00:00
+location_id,location_name,supplier_id,supplier_type_id,supplier_type_name,supplier_latitude,supplier_longitude,distance_from_location_center_km,supplier_option_rank,service_available_flag,source_file,standardized_at,pipeline_timestamp
+KOL-LOC-001,Lake Gardens,SUP-KOL-001-01,SUP-T01,Fresh Produce & Chilled,22.5051,88.3542,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-001,Lake Gardens,SUP-KOL-001-02,SUP-T02,Staples & Cooking,22.5078,88.3544,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-001,Lake Gardens,SUP-KOL-001-03,SUP-T03,Packaged Foods & Bakery,22.5055,88.3569,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-001,Lake Gardens,SUP-KOL-001-04,SUP-T04,Beverages,22.5076,88.3568,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-001,Lake Gardens,SUP-KOL-001-05,SUP-T05,"Home, Personal & Family",22.5065,88.3554,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-002,Jadavpur,SUP-KOL-002-01,SUP-T01,Fresh Produce & Chilled,22.49805,88.36945,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-002,Jadavpur,SUP-KOL-002-02,SUP-T02,Staples & Cooking,22.50075,88.36965,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-002,Jadavpur,SUP-KOL-002-03,SUP-T03,Packaged Foods & Bakery,22.49845,88.37215,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-002,Jadavpur,SUP-KOL-002-04,SUP-T04,Beverages,22.50055,88.37205,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-002,Jadavpur,SUP-KOL-002-05,SUP-T05,"Home, Personal & Family",22.49945,88.37065,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-003,Dhakuria,SUP-KOL-003-01,SUP-T01,Fresh Produce & Chilled,22.51175,88.36465,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-003,Dhakuria,SUP-KOL-003-02,SUP-T02,Staples & Cooking,22.51445,88.36485,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-003,Dhakuria,SUP-KOL-003-03,SUP-T03,Packaged Foods & Bakery,22.51215,88.36735,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-003,Dhakuria,SUP-KOL-003-04,SUP-T04,Beverages,22.51425,88.36725,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-003,Dhakuria,SUP-KOL-003-05,SUP-T05,"Home, Personal & Family",22.51315,88.36585,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-004,Gariahat,SUP-KOL-004-01,SUP-T01,Fresh Produce & Chilled,22.516,88.3638,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-004,Gariahat,SUP-KOL-004-02,SUP-T02,Staples & Cooking,22.5187,88.364,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-004,Gariahat,SUP-KOL-004-03,SUP-T03,Packaged Foods & Bakery,22.5164,88.3665,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-004,Gariahat,SUP-KOL-004-04,SUP-T04,Beverages,22.5185,88.3664,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-004,Gariahat,SUP-KOL-004-05,SUP-T05,"Home, Personal & Family",22.5174,88.365,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-005,Ballygunge,SUP-KOL-005-01,SUP-T01,Fresh Produce & Chilled,22.52395,88.36365,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-005,Ballygunge,SUP-KOL-005-02,SUP-T02,Staples & Cooking,22.52665,88.36385,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-005,Ballygunge,SUP-KOL-005-03,SUP-T03,Packaged Foods & Bakery,22.52435,88.36635,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-005,Ballygunge,SUP-KOL-005-04,SUP-T04,Beverages,22.52645,88.36625,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-005,Ballygunge,SUP-KOL-005-05,SUP-T05,"Home, Personal & Family",22.52535,88.36485,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-006,Jodhpur Park,SUP-KOL-006-01,SUP-T01,Fresh Produce & Chilled,22.49885,88.36815,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-006,Jodhpur Park,SUP-KOL-006-02,SUP-T02,Staples & Cooking,22.50155,88.36835,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-006,Jodhpur Park,SUP-KOL-006-03,SUP-T03,Packaged Foods & Bakery,22.49925,88.37085,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-006,Jodhpur Park,SUP-KOL-006-04,SUP-T04,Beverages,22.50135,88.37075,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-006,Jodhpur Park,SUP-KOL-006-05,SUP-T05,"Home, Personal & Family",22.50025,88.36935,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-007,Tollygunge,SUP-KOL-007-01,SUP-T01,Fresh Produce & Chilled,22.4941,88.3476,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-007,Tollygunge,SUP-KOL-007-02,SUP-T02,Staples & Cooking,22.4968,88.3478,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-007,Tollygunge,SUP-KOL-007-03,SUP-T03,Packaged Foods & Bakery,22.4945,88.3503,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-007,Tollygunge,SUP-KOL-007-04,SUP-T04,Beverages,22.4966,88.3502,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-007,Tollygunge,SUP-KOL-007-05,SUP-T05,"Home, Personal & Family",22.4955,88.3488,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-008,Golf Green,SUP-KOL-008-01,SUP-T01,Fresh Produce & Chilled,22.48435,88.34675,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-008,Golf Green,SUP-KOL-008-02,SUP-T02,Staples & Cooking,22.48705,88.34695,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-008,Golf Green,SUP-KOL-008-03,SUP-T03,Packaged Foods & Bakery,22.48475,88.34945,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-008,Golf Green,SUP-KOL-008-04,SUP-T04,Beverages,22.48685,88.34935,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-008,Golf Green,SUP-KOL-008-05,SUP-T05,"Home, Personal & Family",22.48575,88.34795,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-009,Garia,SUP-KOL-009-01,SUP-T01,Fresh Produce & Chilled,22.46345,88.38755,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-009,Garia,SUP-KOL-009-02,SUP-T02,Staples & Cooking,22.46615,88.38775,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-009,Garia,SUP-KOL-009-03,SUP-T03,Packaged Foods & Bakery,22.46385,88.39025,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-009,Garia,SUP-KOL-009-04,SUP-T04,Beverages,22.46595,88.39015,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-009,Garia,SUP-KOL-009-05,SUP-T05,"Home, Personal & Family",22.46485,88.38875,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-010,Kasba,SUP-KOL-010-01,SUP-T01,Fresh Produce & Chilled,22.5201,88.3848,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-010,Kasba,SUP-KOL-010-02,SUP-T02,Staples & Cooking,22.5228,88.385,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-010,Kasba,SUP-KOL-010-03,SUP-T03,Packaged Foods & Bakery,22.5205,88.3875,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-010,Kasba,SUP-KOL-010-04,SUP-T04,Beverages,22.5226,88.3874,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-010,Kasba,SUP-KOL-010-05,SUP-T05,"Home, Personal & Family",22.5215,88.386,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-011,Mukundapur,SUP-KOL-011-01,SUP-T01,Fresh Produce & Chilled,22.49185,88.40765,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-011,Mukundapur,SUP-KOL-011-02,SUP-T02,Staples & Cooking,22.49455,88.40785,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-011,Mukundapur,SUP-KOL-011-03,SUP-T03,Packaged Foods & Bakery,22.49225,88.41035,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-011,Mukundapur,SUP-KOL-011-04,SUP-T04,Beverages,22.49435,88.41025,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-011,Mukundapur,SUP-KOL-011-05,SUP-T05,"Home, Personal & Family",22.49325,88.40885,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-012,Santoshpur,SUP-KOL-012-01,SUP-T01,Fresh Produce & Chilled,22.48845,88.38495,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-012,Santoshpur,SUP-KOL-012-02,SUP-T02,Staples & Cooking,22.49115,88.38515,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-012,Santoshpur,SUP-KOL-012-03,SUP-T03,Packaged Foods & Bakery,22.48885,88.38765,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-012,Santoshpur,SUP-KOL-012-04,SUP-T04,Beverages,22.49095,88.38755,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-012,Santoshpur,SUP-KOL-012-05,SUP-T05,"Home, Personal & Family",22.48985,88.38615,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-013,New Alipore,SUP-KOL-013-01,SUP-T01,Fresh Produce & Chilled,22.5064,88.3335,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-013,New Alipore,SUP-KOL-013-02,SUP-T02,Staples & Cooking,22.5091,88.3337,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-013,New Alipore,SUP-KOL-013-03,SUP-T03,Packaged Foods & Bakery,22.5068,88.3362,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-013,New Alipore,SUP-KOL-013-04,SUP-T04,Beverages,22.5089,88.3361,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-013,New Alipore,SUP-KOL-013-05,SUP-T05,"Home, Personal & Family",22.5078,88.3347,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-014,Behala,SUP-KOL-014-01,SUP-T01,Fresh Produce & Chilled,22.49475,88.31665,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-014,Behala,SUP-KOL-014-02,SUP-T02,Staples & Cooking,22.49745,88.31685,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-014,Behala,SUP-KOL-014-03,SUP-T03,Packaged Foods & Bakery,22.49515,88.31935,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-014,Behala,SUP-KOL-014-04,SUP-T04,Beverages,22.49725,88.31925,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-014,Behala,SUP-KOL-014-05,SUP-T05,"Home, Personal & Family",22.49615,88.31785,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-015,Chetla,SUP-KOL-015-01,SUP-T01,Fresh Produce & Chilled,22.50845,88.34295,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-015,Chetla,SUP-KOL-015-02,SUP-T02,Staples & Cooking,22.51115,88.34315,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-015,Chetla,SUP-KOL-015-03,SUP-T03,Packaged Foods & Bakery,22.50885,88.34565,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-015,Chetla,SUP-KOL-015-04,SUP-T04,Beverages,22.51095,88.34555,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-015,Chetla,SUP-KOL-015-05,SUP-T05,"Home, Personal & Family",22.50985,88.34415,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-016,Alipore,SUP-KOL-016-01,SUP-T01,Fresh Produce & Chilled,22.5336,88.3315,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-016,Alipore,SUP-KOL-016-02,SUP-T02,Staples & Cooking,22.5363,88.3317,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-016,Alipore,SUP-KOL-016-03,SUP-T03,Packaged Foods & Bakery,22.534,88.3342,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-016,Alipore,SUP-KOL-016-04,SUP-T04,Beverages,22.5361,88.3341,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-016,Alipore,SUP-KOL-016-05,SUP-T05,"Home, Personal & Family",22.535,88.3327,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-017,Kalighat,SUP-KOL-017-01,SUP-T01,Fresh Produce & Chilled,22.51905,88.34125,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-017,Kalighat,SUP-KOL-017-02,SUP-T02,Staples & Cooking,22.52175,88.34145,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-017,Kalighat,SUP-KOL-017-03,SUP-T03,Packaged Foods & Bakery,22.51945,88.34395,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-017,Kalighat,SUP-KOL-017-04,SUP-T04,Beverages,22.52155,88.34385,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-017,Kalighat,SUP-KOL-017-05,SUP-T05,"Home, Personal & Family",22.52045,88.34245,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-018,Bhawanipore,SUP-KOL-018-01,SUP-T01,Fresh Produce & Chilled,22.53345,88.35045,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-018,Bhawanipore,SUP-KOL-018-02,SUP-T02,Staples & Cooking,22.53615,88.35065,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-018,Bhawanipore,SUP-KOL-018-03,SUP-T03,Packaged Foods & Bakery,22.53385,88.35315,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-018,Bhawanipore,SUP-KOL-018-04,SUP-T04,Beverages,22.53595,88.35305,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-018,Bhawanipore,SUP-KOL-018-05,SUP-T05,"Home, Personal & Family",22.53485,88.35165,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-019,Park Street,SUP-KOL-019-01,SUP-T01,Fresh Produce & Chilled,22.5521,88.3498,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-019,Park Street,SUP-KOL-019-02,SUP-T02,Staples & Cooking,22.5548,88.35,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-019,Park Street,SUP-KOL-019-03,SUP-T03,Packaged Foods & Bakery,22.5525,88.3525,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-019,Park Street,SUP-KOL-019-04,SUP-T04,Beverages,22.5546,88.3524,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-019,Park Street,SUP-KOL-019-05,SUP-T05,"Home, Personal & Family",22.5535,88.351,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-020,Esplanade,SUP-KOL-020-01,SUP-T01,Fresh Produce & Chilled,22.56135,88.35045,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-020,Esplanade,SUP-KOL-020-02,SUP-T02,Staples & Cooking,22.56405,88.35065,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-020,Esplanade,SUP-KOL-020-03,SUP-T03,Packaged Foods & Bakery,22.56175,88.35315,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-020,Esplanade,SUP-KOL-020-04,SUP-T04,Beverages,22.56385,88.35305,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-020,Esplanade,SUP-KOL-020-05,SUP-T05,"Home, Personal & Family",22.56275,88.35165,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-021,Entally,SUP-KOL-021-01,SUP-T01,Fresh Produce & Chilled,22.55545,88.36895,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-021,Entally,SUP-KOL-021-02,SUP-T02,Staples & Cooking,22.55815,88.36915,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-021,Entally,SUP-KOL-021-03,SUP-T03,Packaged Foods & Bakery,22.55585,88.37165,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-021,Entally,SUP-KOL-021-04,SUP-T04,Beverages,22.55795,88.37155,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-021,Entally,SUP-KOL-021-05,SUP-T05,"Home, Personal & Family",22.55685,88.37015,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-022,Sealdah,SUP-KOL-022-01,SUP-T01,Fresh Produce & Chilled,22.5659,88.3708,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-022,Sealdah,SUP-KOL-022-02,SUP-T02,Staples & Cooking,22.5686,88.371,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-022,Sealdah,SUP-KOL-022-03,SUP-T03,Packaged Foods & Bakery,22.5663,88.3735,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-022,Sealdah,SUP-KOL-022-04,SUP-T04,Beverages,22.5684,88.3734,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-022,Sealdah,SUP-KOL-022-05,SUP-T05,"Home, Personal & Family",22.5673,88.372,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-023,Tangra,SUP-KOL-023-01,SUP-T01,Fresh Produce & Chilled,22.55175,88.38165,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-023,Tangra,SUP-KOL-023-02,SUP-T02,Staples & Cooking,22.55445,88.38185,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-023,Tangra,SUP-KOL-023-03,SUP-T03,Packaged Foods & Bakery,22.55215,88.38435,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-023,Tangra,SUP-KOL-023-04,SUP-T04,Beverages,22.55425,88.38425,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-023,Tangra,SUP-KOL-023-05,SUP-T05,"Home, Personal & Family",22.55315,88.38285,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-024,Topsia,SUP-KOL-024-01,SUP-T01,Fresh Produce & Chilled,22.54095,88.38245,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-024,Topsia,SUP-KOL-024-02,SUP-T02,Staples & Cooking,22.54365,88.38265,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-024,Topsia,SUP-KOL-024-03,SUP-T03,Packaged Foods & Bakery,22.54135,88.38515,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-024,Topsia,SUP-KOL-024-04,SUP-T04,Beverages,22.54345,88.38505,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-024,Topsia,SUP-KOL-024-05,SUP-T05,"Home, Personal & Family",22.54235,88.38365,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-025,Beliaghata,SUP-KOL-025-01,SUP-T01,Fresh Produce & Chilled,22.5636,88.3868,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-025,Beliaghata,SUP-KOL-025-02,SUP-T02,Staples & Cooking,22.5663,88.387,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-025,Beliaghata,SUP-KOL-025-03,SUP-T03,Packaged Foods & Bakery,22.564,88.3895,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-025,Beliaghata,SUP-KOL-025-04,SUP-T04,Beverages,22.5661,88.3894,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-025,Beliaghata,SUP-KOL-025-05,SUP-T05,"Home, Personal & Family",22.565,88.388,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-026,Maniktala,SUP-KOL-026-01,SUP-T01,Fresh Produce & Chilled,22.58775,88.38515,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-026,Maniktala,SUP-KOL-026-02,SUP-T02,Staples & Cooking,22.59045,88.38535,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-026,Maniktala,SUP-KOL-026-03,SUP-T03,Packaged Foods & Bakery,22.58815,88.38785,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-026,Maniktala,SUP-KOL-026-04,SUP-T04,Beverages,22.59025,88.38775,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-026,Maniktala,SUP-KOL-026-05,SUP-T05,"Home, Personal & Family",22.58915,88.38635,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-027,Kankurgachi,SUP-KOL-027-01,SUP-T01,Fresh Produce & Chilled,22.58245,88.39445,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-027,Kankurgachi,SUP-KOL-027-02,SUP-T02,Staples & Cooking,22.58515,88.39465,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-027,Kankurgachi,SUP-KOL-027-03,SUP-T03,Packaged Foods & Bakery,22.58285,88.39715,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-027,Kankurgachi,SUP-KOL-027-04,SUP-T04,Beverages,22.58495,88.39705,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-027,Kankurgachi,SUP-KOL-027-05,SUP-T05,"Home, Personal & Family",22.58385,88.39565,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-028,Ultadanga,SUP-KOL-028-01,SUP-T01,Fresh Produce & Chilled,22.6006,88.3858,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-028,Ultadanga,SUP-KOL-028-02,SUP-T02,Staples & Cooking,22.6033,88.386,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-028,Ultadanga,SUP-KOL-028-03,SUP-T03,Packaged Foods & Bakery,22.601,88.3885,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-028,Ultadanga,SUP-KOL-028-04,SUP-T04,Beverages,22.6031,88.3884,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-028,Ultadanga,SUP-KOL-028-05,SUP-T05,"Home, Personal & Family",22.602,88.387,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-029,Lake Town,SUP-KOL-029-01,SUP-T01,Fresh Produce & Chilled,22.60275,88.39865,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-029,Lake Town,SUP-KOL-029-02,SUP-T02,Staples & Cooking,22.60545,88.39885,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-029,Lake Town,SUP-KOL-029-03,SUP-T03,Packaged Foods & Bakery,22.60315,88.40135,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-029,Lake Town,SUP-KOL-029-04,SUP-T04,Beverages,22.60525,88.40125,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-029,Lake Town,SUP-KOL-029-05,SUP-T05,"Home, Personal & Family",22.60415,88.39985,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-030,Dum Dum,SUP-KOL-030-01,SUP-T01,Fresh Produce & Chilled,22.61845,88.41295,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-030,Dum Dum,SUP-KOL-030-02,SUP-T02,Staples & Cooking,22.62115,88.41315,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-030,Dum Dum,SUP-KOL-030-03,SUP-T03,Packaged Foods & Bakery,22.61885,88.41565,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-030,Dum Dum,SUP-KOL-030-04,SUP-T04,Beverages,22.62095,88.41555,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-030,Dum Dum,SUP-KOL-030-05,SUP-T05,"Home, Personal & Family",22.61985,88.41415,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-031,Nagerbazar,SUP-KOL-031-01,SUP-T01,Fresh Produce & Chilled,22.6446,88.4258,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-031,Nagerbazar,SUP-KOL-031-02,SUP-T02,Staples & Cooking,22.6473,88.426,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-031,Nagerbazar,SUP-KOL-031-03,SUP-T03,Packaged Foods & Bakery,22.645,88.4285,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-031,Nagerbazar,SUP-KOL-031-04,SUP-T04,Beverages,22.6471,88.4284,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-031,Nagerbazar,SUP-KOL-031-05,SUP-T05,"Home, Personal & Family",22.646,88.427,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-032,Shyambazar,SUP-KOL-032-01,SUP-T01,Fresh Produce & Chilled,22.59675,88.37165,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-032,Shyambazar,SUP-KOL-032-02,SUP-T02,Staples & Cooking,22.59945,88.37185,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-032,Shyambazar,SUP-KOL-032-03,SUP-T03,Packaged Foods & Bakery,22.59715,88.37435,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-032,Shyambazar,SUP-KOL-032-04,SUP-T04,Beverages,22.59925,88.37425,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-032,Shyambazar,SUP-KOL-032-05,SUP-T05,"Home, Personal & Family",22.59815,88.37285,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-033,Salt Lake,SUP-KOL-033-01,SUP-T01,Fresh Produce & Chilled,22.58445,88.41595,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-033,Salt Lake,SUP-KOL-033-02,SUP-T02,Staples & Cooking,22.58715,88.41615,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-033,Salt Lake,SUP-KOL-033-03,SUP-T03,Packaged Foods & Bakery,22.58485,88.41865,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-033,Salt Lake,SUP-KOL-033-04,SUP-T04,Beverages,22.58695,88.41855,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-033,Salt Lake,SUP-KOL-033-05,SUP-T05,"Home, Personal & Family",22.58585,88.41715,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-034,Sector V,SUP-KOL-034-01,SUP-T01,Fresh Produce & Chilled,22.5712,88.4323,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-034,Sector V,SUP-KOL-034-02,SUP-T02,Staples & Cooking,22.5739,88.4325,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-034,Sector V,SUP-KOL-034-03,SUP-T03,Packaged Foods & Bakery,22.5716,88.435,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-034,Sector V,SUP-KOL-034-04,SUP-T04,Beverages,22.5737,88.4349,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-034,Sector V,SUP-KOL-034-05,SUP-T05,"Home, Personal & Family",22.5726,88.4335,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-035,New Town,SUP-KOL-035-01,SUP-T01,Fresh Produce & Chilled,22.58725,88.46765,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-035,New Town,SUP-KOL-035-02,SUP-T02,Staples & Cooking,22.58995,88.46785,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-035,New Town,SUP-KOL-035-03,SUP-T03,Packaged Foods & Bakery,22.58765,88.47035,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-035,New Town,SUP-KOL-035-04,SUP-T04,Beverages,22.58975,88.47025,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-035,New Town,SUP-KOL-035-05,SUP-T05,"Home, Personal & Family",22.58865,88.46885,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-036,Rajarhat,SUP-KOL-036-01,SUP-T01,Fresh Produce & Chilled,22.61945,88.47395,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-036,Rajarhat,SUP-KOL-036-02,SUP-T02,Staples & Cooking,22.62215,88.47415,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-036,Rajarhat,SUP-KOL-036-03,SUP-T03,Packaged Foods & Bakery,22.61985,88.47665,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-036,Rajarhat,SUP-KOL-036-04,SUP-T04,Beverages,22.62195,88.47655,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-036,Rajarhat,SUP-KOL-036-05,SUP-T05,"Home, Personal & Family",22.62085,88.47515,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-037,Anandapur,SUP-KOL-037-01,SUP-T01,Fresh Produce & Chilled,22.5111,88.4038,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-037,Anandapur,SUP-KOL-037-02,SUP-T02,Staples & Cooking,22.5138,88.404,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-037,Anandapur,SUP-KOL-037-03,SUP-T03,Packaged Foods & Bakery,22.5115,88.4065,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-037,Anandapur,SUP-KOL-037-04,SUP-T04,Beverages,22.5136,88.4064,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-037,Anandapur,SUP-KOL-037-05,SUP-T05,"Home, Personal & Family",22.5125,88.405,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-038,Patuli,SUP-KOL-038-01,SUP-T01,Fresh Produce & Chilled,22.46675,88.37865,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-038,Patuli,SUP-KOL-038-02,SUP-T02,Staples & Cooking,22.46945,88.37885,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-038,Patuli,SUP-KOL-038-03,SUP-T03,Packaged Foods & Bakery,22.46715,88.38135,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-038,Patuli,SUP-KOL-038-04,SUP-T04,Beverages,22.46925,88.38125,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-038,Patuli,SUP-KOL-038-05,SUP-T05,"Home, Personal & Family",22.46815,88.37985,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-039,Nayabad,SUP-KOL-039-01,SUP-T01,Fresh Produce & Chilled,22.47545,88.40795,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-039,Nayabad,SUP-KOL-039-02,SUP-T02,Staples & Cooking,22.47815,88.40815,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-039,Nayabad,SUP-KOL-039-03,SUP-T03,Packaged Foods & Bakery,22.47585,88.41065,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-039,Nayabad,SUP-KOL-039-04,SUP-T04,Beverages,22.47795,88.41055,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-039,Nayabad,SUP-KOL-039-05,SUP-T05,"Home, Personal & Family",22.47685,88.40915,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-040,Chak Garia,SUP-KOL-040-01,SUP-T01,Fresh Produce & Chilled,22.4586,88.3878,0.198,1,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-040,Chak Garia,SUP-KOL-040-02,SUP-T02,Staples & Cooking,22.4613,88.388,0.177,2,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-040,Chak Garia,SUP-KOL-040-03,SUP-T03,Packaged Foods & Bakery,22.459,88.3905,0.189,3,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-040,Chak Garia,SUP-KOL-040-04,SUP-T04,Beverages,22.4611,88.3904,0.188,4,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00
+KOL-LOC-040,Chak Garia,SUP-KOL-040-05,SUP-T05,"Home, Personal & Family",22.46,88.389,0.0,5,Yes,supplier_inventory.xlsx/Area_Supplier_Options,2026-09-21T14:25:30.977573+00:00,2026-09-21T14:25:30.977573+00:00

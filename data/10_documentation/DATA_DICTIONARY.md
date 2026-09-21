@@ -1,6 +1,6 @@
 # Data Dictionary
 ## Kolkata Multi-Agent Supply Chain System
-**Generated**: 2026-09-21 13:40 UTC  
+**Generated**: 2026-09-21 14:38 UTC  
 **Total tables**: 18  
 **Total fields**: 256
 

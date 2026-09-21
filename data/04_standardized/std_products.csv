@@ -1,0 +1,201 @@
+product_id,category_code,category_name,product_name,brand,quality_level,unit_type,canonical_source,source_file,standardized_at
+ICE-001,ICE,Ice Cream & Frozen Desserts,Amul Vanilla Ice Cream,Amul,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ICE-002,ICE,Ice Cream & Frozen Desserts,Amul Chocolate Ice Cream,Amul,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ICE-003,ICE,Ice Cream & Frozen Desserts,Kwality Wall's Cornetto,Kwality Wall's,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ICE-004,ICE,Ice Cream & Frozen Desserts,Kwality Wall's Magnum Classic,Kwality Wall's,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ICE-005,ICE,Ice Cream & Frozen Desserts,Havmor Butterscotch Ice Cream,Havmor,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ICE-006,ICE,Ice Cream & Frozen Desserts,Havmor Mango Ice Cream,Havmor,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ICE-007,ICE,Ice Cream & Frozen Desserts,Vadilal Kesar Pista Ice Cream,Vadilal,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ICE-008,ICE,Ice Cream & Frozen Desserts,Naturals Tender Coconut Ice Cream,Naturals,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ICE-009,ICE,Ice Cream & Frozen Desserts,Mother Dairy Strawberry Ice Cream,Mother Dairy,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ICE-010,ICE,Ice Cream & Frozen Desserts,Amul Rajbhog Ice Cream,Amul,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CHO-001,CHO,Chocolates & Confectionery,Cadbury Dairy Milk,Cadbury,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CHO-002,CHO,Chocolates & Confectionery,Cadbury 5 Star,Cadbury,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CHO-003,CHO,Chocolates & Confectionery,Cadbury Silk,Cadbury,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CHO-004,CHO,Chocolates & Confectionery,Cadbury Perk,Cadbury,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CHO-005,CHO,Chocolates & Confectionery,Nestlé KitKat,Nestlé,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CHO-006,CHO,Chocolates & Confectionery,Nestlé Munch,Nestlé,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CHO-007,CHO,Chocolates & Confectionery,Amul Dark Chocolate,Amul,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CHO-008,CHO,Chocolates & Confectionery,Ferrero Rocher,Ferrero,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CHO-009,CHO,Chocolates & Confectionery,Cadbury Gems,Cadbury,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CHO-010,CHO,Chocolates & Confectionery,Parle Melody Toffee Pack,Parle,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+SNK-001,SNK,Chips & Namkeen,Lay's Classic Salted,Lay's,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+SNK-002,SNK,Chips & Namkeen,Lay's Magic Masala,Lay's,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+SNK-003,SNK,Chips & Namkeen,Lay's Cream & Onion,Lay's,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+SNK-004,SNK,Chips & Namkeen,Bingo Original Style,Bingo,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+SNK-005,SNK,Chips & Namkeen,Kurkure Masala Munch,Kurkure,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+SNK-006,SNK,Chips & Namkeen,Haldiram's Aloo Bhujia,Haldiram's,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+SNK-007,SNK,Chips & Namkeen,Haldiram's Moong Dal,Haldiram's,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+SNK-008,SNK,Chips & Namkeen,Bikaji Bikaneri Bhujia,Bikaji,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+SNK-009,SNK,Chips & Namkeen,Uncle Chipps Plain Salted,Uncle Chipps,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+SNK-010,SNK,Chips & Namkeen,Balaji Wafers Masala,Balaji,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BEV-001,BEV,Soft Drinks & Beverages,Coca-Cola,Coca-Cola,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BEV-002,BEV,Soft Drinks & Beverages,Thums Up,Coca-Cola,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BEV-003,BEV,Soft Drinks & Beverages,Sprite,Coca-Cola,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BEV-004,BEV,Soft Drinks & Beverages,Limca,Coca-Cola,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BEV-005,BEV,Soft Drinks & Beverages,Fanta Orange,Coca-Cola,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BEV-006,BEV,Soft Drinks & Beverages,Maaza Mango,Coca-Cola,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BEV-007,BEV,Soft Drinks & Beverages,Frooti Mango,Parle Agro,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BEV-008,BEV,Soft Drinks & Beverages,Paper Boat Aam Panna,Paper Boat,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BEV-009,BEV,Soft Drinks & Beverages,Red Bull Energy Drink,Red Bull,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BEV-010,BEV,Soft Drinks & Beverages,Kinley Mineral Water,Kinley,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAI-001,DAI,Dairy & Milk Products,Amul Full Cream Milk,Amul,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAI-002,DAI,Dairy & Milk Products,Amul Taaza Toned Milk,Amul,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAI-003,DAI,Dairy & Milk Products,Mother Dairy Toned Milk,Mother Dairy,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAI-004,DAI,Dairy & Milk Products,Amul Masti Dahi,Amul,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAI-005,DAI,Dairy & Milk Products,Mother Dairy Curd,Mother Dairy,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAI-006,DAI,Dairy & Milk Products,Amul Butter,Amul,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAI-007,DAI,Dairy & Milk Products,Amul Paneer,Amul,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAI-008,DAI,Dairy & Milk Products,Amul Cheese Slices,Amul,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAI-009,DAI,Dairy & Milk Products,Epigamia Greek Yogurt,Epigamia,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAI-010,DAI,Dairy & Milk Products,Amul Fresh Cream,Amul,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAK-001,BAK,Bread & Bakery,Britannia White Bread,Britannia,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAK-002,BAK,Bread & Bakery,Britannia Brown Bread,Britannia,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAK-003,BAK,Bread & Bakery,Modern Milk Bread,Modern,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAK-004,BAK,Bread & Bakery,Harvest Gold White Bread,Harvest Gold,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAK-005,BAK,Bread & Bakery,Britannia Fruit Cake,Britannia,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAK-006,BAK,Bread & Bakery,Monginis Chocolate Cake,Monginis,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAK-007,BAK,Bread & Bakery,Monginis Cream Roll,Monginis,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAK-008,BAK,Bread & Bakery,Modern Sandwich Bread,Modern,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAK-009,BAK,Bread & Bakery,Britannia Croissant,Britannia,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAK-010,BAK,Bread & Bakery,Theobroma Brownie Box,Theobroma,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+STP-001,STP,Rice & Staples,India Gate Basmati Rice,India Gate,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+STP-002,STP,Rice & Staples,Daawat Basmati Rice,Daawat,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+STP-003,STP,Rice & Staples,Fortune Rozana Rice,Fortune,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+STP-004,STP,Rice & Staples,Gobindobhog Rice,Local Premium,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+STP-005,STP,Rice & Staples,India Gate Dubar Rice,India Gate,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+STP-006,STP,Rice & Staples,Daawat Sona Masuri Rice,Daawat,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+STP-007,STP,Rice & Staples,Lal Qilla Basmati Rice,Lal Qilla,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+STP-008,STP,Rice & Staples,Fortune Everyday Rice,Fortune,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+STP-009,STP,Rice & Staples,Kohinoor Basmati Rice,Kohinoor,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+STP-010,STP,Rice & Staples,Miniket Rice,Local,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FLO-001,FLO,"Flour, Atta & Baking Essentials",Aashirvaad Whole Wheat Atta,Aashirvaad,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FLO-002,FLO,"Flour, Atta & Baking Essentials",Fortune Chakki Fresh Atta,Fortune,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FLO-003,FLO,"Flour, Atta & Baking Essentials",Pillsbury Chakki Fresh Atta,Pillsbury,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FLO-004,FLO,"Flour, Atta & Baking Essentials",Annapurna Atta,Annapurna,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FLO-005,FLO,"Flour, Atta & Baking Essentials",Aashirvaad Multigrain Atta,Aashirvaad,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FLO-006,FLO,"Flour, Atta & Baking Essentials",Tata Sampann Besan,Tata Sampann,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FLO-007,FLO,"Flour, Atta & Baking Essentials",Fortune Maida,Fortune,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FLO-008,FLO,"Flour, Atta & Baking Essentials",Rajdhani Besan,Rajdhani,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FLO-009,FLO,"Flour, Atta & Baking Essentials",Pillsbury Maida,Pillsbury,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FLO-010,FLO,"Flour, Atta & Baking Essentials",Baking Soda,Weikfield,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAL-001,DAL,Pulses & Dal,Tata Sampann Toor Dal,Tata Sampann,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAL-002,DAL,Pulses & Dal,Tata Sampann Moong Dal,Tata Sampann,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAL-003,DAL,Pulses & Dal,Tata Sampann Masoor Dal,Tata Sampann,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAL-004,DAL,Pulses & Dal,Fortune Chana Dal,Fortune,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAL-005,DAL,Pulses & Dal,Fortune Urad Dal,Fortune,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAL-006,DAL,Pulses & Dal,India Gate Moong Dal,India Gate,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAL-007,DAL,Pulses & Dal,India Gate Masoor Dal,India Gate,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAL-008,DAL,Pulses & Dal,Tata Sampann Rajma,Tata Sampann,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAL-009,DAL,Pulses & Dal,Tata Sampann Kabuli Chana,Tata Sampann,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+DAL-010,DAL,Pulses & Dal,Organic Tattva Moong Dal,Organic Tattva,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+OIL-001,OIL,Cooking Oil & Ghee,Fortune Sunflower Oil,Fortune,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+OIL-002,OIL,Cooking Oil & Ghee,Fortune Rice Bran Oil,Fortune,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+OIL-003,OIL,Cooking Oil & Ghee,Saffola Gold Oil,Saffola,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+OIL-004,OIL,Cooking Oil & Ghee,Saffola Active Oil,Saffola,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+OIL-005,OIL,Cooking Oil & Ghee,Emami Healthy & Tasty Mustard Oil,Emami,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+OIL-006,OIL,Cooking Oil & Ghee,Fortune Soyabean Oil,Fortune,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+OIL-007,OIL,Cooking Oil & Ghee,Gemini Refined Sunflower Oil,Gemini,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+OIL-008,OIL,Cooking Oil & Ghee,Dhara Mustard Oil,Dhara,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+OIL-009,OIL,Cooking Oil & Ghee,Amul Pure Ghee,Amul,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+OIL-010,OIL,Cooking Oil & Ghee,Patanjali Cow Ghee,Patanjali,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FRT-001,FRT,Fresh Fruits,Apple,Fresho,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FRT-002,FRT,Fresh Fruits,Banana,Fresho,Standard,dozen,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FRT-003,FRT,Fresh Fruits,Mango,Fresho,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FRT-004,FRT,Fresh Fruits,Orange,Fresho,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FRT-005,FRT,Fresh Fruits,Guava,Fresho,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FRT-006,FRT,Fresh Fruits,Papaya,Fresho,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FRT-007,FRT,Fresh Fruits,Pomegranate,Fresho,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FRT-008,FRT,Fresh Fruits,Watermelon,Fresho,Standard,piece,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FRT-009,FRT,Fresh Fruits,Grapes,Fresho,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+FRT-010,FRT,Fresh Fruits,Pineapple,Fresho,Standard,piece,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+VEG-001,VEG,Fresh Vegetables,Potato,Fresho,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+VEG-002,VEG,Fresh Vegetables,Tomato,Fresho,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+VEG-003,VEG,Fresh Vegetables,Onion,Fresho,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+VEG-004,VEG,Fresh Vegetables,Green Peas,Fresho,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+VEG-005,VEG,Fresh Vegetables,Cauliflower,Fresho,Standard,piece,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+VEG-006,VEG,Fresh Vegetables,Spinach,Fresho,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+VEG-007,VEG,Fresh Vegetables,Carrot,Fresho,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+VEG-008,VEG,Fresh Vegetables,Cucumber,Fresho,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+VEG-009,VEG,Fresh Vegetables,Green Chilli,Fresho,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+VEG-010,VEG,Fresh Vegetables,Brinjal,Fresho,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BIS-001,BIS,Biscuits & Cookies,Parle-G,Parle,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BIS-002,BIS,Biscuits & Cookies,Britannia Good Day,Britannia,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BIS-003,BIS,Biscuits & Cookies,Britannia Marie Gold,Britannia,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BIS-004,BIS,Biscuits & Cookies,Britannia Bourbon,Britannia,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BIS-005,BIS,Biscuits & Cookies,Parle Hide & Seek,Parle,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BIS-006,BIS,Biscuits & Cookies,Sunfeast Dark Fantasy,Sunfeast,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BIS-007,BIS,Biscuits & Cookies,Sunfeast Marie Light,Sunfeast,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BIS-008,BIS,Biscuits & Cookies,Oreo Original,Oreo,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BIS-009,BIS,Biscuits & Cookies,Tiger Glucose Biscuits,Britannia,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BIS-010,BIS,Biscuits & Cookies,Jim Jam Sandwich Biscuits,Parle,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+TEA-001,TEA,Tea & Coffee,Tata Tea Gold,Tata Tea,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+TEA-002,TEA,Tea & Coffee,Tata Tea Premium,Tata Tea,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+TEA-003,TEA,Tea & Coffee,Brooke Bond Red Label,Brooke Bond,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+TEA-004,TEA,Tea & Coffee,Brooke Bond Taj Mahal,Brooke Bond,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+TEA-005,TEA,Tea & Coffee,Society Tea,Society,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+TEA-006,TEA,Tea & Coffee,Wagh Bakri Premium Tea,Wagh Bakri,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+TEA-007,TEA,Tea & Coffee,Nescafé Classic,Nescafé,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+TEA-008,TEA,Tea & Coffee,Nescafé Sunrise,Nescafé,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+TEA-009,TEA,Tea & Coffee,Bru Instant Coffee,Bru,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+TEA-010,TEA,Tea & Coffee,Tata Coffee Grand,Tata Coffee,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+PCR-001,PCR,Personal Care,Sunsilk Shampoo,Sunsilk,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+PCR-002,PCR,Personal Care,Clinic Plus Shampoo,Clinic Plus,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+PCR-003,PCR,Personal Care,Dove Body Wash,Dove,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+PCR-004,PCR,Personal Care,Lux Soap,Lux,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+PCR-005,PCR,Personal Care,Pears Soap,Pears,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+PCR-006,PCR,Personal Care,Dettol Body Wash,Dettol,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+PCR-007,PCR,Personal Care,Nivea Body Lotion,Nivea,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+PCR-008,PCR,Personal Care,Vaseline Body Lotion,Vaseline,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+PCR-009,PCR,Personal Care,Himalaya Face Wash,Himalaya,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+PCR-010,PCR,Personal Care,Mamaearth Face Wash,Mamaearth,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ORL-001,ORL,Oral Care,Colgate Strong Teeth,Colgate,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ORL-002,ORL,Oral Care,Colgate MaxFresh,Colgate,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ORL-003,ORL,Oral Care,Colgate Visible White,Colgate,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ORL-004,ORL,Oral Care,Closeup Ever Fresh,Closeup,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ORL-005,ORL,Oral Care,Pepsodent Germicheck,Pepsodent,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ORL-006,ORL,Oral Care,Sensodyne Fresh Mint,Sensodyne,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ORL-007,ORL,Oral Care,Dabur Red Paste,Dabur,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ORL-008,ORL,Oral Care,Meswak Toothpaste,Dabur,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ORL-009,ORL,Oral Care,Colgate Kids,Colgate,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+ORL-010,ORL,Oral Care,Oral-B Toothbrush Pack,Oral-B,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CLN-001,CLN,Home Cleaning,Surf Excel Matic,Surf Excel,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CLN-002,CLN,Home Cleaning,Ariel Matic,Ariel,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CLN-003,CLN,Home Cleaning,Tide Plus,Tide,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CLN-004,CLN,Home Cleaning,Vim Dishwash Liquid,Vim,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CLN-005,CLN,Home Cleaning,Vim Dishwash Bar,Vim,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CLN-006,CLN,Home Cleaning,Lizol Floor Cleaner,Lizol,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CLN-007,CLN,Home Cleaning,Harpic Toilet Cleaner,Harpic,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CLN-008,CLN,Home Cleaning,Colin Glass Cleaner,Colin,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CLN-009,CLN,Home Cleaning,Domex Toilet Cleaner,Domex,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+CLN-010,CLN,Home Cleaning,Dettol Disinfectant Liquid,Dettol,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+HOU-001,HOU,Household Essentials,Presto Garbage Bags,Presto,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+HOU-002,HOU,Household Essentials,Origami Tissue Roll Pack,Origami,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+HOU-003,HOU,Household Essentials,Freshwrap Aluminium Foil,Freshwrap,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+HOU-004,HOU,Household Essentials,Freshwrap Cling Film,Freshwrap,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+HOU-005,HOU,Household Essentials,Tupperware Storage Container,Tupperware,Premium,piece,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+HOU-006,HOU,Household Essentials,Milton Water Bottle,Milton,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+HOU-007,HOU,Household Essentials,Cello Storage Container Set,Cello,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+HOU-008,HOU,Household Essentials,Scotch-Brite Scrub Pad Pack,Scotch-Brite,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+HOU-009,HOU,Household Essentials,Gala Floor Wiper,Gala,Standard,piece,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+HOU-010,HOU,Household Essentials,Pigeon Kitchen Storage Set,Pigeon,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+INS-001,INS,Instant & Packaged Foods,Maggi 2-Minute Noodles,Nestlé,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+INS-002,INS,Instant & Packaged Foods,Yippee Magic Masala Noodles,Sunfeast,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+INS-003,INS,Instant & Packaged Foods,MTR Ready-to-Eat Poha,MTR,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+INS-004,INS,Instant & Packaged Foods,MTR Ready-to-Eat Upma,MTR,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+INS-005,INS,Instant & Packaged Foods,MTR Ready-to-Eat Rajma,MTR,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+INS-006,INS,Instant & Packaged Foods,Tata Sampann Poha,Tata Sampann,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+INS-007,INS,Instant & Packaged Foods,Saffola Masala Oats,Saffola,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+INS-008,INS,Instant & Packaged Foods,Kellogg's Corn Flakes,Kellogg's,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+INS-009,INS,Instant & Packaged Foods,Quaker Oats,Quaker,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+INS-010,INS,Instant & Packaged Foods,Ching's Schezwan Noodles,Ching's Secret,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAB-001,BAB,Baby Care & Family Care,Pampers Baby Dry Small,Pampers,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAB-002,BAB,Baby Care & Family Care,Pampers Baby Dry Medium,Pampers,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAB-003,BAB,Baby Care & Family Care,Huggies Wonder Pants Small,Huggies,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAB-004,BAB,Baby Care & Family Care,Huggies Wonder Pants Medium,Huggies,Premium,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAB-005,BAB,Baby Care & Family Care,Johnson's Baby Shampoo,Johnson's Baby,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAB-006,BAB,Baby Care & Family Care,Johnson's Baby Lotion,Johnson's Baby,Standard,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAB-007,BAB,Baby Care & Family Care,Himalaya Baby Wipes,Himalaya,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAB-008,BAB,Baby Care & Family Care,Mamaearth Baby Lotion,Mamaearth,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAB-009,BAB,Baby Care & Family Care,Sebamed Baby Wash,Sebamed,Premium,ml,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
+BAB-010,BAB,Baby Care & Family Care,Johnson's Baby Powder,Johnson's Baby,Standard,g,products.csv,products.csv (reconciled against Final product list.xlsx),2026-09-21T14:25:30.977573+00:00
