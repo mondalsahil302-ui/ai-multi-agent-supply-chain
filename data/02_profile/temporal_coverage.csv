@@ -1,0 +1,13 @@
+source_id,source_file,sheet_name,date_column,min_date,max_date,distinct_dates,null_count
+SRC-004,festival_calendar.csv,N/A,event_date,2024-02-14 00:00:00,2025-12-25 00:00:00,36,0
+SRC-005,weather_weekly.csv,N/A,week_start_date,2024-01-01 00:00:00,2025-12-29 00:00:00,105,0
+SRC-005,weather_weekly.csv,N/A,week_end_date,2024-01-07 00:00:00,2025-12-31 00:00:00,105,0
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,week_start_date,1970-01-01 00:00:00.000045292,2026-08-23 00:00:00,144,0
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,week_end_date,1970-01-01 00:00:00.000045298,2026-08-29 00:00:00,144,0
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,week_start_date,2024-09-01 00:00:00,2026-08-23 00:00:00,104,0
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,week_end_date,2024-09-07 00:00:00,2026-08-29 00:00:00,104,0
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,forecast_target_start,2024-09-08 00:00:00,2026-08-30 00:00:00,104,0
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,forecast_target_end,2024-09-14 00:00:00,2026-09-05 00:00:00,104,0
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,recorded_at,2026-09-14 10:41:01.162000,2026-09-14 10:41:02.417000,1162,0
+SRC-009,inventory_stock.xlsx,Inventory_Position,snapshot_date,2026-08-31 00:00:00,2026-08-31 00:00:00,1,0
+SRC-011,supplier_inventory.xlsx,Supplier_Master,lead_time_days,1970-01-01 00:00:00.000000001,1970-01-01 00:00:00.000000001,1,0

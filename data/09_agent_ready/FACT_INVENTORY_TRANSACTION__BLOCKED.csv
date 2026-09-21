@@ -1,0 +1,2 @@
+status,reason,lfs_oid,expected_size_bytes,remediation,pipeline_timestamp
+BLOCKED_BY_SOURCE,inventory_transactions.xlsx is a Git-LFS pointer. The underlying XLSX has not been fetched.,5fc053bab861bc764e13ac15b74ebcab11b4bf35403f436eadd68d727a06a749,55855339,Run `git lfs pull` in the repository root to download inventory_transactions.xlsx,2026-09-21T13:22:09.034261+00:00

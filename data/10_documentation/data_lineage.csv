@@ -1,0 +1,15 @@
+source_dataset,source_column,transformation,target_dataset,target_column,agent_consumer
+weather_weekly.csv,temperature_mean_c,Direct copy,DIM_WEATHER,temperature_mean_c,"Demand Agent, Risk Agent"
+DIM_WEATHER,temperature_mean_c,Joined to FACT_DEMAND via week_start_date,DEMAND_FEATURES,temperature_c,Demand Agent
+festival_calendar.csv,event_date,Derive week_start_date via period(W-MON),DIM_FESTIVAL,week_start_date,"Demand Agent, Risk Agent"
+products.csv,"unit_size_1..5, cp_N_rs, sp_N_rs","Pivot wide→long, generate product_variant_id",DIM_PRODUCT_VARIANT,"product_variant_id, unit_size_raw","Inventory Agent, Supply Agent"
+Demand of last 2 years.xlsx,units_sold,"Sort by location+product+week, generate lag features",DEMAND_FEATURES,lag_1w_units_sold..lag_12w_units_sold,Demand Agent
+Demand of last 2 years.xlsx,next_week_demand_target_units,Isolated to DEMAND_TARGETS to prevent leakage,DEMAND_TARGETS,next_week_demand_target_units,Demand Agent (training target only)
+inventory_stock.xlsx/Inventory_Position,"available_stock_units, avg_weekly_demand_units",weeks_of_cover = available/avg_weekly_demand,FACT_INVENTORY_POSITION,weeks_of_cover_calc,"Inventory Agent, Risk Agent"
+inventory_stock.xlsx/Inventory_Control,inventory_risk,Direct copy after snake_case rename,INVENTORY_FEATURES,inventory_risk,Risk Agent
+supplier_inventory.xlsx/Supplier_Master,lead_time_days,Direct copy,SUPPLY_FEATURES,lead_time_days,"Supply Agent, Risk Agent"
+warehouses.xlsx,"latitude, longitude, service_radius_km",Haversine distance to each location,BRIDGE_WAREHOUSE_LOCATION,"euclidean_distance_km, service_available_flag","Route Optimization Agent, Warehouse Agent"
+supplier_inventory.xlsx/Area_Supplier_Options,distance_from_location_center_km,Direct copy to ROUTING_FEATURES,ROUTING_FEATURES,euclidean_distance_km,Route Optimization Agent
+supplier_inventory.xlsx/Supplier_Product_Catalog,col_index_10 (unlabeled),Preserved as unmapped_col_10_quarantine,BRIDGE_SUPPLIER_PRODUCT,unmapped_col_10_quarantine,QUARANTINE — domain review required
+locations.csv.csv + supplier_inventory.xlsx/Area_Master,"location_id, latitude, longitude",LEFT JOIN on location_id to enrich location with coordinates,DIM_LOCATION,"latitude, longitude",All agents needing geospatial context
+warehouses.xlsx + final_warehouse_dataset_kolkata.xlsx,"storage_type, status",LEFT JOIN on warehouse_id,DIM_WAREHOUSE,"storage_type, status",Warehouse Agent

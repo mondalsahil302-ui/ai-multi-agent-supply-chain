@@ -1,0 +1,115 @@
+source_id,source_file,sheet_name,column_name,unique_count,top_values
+SRC-001,locations.csv.csv,N/A,location_id,40,KOL-LOC-001:1|KOL-LOC-002:1|KOL-LOC-003:1|KOL-LOC-004:1|KOL-LOC-005:1|KOL-LOC-006:1|KOL-LOC-007:1|KOL-LOC-008:1|KOL-LOC-009:1|KOL-LOC-010:1
+SRC-001,locations.csv.csv,N/A,region_of_kolkata,40,Lake Gardens:1|Jadavpur:1|Dhakuria:1|Gariahat:1|Ballygunge:1|Jodhpur Park:1|Tollygunge:1|Golf Green:1|Garia:1|Kasba:1
+SRC-002,products.csv,N/A,category_code,20,ICE:10|CHO:10|SNK:10|BEV:10|DAI:10|BAK:10|STP:10|FLO:10|DAL:10|OIL:10
+SRC-002,products.csv,N/A,category_name,20,"Ice Cream & Frozen Desserts:10|Chocolates & Confectionery:10|Chips & Namkeen:10|Soft Drinks & Beverages:10|Dairy & Milk Products:10|Bread & Bakery:10|Rice & Staples:10|Flour, Atta & Baking Essentials:10|Pulses & Dal:10|Cooking Oil & Ghee:10"
+SRC-002,products.csv,N/A,quality_level,2,Standard:124|Premium:76
+SRC-002,products.csv,N/A,unit_type,4,g:143|ml:51|piece:5|dozen:1
+SRC-002,products.csv,N/A,unit_size_1,12,50 g:68|500 g:33|50 ml:17|200 ml:14|100 g:12|20 g:10|80 ml:10|200 g:10|500 ml:10|250 g:10
+SRC-002,products.csv,N/A,unit_size_2,14,100 g:58|1 kg:33|100 ml:17|250 g:16|125 ml:10|40 g:10|500 g:10|1 L:10|250 ml:10|90 g:10
+SRC-002,products.csv,N/A,unit_size_3,13,250 g:48|2 kg:33|250 ml:27|500 ml:14|500 g:12|60 g:10|100 g:10|2 L:10|400 g:10|1 kg:10
+SRC-002,products.csv,N/A,unit_size_4,13,500 g:58|5 kg:33|500 ml:27|1 kg:12|100 g:10|2 kg:10|750 ml:10|200 g:10|5 L:10|250 g:10
+SRC-002,products.csv,N/A,unit_size_5,13,1 kg:48|1 L:37|10 kg:33|2 kg:12|150 g:10|5 kg:10|400 g:10|15 L:10|800 g:10|500 g:10
+SRC-003,Final product list.xlsx,product_master,category_code,20,ICE:10|CHO:10|SNK:10|BEV:10|DAI:10|BAK:10|STP:10|FLO:10|DAL:10|OIL:10
+SRC-003,Final product list.xlsx,product_master,category_name,20,"Ice Cream & Frozen Desserts:10|Chocolates & Confectionery:10|Chips & Namkeen:10|Soft Drinks & Beverages:10|Dairy & Milk Products:10|Bread & Bakery:10|Rice & Staples:10|Flour, Atta & Baking Essentials:10|Pulses & Dal:10|Cooking Oil & Ghee:10"
+SRC-003,Final product list.xlsx,product_master,quality_level,2,Standard:124|Premium:76
+SRC-003,Final product list.xlsx,product_master,unit_type,4,g:143|ml:51|piece:5|dozen:1
+SRC-003,Final product list.xlsx,product_master,unit_size_1,12,50 g:68|500 g:33|50 ml:17|200 ml:14|100 g:12|20 g:10|80 ml:10|200 g:10|500 ml:10|250 g:10
+SRC-003,Final product list.xlsx,product_master,unit_size_2,14,100 g:58|1 kg:33|100 ml:17|250 g:16|125 ml:10|40 g:10|500 g:10|1 L:10|250 ml:10|90 g:10
+SRC-003,Final product list.xlsx,product_master,unit_size_3,13,250 g:48|2 kg:33|250 ml:27|500 ml:14|500 g:12|60 g:10|100 g:10|2 L:10|400 g:10|1 kg:10
+SRC-003,Final product list.xlsx,product_master,unit_size_4,13,500 g:58|5 kg:33|500 ml:27|1 kg:12|100 g:10|2 kg:10|750 ml:10|200 g:10|5 L:10|250 g:10
+SRC-003,Final product list.xlsx,product_master,unit_size_5,13,1 kg:48|1 L:37|10 kg:33|2 kg:12|150 g:10|5 kg:10|400 g:10|15 L:10|800 g:10|500 g:10
+SRC-003,Final product list.xlsx,category_summary,category_code,20,ICE:1|CHO:1|SNK:1|BEV:1|DAI:1|BAK:1|STP:1|FLO:1|DAL:1|OIL:1
+SRC-003,Final product list.xlsx,category_summary,category_name,20,"Ice Cream & Frozen Desserts:1|Chocolates & Confectionery:1|Chips & Namkeen:1|Soft Drinks & Beverages:1|Dairy & Milk Products:1|Bread & Bakery:1|Rice & Staples:1|Flour, Atta & Baking Essentials:1|Pulses & Dal:1|Cooking Oil & Ghee:1"
+SRC-004,festival_calendar.csv,N/A,festival_event,15,Durga Puja:11|Eid-Ul-Fitr:2|Saraswati Puja:2|Poila Boishakh / Bengali New Year:2|Rath Yatra:2|Janmashtami:2|Ganesh Chaturthi:2|Durga Puja / Dashami:2|Lakshmi Puja:2|Kali Puja / Diwali:2
+SRC-004,festival_calendar.csv,N/A,event_date,36,2024-02-14:1|2024-04-11:1|2024-04-14:1|2024-07-07:1|2024-08-26:1|2024-09-07:1|2024-10-07:1|2024-10-08:1|2024-10-09:1|2024-10-10:1
+SRC-005,weather_weekly.csv,N/A,season,5,Winter:27|Monsoon:26|Summer:18|Autumn:18|Spring:16
+SRC-005,weather_weekly.csv,N/A,weather_condition,3,Clear/Partly Cloudy:82|Cloudy:19|Rain:4
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,location_id,40,KOL-LOC-001:695|KOL-LOC-002:695|KOL-LOC-003:695|KOL-LOC-004:695|KOL-LOC-005:695|KOL-LOC-006:695|KOL-LOC-007:695|KOL-LOC-008:695|KOL-LOC-009:695|KOL-LOC-010:695
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,region_of_kolkata,40,Lake Gardens:695|Jadavpur:695|Dhakuria:695|Gariahat:695|Ballygunge:695|Jodhpur Park:695|Tollygunge:695|Golf Green:695|Garia:695|Kasba:695
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,category_name,10,Soft Drinks & Beverages:9292|Tea & Coffee:6444|Instant & Packaged Foods:5460|Ice Cream & Frozen Desserts:2680|Chips & Namkeen:2172|Dairy & Milk Products:1046|Fresh Vegetables:550|Biscuits & Cookies:136|Bread & Bakery:18|Fresh Fruits:2
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,brand,34,Coca-Cola:5864|Parle Agro:2716|Tata Tea:2685|Nestlé:1774|Quaker:1689|Kellogg's:1405|Bru:1262|Havmor:1251|Amul:1088|Nescafé:1067
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,unit_size,21,100 g:3040|50 g:2753|1 L:2642|500 ml:2599|500 g:2556|250 g:2499|1 kg:2456|250 ml:2390|200 ml:2029|750 ml:1883
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,weekday_weekend,1,Weekday:27800
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,festival_event,15,Saraswati Puja:600|Eid-Ul-Fitr:600|Poila Boishakh / Bengali New Year:600|Rath Yatra:600|Janmashtami:400|Ganesh Chaturthi:400|Durga Puja | Durga Puja / Dashami:400|Lakshmi Puja:400|Chhat Puja:400|Christmas:400
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,season,5,Winter:6800|Monsoon:6800|Spring:5400|Summer:5400|Autumn:3400
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,weather_condition,4,Clear/Partly Cloudy:20400|Rain:3400|Heavy Rain:2400|Cloudy:1600
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,data_source,2,SYNTHETIC_TRAINING:20800|SYNTHETIC_TRAINING | SUPPLIED_WEATHER | SUPPLIED_FESTIVAL | RESEARCHED_2026_FESTIVAL:7000
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,rank_scope,1,region-week over all 200 products:27800
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,rank_basis,1,units_sold DESC; sales_value_rs DESC; product_id ASC:27800
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,selling_unit_workbook,1,Regional_Selling_Unit_40Regions_200Products_139Weeks.xlsx:27800
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,reference_layer,1,regional_selling_unit_reference:27800
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,anchor_status,1,observed_top5_anchor:27800
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,location_id,40,KOL-LOC-001:520|KOL-LOC-002:520|KOL-LOC-003:520|KOL-LOC-004:520|KOL-LOC-005:520|KOL-LOC-006:520|KOL-LOC-007:520|KOL-LOC-008:520|KOL-LOC-009:520|KOL-LOC-010:520
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,region_of_kolkata,40,Lake Gardens:520|Jadavpur:520|Dhakuria:520|Gariahat:520|Ballygunge:520|Jodhpur Park:520|Tollygunge:520|Golf Green:520|Garia:520|Kasba:520
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,category_name,10,Soft Drinks & Beverages:6597|Tea & Coffee:4886|Instant & Packaged Foods:4325|Ice Cream & Frozen Desserts:1832|Chips & Namkeen:1781|Dairy & Milk Products:819|Fresh Vegetables:440|Biscuits & Cookies:107|Bread & Bakery:12|Fresh Fruits:1
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,brand,34,Coca-Cola:4150|Tata Tea:2039|Parle Agro:1963|Nestlé:1397|Quaker:1337|Kellogg's:1103|Bru:952|Havmor:852|Amul:850|Uncle Chipps:815
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,unit_size,21,100 g:2370|50 g:2153|500 g:1997|250 g:1924|1 kg:1909|1 L:1848|500 ml:1842|250 ml:1681|200 ml:1491|750 ml:1351
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,weekday_weekend,1,Weekday:20800
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,festival_event,6,Durga Puja:800|Kali Puja / Diwali:800|Christmas:800|Eid:800|Poila Boishakh:800|Ganesh Chaturthi:400
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,season,5,Monsoon:5200|Winter:5200|Autumn:3600|Spring:3600|Summer:3200
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,weather_condition,4,Clear/Partly Cloudy:14800|Rain:3400|Heavy Rain:2400|Cloudy:200
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,data_source,1,SYNTHETIC_TRAINING:20800
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,_unnamed_33,0,
+SRC-009,inventory_stock.xlsx,Inventory_Position,warehouse_id,15,WH-KOL-001:200|WH-KOL-002:200|WH-KOL-003:200|WH-KOL-004:200|WH-KOL-005:200|WH-KOL-006:200|WH-KOL-007:200|WH-KOL-008:200|WH-KOL-009:200|WH-KOL-010:200
+SRC-009,inventory_stock.xlsx,Inventory_Position,category_name,20,"Ice Cream & Frozen Desserts:150|Chocolates & Confectionery:150|Chips & Namkeen:150|Soft Drinks & Beverages:150|Dairy & Milk Products:150|Bread & Bakery:150|Rice & Staples:150|Flour, Atta & Baking Essentials:150|Pulses & Dal:150|Cooking Oil & Ghee:150"
+SRC-009,inventory_stock.xlsx,Inventory_Position,unit_size,12,50 g:1020|500 g:495|50 ml:255|200 ml:210|100 g:180|20 g:150|80 ml:150|200 g:150|500 ml:150|250 g:150
+SRC-009,inventory_stock.xlsx,Inventory_Position,zone_id,4,Z01:750|Z02:750|Z03:750|Z04:750
+SRC-009,inventory_stock.xlsx,Inventory_Position,rack_id,2,R01:1500|R02:1500
+SRC-009,inventory_stock.xlsx,Inventory_Position,shelf_level,5,S01:600|S02:600|S03:600|S04:600|S05:600
+SRC-009,inventory_stock.xlsx,Inventory_Position,stock_value_rs,0,
+SRC-009,inventory_stock.xlsx,Inventory_Position,potential_sales_value_rs,0,
+SRC-009,inventory_stock.xlsx,Inventory_Position,weeks_of_cover,0,
+SRC-009,inventory_stock.xlsx,Inventory_Position,target_stock_units,0,
+SRC-009,inventory_stock.xlsx,Inventory_Position,shortage_units,0,
+SRC-009,inventory_stock.xlsx,Inventory_Position,reorder_flag,0,
+SRC-009,inventory_stock.xlsx,Inventory_Position,stock_status,1,Healthy:3000
+SRC-009,inventory_stock.xlsx,Shelf_Master,warehouse_id,15,WH-KOL-001:40|WH-KOL-002:40|WH-KOL-003:40|WH-KOL-004:40|WH-KOL-005:40|WH-KOL-006:40|WH-KOL-007:40|WH-KOL-008:40|WH-KOL-009:40|WH-KOL-010:40
+SRC-009,inventory_stock.xlsx,Shelf_Master,zone_id,4,Z01:150|Z02:150|Z03:150|Z04:150
+SRC-009,inventory_stock.xlsx,Shelf_Master,rack_id,2,R01:300|R02:300
+SRC-009,inventory_stock.xlsx,Shelf_Master,shelf_level,5,S01:120|S02:120|S03:120|S04:120|S05:120
+SRC-009,inventory_stock.xlsx,Product_Shelf_Assignment,warehouse_id,15,WH-KOL-001:200|WH-KOL-002:200|WH-KOL-003:200|WH-KOL-004:200|WH-KOL-005:200|WH-KOL-006:200|WH-KOL-007:200|WH-KOL-008:200|WH-KOL-009:200|WH-KOL-010:200
+SRC-009,inventory_stock.xlsx,Product_Shelf_Assignment,zone_id,4,Z01:750|Z02:750|Z03:750|Z04:750
+SRC-009,inventory_stock.xlsx,Product_Shelf_Assignment,rack_id,2,R01:1500|R02:1500
+SRC-009,inventory_stock.xlsx,Product_Shelf_Assignment,shelf_level,5,S01:600|S02:600|S03:600|S04:600|S05:600
+SRC-011,supplier_inventory.xlsx,Supplier_Master,supplier_type_id,5,SUP-T01:40|SUP-T02:40|SUP-T03:40|SUP-T04:40|SUP-T05:40
+SRC-011,supplier_inventory.xlsx,Supplier_Master,supplier_type_name,5,"Fresh Produce & Chilled:40|Staples & Cooking:40|Packaged Foods & Bakery:40|Beverages:40|Home, Personal & Family:40"
+SRC-011,supplier_inventory.xlsx,Supplier_Master,location_id,40,KOL-LOC-001:5|KOL-LOC-002:5|KOL-LOC-003:5|KOL-LOC-004:5|KOL-LOC-005:5|KOL-LOC-006:5|KOL-LOC-007:5|KOL-LOC-008:5|KOL-LOC-009:5|KOL-LOC-010:5
+SRC-011,supplier_inventory.xlsx,Supplier_Master,location_name,40,Lake Gardens:5|Jadavpur:5|Dhakuria:5|Gariahat:5|Ballygunge:5|Jodhpur Park:5|Tollygunge:5|Golf Green:5|Garia:5|Kasba:5
+SRC-011,supplier_inventory.xlsx,Supplier_Master,city,1,Kolkata:200
+SRC-011,supplier_inventory.xlsx,Supplier_Master,product_category_scope,5,"Fresh Fruits; Fresh Vegetables; Dairy & Milk Products; Ice Cream & Frozen Desserts:40|Rice & Staples; Pulses & Dal; Flour, Atta & Baking Essentials; Cooking Oil & Ghee:40|Biscuits & Cookies; Bread & Bakery; Chips & Namkeen; Chocolates & Confectionery; Instant & Packaged Foods:40|Soft Drinks & Beverages; Tea & Coffee:40|Baby Care & Family Care; Household Essentials; Home Cleaning; Oral Care; Personal Care:40"
+SRC-011,supplier_inventory.xlsx,Supplier_Master,vehicle_type,4,Mini Truck:80|Refrigerated Mini Truck:40|Tempo/LCV:40|Van:40
+SRC-011,supplier_inventory.xlsx,Supplier_Master,location_note,1,Approximate planning coordinate near area center:200
+SRC-011,supplier_inventory.xlsx,Area_Master,location_id,40,KOL-LOC-001:1|KOL-LOC-002:1|KOL-LOC-003:1|KOL-LOC-004:1|KOL-LOC-005:1|KOL-LOC-006:1|KOL-LOC-007:1|KOL-LOC-008:1|KOL-LOC-009:1|KOL-LOC-010:1
+SRC-011,supplier_inventory.xlsx,Area_Master,location_name,40,Lake Gardens:1|Jadavpur:1|Dhakuria:1|Gariahat:1|Ballygunge:1|Jodhpur Park:1|Tollygunge:1|Golf Green:1|Garia:1|Kasba:1
+SRC-011,supplier_inventory.xlsx,Area_Master,city,1,Kolkata:40
+SRC-011,supplier_inventory.xlsx,Area_Supplier_Options,location_id,40,KOL-LOC-001:5|KOL-LOC-002:5|KOL-LOC-003:5|KOL-LOC-004:5|KOL-LOC-005:5|KOL-LOC-006:5|KOL-LOC-007:5|KOL-LOC-008:5|KOL-LOC-009:5|KOL-LOC-010:5
+SRC-011,supplier_inventory.xlsx,Area_Supplier_Options,location_name,40,Lake Gardens:5|Jadavpur:5|Dhakuria:5|Gariahat:5|Ballygunge:5|Jodhpur Park:5|Tollygunge:5|Golf Green:5|Garia:5|Kasba:5
+SRC-011,supplier_inventory.xlsx,Area_Supplier_Options,supplier_type_id,5,SUP-T01:40|SUP-T02:40|SUP-T03:40|SUP-T04:40|SUP-T05:40
+SRC-011,supplier_inventory.xlsx,Area_Supplier_Options,supplier_type_name,5,"Fresh Produce & Chilled:40|Staples & Cooking:40|Packaged Foods & Bakery:40|Beverages:40|Home, Personal & Family:40"
+SRC-011,supplier_inventory.xlsx,Area_Supplier_Options,service_available_flag,1,Yes:200
+SRC-011,supplier_inventory.xlsx,Supplier_Product_Catalog,supplier_type_id,5,SUP-T03:2000|SUP-T05:2000|SUP-T01:1600|SUP-T02:1600|SUP-T04:800
+SRC-011,supplier_inventory.xlsx,Supplier_Product_Catalog,supplier_type_name,5,"Packaged Foods & Bakery:2000|Home, Personal & Family:2000|Fresh Produce & Chilled:1600|Staples & Cooking:1600|Beverages:800"
+SRC-011,supplier_inventory.xlsx,Supplier_Product_Catalog,category_code,20,ICE:400|DAI:400|FRT:400|VEG:400|STP:400|FLO:400|DAL:400|OIL:400|CHO:400|SNK:400
+SRC-011,supplier_inventory.xlsx,Supplier_Product_Catalog,category_name,20,"Ice Cream & Frozen Desserts:400|Dairy & Milk Products:400|Fresh Fruits:400|Fresh Vegetables:400|Rice & Staples:400|Flour, Atta & Baking Essentials:400|Pulses & Dal:400|Cooking Oil & Ghee:400|Chocolates & Confectionery:400|Chips & Namkeen:400"
+SRC-011,supplier_inventory.xlsx,Supplier_Product_Catalog,unit_type,4,g:5720|ml:2040|piece:200|dozen:40
+SRC-011,supplier_inventory.xlsx,Supplier_Product_Catalog,supply_status,12,50 g:2720|500 g:1320|50 ml:680|200 ml:560|100 g:480|80 ml:400|250 g:400|500 ml:400|20 g:400|200 g:400
+SRC-011,supplier_inventory.xlsx,Supplier_Product_Catalog,_unnamed_12,1,Available:8000
+SRC-012,warehouses.xlsx,warehouse,warehouse_id,15,WH-KOL-001:1|WH-KOL-002:1|WH-KOL-003:1|WH-KOL-004:1|WH-KOL-005:1|WH-KOL-006:1|WH-KOL-007:1|WH-KOL-008:1|WH-KOL-009:1|WH-KOL-010:1
+SRC-012,warehouses.xlsx,warehouse,warehouse_name,15,South City Mall Warehouse:1|Quest Mall Warehouse:1|Acropolis Mall Warehouse:1|Mani Square Warehouse:1|City Centre I Warehouse:1|City Centre II Warehouse:1|Axis Mall Warehouse:1|Lake Mall Warehouse:1|Forum Courtyard Warehouse:1|Diamond Plaza Warehouse:1
+SRC-012,warehouses.xlsx,warehouse,area,14,New Town:2|Jadavpur:1|Park Circus:1|Kasba:1|Kankurgachi:1|Salt Lake:1|Rashbehari:1|Elgin:1|Dum Dum:1|Gariahat:1
+SRC-012,warehouses.xlsx,warehouse,city,1,Kolkata:15
+SRC-012,warehouses.xlsx,warehouse,weekday_opening,3,08:00:12|09:00:2|00:00:1
+SRC-012,warehouses.xlsx,warehouse,weekday_closing,3,22:00:8|21:00:6|23:59:1
+SRC-012,warehouses.xlsx,warehouse,weekend_opening,3,09:00:12|10:00:2|00:00:1
+SRC-012,warehouses.xlsx,warehouse,weekend_closing,3,22:00:8|21:00:6|23:59:1
+SRC-013,final_warehouse_dataset_kolkata.xlsx,warehouse,warehouse_id,15,WH-KOL-001:1|WH-KOL-002:1|WH-KOL-003:1|WH-KOL-004:1|WH-KOL-005:1|WH-KOL-006:1|WH-KOL-007:1|WH-KOL-008:1|WH-KOL-009:1|WH-KOL-010:1
+SRC-013,final_warehouse_dataset_kolkata.xlsx,warehouse,warehouse_name,15,South City Mall Warehouse:1|Quest Mall Warehouse:1|Acropolis Mall Warehouse:1|Mani Square Warehouse:1|City Centre I Warehouse:1|City Centre II Warehouse:1|Axis Mall Warehouse:1|Lake Mall Warehouse:1|Forum Courtyard Warehouse:1|Diamond Plaza Warehouse:1
+SRC-013,final_warehouse_dataset_kolkata.xlsx,warehouse,area,14,New Town:2|Jadavpur:1|Park Circus:1|Kasba:1|Kankurgachi:1|Salt Lake:1|Rashbehari:1|Elgin:1|Dum Dum:1|Gariahat:1
+SRC-013,final_warehouse_dataset_kolkata.xlsx,warehouse,city,1,Kolkata:15
+SRC-013,final_warehouse_dataset_kolkata.xlsx,warehouse,storage_type,4,Ambient:7|Mixed:5|Cold + Ambient:2|Controlled:1
+SRC-013,final_warehouse_dataset_kolkata.xlsx,warehouse,weekday_opening,3,08:00:12|09:00:2|00:00:1
+SRC-013,final_warehouse_dataset_kolkata.xlsx,warehouse,weekday_closing,3,22:00:8|21:00:6|23:59:1
+SRC-013,final_warehouse_dataset_kolkata.xlsx,warehouse,weekend_opening,3,09:00:12|10:00:2|00:00:1
+SRC-013,final_warehouse_dataset_kolkata.xlsx,warehouse,weekend_closing,3,22:00:8|21:00:6|23:59:1
+SRC-013,final_warehouse_dataset_kolkata.xlsx,warehouse,status,1,Active:15

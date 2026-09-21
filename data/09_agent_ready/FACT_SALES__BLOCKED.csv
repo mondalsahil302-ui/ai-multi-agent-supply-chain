@@ -1,0 +1,2 @@
+status,reason,lfs_oid,expected_size_bytes,remediation,pipeline_timestamp
+BLOCKED_BY_SOURCE,sales_history.xlsx is a Git-LFS pointer. The underlying XLSX has not been fetched locally.,fc8022e6248ccb8725f6ff8cb9c70aa91a6f76aeb99bce62db5866f7c902e6e5,177644415,Run `git lfs pull` in the repository root to download sales_history.xlsx,2026-09-21T13:22:09.034261+00:00

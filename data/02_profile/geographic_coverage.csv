@@ -1,0 +1,6 @@
+source_id,source_file,sheet_name,lat_col,lon_col,lat_min,lat_max,lon_min,lon_max,null_coords
+SRC-011,supplier_inventory.xlsx,Supplier_Master,supplier_latitude,supplier_longitude,22.4586,22.6473,88.31665,88.47665,0
+SRC-011,supplier_inventory.xlsx,Area_Master,location_latitude,location_longitude,22.46,22.646,88.318,88.475,0
+SRC-011,supplier_inventory.xlsx,Area_Supplier_Options,supplier_latitude,supplier_longitude,22.4586,22.6473,88.31665,88.47665,0
+SRC-012,warehouses.xlsx,warehouse,latitude,longitude,22.487417,22.62285,88.328213,88.45982,0
+SRC-013,final_warehouse_dataset_kolkata.xlsx,warehouse,latitude,longitude,22.487417,22.62285,88.328213,88.45982,0

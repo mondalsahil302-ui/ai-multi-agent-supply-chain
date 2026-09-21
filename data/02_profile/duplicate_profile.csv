@@ -1,0 +1,18 @@
+source_id,source_file,sheet_name,duplicate_row_count,total_rows,dup_pct
+SRC-001,locations.csv.csv,N/A,0,40,0.0
+SRC-002,products.csv,N/A,0,200,0.0
+SRC-003,Final product list.xlsx,product_master,0,200,0.0
+SRC-003,Final product list.xlsx,category_summary,0,20,0.0
+SRC-004,festival_calendar.csv,N/A,0,36,0.0
+SRC-005,weather_weekly.csv,N/A,0,105,0.0
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,0,27800,0.0
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,0,20800,0.0
+SRC-009,inventory_stock.xlsx,Inventory_Position,0,3000,0.0
+SRC-009,inventory_stock.xlsx,Shelf_Master,0,600,0.0
+SRC-009,inventory_stock.xlsx,Product_Shelf_Assignment,0,3000,0.0
+SRC-011,supplier_inventory.xlsx,Supplier_Master,0,200,0.0
+SRC-011,supplier_inventory.xlsx,Area_Master,0,40,0.0
+SRC-011,supplier_inventory.xlsx,Area_Supplier_Options,0,200,0.0
+SRC-011,supplier_inventory.xlsx,Supplier_Product_Catalog,0,8000,0.0
+SRC-012,warehouses.xlsx,warehouse,0,15,0.0
+SRC-013,final_warehouse_dataset_kolkata.xlsx,warehouse,0,15,0.0

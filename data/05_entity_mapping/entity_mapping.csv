@@ -1,0 +1,19 @@
+source_table,source_field,canonical_entity,canonical_field,relationship_type,target_table,target_field,confidence,transformation_required,notes
+products.csv,product_id,DIM_PRODUCT,product_id,PK,DIM_PRODUCT,product_id,HIGH,None,Direct copy
+products.csv,unit_size_1..5,DIM_PRODUCT_VARIANT,unit_size_raw,NORMALIZATION,DIM_PRODUCT_VARIANT,product_variant_id,HIGH,"Pivot wide→long, generate product_variant_id",5 variants per product normalized
+locations.csv.csv,location_id,DIM_LOCATION,location_id,PK,DIM_LOCATION,location_id,HIGH,None,Primary location key
+supplier_inventory.xlsx/Area_Master,location_latitude,DIM_LOCATION,latitude,ENRICHMENT,DIM_LOCATION,latitude,HIGH,LEFT JOIN on location_id,Lat/lon from supplier Area_Master
+warehouses.xlsx,warehouse_id,DIM_WAREHOUSE,warehouse_id,PK,DIM_WAREHOUSE,warehouse_id,HIGH,None,Primary warehouse key
+final_warehouse_dataset_kolkata.xlsx,storage_type,DIM_WAREHOUSE,storage_type,ENRICHMENT,DIM_WAREHOUSE,storage_type,HIGH,LEFT JOIN on warehouse_id,Storage type from secondary source
+supplier_inventory.xlsx/Supplier_Master,supplier_id,DIM_SUPPLIER,supplier_id,PK,DIM_SUPPLIER,supplier_id,HIGH,snake_case column names,200 suppliers
+weather_weekly.csv,week_start_date,DIM_CALENDAR_WEEK,week_start_date,PK,DIM_CALENDAR_WEEK,week_key,HIGH,Derive week_key as YYYYMMDD string,105 weeks
+weather_weekly.csv,temperature_mean_c,DIM_WEATHER,temperature_mean_c,DIRECT,DIM_WEATHER,temperature_mean_c,HIGH,None,Marked as SUPPLIED_SYNTHETIC
+weather_weekly.csv,temperature_mean_c,DEMAND_FEATURES,temperature_c,FEATURE,DEMAND_FEATURES,temperature_c,HIGH,Joined via week_start_date,Demand agent feature
+festival_calendar.csv,festival_event,DIM_FESTIVAL,festival_event,DIRECT,DIM_FESTIVAL,festival_event,HIGH,"Derive festival_id, festival_category, week_start_date",36 events
+Demand of last 2 years.xlsx,demand_id,FACT_DEMAND,demand_id,PK,FACT_DEMAND,demand_id,HIGH,"Date parsing, numeric conversion","27,800 rows"
+Demand of last 2 years.xlsx,next_week_demand_target_units,DEMAND_TARGETS,next_week_demand_target_units,TARGET,DEMAND_TARGETS,next_week_demand_target_units,HIGH,Isolated to target file to prevent leakage,LEAKAGE-SAFE
+inventory_stock.xlsx/Inventory_Position,warehouse_id,FACT_INVENTORY_POSITION,warehouse_id,FK,FACT_INVENTORY_POSITION,warehouse_id,HIGH,snake_case,FK to DIM_WAREHOUSE
+inventory_stock.xlsx/Inventory_Control,weeks_of_cover,FACT_INVENTORY_POSITION,weeks_of_cover_calc,RECALCULATED,FACT_INVENTORY_POSITION,weeks_of_cover_calc,HIGH,Recalculated: available_stock / avg_weekly_demand,Formula explicitly recalculated; not trusting cached formula values
+supplier_inventory.xlsx/Supplier_Product_Catalog,supplier_product_key,BRIDGE_SUPPLIER_PRODUCT,supplier_product_key,PK,BRIDGE_SUPPLIER_PRODUCT,supplier_product_key,HIGH,Rename column 12 (unmapped) to unmapped_col_10_quarantine,SUPPLIER_CATALOG_UNMAPPED_COLUMN preserved
+supplier_inventory.xlsx/Area_Supplier_Options,location_id,BRIDGE_LOCATION_SUPPLIER,location_id,FK,BRIDGE_LOCATION_SUPPLIER,location_id,HIGH,snake_case,200 area-supplier pairs
+DERIVED_HAVERSINE,N/A,BRIDGE_WAREHOUSE_LOCATION,euclidean_distance_km,DERIVED,BRIDGE_WAREHOUSE_LOCATION,euclidean_distance_km,MEDIUM,Haversine formula from warehouse+location coordinates,NOT road distance — clearly labeled euclidean_km

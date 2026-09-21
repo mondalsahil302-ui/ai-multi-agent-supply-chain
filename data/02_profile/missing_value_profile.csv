@@ -1,0 +1,10 @@
+source_id,source_file,sheet_name,column_name,null_count,null_pct,severity
+SRC-006,Demand of last 2 years.xlsx,demand_training_data,festival_event,21800,78.42,HIGH
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,festival_event,16400,78.85,HIGH
+SRC-007,final_demand_agent_training_2_years_kolkata.xlsx,demand_training_data,_unnamed_33,20800,100.0,HIGH
+SRC-009,inventory_stock.xlsx,Inventory_Position,stock_value_rs,3000,100.0,HIGH
+SRC-009,inventory_stock.xlsx,Inventory_Position,potential_sales_value_rs,3000,100.0,HIGH
+SRC-009,inventory_stock.xlsx,Inventory_Position,weeks_of_cover,3000,100.0,HIGH
+SRC-009,inventory_stock.xlsx,Inventory_Position,target_stock_units,3000,100.0,HIGH
+SRC-009,inventory_stock.xlsx,Inventory_Position,shortage_units,3000,100.0,HIGH
+SRC-009,inventory_stock.xlsx,Inventory_Position,reorder_flag,3000,100.0,HIGH

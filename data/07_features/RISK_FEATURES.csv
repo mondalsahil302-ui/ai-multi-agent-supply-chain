@@ -1,0 +1,4 @@
+risk_feature_type,record_count,key_grain,output_file,pipeline_timestamp
+INVENTORY_SHORTAGE,3000,warehouse_id + product_id,RISK_FEATURES_INVENTORY.csv,2026-09-21T13:24:19.602587+00:00
+DEMAND_STOCKOUT,27800,location_id + product_id + week_start_date,RISK_FEATURES_DEMAND.csv,2026-09-21T13:24:19.602587+00:00
+SUPPLIER_LEAD_TIME,8000,supplier_id + product_id,RISK_FEATURES_SUPPLY.csv,2026-09-21T13:24:19.602587+00:00
