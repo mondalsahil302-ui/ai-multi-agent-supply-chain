@@ -345,6 +345,51 @@ DEFINITIONS = [
     ("ROUTING_FEATURES","note","STRING","NO","","Important usage warning about distance type.","Euclidean (Haversine) distance only. Road distance not available.","Routing Agent"),
     ("ROUTING_FEATURES","feature_set","STRING","NO","","Agent this feature set is designed for.","ROUTE_OPTIMIZATION_AGENT","Lineage"),
     ("ROUTING_FEATURES","pipeline_timestamp","TIMESTAMP","NO","","UTC pipeline write timestamp.","2026-09-21T13:24:00Z","Lineage"),
+    # ═══════════════════════════════════════════════════════
+    # DIM_PICKER
+    # ═══════════════════════════════════════════════════════
+    ("DIM_PICKER", "picker_id", "STRING", "NO", "PK", "Unique warehouse picker identifier. Format: WH-XXX-PKR-YYY.", "WH-001-PKR-001", "Warehouse Agent"),
+    ("DIM_PICKER", "warehouse_id", "STRING", "NO", "FK->DIM_WAREHOUSE", "Assigned warehouse. Aligned to canonical WH-KOL-XXX.", "WH-KOL-001", "Warehouse Agent"),
+    ("DIM_PICKER", "source_file", "STRING", "NO", "", "Provenance source file.", "Warehouse_Picker_IDs_Only.csv", "Lineage"),
+    ("DIM_PICKER", "pipeline_timestamp", "TIMESTAMP", "NO", "", "UTC pipeline write timestamp.", "2026-09-21T17:49:00Z", "Lineage"),
+
+    # ═══════════════════════════════════════════════════════
+    # BRIDGE_WAREHOUSE_PICKER
+    # ═══════════════════════════════════════════════════════
+    ("BRIDGE_WAREHOUSE_PICKER", "warehouse_id", "STRING", "NO", "FK->DIM_WAREHOUSE", "Canonical warehouse identifier.", "WH-KOL-001", "Warehouse Agent"),
+    ("BRIDGE_WAREHOUSE_PICKER", "picker_id", "STRING", "NO", "FK->DIM_PICKER", "Assigned picker identifier.", "WH-001-PKR-001", "Warehouse Agent"),
+    ("BRIDGE_WAREHOUSE_PICKER", "source_file", "STRING", "NO", "", "Provenance source file.", "Warehouse_Picker_IDs_Only.csv", "Lineage"),
+    ("BRIDGE_WAREHOUSE_PICKER", "pipeline_timestamp", "TIMESTAMP", "NO", "", "UTC pipeline write timestamp.", "2026-09-21T17:49:00Z", "Lineage"),
+
+    # ═══════════════════════════════════════════════════════
+    # FACT_SALES
+    # ═══════════════════════════════════════════════════════
+    ("FACT_SALES", "region_product_week_key", "STRING", "NO", "PK", "Composite natural key: region_id + week_key + product_id.", "KOL-LOC-001_20240101_ICE-001", "Demand Agent"),
+    ("FACT_SALES", "region_week_key", "STRING", "NO", "FK", "Region-week aggregation key: region_id + week_key.", "KOL-LOC-001_20240101", "Demand Agent"),
+    ("FACT_SALES", "week_start_date", "DATE", "NO", "FK->DIM_CALENDAR_WEEK", "First day of sales observation week.", "2024-01-01", "Demand Agent"),
+    ("FACT_SALES", "week_end_date", "DATE", "NO", "", "Last day of sales observation week.", "2024-01-07", "Demand Agent"),
+    ("FACT_SALES", "region_id", "STRING", "NO", "FK->DIM_LOCATION", "Region identifier. Joins to DIM_LOCATION.location_id.", "KOL-LOC-001", "Demand Agent"),
+    ("FACT_SALES", "product_id", "STRING", "NO", "FK->DIM_PRODUCT", "Product identifier. Joins to DIM_PRODUCT.product_id.", "ICE-001", "Demand Agent"),
+    ("FACT_SALES", "units_sold", "INTEGER", "NO", "", "Actual total units sold in this region-product-week.", "146", "Demand Agent"),
+    ("FACT_SALES", "sales_value_rs", "FLOAT", "NO", "", "Total monetary sales value in INR.", "5986.0", "Demand Agent"),
+    ("FACT_SALES", "avg_selling_price_rs", "FLOAT", "NO", "", "Average unit selling price in INR.", "41.0", "Demand Agent"),
+    ("FACT_SALES", "promotion_flag", "INTEGER", "NO", "", "1 if promotion was active, else 0.", "0", "Demand Agent"),
+    ("FACT_SALES", "discount_pct", "FLOAT", "NO", "", "Discount percentage applied.", "0.0", "Demand Agent"),
+    ("FACT_SALES", "stockout_flag", "INTEGER", "NO", "", "1 if stockout occurred, else 0.", "0", "Demand Agent, Risk Agent"),
+
+    # ═══════════════════════════════════════════════════════
+    # FACT_INVENTORY_TRANSACTION
+    # ═══════════════════════════════════════════════════════
+    ("FACT_INVENTORY_TRANSACTION", "transaction_id", "STRING", "NO", "PK", "Unique inventory transaction identifier.", "TX-000001", "Inventory Agent"),
+    ("FACT_INVENTORY_TRANSACTION", "warehouse_product_week_key", "STRING", "NO", "FK", "Composite key linking warehouse, product, and week.", "WH-KOL-001_ICE-001_20240101", "Inventory Agent"),
+    ("FACT_INVENTORY_TRANSACTION", "week_start_date", "DATE", "NO", "FK->DIM_CALENDAR_WEEK", "First day of transaction week.", "2024-01-01", "Inventory Agent"),
+    ("FACT_INVENTORY_TRANSACTION", "warehouse_id", "STRING", "NO", "FK->DIM_WAREHOUSE", "Warehouse where transaction took place.", "WH-KOL-001", "Inventory Agent"),
+    ("FACT_INVENTORY_TRANSACTION", "product_id", "STRING", "NO", "FK->DIM_PRODUCT", "Product transacted.", "ICE-001", "Inventory Agent"),
+    ("FACT_INVENTORY_TRANSACTION", "sold_units", "INTEGER", "NO", "", "Quantity of units moved/transacted.", "67", "Inventory Agent"),
+    ("FACT_INVENTORY_TRANSACTION", "transaction_type", "STRING", "NO", "", "Type of inventory transaction (e.g. SALE, REPLENISHMENT).", "SALE", "Inventory Agent"),
+    ("FACT_INVENTORY_TRANSACTION", "direction", "STRING", "NO", "", "Movement direction: OUT or IN.", "OUT", "Inventory Agent"),
+    ("FACT_INVENTORY_TRANSACTION", "record_status", "STRING", "NO", "", "Status of transaction record.", "COMPLETED", "Inventory Agent"),
+
 ]
 
 # ─── Write CSV ────────────────────────────────────────────────────────────────
@@ -376,10 +421,10 @@ lines = [
 
 SECTIONS = {
     "Dimension Tables": ["DIM_PRODUCT","DIM_PRODUCT_VARIANT","DIM_LOCATION","DIM_WAREHOUSE",
-                         "DIM_SUPPLIER","DIM_CALENDAR_WEEK","DIM_FESTIVAL","DIM_WEATHER"],
-    "Fact Tables": ["FACT_DEMAND","FACT_INVENTORY_POSITION","FACT_SUPPLIER_AVAILABILITY"],
+                         "DIM_SUPPLIER","DIM_CALENDAR_WEEK","DIM_FESTIVAL","DIM_WEATHER","DIM_PICKER"],
+    "Fact Tables": ["FACT_DEMAND","FACT_SALES","FACT_INVENTORY_POSITION","FACT_INVENTORY_TRANSACTION","FACT_SUPPLIER_AVAILABILITY"],
     "Bridge / Mapping Tables": ["BRIDGE_SUPPLIER_PRODUCT","BRIDGE_LOCATION_SUPPLIER",
-                                 "BRIDGE_WAREHOUSE_LOCATION","BRIDGE_PRODUCT_WAREHOUSE"],
+                                 "BRIDGE_WAREHOUSE_LOCATION","BRIDGE_PRODUCT_WAREHOUSE","BRIDGE_WAREHOUSE_PICKER"],
     "Feature Sets": ["DEMAND_FEATURES","DEMAND_TARGETS","ROUTING_FEATURES"],
     "Blocked Outputs (LFS)": [],
 }
@@ -454,8 +499,7 @@ lines.append("These tables **cannot be built** until the Git-LFS source files ar
 lines.append("")
 lines.append("| Table | Blocked By | LFS OID | Expected Size | Fix |")
 lines.append("|---|---|---|---|---|")
-lines.append("| `FACT_SALES` | `sales_history.xlsx` (LFS pointer) | `fc8022e6...` | 177 MB | `git lfs pull` |")
-lines.append("| `FACT_INVENTORY_TRANSACTION` | `inventory_transactions.xlsx` (LFS pointer) | `5fc053ba...` | 56 MB | `git lfs pull` |")
+lines.append("| (None) | All previous Git-LFS blocked sources have been unblocked with corrected datasets! | Resolved | Reconstructed | Integrated |")
 lines.append("")
 lines.append("After running `git lfs pull`, re-execute `pipeline/run_pipeline.py` to build these tables.")
 lines.append("")

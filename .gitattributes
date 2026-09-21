@@ -1,6 +1,15 @@
+*.xlsx filter=lfs diff=lfs merge=lfs -text
 datasets/*.xlsx filter=lfs diff=lfs merge=lfs -text
 datasets/**/*.xlsx filter=lfs diff=lfs merge=lfs -text
-datasets/raw[[:space:]]data/inventory_transactions.xlsx filter=lfs diff=lfs merge=lfs -text
-datasets/raw[[:space:]]data/sales_history.xlsx filter=lfs diff=lfs merge=lfs -text
 datasets/raw/demand/sales_history.xlsx filter=lfs diff=lfs merge=lfs -text
 datasets/raw/inventory/inventory_transactions.xlsx filter=lfs diff=lfs merge=lfs -text
+
+# Large CSV files (>50MB) tracked with Git LFS
+*SELL_of_past_2_years_COMBINED.csv filter=lfs diff=lfs merge=lfs -text
+*Inventory_Transactions_417000_Reconstructed.csv filter=lfs diff=lfs merge=lfs -text
+*stg_sales_history.csv filter=lfs diff=lfs merge=lfs -text
+*std_sales_history.csv filter=lfs diff=lfs merge=lfs -text
+*FACT_SALES.csv filter=lfs diff=lfs merge=lfs -text
+*stg_inventory_transactions.csv filter=lfs diff=lfs merge=lfs -text
+*std_inventory_transactions.csv filter=lfs diff=lfs merge=lfs -text
+*FACT_INVENTORY_TRANSACTION.csv filter=lfs diff=lfs merge=lfs -text

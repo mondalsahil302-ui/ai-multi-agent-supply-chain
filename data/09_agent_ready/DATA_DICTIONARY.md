@@ -1,8 +1,8 @@
 # Data Dictionary
 ## Kolkata Multi-Agent Supply Chain System
-**Generated**: 2026-09-21 14:38 UTC  
-**Total tables**: 18  
-**Total fields**: 256
+**Generated**: 2026-09-21 17:51 UTC  
+**Total tables**: 22  
+**Total fields**: 285
 
 > **Key conventions**
 > - All final tables use `lowercase_snake_case` column names.
@@ -26,15 +26,19 @@
   - [DIM_CALENDAR_WEEK](#dim-calendar-week)
   - [DIM_FESTIVAL](#dim-festival)
   - [DIM_WEATHER](#dim-weather)
+  - [DIM_PICKER](#dim-picker)
 - **Fact Tables**
   - [FACT_DEMAND](#fact-demand)
+  - [FACT_SALES](#fact-sales)
   - [FACT_INVENTORY_POSITION](#fact-inventory-position)
+  - [FACT_INVENTORY_TRANSACTION](#fact-inventory-transaction)
   - [FACT_SUPPLIER_AVAILABILITY](#fact-supplier-availability)
 - **Bridge / Mapping Tables**
   - [BRIDGE_SUPPLIER_PRODUCT](#bridge-supplier-product)
   - [BRIDGE_LOCATION_SUPPLIER](#bridge-location-supplier)
   - [BRIDGE_WAREHOUSE_LOCATION](#bridge-warehouse-location)
   - [BRIDGE_PRODUCT_WAREHOUSE](#bridge-product-warehouse)
+  - [BRIDGE_WAREHOUSE_PICKER](#bridge-warehouse-picker)
 - **Feature Sets**
   - [DEMAND_FEATURES](#demand-features)
   - [DEMAND_TARGETS](#demand-targets)
@@ -245,6 +249,22 @@
 
 ---
 
+### DIM_PICKER
+
+**Source layer**: `06_curated/DIM_PICKER.csv`  
+**Row count**: 750  
+**Primary key**: `picker_id`  
+**Foreign keys**: `warehouse_id`  
+
+| Field | Type | Nullable | Key | Description | Example |
+|---|---|:---:|---|---|---|
+| `picker_id` | STRING | ❌ | PK | Unique warehouse picker identifier. Format: WH-XXX-PKR-YYY. | `WH-001-PKR-001` |
+| `warehouse_id` | STRING | ❌ | FK->DIM_WAREHOUSE | Assigned warehouse. Aligned to canonical WH-KOL-XXX. | `WH-KOL-001` |
+| `source_file` | STRING | ❌ | — | Provenance source file. | `Warehouse_Picker_IDs_Only.csv` |
+| `pipeline_timestamp` | TIMESTAMP | ❌ | — | UTC pipeline write timestamp. | `2026-09-21T17:49:00Z` |
+
+---
+
 ## Fact Tables
 
 ### FACT_DEMAND
@@ -297,6 +317,30 @@
 
 ---
 
+### FACT_SALES
+
+**Source layer**: `06_curated/FACT_SALES.csv`  
+**Row count**: 448,000  
+**Primary key**: `region_product_week_key`  
+**Foreign keys**: `region_week_key`, `week_start_date`, `region_id`, `product_id`  
+
+| Field | Type | Nullable | Key | Description | Example |
+|---|---|:---:|---|---|---|
+| `region_product_week_key` | STRING | ❌ | PK | Composite natural key: region_id + week_key + product_id. | `KOL-LOC-001_20240101_ICE-001` |
+| `region_week_key` | STRING | ❌ | FK | Region-week aggregation key: region_id + week_key. | `KOL-LOC-001_20240101` |
+| `week_start_date` | DATE | ❌ | FK->DIM_CALENDAR_WEEK | First day of sales observation week. | `2024-01-01` |
+| `week_end_date` | DATE | ❌ | — | Last day of sales observation week. | `2024-01-07` |
+| `region_id` | STRING | ❌ | FK->DIM_LOCATION | Region identifier. Joins to DIM_LOCATION.location_id. | `KOL-LOC-001` |
+| `product_id` | STRING | ❌ | FK->DIM_PRODUCT | Product identifier. Joins to DIM_PRODUCT.product_id. | `ICE-001` |
+| `units_sold` | INTEGER | ❌ | — | Actual total units sold in this region-product-week. | `146` |
+| `sales_value_rs` | FLOAT | ❌ | — | Total monetary sales value in INR. | `5986.0` |
+| `avg_selling_price_rs` | FLOAT | ❌ | — | Average unit selling price in INR. | `41.0` |
+| `promotion_flag` | INTEGER | ❌ | — | 1 if promotion was active, else 0. | `0` |
+| `discount_pct` | FLOAT | ❌ | — | Discount percentage applied. | `0.0` |
+| `stockout_flag` | INTEGER | ❌ | — | 1 if stockout occurred, else 0. | `0` |
+
+---
+
 ### FACT_INVENTORY_POSITION
 
 **Source layer**: `06_curated/FACT_INVENTORY_POSITION.csv`  
@@ -327,6 +371,27 @@
 | `inventory_risk` | STRING | ✅ | — | Risk classification from source Inventory_Control sheet. Values: NORMAL, LOW_STOCK, CRITICAL. | `NORMAL` |
 | `source_file` | STRING | ❌ | — | Merged from Inventory_Position + Inventory_Control sheets. | `inventory_stock.xlsx/Inventory_Position+Inventory_Control` |
 | `pipeline_timestamp` | TIMESTAMP | ❌ | — | UTC pipeline write timestamp. | `2026-09-21T13:24:00Z` |
+
+---
+
+### FACT_INVENTORY_TRANSACTION
+
+**Source layer**: `06_curated/FACT_INVENTORY_TRANSACTION.csv`  
+**Row count**: 417,000  
+**Primary key**: `transaction_id`  
+**Foreign keys**: `warehouse_product_week_key`, `week_start_date`, `warehouse_id`, `product_id`  
+
+| Field | Type | Nullable | Key | Description | Example |
+|---|---|:---:|---|---|---|
+| `transaction_id` | STRING | ❌ | PK | Unique inventory transaction identifier. | `TX-000001` |
+| `warehouse_product_week_key` | STRING | ❌ | FK | Composite key linking warehouse, product, and week. | `WH-KOL-001_ICE-001_20240101` |
+| `week_start_date` | DATE | ❌ | FK->DIM_CALENDAR_WEEK | First day of transaction week. | `2024-01-01` |
+| `warehouse_id` | STRING | ❌ | FK->DIM_WAREHOUSE | Warehouse where transaction took place. | `WH-KOL-001` |
+| `product_id` | STRING | ❌ | FK->DIM_PRODUCT | Product transacted. | `ICE-001` |
+| `sold_units` | INTEGER | ❌ | — | Quantity of units moved/transacted. | `67` |
+| `transaction_type` | STRING | ❌ | — | Type of inventory transaction (e.g. SALE, REPLENISHMENT). | `SALE` |
+| `direction` | STRING | ❌ | — | Movement direction: OUT or IN. | `OUT` |
+| `record_status` | STRING | ❌ | — | Status of transaction record. | `COMPLETED` |
 
 ---
 
@@ -448,6 +513,21 @@
 
 ---
 
+### BRIDGE_WAREHOUSE_PICKER
+
+**Source layer**: `06_curated/BRIDGE_WAREHOUSE_PICKER.csv`  
+**Row count**: 750  
+**Foreign keys**: `warehouse_id`, `picker_id`  
+
+| Field | Type | Nullable | Key | Description | Example |
+|---|---|:---:|---|---|---|
+| `warehouse_id` | STRING | ❌ | FK->DIM_WAREHOUSE | Canonical warehouse identifier. | `WH-KOL-001` |
+| `picker_id` | STRING | ❌ | FK->DIM_PICKER | Assigned picker identifier. | `WH-001-PKR-001` |
+| `source_file` | STRING | ❌ | — | Provenance source file. | `Warehouse_Picker_IDs_Only.csv` |
+| `pipeline_timestamp` | TIMESTAMP | ❌ | — | UTC pipeline write timestamp. | `2026-09-21T17:49:00Z` |
+
+---
+
 ## Feature Sets
 
 ### DEMAND_FEATURES
@@ -521,8 +601,7 @@ These tables **cannot be built** until the Git-LFS source files are fetched.
 
 | Table | Blocked By | LFS OID | Expected Size | Fix |
 |---|---|---|---|---|
-| `FACT_SALES` | `sales_history.xlsx` (LFS pointer) | `fc8022e6...` | 177 MB | `git lfs pull` |
-| `FACT_INVENTORY_TRANSACTION` | `inventory_transactions.xlsx` (LFS pointer) | `5fc053ba...` | 56 MB | `git lfs pull` |
+| (None) | All previous Git-LFS blocked sources have been unblocked with corrected datasets! | Resolved | Reconstructed | Integrated |
 
 After running `git lfs pull`, re-execute `pipeline/run_pipeline.py` to build these tables.
 

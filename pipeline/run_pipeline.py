@@ -7,6 +7,7 @@ stages = [
     "pipeline\\stage_01_setup_and_raw.py",
     "pipeline\\stage_02_profiling.py",
     "pipeline\\stage_03_standardize.py",
+    "pipeline\\stage_03b_integrate_updates.py",
     "pipeline\\stage_04_features.py",
     "pipeline\\stage_05_validation.py",
     "pipeline\\stage_06_mapping_docs.py",

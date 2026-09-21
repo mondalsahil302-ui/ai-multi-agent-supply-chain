@@ -8,7 +8,7 @@
     "target_table":"DIM_PRODUCT",
     "target_field":"product_id",
     "confidence":"HIGH",
-    "transformation_required":"None",
+    "transformation_required":null,
     "notes":"Direct copy"
   },
   {
@@ -32,7 +32,7 @@
     "target_table":"DIM_LOCATION",
     "target_field":"location_id",
     "confidence":"HIGH",
-    "transformation_required":"None",
+    "transformation_required":null,
     "notes":"Primary location key"
   },
   {
@@ -56,7 +56,7 @@
     "target_table":"DIM_WAREHOUSE",
     "target_field":"warehouse_id",
     "confidence":"HIGH",
-    "transformation_required":"None",
+    "transformation_required":null,
     "notes":"Primary warehouse key"
   },
   {
@@ -104,7 +104,7 @@
     "target_table":"DIM_WEATHER",
     "target_field":"temperature_mean_c",
     "confidence":"HIGH",
-    "transformation_required":"None",
+    "transformation_required":null,
     "notes":"Marked as SUPPLIED_SYNTHETIC"
   },
   {
@@ -205,7 +205,7 @@
   },
   {
     "source_table":"DERIVED_HAVERSINE",
-    "source_field":"N\/A",
+    "source_field":null,
     "canonical_entity":"BRIDGE_WAREHOUSE_LOCATION",
     "canonical_field":"euclidean_distance_km",
     "relationship_type":"DERIVED",
@@ -214,5 +214,53 @@
     "confidence":"MEDIUM",
     "transformation_required":"Haversine formula from warehouse+location coordinates",
     "notes":"NOT road distance \u2014 clearly labeled euclidean_km"
+  },
+  {
+    "source_table":"Warehouse_Picker_IDs_Only.csv",
+    "source_field":"picker_id",
+    "canonical_entity":"DIM_PICKER",
+    "canonical_field":"picker_id",
+    "relationship_type":"PK",
+    "target_table":"DIM_PICKER",
+    "target_field":"picker_id",
+    "confidence":"HIGH",
+    "transformation_required":"None",
+    "notes":"750 unique pickers"
+  },
+  {
+    "source_table":"Warehouse_Picker_IDs_Only.csv",
+    "source_field":"warehouse_id",
+    "canonical_entity":"BRIDGE_WAREHOUSE_PICKER",
+    "canonical_field":"warehouse_id",
+    "relationship_type":"FK",
+    "target_table":"DIM_WAREHOUSE",
+    "target_field":"warehouse_id",
+    "confidence":"HIGH",
+    "transformation_required":"Mapped WH-XXX -> WH-KOL-XXX to align with canonical warehouse IDs",
+    "notes":"15 warehouses x 50 pickers"
+  },
+  {
+    "source_table":"Inventory_Transactions_417000_Reconstructed.csv",
+    "source_field":"transaction_id",
+    "canonical_entity":"FACT_INVENTORY_TRANSACTION",
+    "canonical_field":"transaction_id",
+    "relationship_type":"PK",
+    "target_table":"FACT_INVENTORY_TRANSACTION",
+    "target_field":"transaction_id",
+    "confidence":"HIGH",
+    "transformation_required":"snake_case columns, date casting",
+    "notes":"417,000 transaction records (unblocked)"
+  },
+  {
+    "source_table":"SELL_of_past_2_years_COMBINED.csv",
+    "source_field":"region_product_week_key",
+    "canonical_entity":"FACT_SALES",
+    "canonical_field":"region_product_week_key",
+    "relationship_type":"PK",
+    "target_table":"FACT_SALES",
+    "target_field":"region_product_week_key",
+    "confidence":"HIGH",
+    "transformation_required":"snake_case columns, date casting",
+    "notes":"448,000 sales records (unblocked)"
   }
 ]

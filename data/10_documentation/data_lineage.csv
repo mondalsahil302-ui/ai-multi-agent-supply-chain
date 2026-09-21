@@ -13,3 +13,7 @@ supplier_inventory.xlsx/Area_Supplier_Options,distance_from_location_center_km,D
 supplier_inventory.xlsx/Supplier_Product_Catalog,col_index_10 (unlabeled),Preserved as unmapped_col_10_quarantine,BRIDGE_SUPPLIER_PRODUCT,unmapped_col_10_quarantine,QUARANTINE — domain review required
 locations.csv.csv + supplier_inventory.xlsx/Area_Master,"location_id, latitude, longitude",LEFT JOIN on location_id to enrich location with coordinates,DIM_LOCATION,"latitude, longitude",All agents needing geospatial context
 warehouses.xlsx + final_warehouse_dataset_kolkata.xlsx,"storage_type, status",LEFT JOIN on warehouse_id,DIM_WAREHOUSE,"storage_type, status",Warehouse Agent
+SELL_of_past_2_years_COMBINED.csv,"region_product_week_key, units_sold, sales_value_rs","snake_case, date parsing, unblocked from Git-LFS",FACT_SALES,"region_product_week_key, units_sold, sales_value_rs","Demand Agent, Coordinator Agent"
+Inventory_Transactions_417000_Reconstructed.csv,"transaction_id, warehouse_id, product_id, sold_units","snake_case, date casting, unblocked from Git-LFS",FACT_INVENTORY_TRANSACTION,"transaction_id, warehouse_id, product_id, sold_units","Inventory Agent, Risk Agent"
+Warehouse_Picker_IDs_Only.csv,picker_id,Identity mapping with whitespace trim,DIM_PICKER,"picker_id, warehouse_id",Warehouse Agent
+Warehouse_Picker_IDs_Only.csv,"warehouse_id, picker_id",Mapped WH-XXX to canonical WH-KOL-XXX to align with DIM_WAREHOUSE,BRIDGE_WAREHOUSE_PICKER,"warehouse_id, picker_id",Warehouse Agent
