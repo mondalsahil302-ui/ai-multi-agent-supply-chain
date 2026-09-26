@@ -1,16 +1,16 @@
 canonical_warehouse_id,warehouse_name,area,city,latitude,longitude,capacity_units,mapping_status,mapping_source,mapping_ts,mapping_version
-WH-KOL-001,South City Mall Warehouse,Jadavpur,Kolkata,22.5014,88.36175,20000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
-WH-KOL-002,Quest Mall Warehouse,Park Circus,Kolkata,22.53905,88.36573,16000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
-WH-KOL-003,Acropolis Mall Warehouse,Kasba,Kolkata,22.51531,88.39319,18000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
-WH-KOL-004,Mani Square Warehouse,Kankurgachi,Kolkata,22.57779,88.40055,18000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
-WH-KOL-005,City Centre I Warehouse,Salt Lake,Kolkata,22.58821,88.40843,20000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
-WH-KOL-006,City Centre II Warehouse,New Town,Kolkata,22.62285,88.45036,24000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
-WH-KOL-007,Axis Mall Warehouse,New Town,Kolkata,22.57951,88.45981999999999,18000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
-WH-KOL-008,Lake Mall Warehouse,Rashbehari,Kolkata,22.51646,88.34886,12000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
-WH-KOL-009,Forum Courtyard Warehouse,Elgin,Kolkata,22.5384,88.35133,15000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
-WH-KOL-010,Diamond Plaza Warehouse,Dum Dum,Kolkata,22.6154,88.4123,16000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
-WH-KOL-011,Gariahat Mall Warehouse,Gariahat,Kolkata,22.52146,88.37098,13000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
-WH-KOL-012,Merlin Homeland Warehouse,Bhowanipore,Kolkata,22.5359,88.34605999999999,12000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
-WH-KOL-013,Metro Plaza Warehouse,Park Street,Kolkata,22.552639,88.363906,10000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
-WH-KOL-014,E-Mall Warehouse,Chittaranjan Avenue,Kolkata,22.553533,88.367349,11000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
-WH-KOL-015,The Enclave Mall Warehouse,Alipore,Kolkata,22.487417,88.32821300000001,12000,MAPPED,std_warehouse_master,2026-09-26T22:20:03+05:30,v1.0
+WH-KOL-001,South City Mall Warehouse,Jadavpur,Kolkata,22.5014,88.36175,20000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0
+WH-KOL-002,Quest Mall Warehouse,Park Circus,Kolkata,22.53905,88.36573,16000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0
+WH-KOL-003,Acropolis Mall Warehouse,Kasba,Kolkata,22.51531,88.39319,18000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0
+WH-KOL-004,Mani Square Warehouse,Kankurgachi,Kolkata,22.57779,88.40055,18000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0
+WH-KOL-005,City Centre I Warehouse,Salt Lake,Kolkata,22.58821,88.40843,20000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0
+WH-KOL-006,City Centre II Warehouse,New Town,Kolkata,22.62285,88.45036,24000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0
+WH-KOL-007,Axis Mall Warehouse,New Town,Kolkata,22.57951,88.45981999999999,18000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0
+WH-KOL-008,Lake Mall Warehouse,Rashbehari,Kolkata,22.51646,88.34886,12000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0
+WH-KOL-009,Forum Courtyard Warehouse,Elgin,Kolkata,22.5384,88.35133,15000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0
+WH-KOL-010,Diamond Plaza Warehouse,Dum Dum,Kolkata,22.6154,88.4123,16000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0
+WH-KOL-011,Gariahat Mall Warehouse,Gariahat,Kolkata,22.52146,88.37098,13000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0
+WH-KOL-012,Merlin Homeland Warehouse,Bhowanipore,Kolkata,22.5359,88.34605999999999,12000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0
+WH-KOL-013,Metro Plaza Warehouse,Park Street,Kolkata,22.552639,88.363906,10000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0
+WH-KOL-014,E-Mall Warehouse,Chittaranjan Avenue,Kolkata,22.553533,88.367349,11000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0
+WH-KOL-015,The Enclave Mall Warehouse,Alipore,Kolkata,22.487417,88.32821300000001,12000,MAPPED,std_warehouse_master,2026-09-26T22:44:20+05:30,v1.0

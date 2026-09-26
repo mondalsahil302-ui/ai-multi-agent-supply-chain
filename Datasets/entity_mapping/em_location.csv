@@ -1,41 +1,41 @@
 canonical_location_id,region_of_kolkata,city,mapping_status,mapping_source,mapping_ts,mapping_version
-KOL-LOC-001,Lake Gardens,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-002,Jadavpur,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-003,Dhakuria,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-004,Gariahat,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-005,Ballygunge,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-006,Jodhpur Park,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-007,Tollygunge,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-008,Golf Green,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-009,Garia,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-010,Kasba,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-011,Mukundapur,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-012,Santoshpur,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-013,New Alipore,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-014,Behala,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-015,Chetla,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-016,Alipore,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-017,Kalighat,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-018,Bhawanipore,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-019,Park Street,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-020,Esplanade,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-021,Entally,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-022,Sealdah,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-023,Tangra,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-024,Topsia,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-025,Beliaghata,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-026,Maniktala,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-027,Kankurgachi,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-028,Ultadanga,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-029,Lake Town,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-030,Dum Dum,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-031,Nagerbazar,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-032,Shyambazar,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-033,Salt Lake,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-034,Sector V,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-035,New Town,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-036,Rajarhat,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-037,Anandapur,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-038,Patuli,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-039,Nayabad,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
-KOL-LOC-040,Chak Garia,Kolkata,MAPPED,std_location_master,2026-09-26T22:20:03+05:30,v1.0
+KOL-LOC-001,Lake Gardens,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-002,Jadavpur,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-003,Dhakuria,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-004,Gariahat,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-005,Ballygunge,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-006,Jodhpur Park,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-007,Tollygunge,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-008,Golf Green,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-009,Garia,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-010,Kasba,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-011,Mukundapur,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-012,Santoshpur,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-013,New Alipore,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-014,Behala,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-015,Chetla,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-016,Alipore,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-017,Kalighat,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-018,Bhawanipore,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-019,Park Street,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-020,Esplanade,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-021,Entally,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-022,Sealdah,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-023,Tangra,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-024,Topsia,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-025,Beliaghata,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-026,Maniktala,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-027,Kankurgachi,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-028,Ultadanga,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-029,Lake Town,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-030,Dum Dum,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-031,Nagerbazar,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-032,Shyambazar,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-033,Salt Lake,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-034,Sector V,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-035,New Town,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-036,Rajarhat,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-037,Anandapur,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-038,Patuli,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-039,Nayabad,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
+KOL-LOC-040,Chak Garia,Kolkata,MAPPED,std_location_master,2026-09-26T22:44:20+05:30,v1.0
