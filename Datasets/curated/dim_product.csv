@@ -1,201 +1,201 @@
 dim_product_key,product_id,product_name,category_code,category_name,brand,quality_level,unit_type,unit_size_default,cp_default_rs,sp_default_rs,margin_default_rs,margin_default_pct,unit_size_1,cp_1_rs,sp_1_rs,unit_size_2,cp_2_rs,sp_2_rs,unit_size_3,cp_3_rs,sp_3_rs,unit_size_4,cp_4_rs,sp_4_rs,unit_size_5,cp_5_rs,sp_5_rs,curation_timestamp,curation_version
-1,BAB-001,Pampers Baby Dry Small,BAB,Baby Care & Family Care,Pampers,Premium,g,,52,60,8,13.33,,52,60,,105,121,,247,284,,475,546,,912,1049,2026-09-26T14:49:42.627044+00:00,v1.0
-2,BAB-002,Pampers Baby Dry Medium,BAB,Baby Care & Family Care,Pampers,Premium,g,,52,60,8,13.33,,52,60,,105,121,,247,284,,475,546,,912,1049,2026-09-26T14:49:42.627044+00:00,v1.0
-3,BAB-003,Huggies Wonder Pants Small,BAB,Baby Care & Family Care,Huggies,Premium,g,,52,60,8,13.33,,52,60,,105,121,,247,284,,475,546,,912,1049,2026-09-26T14:49:42.627044+00:00,v1.0
-4,BAB-004,Huggies Wonder Pants Medium,BAB,Baby Care & Family Care,Huggies,Premium,g,,52,60,8,13.33,,52,60,,105,121,,247,284,,475,546,,912,1049,2026-09-26T14:49:42.627044+00:00,v1.0
-5,BAB-005,Johnson's Baby Shampoo,BAB,Baby Care & Family Care,Johnson's Baby,Standard,ml,,61,70,9,12.86,,61,70,,121,139,,286,329,,550,633,,1056,1214,2026-09-26T14:49:42.627044+00:00,v1.0
-6,BAB-006,Johnson's Baby Lotion,BAB,Baby Care & Family Care,Johnson's Baby,Standard,ml,,61,70,9,12.86,,61,70,,121,139,,286,329,,550,633,,1056,1214,2026-09-26T14:49:42.627044+00:00,v1.0
-7,BAB-007,Himalaya Baby Wipes,BAB,Baby Care & Family Care,Himalaya,Standard,g,,44,51,7,13.73,,44,51,,88,101,,208,239,,400,460,,768,883,2026-09-26T14:49:42.627044+00:00,v1.0
-8,BAB-008,Mamaearth Baby Lotion,BAB,Baby Care & Family Care,Mamaearth,Premium,ml,,88,101,13,12.87,,88,101,,175,201,,415,477,,798,918,,1531,1761,2026-09-26T14:49:42.627044+00:00,v1.0
-9,BAB-009,Sebamed Baby Wash,BAB,Baby Care & Family Care,Sebamed,Premium,ml,,115,132,17,12.88,,115,132,,230,265,,543,624,,1045,1202,,2006,2307,2026-09-26T14:49:42.627044+00:00,v1.0
-10,BAB-010,Johnson's Baby Powder,BAB,Baby Care & Family Care,Johnson's Baby,Standard,g,,44,51,7,13.73,,44,51,,88,101,,208,239,,400,460,,768,883,2026-09-26T14:49:42.627044+00:00,v1.0
-11,BAK-001,Britannia White Bread,BAK,Bread & Bakery,Britannia,Standard,g,,21,24,3,12.5,,21,24,,26,30,,40,46,,50,57,,77,89,2026-09-26T14:49:42.627044+00:00,v1.0
-12,BAK-002,Britannia Brown Bread,BAK,Bread & Bakery,Britannia,Standard,g,,21,24,3,12.5,,21,24,,26,30,,40,46,,50,57,,77,89,2026-09-26T14:49:42.627044+00:00,v1.0
-13,BAK-003,Modern Milk Bread,BAK,Bread & Bakery,Modern,Standard,g,,21,24,3,12.5,,21,24,,26,30,,40,46,,50,57,,77,89,2026-09-26T14:49:42.627044+00:00,v1.0
-14,BAK-004,Harvest Gold White Bread,BAK,Bread & Bakery,Harvest Gold,Standard,g,,21,24,3,12.5,,21,24,,26,30,,40,46,,50,57,,77,89,2026-09-26T14:49:42.627044+00:00,v1.0
-15,BAK-005,Britannia Fruit Cake,BAK,Bread & Bakery,Britannia,Standard,g,,79,91,12,13.19,,79,91,,99,114,,152,175,,190,218,,292,336,2026-09-26T14:49:42.627044+00:00,v1.0
-16,BAK-006,Monginis Chocolate Cake,BAK,Bread & Bakery,Monginis,Premium,g,,79,91,12,13.19,,79,91,,99,114,,152,175,,190,218,,292,336,2026-09-26T14:49:42.627044+00:00,v1.0
-17,BAK-007,Monginis Cream Roll,BAK,Bread & Bakery,Monginis,Premium,g,,42,48,6,12.5,,42,48,,52,60,,80,92,,100,115,,154,177,2026-09-26T14:49:42.627044+00:00,v1.0
-18,BAK-008,Modern Sandwich Bread,BAK,Bread & Bakery,Modern,Standard,g,,21,24,3,12.5,,21,24,,26,30,,40,46,,50,57,,77,89,2026-09-26T14:49:42.627044+00:00,v1.0
-19,BAK-009,Britannia Croissant,BAK,Bread & Bakery,Britannia,Premium,g,,46,53,7,13.21,,46,53,,57,66,,88,101,,110,126,,169,194,2026-09-26T14:49:42.627044+00:00,v1.0
-20,BAK-010,Theobroma Brownie Box,BAK,Bread & Bakery,Theobroma,Premium,g,,206,237,31,13.08,,206,237,,257,296,,395,454,,494,568,,759,873,2026-09-26T14:49:42.627044+00:00,v1.0
-21,BEV-001,Coca-Cola,BEV,Soft Drinks & Beverages,Coca-Cola,Standard,ml,,16,18,2,11.11,,16,18,,20,23,,38,44,,54,62,,72,83,2026-09-26T14:49:42.627044+00:00,v1.0
-22,BEV-002,Thums Up,BEV,Soft Drinks & Beverages,Coca-Cola,Standard,ml,,16,18,2,11.11,,16,18,,20,23,,38,44,,54,62,,72,83,2026-09-26T14:49:42.627044+00:00,v1.0
-23,BEV-003,Sprite,BEV,Soft Drinks & Beverages,Coca-Cola,Standard,ml,,16,18,2,11.11,,16,18,,20,23,,38,44,,54,62,,72,83,2026-09-26T14:49:42.627044+00:00,v1.0
-24,BEV-004,Limca,BEV,Soft Drinks & Beverages,Coca-Cola,Standard,ml,,16,18,2,11.11,,16,18,,20,23,,38,44,,54,62,,72,83,2026-09-26T14:49:42.627044+00:00,v1.0
-25,BEV-005,Fanta Orange,BEV,Soft Drinks & Beverages,Coca-Cola,Standard,ml,,16,18,2,11.11,,16,18,,20,23,,38,44,,54,62,,72,83,2026-09-26T14:49:42.627044+00:00,v1.0
-26,BEV-006,Maaza Mango,BEV,Soft Drinks & Beverages,Coca-Cola,Standard,ml,,16,18,2,11.11,,16,18,,20,23,,38,44,,54,62,,72,83,2026-09-26T14:49:42.627044+00:00,v1.0
-27,BEV-007,Frooti Mango,BEV,Soft Drinks & Beverages,Parle Agro,Standard,ml,,14,16,2,12.5,,14,16,,18,21,,34,39,,49,56,,65,75,2026-09-26T14:49:42.627044+00:00,v1.0
-28,BEV-008,Paper Boat Aam Panna,BEV,Soft Drinks & Beverages,Paper Boat,Premium,ml,,33,38,5,13.16,,33,38,,42,48,,80,92,,115,132,,154,177,2026-09-26T14:49:42.627044+00:00,v1.0
-29,BEV-009,Red Bull Energy Drink,BEV,Soft Drinks & Beverages,Red Bull,Premium,ml,,284,327,43,13.15,,284,327,,355,408,,682,784,,982,1129,,1309,1505,2026-09-26T14:49:42.627044+00:00,v1.0
-30,BEV-010,Kinley Mineral Water,BEV,Soft Drinks & Beverages,Kinley,Standard,ml,,14,16,2,12.5,,14,16,,18,21,,34,39,,49,56,,65,75,2026-09-26T14:49:42.627044+00:00,v1.0
-31,BIS-001,Parle-G,BIS,Biscuits & Cookies,Parle,Standard,g,,8,9,1,11.11,,8,9,,15,17,,21,24,,35,40,,68,78,2026-09-26T14:49:42.627044+00:00,v1.0
-32,BIS-002,Britannia Good Day,BIS,Biscuits & Cookies,Britannia,Standard,g,,8,9,1,11.11,,8,9,,16,18,,23,26,,39,45,,75,86,2026-09-26T14:49:42.627044+00:00,v1.0
-33,BIS-003,Britannia Marie Gold,BIS,Biscuits & Cookies,Britannia,Standard,g,,8,9,1,11.11,,8,9,,16,18,,23,26,,39,45,,75,86,2026-09-26T14:49:42.627044+00:00,v1.0
-34,BIS-004,Britannia Bourbon,BIS,Biscuits & Cookies,Britannia,Premium,g,,8,9,1,11.11,,8,9,,16,18,,23,26,,39,45,,75,86,2026-09-26T14:49:42.627044+00:00,v1.0
-35,BIS-005,Parle Hide & Seek,BIS,Biscuits & Cookies,Parle,Premium,g,,8,9,1,11.11,,8,9,,16,18,,23,26,,39,45,,75,86,2026-09-26T14:49:42.627044+00:00,v1.0
-36,BIS-006,Sunfeast Dark Fantasy,BIS,Biscuits & Cookies,Sunfeast,Premium,g,,8,9,1,11.11,,8,9,,16,18,,23,26,,39,45,,75,86,2026-09-26T14:49:42.627044+00:00,v1.0
-37,BIS-007,Sunfeast Marie Light,BIS,Biscuits & Cookies,Sunfeast,Standard,g,,8,9,1,11.11,,8,9,,16,18,,23,26,,39,45,,75,86,2026-09-26T14:49:42.627044+00:00,v1.0
-38,BIS-008,Oreo Original,BIS,Biscuits & Cookies,Oreo,Premium,g,,8,9,1,11.11,,8,9,,16,18,,23,26,,39,45,,75,86,2026-09-26T14:49:42.627044+00:00,v1.0
-39,BIS-009,Tiger Glucose Biscuits,BIS,Biscuits & Cookies,Britannia,Standard,g,,8,9,1,11.11,,8,9,,15,17,,21,24,,35,40,,68,78,2026-09-26T14:49:42.627044+00:00,v1.0
-40,BIS-010,Jim Jam Sandwich Biscuits,BIS,Biscuits & Cookies,Parle,Standard,g,,8,9,1,11.11,,8,9,,16,18,,23,26,,39,45,,75,86,2026-09-26T14:49:42.627044+00:00,v1.0
-41,CHO-001,Cadbury Dairy Milk,CHO,Chocolates & Confectionery,Cadbury,Standard,g,,17,20,3,15.0,,17,20,,34,39,,51,59,,86,99,,122,140,2026-09-26T14:49:42.627044+00:00,v1.0
-42,CHO-002,Cadbury 5 Star,CHO,Chocolates & Confectionery,Cadbury,Standard,g,,17,20,3,15.0,,17,20,,34,39,,51,59,,86,99,,122,140,2026-09-26T14:49:42.627044+00:00,v1.0
-43,CHO-003,Cadbury Silk,CHO,Chocolates & Confectionery,Cadbury,Premium,g,,25,29,4,13.79,,25,29,,51,59,,76,87,,126,145,,179,206,2026-09-26T14:49:42.627044+00:00,v1.0
-44,CHO-004,Cadbury Perk,CHO,Chocolates & Confectionery,Cadbury,Standard,g,,17,20,3,15.0,,17,20,,34,39,,51,59,,86,99,,122,140,2026-09-26T14:49:42.627044+00:00,v1.0
-45,CHO-005,Nestlé KitKat,CHO,Chocolates & Confectionery,Nestlé,Standard,g,,17,20,3,15.0,,17,20,,34,39,,51,59,,86,99,,122,140,2026-09-26T14:49:42.627044+00:00,v1.0
-46,CHO-006,Nestlé Munch,CHO,Chocolates & Confectionery,Nestlé,Standard,g,,17,20,3,15.0,,17,20,,34,39,,51,59,,86,99,,122,140,2026-09-26T14:49:42.627044+00:00,v1.0
-47,CHO-007,Amul Dark Chocolate,CHO,Chocolates & Confectionery,Amul,Premium,g,,18,21,3,14.29,,18,21,,35,40,,53,61,,88,101,,124,143,2026-09-26T14:49:42.627044+00:00,v1.0
-48,CHO-008,Ferrero Rocher,CHO,Chocolates & Confectionery,Ferrero,Premium,g,,129,148,19,12.84,,129,148,,259,298,,388,446,,647,744,,917,1055,2026-09-26T14:49:42.627044+00:00,v1.0
-49,CHO-009,Cadbury Gems,CHO,Chocolates & Confectionery,Cadbury,Standard,g,,17,20,3,15.0,,17,20,,34,39,,51,59,,86,99,,122,140,2026-09-26T14:49:42.627044+00:00,v1.0
-50,CHO-010,Parle Melody Toffee Pack,CHO,Chocolates & Confectionery,Parle,Standard,g,,17,20,3,15.0,,17,20,,34,39,,51,59,,86,99,,122,140,2026-09-26T14:49:42.627044+00:00,v1.0
-51,CLN-001,Surf Excel Matic,CLN,Home Cleaning,Surf Excel,Premium,g,,135,155,20,12.9,,135,155,,259,298,,497,572,,1188,1366,,2268,2608,2026-09-26T14:49:42.627044+00:00,v1.0
-52,CLN-002,Ariel Matic,CLN,Home Cleaning,Ariel,Premium,g,,135,155,20,12.9,,135,155,,259,298,,497,572,,1188,1366,,2268,2608,2026-09-26T14:49:42.627044+00:00,v1.0
-53,CLN-003,Tide Plus,CLN,Home Cleaning,Tide,Standard,g,,100,115,15,13.04,,100,115,,192,221,,368,423,,880,1012,,1680,1932,2026-09-26T14:49:42.627044+00:00,v1.0
-54,CLN-004,Vim Dishwash Liquid,CLN,Home Cleaning,Vim,Standard,ml,,10,12,2,16.67,,10,12,,18,21,,42,48,,80,92,,154,177,2026-09-26T14:49:42.627044+00:00,v1.0
-55,CLN-005,Vim Dishwash Bar,CLN,Home Cleaning,Vim,Standard,g,,11,13,2,15.38,,11,13,,22,25,,52,60,,100,115,,192,221,2026-09-26T14:49:42.627044+00:00,v1.0
-56,CLN-006,Lizol Floor Cleaner,CLN,Home Cleaning,Lizol,Premium,g,,11,13,2,15.38,,11,13,,22,25,,52,60,,100,115,,192,221,2026-09-26T14:49:42.627044+00:00,v1.0
-57,CLN-007,Harpic Toilet Cleaner,CLN,Home Cleaning,Harpic,Standard,ml,,10,12,2,16.67,,10,12,,16,18,,39,45,,75,86,,144,166,2026-09-26T14:49:42.627044+00:00,v1.0
-58,CLN-008,Colin Glass Cleaner,CLN,Home Cleaning,Colin,Standard,ml,,10,12,2,16.67,,10,12,,16,18,,39,45,,75,86,,144,166,2026-09-26T14:49:42.627044+00:00,v1.0
-59,CLN-009,Domex Toilet Cleaner,CLN,Home Cleaning,Domex,Standard,ml,,10,12,2,16.67,,10,12,,16,18,,39,45,,75,86,,144,166,2026-09-26T14:49:42.627044+00:00,v1.0
-60,CLN-010,Dettol Disinfectant Liquid,CLN,Home Cleaning,Dettol,Premium,ml,,10,12,2,16.67,,10,12,,16,18,,39,45,,75,86,,144,166,2026-09-26T14:49:42.627044+00:00,v1.0
-61,DAI-001,Amul Full Cream Milk,DAI,Dairy & Milk Products,Amul,Standard,ml,,85,98,13,13.27,,85,98,,163,187,,204,235,,392,451,,751,864,2026-09-26T14:49:42.627044+00:00,v1.0
-62,DAI-002,Amul Taaza Toned Milk,DAI,Dairy & Milk Products,Amul,Standard,ml,,16,18,2,11.11,,16,18,,31,36,,38,44,,73,84,,141,162,2026-09-26T14:49:42.627044+00:00,v1.0
-63,DAI-003,Mother Dairy Toned Milk,DAI,Dairy & Milk Products,Mother Dairy,Standard,ml,,16,18,2,11.11,,16,18,,30,35,,38,44,,72,83,,138,159,2026-09-26T14:49:42.627044+00:00,v1.0
-64,DAI-004,Amul Masti Dahi,DAI,Dairy & Milk Products,Amul,Standard,g,,11,13,2,15.38,,11,13,,20,23,,48,55,,93,107,,178,205,2026-09-26T14:49:42.627044+00:00,v1.0
-65,DAI-005,Mother Dairy Curd,DAI,Dairy & Milk Products,Mother Dairy,Standard,g,,10,12,2,16.67,,10,12,,20,23,,48,55,,91,105,,175,201,2026-09-26T14:49:42.627044+00:00,v1.0
-66,DAI-006,Amul Butter,DAI,Dairy & Milk Products,Amul,Premium,g,,65,75,10,13.33,,65,75,,123,141,,296,340,,568,653,,1089,1252,2026-09-26T14:49:42.627044+00:00,v1.0
-67,DAI-007,Amul Paneer,DAI,Dairy & Milk Products,Amul,Premium,g,,47,54,7,12.96,,47,54,,89,102,,214,246,,411,473,,788,906,2026-09-26T14:49:42.627044+00:00,v1.0
-68,DAI-008,Amul Cheese Slices,DAI,Dairy & Milk Products,Amul,Premium,g,,58,67,9,13.43,,58,67,,110,126,,265,305,,509,585,,976,1122,2026-09-26T14:49:42.627044+00:00,v1.0
-69,DAI-009,Epigamia Greek Yogurt,DAI,Dairy & Milk Products,Epigamia,Premium,g,,107,123,16,13.01,,107,123,,203,233,,488,561,,936,1076,,1794,2063,2026-09-26T14:49:42.627044+00:00,v1.0
-70,DAI-010,Amul Fresh Cream,DAI,Dairy & Milk Products,Amul,Premium,ml,,85,98,13,13.27,,85,98,,163,187,,204,235,,392,451,,751,864,2026-09-26T14:49:42.627044+00:00,v1.0
-71,DAL-001,Tata Sampann Toor Dal,DAL,Pulses & Dal,Tata Sampann,Premium,g,,96,110,14,12.73,,96,110,,185,213,,354,407,,847,974,,1617,1860,2026-09-26T14:49:42.627044+00:00,v1.0
-72,DAL-002,Tata Sampann Moong Dal,DAL,Pulses & Dal,Tata Sampann,Premium,g,,96,110,14,12.73,,96,110,,185,213,,354,407,,847,974,,1617,1860,2026-09-26T14:49:42.627044+00:00,v1.0
-73,DAL-003,Tata Sampann Masoor Dal,DAL,Pulses & Dal,Tata Sampann,Premium,g,,96,110,14,12.73,,96,110,,185,213,,354,407,,847,974,,1617,1860,2026-09-26T14:49:42.627044+00:00,v1.0
-74,DAL-004,Fortune Chana Dal,DAL,Pulses & Dal,Fortune,Standard,g,,88,101,13,12.87,,88,101,,168,193,,322,370,,770,885,,1470,1690,2026-09-26T14:49:42.627044+00:00,v1.0
-75,DAL-005,Fortune Urad Dal,DAL,Pulses & Dal,Fortune,Standard,g,,88,101,13,12.87,,88,101,,168,193,,322,370,,770,885,,1470,1690,2026-09-26T14:49:42.627044+00:00,v1.0
-76,DAL-006,India Gate Moong Dal,DAL,Pulses & Dal,India Gate,Premium,g,,98,113,15,13.27,,98,113,,188,216,,361,415,,862,991,,1646,1893,2026-09-26T14:49:42.627044+00:00,v1.0
-77,DAL-007,India Gate Masoor Dal,DAL,Pulses & Dal,India Gate,Premium,g,,98,113,15,13.27,,98,113,,188,216,,361,415,,862,991,,1646,1893,2026-09-26T14:49:42.627044+00:00,v1.0
-78,DAL-008,Tata Sampann Rajma,DAL,Pulses & Dal,Tata Sampann,Premium,g,,96,110,14,12.73,,96,110,,185,213,,354,407,,847,974,,1617,1860,2026-09-26T14:49:42.627044+00:00,v1.0
-79,DAL-009,Tata Sampann Kabuli Chana,DAL,Pulses & Dal,Tata Sampann,Premium,g,,96,110,14,12.73,,96,110,,185,213,,354,407,,847,974,,1617,1860,2026-09-26T14:49:42.627044+00:00,v1.0
-80,DAL-010,Organic Tattva Moong Dal,DAL,Pulses & Dal,Organic Tattva,Premium,g,,118,136,18,13.24,,118,136,,227,261,,435,500,,1040,1196,,1985,2283,2026-09-26T14:49:42.627044+00:00,v1.0
-81,FLO-001,Aashirvaad Whole Wheat Atta,FLO,"Flour, Atta & Baking Essentials",Aashirvaad,Standard,g,,34,39,5,12.82,,34,39,,65,75,,125,144,,299,344,,571,657,2026-09-26T14:49:42.627044+00:00,v1.0
-82,FLO-002,Fortune Chakki Fresh Atta,FLO,"Flour, Atta & Baking Essentials",Fortune,Standard,g,,34,39,5,12.82,,34,39,,65,75,,125,144,,299,344,,571,657,2026-09-26T14:49:42.627044+00:00,v1.0
-83,FLO-003,Pillsbury Chakki Fresh Atta,FLO,"Flour, Atta & Baking Essentials",Pillsbury,Standard,g,,34,39,5,12.82,,34,39,,65,75,,125,144,,299,344,,571,657,2026-09-26T14:49:42.627044+00:00,v1.0
-84,FLO-004,Annapurna Atta,FLO,"Flour, Atta & Baking Essentials",Annapurna,Standard,g,,34,39,5,12.82,,34,39,,65,75,,125,144,,299,344,,571,657,2026-09-26T14:49:42.627044+00:00,v1.0
-85,FLO-005,Aashirvaad Multigrain Atta,FLO,"Flour, Atta & Baking Essentials",Aashirvaad,Premium,g,,34,39,5,12.82,,34,39,,65,75,,125,144,,299,344,,571,657,2026-09-26T14:49:42.627044+00:00,v1.0
-86,FLO-006,Tata Sampann Besan,FLO,"Flour, Atta & Baking Essentials",Tata Sampann,Premium,g,,37,43,6,13.95,,37,43,,72,83,,138,159,,329,378,,628,722,2026-09-26T14:49:42.627044+00:00,v1.0
-87,FLO-007,Fortune Maida,FLO,"Flour, Atta & Baking Essentials",Fortune,Standard,g,,34,39,5,12.82,,34,39,,65,75,,125,144,,299,344,,571,657,2026-09-26T14:49:42.627044+00:00,v1.0
-88,FLO-008,Rajdhani Besan,FLO,"Flour, Atta & Baking Essentials",Rajdhani,Standard,g,,34,39,5,12.82,,34,39,,65,75,,125,144,,299,344,,571,657,2026-09-26T14:49:42.627044+00:00,v1.0
-89,FLO-009,Pillsbury Maida,FLO,"Flour, Atta & Baking Essentials",Pillsbury,Standard,g,,34,39,5,12.82,,34,39,,65,75,,125,144,,299,344,,571,657,2026-09-26T14:49:42.627044+00:00,v1.0
-90,FLO-010,Baking Soda,FLO,"Flour, Atta & Baking Essentials",Weikfield,Standard,g,,34,39,5,12.82,,34,39,,65,75,,125,144,,299,344,,571,657,2026-09-26T14:49:42.627044+00:00,v1.0
-91,FRT-001,Apple,FRT,Fresh Fruits,Fresho,Premium,g,,55,63,8,12.7,,55,63,,110,126,,220,253,,440,506,,1100,1265,2026-09-26T14:49:42.627044+00:00,v1.0
-92,FRT-002,Banana,FRT,Fresh Fruits,Fresho,Standard,dozen,,35,40,5,12.5,,35,40,,70,81,,140,161,,210,241,,420,483,2026-09-26T14:49:42.627044+00:00,v1.0
-93,FRT-003,Mango,FRT,Fresh Fruits,Fresho,Premium,g,,40,46,6,13.04,,40,46,,80,92,,160,184,,320,368,,800,920,2026-09-26T14:49:42.627044+00:00,v1.0
-94,FRT-004,Orange,FRT,Fresh Fruits,Fresho,Standard,g,,24,28,4,14.29,,24,28,,48,55,,95,109,,190,218,,475,546,2026-09-26T14:49:42.627044+00:00,v1.0
-95,FRT-005,Guava,FRT,Fresh Fruits,Fresho,Standard,g,,21,24,3,12.5,,21,24,,42,48,,85,98,,170,195,,425,489,2026-09-26T14:49:42.627044+00:00,v1.0
-96,FRT-006,Papaya,FRT,Fresh Fruits,Fresho,Standard,g,,16,18,2,11.11,,16,18,,32,37,,65,75,,130,150,,325,374,2026-09-26T14:49:42.627044+00:00,v1.0
-97,FRT-007,Pomegranate,FRT,Fresh Fruits,Fresho,Premium,g,,55,63,8,12.7,,55,63,,110,126,,220,253,,440,506,,1100,1265,2026-09-26T14:49:42.627044+00:00,v1.0
-98,FRT-008,Watermelon,FRT,Fresh Fruits,Fresho,Standard,piece,,55,63,8,12.7,,55,63,,110,126,,220,253,,330,379,,550,633,2026-09-26T14:49:42.627044+00:00,v1.0
-99,FRT-009,Grapes,FRT,Fresh Fruits,Fresho,Premium,g,,45,52,7,13.46,,45,52,,90,103,,180,207,,360,414,,900,1035,2026-09-26T14:49:42.627044+00:00,v1.0
-100,FRT-010,Pineapple,FRT,Fresh Fruits,Fresho,Standard,piece,,65,75,10,13.33,,65,75,,130,150,,260,299,,390,448,,650,747,2026-09-26T14:49:42.627044+00:00,v1.0
-101,HOU-001,Presto Garbage Bags,HOU,Household Essentials,Presto,Standard,g,,48,55,7,12.73,,48,55,,56,64,,80,92,,120,138,,200,230,2026-09-26T14:49:42.627044+00:00,v1.0
-102,HOU-002,Origami Tissue Roll Pack,HOU,Household Essentials,Origami,Standard,g,,48,55,7,12.73,,48,55,,56,64,,80,92,,120,138,,200,230,2026-09-26T14:49:42.627044+00:00,v1.0
-103,HOU-003,Freshwrap Aluminium Foil,HOU,Household Essentials,Freshwrap,Standard,g,,48,55,7,12.73,,48,55,,56,64,,80,92,,120,138,,200,230,2026-09-26T14:49:42.627044+00:00,v1.0
-104,HOU-004,Freshwrap Cling Film,HOU,Household Essentials,Freshwrap,Standard,g,,48,55,7,12.73,,48,55,,56,64,,80,92,,120,138,,200,230,2026-09-26T14:49:42.627044+00:00,v1.0
-105,HOU-005,Tupperware Storage Container,HOU,Household Essentials,Tupperware,Premium,piece,,90,103,13,12.62,,90,103,,148,170,,270,311,,378,435,,585,673,2026-09-26T14:49:42.627044+00:00,v1.0
-106,HOU-006,Milton Water Bottle,HOU,Household Essentials,Milton,Standard,g,,48,55,7,12.73,,48,55,,56,64,,80,92,,120,138,,200,230,2026-09-26T14:49:42.627044+00:00,v1.0
-107,HOU-007,Cello Storage Container Set,HOU,Household Essentials,Cello,Standard,g,,48,55,7,12.73,,48,55,,56,64,,80,92,,120,138,,200,230,2026-09-26T14:49:42.627044+00:00,v1.0
-108,HOU-008,Scotch-Brite Scrub Pad Pack,HOU,Household Essentials,Scotch-Brite,Standard,g,,48,55,7,12.73,,48,55,,56,64,,80,92,,120,138,,200,230,2026-09-26T14:49:42.627044+00:00,v1.0
-109,HOU-009,Gala Floor Wiper,HOU,Household Essentials,Gala,Standard,piece,,90,103,13,12.62,,90,103,,148,170,,270,311,,378,435,,585,673,2026-09-26T14:49:42.627044+00:00,v1.0
-110,HOU-010,Pigeon Kitchen Storage Set,HOU,Household Essentials,Pigeon,Premium,g,,48,55,7,12.73,,48,55,,56,64,,80,92,,120,138,,200,230,2026-09-26T14:49:42.627044+00:00,v1.0
-111,ICE-001,Amul Vanilla Ice Cream,ICE,Ice Cream & Frozen Desserts,Amul,Standard,ml,,36,41,5,12.2,,36,41,,52,60,,82,94,,120,138,,218,251,2026-09-26T14:49:42.627044+00:00,v1.0
-112,ICE-002,Amul Chocolate Ice Cream,ICE,Ice Cream & Frozen Desserts,Amul,Standard,ml,,36,41,5,12.2,,36,41,,52,60,,82,94,,120,138,,218,251,2026-09-26T14:49:42.627044+00:00,v1.0
-113,ICE-003,Kwality Wall's Cornetto,ICE,Ice Cream & Frozen Desserts,Kwality Wall's,Standard,ml,,48,55,7,12.73,,48,55,,69,79,,109,125,,160,184,,291,335,2026-09-26T14:49:42.627044+00:00,v1.0
-114,ICE-004,Kwality Wall's Magnum Classic,ICE,Ice Cream & Frozen Desserts,Kwality Wall's,Premium,ml,,78,90,12,13.33,,78,90,,112,129,,177,204,,260,299,,473,544,2026-09-26T14:49:42.627044+00:00,v1.0
-115,ICE-005,Havmor Butterscotch Ice Cream,ICE,Ice Cream & Frozen Desserts,Havmor,Standard,ml,,51,59,8,13.56,,51,59,,73,84,,116,133,,170,195,,309,355,2026-09-26T14:49:42.627044+00:00,v1.0
-116,ICE-006,Havmor Mango Ice Cream,ICE,Ice Cream & Frozen Desserts,Havmor,Standard,ml,,51,59,8,13.56,,51,59,,73,84,,116,133,,170,195,,309,355,2026-09-26T14:49:42.627044+00:00,v1.0
-117,ICE-007,Vadilal Kesar Pista Ice Cream,ICE,Ice Cream & Frozen Desserts,Vadilal,Standard,ml,,45,52,7,13.46,,45,52,,64,74,,102,117,,150,173,,273,314,2026-09-26T14:49:42.627044+00:00,v1.0
-118,ICE-008,Naturals Tender Coconut Ice Cream,ICE,Ice Cream & Frozen Desserts,Naturals,Premium,ml,,66,76,10,13.16,,66,76,,95,109,,150,173,,220,253,,400,460,2026-09-26T14:49:42.627044+00:00,v1.0
-119,ICE-009,Mother Dairy Strawberry Ice Cream,ICE,Ice Cream & Frozen Desserts,Mother Dairy,Standard,ml,,44,51,7,13.73,,44,51,,62,71,,99,114,,145,167,,264,304,2026-09-26T14:49:42.627044+00:00,v1.0
-120,ICE-010,Amul Rajbhog Ice Cream,ICE,Ice Cream & Frozen Desserts,Amul,Premium,ml,,36,41,5,12.2,,36,41,,52,60,,82,94,,120,138,,218,251,2026-09-26T14:49:42.627044+00:00,v1.0
-121,INS-001,Maggi 2-Minute Noodles,INS,Instant & Packaged Foods,Nestlé,Standard,g,,10,12,2,16.67,,10,12,,18,21,,42,48,,80,92,,154,177,2026-09-26T14:49:42.627044+00:00,v1.0
-122,INS-002,Yippee Magic Masala Noodles,INS,Instant & Packaged Foods,Sunfeast,Standard,g,,10,12,2,16.67,,10,12,,18,21,,42,48,,80,92,,154,177,2026-09-26T14:49:42.627044+00:00,v1.0
-123,INS-003,MTR Ready-to-Eat Poha,INS,Instant & Packaged Foods,MTR,Standard,g,,14,16,2,12.5,,14,16,,29,33,,68,78,,130,150,,250,288,2026-09-26T14:49:42.627044+00:00,v1.0
-124,INS-004,MTR Ready-to-Eat Upma,INS,Instant & Packaged Foods,MTR,Premium,g,,14,16,2,12.5,,14,16,,29,33,,68,78,,130,150,,250,288,2026-09-26T14:49:42.627044+00:00,v1.0
-125,INS-005,MTR Ready-to-Eat Rajma,INS,Instant & Packaged Foods,MTR,Premium,g,,14,16,2,12.5,,14,16,,29,33,,68,78,,130,150,,250,288,2026-09-26T14:49:42.627044+00:00,v1.0
-126,INS-006,Tata Sampann Poha,INS,Instant & Packaged Foods,Tata Sampann,Standard,g,,10,12,2,16.67,,10,12,,19,22,,46,53,,88,101,,169,194,2026-09-26T14:49:42.627044+00:00,v1.0
-127,INS-007,Saffola Masala Oats,INS,Instant & Packaged Foods,Saffola,Premium,g,,10,12,2,16.67,,10,12,,21,24,,49,56,,94,108,,181,208,2026-09-26T14:49:42.627044+00:00,v1.0
-128,INS-008,Kellogg's Corn Flakes,INS,Instant & Packaged Foods,Kellogg's,Premium,g,,14,16,2,12.5,,14,16,,29,33,,68,78,,130,150,,250,288,2026-09-26T14:49:42.627044+00:00,v1.0
-129,INS-009,Quaker Oats,INS,Instant & Packaged Foods,Quaker,Standard,g,,15,17,2,11.76,,15,17,,31,36,,73,84,,140,161,,269,309,2026-09-26T14:49:42.627044+00:00,v1.0
-130,INS-010,Ching's Schezwan Noodles,INS,Instant & Packaged Foods,Ching's Secret,Standard,g,,10,12,2,16.67,,10,12,,18,21,,42,48,,80,92,,154,177,2026-09-26T14:49:42.627044+00:00,v1.0
-131,OIL-001,Fortune Sunflower Oil,OIL,Cooking Oil & Ghee,Fortune,Standard,ml,,85,98,13,13.27,,85,98,,163,187,,313,360,,748,860,,2142,2463,2026-09-26T14:49:42.627044+00:00,v1.0
-132,OIL-002,Fortune Rice Bran Oil,OIL,Cooking Oil & Ghee,Fortune,Premium,ml,,85,98,13,13.27,,85,98,,163,187,,313,360,,748,860,,2142,2463,2026-09-26T14:49:42.627044+00:00,v1.0
-133,OIL-003,Saffola Gold Oil,OIL,Cooking Oil & Ghee,Saffola,Premium,ml,,100,115,15,13.04,,100,115,,193,222,,369,424,,883,1015,,2528,2907,2026-09-26T14:49:42.627044+00:00,v1.0
-134,OIL-004,Saffola Active Oil,OIL,Cooking Oil & Ghee,Saffola,Premium,ml,,100,115,15,13.04,,100,115,,193,222,,369,424,,883,1015,,2528,2907,2026-09-26T14:49:42.627044+00:00,v1.0
-135,OIL-005,Emami Healthy & Tasty Mustard Oil,OIL,Cooking Oil & Ghee,Emami,Standard,ml,,85,98,13,13.27,,85,98,,163,187,,313,360,,748,860,,2142,2463,2026-09-26T14:49:42.627044+00:00,v1.0
-136,OIL-006,Fortune Soyabean Oil,OIL,Cooking Oil & Ghee,Fortune,Standard,ml,,85,98,13,13.27,,85,98,,163,187,,313,360,,748,860,,2142,2463,2026-09-26T14:49:42.627044+00:00,v1.0
-137,OIL-007,Gemini Refined Sunflower Oil,OIL,Cooking Oil & Ghee,Gemini,Standard,ml,,85,98,13,13.27,,85,98,,163,187,,313,360,,748,860,,2142,2463,2026-09-26T14:49:42.627044+00:00,v1.0
-138,OIL-008,Dhara Mustard Oil,OIL,Cooking Oil & Ghee,Dhara,Standard,ml,,85,98,13,13.27,,85,98,,163,187,,313,360,,748,860,,2142,2463,2026-09-26T14:49:42.627044+00:00,v1.0
-139,OIL-009,Amul Pure Ghee,OIL,Cooking Oil & Ghee,Amul,Premium,ml,,408,469,61,13.01,,408,469,,783,900,,1501,1726,,3590,4129,,10282,11824,2026-09-26T14:49:42.627044+00:00,v1.0
-140,OIL-010,Patanjali Cow Ghee,OIL,Cooking Oil & Ghee,Patanjali,Premium,ml,,400,460,60,13.04,,400,460,,768,883,,1472,1693,,3520,4048,,10080,11592,2026-09-26T14:49:42.627044+00:00,v1.0
-141,ORL-001,Colgate Strong Teeth,ORL,Oral Care,Colgate,Standard,g,,41,47,6,12.77,,41,47,,82,94,,195,224,,375,431,,720,828,2026-09-26T14:49:42.627044+00:00,v1.0
-142,ORL-002,Colgate MaxFresh,ORL,Oral Care,Colgate,Premium,g,,41,47,6,12.77,,41,47,,82,94,,195,224,,375,431,,720,828,2026-09-26T14:49:42.627044+00:00,v1.0
-143,ORL-003,Colgate Visible White,ORL,Oral Care,Colgate,Premium,g,,41,47,6,12.77,,41,47,,82,94,,195,224,,375,431,,720,828,2026-09-26T14:49:42.627044+00:00,v1.0
-144,ORL-004,Closeup Ever Fresh,ORL,Oral Care,Closeup,Standard,g,,41,47,6,12.77,,41,47,,82,94,,195,224,,375,431,,720,828,2026-09-26T14:49:42.627044+00:00,v1.0
-145,ORL-005,Pepsodent Germicheck,ORL,Oral Care,Pepsodent,Standard,g,,41,47,6,12.77,,41,47,,82,94,,195,224,,375,431,,720,828,2026-09-26T14:49:42.627044+00:00,v1.0
-146,ORL-006,Sensodyne Fresh Mint,ORL,Oral Care,Sensodyne,Premium,g,,153,176,23,13.07,,153,176,,307,353,,725,834,,1395,1604,,2678,3080,2026-09-26T14:49:42.627044+00:00,v1.0
-147,ORL-007,Dabur Red Paste,ORL,Oral Care,Dabur,Standard,g,,41,47,6,12.77,,41,47,,82,94,,195,224,,375,431,,720,828,2026-09-26T14:49:42.627044+00:00,v1.0
-148,ORL-008,Meswak Toothpaste,ORL,Oral Care,Dabur,Premium,g,,41,47,6,12.77,,41,47,,82,94,,195,224,,375,431,,720,828,2026-09-26T14:49:42.627044+00:00,v1.0
-149,ORL-009,Colgate Kids,ORL,Oral Care,Colgate,Standard,g,,58,67,9,13.43,,58,67,,116,133,,273,314,,525,604,,1008,1159,2026-09-26T14:49:42.627044+00:00,v1.0
-150,ORL-010,Oral-B Toothbrush Pack,ORL,Oral Care,Oral-B,Premium,g,,25,29,4,13.79,,25,29,,50,57,,117,135,,225,259,,432,497,2026-09-26T14:49:42.627044+00:00,v1.0
-151,PCR-001,Sunsilk Shampoo,PCR,Personal Care,Sunsilk,Standard,ml,,33,38,5,13.16,,33,38,,66,76,,156,179,,300,345,,576,662,2026-09-26T14:49:42.627044+00:00,v1.0
-152,PCR-002,Clinic Plus Shampoo,PCR,Personal Care,Clinic Plus,Standard,ml,,33,38,5,13.16,,33,38,,66,76,,156,179,,300,345,,576,662,2026-09-26T14:49:42.627044+00:00,v1.0
-153,PCR-003,Dove Body Wash,PCR,Personal Care,Dove,Premium,ml,,30,35,5,14.29,,30,35,,61,70,,143,164,,275,316,,528,607,2026-09-26T14:49:42.627044+00:00,v1.0
-154,PCR-004,Lux Soap,PCR,Personal Care,Lux,Standard,g,,20,23,3,13.04,,20,23,,38,44,,91,105,,175,201,,336,386,2026-09-26T14:49:42.627044+00:00,v1.0
-155,PCR-005,Pears Soap,PCR,Personal Care,Pears,Premium,g,,20,23,3,13.04,,20,23,,38,44,,91,105,,175,201,,336,386,2026-09-26T14:49:42.627044+00:00,v1.0
-156,PCR-006,Dettol Body Wash,PCR,Personal Care,Dettol,Premium,ml,,30,35,5,14.29,,30,35,,61,70,,143,164,,275,316,,528,607,2026-09-26T14:49:42.627044+00:00,v1.0
-157,PCR-007,Nivea Body Lotion,PCR,Personal Care,Nivea,Premium,ml,,29,33,4,12.12,,29,33,,57,66,,135,155,,260,299,,499,574,2026-09-26T14:49:42.627044+00:00,v1.0
-158,PCR-008,Vaseline Body Lotion,PCR,Personal Care,Vaseline,Standard,ml,,29,33,4,12.12,,29,33,,57,66,,135,155,,260,299,,499,574,2026-09-26T14:49:42.627044+00:00,v1.0
-159,PCR-009,Himalaya Face Wash,PCR,Personal Care,Himalaya,Standard,ml,,40,46,6,13.04,,40,46,,79,91,,187,215,,360,414,,691,795,2026-09-26T14:49:42.627044+00:00,v1.0
-160,PCR-010,Mamaearth Face Wash,PCR,Personal Care,Mamaearth,Premium,ml,,57,66,9,13.64,,57,66,,115,132,,271,312,,522,600,,1002,1152,2026-09-26T14:49:42.627044+00:00,v1.0
-161,SNK-001,Lay's Classic Salted,SNK,Chips & Namkeen,Lay's,Standard,g,,16,18,2,11.11,,16,18,,30,35,,33,38,,62,71,,120,138,2026-09-26T14:49:42.627044+00:00,v1.0
-162,SNK-002,Lay's Magic Masala,SNK,Chips & Namkeen,Lay's,Standard,g,,16,18,2,11.11,,16,18,,30,35,,33,38,,62,71,,120,138,2026-09-26T14:49:42.627044+00:00,v1.0
-163,SNK-003,Lay's Cream & Onion,SNK,Chips & Namkeen,Lay's,Standard,g,,16,18,2,11.11,,16,18,,30,35,,33,38,,62,71,,120,138,2026-09-26T14:49:42.627044+00:00,v1.0
-164,SNK-004,Bingo Original Style,SNK,Chips & Namkeen,Bingo,Standard,g,,16,18,2,11.11,,16,18,,30,35,,33,38,,62,71,,120,138,2026-09-26T14:49:42.627044+00:00,v1.0
-165,SNK-005,Kurkure Masala Munch,SNK,Chips & Namkeen,Kurkure,Standard,g,,16,18,2,11.11,,16,18,,30,35,,33,38,,62,71,,120,138,2026-09-26T14:49:42.627044+00:00,v1.0
-166,SNK-006,Haldiram's Aloo Bhujia,SNK,Chips & Namkeen,Haldiram's,Standard,g,,16,18,2,11.11,,16,18,,30,35,,33,38,,62,71,,120,138,2026-09-26T14:49:42.627044+00:00,v1.0
-167,SNK-007,Haldiram's Moong Dal,SNK,Chips & Namkeen,Haldiram's,Standard,g,,16,18,2,11.11,,16,18,,30,35,,33,38,,62,71,,120,138,2026-09-26T14:49:42.627044+00:00,v1.0
-168,SNK-008,Bikaji Bikaneri Bhujia,SNK,Chips & Namkeen,Bikaji,Standard,g,,16,18,2,11.11,,16,18,,30,35,,33,38,,62,71,,120,138,2026-09-26T14:49:42.627044+00:00,v1.0
-169,SNK-009,Uncle Chipps Plain Salted,SNK,Chips & Namkeen,Uncle Chipps,Standard,g,,16,18,2,11.11,,16,18,,30,35,,33,38,,62,71,,120,138,2026-09-26T14:49:42.627044+00:00,v1.0
-170,SNK-010,Balaji Wafers Masala,SNK,Chips & Namkeen,Balaji,Standard,g,,16,18,2,11.11,,16,18,,30,35,,33,38,,62,71,,120,138,2026-09-26T14:49:42.627044+00:00,v1.0
-171,STP-001,India Gate Basmati Rice,STP,Rice & Staples,India Gate,Premium,g,,40,46,6,13.04,,40,46,,77,89,,148,170,,355,408,,677,779,2026-09-26T14:49:42.627044+00:00,v1.0
-172,STP-002,Daawat Basmati Rice,STP,Rice & Staples,Daawat,Premium,g,,40,46,6,13.04,,40,46,,76,87,,146,168,,348,400,,665,765,2026-09-26T14:49:42.627044+00:00,v1.0
-173,STP-003,Fortune Rozana Rice,STP,Rice & Staples,Fortune,Standard,g,,36,41,5,12.2,,36,41,,69,79,,132,152,,317,365,,605,696,2026-09-26T14:49:42.627044+00:00,v1.0
-174,STP-004,Gobindobhog Rice,STP,Rice & Staples,Local Premium,Premium,g,,36,41,5,12.2,,36,41,,69,79,,132,152,,317,365,,605,696,2026-09-26T14:49:42.627044+00:00,v1.0
-175,STP-005,India Gate Dubar Rice,STP,Rice & Staples,India Gate,Standard,g,,40,46,6,13.04,,40,46,,77,89,,148,170,,355,408,,677,779,2026-09-26T14:49:42.627044+00:00,v1.0
-176,STP-006,Daawat Sona Masuri Rice,STP,Rice & Staples,Daawat,Standard,g,,40,46,6,13.04,,40,46,,76,87,,146,168,,348,400,,665,765,2026-09-26T14:49:42.627044+00:00,v1.0
-177,STP-007,Lal Qilla Basmati Rice,STP,Rice & Staples,Lal Qilla,Premium,g,,36,41,5,12.2,,36,41,,69,79,,132,152,,317,365,,605,696,2026-09-26T14:49:42.627044+00:00,v1.0
-178,STP-008,Fortune Everyday Rice,STP,Rice & Staples,Fortune,Standard,g,,36,41,5,12.2,,36,41,,69,79,,132,152,,317,365,,605,696,2026-09-26T14:49:42.627044+00:00,v1.0
-179,STP-009,Kohinoor Basmati Rice,STP,Rice & Staples,Kohinoor,Premium,g,,36,41,5,12.2,,36,41,,69,79,,132,152,,317,365,,605,696,2026-09-26T14:49:42.627044+00:00,v1.0
-180,STP-010,Miniket Rice,STP,Rice & Staples,Local,Standard,g,,36,41,5,12.2,,36,41,,69,79,,132,152,,317,365,,605,696,2026-09-26T14:49:42.627044+00:00,v1.0
-181,TEA-001,Tata Tea Gold,TEA,Tea & Coffee,Tata Tea,Premium,g,,29,33,4,12.12,,29,33,,57,66,,135,155,,260,299,,499,574,2026-09-26T14:49:42.627044+00:00,v1.0
-182,TEA-002,Tata Tea Premium,TEA,Tea & Coffee,Tata Tea,Standard,g,,29,33,4,12.12,,29,33,,57,66,,135,155,,260,299,,499,574,2026-09-26T14:49:42.627044+00:00,v1.0
-183,TEA-003,Brooke Bond Red Label,TEA,Tea & Coffee,Brooke Bond,Standard,g,,29,33,4,12.12,,29,33,,57,66,,135,155,,260,299,,499,574,2026-09-26T14:49:42.627044+00:00,v1.0
-184,TEA-004,Brooke Bond Taj Mahal,TEA,Tea & Coffee,Brooke Bond,Premium,g,,29,33,4,12.12,,29,33,,57,66,,135,155,,260,299,,499,574,2026-09-26T14:49:42.627044+00:00,v1.0
-185,TEA-005,Society Tea,TEA,Tea & Coffee,Society,Standard,g,,29,33,4,12.12,,29,33,,57,66,,135,155,,260,299,,499,574,2026-09-26T14:49:42.627044+00:00,v1.0
-186,TEA-006,Wagh Bakri Premium Tea,TEA,Tea & Coffee,Wagh Bakri,Premium,g,,29,33,4,12.12,,29,33,,57,66,,135,155,,260,299,,499,574,2026-09-26T14:49:42.627044+00:00,v1.0
-187,TEA-007,Nescafé Classic,TEA,Tea & Coffee,Nescafé,Standard,g,,29,33,4,12.12,,29,33,,57,66,,135,155,,260,299,,499,574,2026-09-26T14:49:42.627044+00:00,v1.0
-188,TEA-008,Nescafé Sunrise,TEA,Tea & Coffee,Nescafé,Standard,g,,29,33,4,12.12,,29,33,,57,66,,135,155,,260,299,,499,574,2026-09-26T14:49:42.627044+00:00,v1.0
-189,TEA-009,Bru Instant Coffee,TEA,Tea & Coffee,Bru,Standard,g,,121,139,18,12.95,,121,139,,242,278,,572,658,,1100,1265,,2112,2429,2026-09-26T14:49:42.627044+00:00,v1.0
-190,TEA-010,Tata Coffee Grand,TEA,Tea & Coffee,Tata Coffee,Premium,g,,91,105,14,13.33,,91,105,,182,209,,429,493,,825,949,,1584,1822,2026-09-26T14:49:42.627044+00:00,v1.0
-191,VEG-001,Potato,VEG,Fresh Vegetables,Fresho,Standard,g,,10,12,2,16.67,,10,12,,16,18,,32,37,,64,74,,160,184,2026-09-26T14:49:42.627044+00:00,v1.0
-192,VEG-002,Tomato,VEG,Fresh Vegetables,Fresho,Standard,g,,12,14,2,14.29,,12,14,,24,28,,48,55,,96,110,,240,276,2026-09-26T14:49:42.627044+00:00,v1.0
-193,VEG-003,Onion,VEG,Fresh Vegetables,Fresho,Standard,g,,13,15,2,13.33,,13,15,,26,30,,52,60,,104,120,,260,299,2026-09-26T14:49:42.627044+00:00,v1.0
-194,VEG-004,Green Peas,VEG,Fresh Vegetables,Fresho,Premium,g,,14,16,2,12.5,,14,16,,35,40,,70,81,,140,161,,280,322,2026-09-26T14:49:42.627044+00:00,v1.0
-195,VEG-005,Cauliflower,VEG,Fresh Vegetables,Fresho,Standard,piece,,50,57,7,12.28,,50,57,,100,115,,200,230,,300,345,,500,575,2026-09-26T14:49:42.627044+00:00,v1.0
-196,VEG-006,Spinach,VEG,Fresh Vegetables,Fresho,Standard,g,,10,12,2,16.67,,10,12,,25,29,,50,57,,100,115,,200,230,2026-09-26T14:49:42.627044+00:00,v1.0
-197,VEG-007,Carrot,VEG,Fresh Vegetables,Fresho,Standard,g,,10,12,2,16.67,,10,12,,18,21,,35,40,,70,81,,140,161,2026-09-26T14:49:42.627044+00:00,v1.0
-198,VEG-008,Cucumber,VEG,Fresh Vegetables,Fresho,Standard,g,,10,12,2,16.67,,10,12,,15,17,,30,35,,60,69,,120,138,2026-09-26T14:49:42.627044+00:00,v1.0
-199,VEG-009,Green Chilli,VEG,Fresh Vegetables,Fresho,Standard,g,,14,16,2,12.5,,14,16,,35,40,,70,81,,140,161,,280,322,2026-09-26T14:49:42.627044+00:00,v1.0
-200,VEG-010,Brinjal,VEG,Fresh Vegetables,Fresho,Standard,g,,10,12,2,16.67,,10,12,,16,18,,32,37,,65,75,,130,150,2026-09-26T14:49:42.627044+00:00,v1.0
+1,BAB-001,Pampers Baby Dry Small,BAB,Baby Care & Family Care,Pampers,Premium,g,50 g,52.0,60.0,8.0,13.33,50 g,52.0,60.0,100 g,105.0,121.0,250 g,247.0,284.0,500 g,475.0,546.0,1 kg,912.0,1049.0,2026-09-26T14:59:30.746052+00:00,v1.0
+2,BAB-002,Pampers Baby Dry Medium,BAB,Baby Care & Family Care,Pampers,Premium,g,50 g,52.0,60.0,8.0,13.33,50 g,52.0,60.0,100 g,105.0,121.0,250 g,247.0,284.0,500 g,475.0,546.0,1 kg,912.0,1049.0,2026-09-26T14:59:30.746052+00:00,v1.0
+3,BAB-003,Huggies Wonder Pants Small,BAB,Baby Care & Family Care,Huggies,Premium,g,50 g,52.0,60.0,8.0,13.33,50 g,52.0,60.0,100 g,105.0,121.0,250 g,247.0,284.0,500 g,475.0,546.0,1 kg,912.0,1049.0,2026-09-26T14:59:30.746052+00:00,v1.0
+4,BAB-004,Huggies Wonder Pants Medium,BAB,Baby Care & Family Care,Huggies,Premium,g,50 g,52.0,60.0,8.0,13.33,50 g,52.0,60.0,100 g,105.0,121.0,250 g,247.0,284.0,500 g,475.0,546.0,1 kg,912.0,1049.0,2026-09-26T14:59:30.746052+00:00,v1.0
+5,BAB-005,Johnson's Baby Shampoo,BAB,Baby Care & Family Care,Johnson's Baby,Standard,ml,50 ml,61.0,70.0,9.0,12.86,50 ml,61.0,70.0,100 ml,121.0,139.0,250 ml,286.0,329.0,500 ml,550.0,633.0,1 L,1056.0,1214.0,2026-09-26T14:59:30.746052+00:00,v1.0
+6,BAB-006,Johnson's Baby Lotion,BAB,Baby Care & Family Care,Johnson's Baby,Standard,ml,50 ml,61.0,70.0,9.0,12.86,50 ml,61.0,70.0,100 ml,121.0,139.0,250 ml,286.0,329.0,500 ml,550.0,633.0,1 L,1056.0,1214.0,2026-09-26T14:59:30.746052+00:00,v1.0
+7,BAB-007,Himalaya Baby Wipes,BAB,Baby Care & Family Care,Himalaya,Standard,g,50 g,44.0,51.0,7.0,13.73,50 g,44.0,51.0,100 g,88.0,101.0,250 g,208.0,239.0,500 g,400.0,460.0,1 kg,768.0,883.0,2026-09-26T14:59:30.746052+00:00,v1.0
+8,BAB-008,Mamaearth Baby Lotion,BAB,Baby Care & Family Care,Mamaearth,Premium,ml,50 ml,88.0,101.0,13.0,12.87,50 ml,88.0,101.0,100 ml,175.0,201.0,250 ml,415.0,477.0,500 ml,798.0,918.0,1 L,1531.0,1761.0,2026-09-26T14:59:30.746052+00:00,v1.0
+9,BAB-009,Sebamed Baby Wash,BAB,Baby Care & Family Care,Sebamed,Premium,ml,50 ml,115.0,132.0,17.0,12.88,50 ml,115.0,132.0,100 ml,230.0,265.0,250 ml,543.0,624.0,500 ml,1045.0,1202.0,1 L,2006.0,2307.0,2026-09-26T14:59:30.746052+00:00,v1.0
+10,BAB-010,Johnson's Baby Powder,BAB,Baby Care & Family Care,Johnson's Baby,Standard,g,50 g,44.0,51.0,7.0,13.73,50 g,44.0,51.0,100 g,88.0,101.0,250 g,208.0,239.0,500 g,400.0,460.0,1 kg,768.0,883.0,2026-09-26T14:59:30.746052+00:00,v1.0
+11,BAK-001,Britannia White Bread,BAK,Bread & Bakery,Britannia,Standard,g,200 g,21.0,24.0,3.0,12.5,200 g,21.0,24.0,250 g,26.0,30.0,400 g,40.0,46.0,500 g,50.0,57.0,800 g,77.0,89.0,2026-09-26T14:59:30.746052+00:00,v1.0
+12,BAK-002,Britannia Brown Bread,BAK,Bread & Bakery,Britannia,Standard,g,200 g,21.0,24.0,3.0,12.5,200 g,21.0,24.0,250 g,26.0,30.0,400 g,40.0,46.0,500 g,50.0,57.0,800 g,77.0,89.0,2026-09-26T14:59:30.746052+00:00,v1.0
+13,BAK-003,Modern Milk Bread,BAK,Bread & Bakery,Modern,Standard,g,200 g,21.0,24.0,3.0,12.5,200 g,21.0,24.0,250 g,26.0,30.0,400 g,40.0,46.0,500 g,50.0,57.0,800 g,77.0,89.0,2026-09-26T14:59:30.746052+00:00,v1.0
+14,BAK-004,Harvest Gold White Bread,BAK,Bread & Bakery,Harvest Gold,Standard,g,200 g,21.0,24.0,3.0,12.5,200 g,21.0,24.0,250 g,26.0,30.0,400 g,40.0,46.0,500 g,50.0,57.0,800 g,77.0,89.0,2026-09-26T14:59:30.746052+00:00,v1.0
+15,BAK-005,Britannia Fruit Cake,BAK,Bread & Bakery,Britannia,Standard,g,200 g,79.0,91.0,12.0,13.19,200 g,79.0,91.0,250 g,99.0,114.0,400 g,152.0,175.0,500 g,190.0,218.0,800 g,292.0,336.0,2026-09-26T14:59:30.746052+00:00,v1.0
+16,BAK-006,Monginis Chocolate Cake,BAK,Bread & Bakery,Monginis,Premium,g,200 g,79.0,91.0,12.0,13.19,200 g,79.0,91.0,250 g,99.0,114.0,400 g,152.0,175.0,500 g,190.0,218.0,800 g,292.0,336.0,2026-09-26T14:59:30.746052+00:00,v1.0
+17,BAK-007,Monginis Cream Roll,BAK,Bread & Bakery,Monginis,Premium,g,200 g,42.0,48.0,6.0,12.5,200 g,42.0,48.0,250 g,52.0,60.0,400 g,80.0,92.0,500 g,100.0,115.0,800 g,154.0,177.0,2026-09-26T14:59:30.746052+00:00,v1.0
+18,BAK-008,Modern Sandwich Bread,BAK,Bread & Bakery,Modern,Standard,g,200 g,21.0,24.0,3.0,12.5,200 g,21.0,24.0,250 g,26.0,30.0,400 g,40.0,46.0,500 g,50.0,57.0,800 g,77.0,89.0,2026-09-26T14:59:30.746052+00:00,v1.0
+19,BAK-009,Britannia Croissant,BAK,Bread & Bakery,Britannia,Premium,g,200 g,46.0,53.0,7.0,13.21,200 g,46.0,53.0,250 g,57.0,66.0,400 g,88.0,101.0,500 g,110.0,126.0,800 g,169.0,194.0,2026-09-26T14:59:30.746052+00:00,v1.0
+20,BAK-010,Theobroma Brownie Box,BAK,Bread & Bakery,Theobroma,Premium,g,200 g,206.0,237.0,31.0,13.08,200 g,206.0,237.0,250 g,257.0,296.0,400 g,395.0,454.0,500 g,494.0,568.0,800 g,759.0,873.0,2026-09-26T14:59:30.746052+00:00,v1.0
+21,BEV-001,Coca-Cola,BEV,Soft Drinks & Beverages,Coca-Cola,Standard,ml,200 ml,16.0,18.0,2.0,11.11,200 ml,16.0,18.0,250 ml,20.0,23.0,500 ml,38.0,44.0,750 ml,54.0,62.0,1 L,72.0,83.0,2026-09-26T14:59:30.746052+00:00,v1.0
+22,BEV-002,Thums Up,BEV,Soft Drinks & Beverages,Coca-Cola,Standard,ml,200 ml,16.0,18.0,2.0,11.11,200 ml,16.0,18.0,250 ml,20.0,23.0,500 ml,38.0,44.0,750 ml,54.0,62.0,1 L,72.0,83.0,2026-09-26T14:59:30.746052+00:00,v1.0
+23,BEV-003,Sprite,BEV,Soft Drinks & Beverages,Coca-Cola,Standard,ml,200 ml,16.0,18.0,2.0,11.11,200 ml,16.0,18.0,250 ml,20.0,23.0,500 ml,38.0,44.0,750 ml,54.0,62.0,1 L,72.0,83.0,2026-09-26T14:59:30.746052+00:00,v1.0
+24,BEV-004,Limca,BEV,Soft Drinks & Beverages,Coca-Cola,Standard,ml,200 ml,16.0,18.0,2.0,11.11,200 ml,16.0,18.0,250 ml,20.0,23.0,500 ml,38.0,44.0,750 ml,54.0,62.0,1 L,72.0,83.0,2026-09-26T14:59:30.746052+00:00,v1.0
+25,BEV-005,Fanta Orange,BEV,Soft Drinks & Beverages,Coca-Cola,Standard,ml,200 ml,16.0,18.0,2.0,11.11,200 ml,16.0,18.0,250 ml,20.0,23.0,500 ml,38.0,44.0,750 ml,54.0,62.0,1 L,72.0,83.0,2026-09-26T14:59:30.746052+00:00,v1.0
+26,BEV-006,Maaza Mango,BEV,Soft Drinks & Beverages,Coca-Cola,Standard,ml,200 ml,16.0,18.0,2.0,11.11,200 ml,16.0,18.0,250 ml,20.0,23.0,500 ml,38.0,44.0,750 ml,54.0,62.0,1 L,72.0,83.0,2026-09-26T14:59:30.746052+00:00,v1.0
+27,BEV-007,Frooti Mango,BEV,Soft Drinks & Beverages,Parle Agro,Standard,ml,200 ml,14.0,16.0,2.0,12.5,200 ml,14.0,16.0,250 ml,18.0,21.0,500 ml,34.0,39.0,750 ml,49.0,56.0,1 L,65.0,75.0,2026-09-26T14:59:30.746052+00:00,v1.0
+28,BEV-008,Paper Boat Aam Panna,BEV,Soft Drinks & Beverages,Paper Boat,Premium,ml,200 ml,33.0,38.0,5.0,13.16,200 ml,33.0,38.0,250 ml,42.0,48.0,500 ml,80.0,92.0,750 ml,115.0,132.0,1 L,154.0,177.0,2026-09-26T14:59:30.746052+00:00,v1.0
+29,BEV-009,Red Bull Energy Drink,BEV,Soft Drinks & Beverages,Red Bull,Premium,ml,200 ml,284.0,327.0,43.0,13.15,200 ml,284.0,327.0,250 ml,355.0,408.0,500 ml,682.0,784.0,750 ml,982.0,1129.0,1 L,1309.0,1505.0,2026-09-26T14:59:30.746052+00:00,v1.0
+30,BEV-010,Kinley Mineral Water,BEV,Soft Drinks & Beverages,Kinley,Standard,ml,200 ml,14.0,16.0,2.0,12.5,200 ml,14.0,16.0,250 ml,18.0,21.0,500 ml,34.0,39.0,750 ml,49.0,56.0,1 L,65.0,75.0,2026-09-26T14:59:30.746052+00:00,v1.0
+31,BIS-001,Parle-G,BIS,Biscuits & Cookies,Parle,Standard,g,50 g,8.0,9.0,1.0,11.11,50 g,8.0,9.0,100 g,15.0,17.0,150 g,21.0,24.0,250 g,35.0,40.0,500 g,68.0,78.0,2026-09-26T14:59:30.746052+00:00,v1.0
+32,BIS-002,Britannia Good Day,BIS,Biscuits & Cookies,Britannia,Standard,g,50 g,8.0,9.0,1.0,11.11,50 g,8.0,9.0,100 g,16.0,18.0,150 g,23.0,26.0,250 g,39.0,45.0,500 g,75.0,86.0,2026-09-26T14:59:30.746052+00:00,v1.0
+33,BIS-003,Britannia Marie Gold,BIS,Biscuits & Cookies,Britannia,Standard,g,50 g,8.0,9.0,1.0,11.11,50 g,8.0,9.0,100 g,16.0,18.0,150 g,23.0,26.0,250 g,39.0,45.0,500 g,75.0,86.0,2026-09-26T14:59:30.746052+00:00,v1.0
+34,BIS-004,Britannia Bourbon,BIS,Biscuits & Cookies,Britannia,Premium,g,50 g,8.0,9.0,1.0,11.11,50 g,8.0,9.0,100 g,16.0,18.0,150 g,23.0,26.0,250 g,39.0,45.0,500 g,75.0,86.0,2026-09-26T14:59:30.746052+00:00,v1.0
+35,BIS-005,Parle Hide & Seek,BIS,Biscuits & Cookies,Parle,Premium,g,50 g,8.0,9.0,1.0,11.11,50 g,8.0,9.0,100 g,16.0,18.0,150 g,23.0,26.0,250 g,39.0,45.0,500 g,75.0,86.0,2026-09-26T14:59:30.746052+00:00,v1.0
+36,BIS-006,Sunfeast Dark Fantasy,BIS,Biscuits & Cookies,Sunfeast,Premium,g,50 g,8.0,9.0,1.0,11.11,50 g,8.0,9.0,100 g,16.0,18.0,150 g,23.0,26.0,250 g,39.0,45.0,500 g,75.0,86.0,2026-09-26T14:59:30.746052+00:00,v1.0
+37,BIS-007,Sunfeast Marie Light,BIS,Biscuits & Cookies,Sunfeast,Standard,g,50 g,8.0,9.0,1.0,11.11,50 g,8.0,9.0,100 g,16.0,18.0,150 g,23.0,26.0,250 g,39.0,45.0,500 g,75.0,86.0,2026-09-26T14:59:30.746052+00:00,v1.0
+38,BIS-008,Oreo Original,BIS,Biscuits & Cookies,Oreo,Premium,g,50 g,8.0,9.0,1.0,11.11,50 g,8.0,9.0,100 g,16.0,18.0,150 g,23.0,26.0,250 g,39.0,45.0,500 g,75.0,86.0,2026-09-26T14:59:30.746052+00:00,v1.0
+39,BIS-009,Tiger Glucose Biscuits,BIS,Biscuits & Cookies,Britannia,Standard,g,50 g,8.0,9.0,1.0,11.11,50 g,8.0,9.0,100 g,15.0,17.0,150 g,21.0,24.0,250 g,35.0,40.0,500 g,68.0,78.0,2026-09-26T14:59:30.746052+00:00,v1.0
+40,BIS-010,Jim Jam Sandwich Biscuits,BIS,Biscuits & Cookies,Parle,Standard,g,50 g,8.0,9.0,1.0,11.11,50 g,8.0,9.0,100 g,16.0,18.0,150 g,23.0,26.0,250 g,39.0,45.0,500 g,75.0,86.0,2026-09-26T14:59:30.746052+00:00,v1.0
+41,CHO-001,Cadbury Dairy Milk,CHO,Chocolates & Confectionery,Cadbury,Standard,g,20 g,17.0,20.0,3.0,15.0,20 g,17.0,20.0,40 g,34.0,39.0,60 g,51.0,59.0,100 g,86.0,99.0,150 g,122.0,140.0,2026-09-26T14:59:30.746052+00:00,v1.0
+42,CHO-002,Cadbury 5 Star,CHO,Chocolates & Confectionery,Cadbury,Standard,g,20 g,17.0,20.0,3.0,15.0,20 g,17.0,20.0,40 g,34.0,39.0,60 g,51.0,59.0,100 g,86.0,99.0,150 g,122.0,140.0,2026-09-26T14:59:30.746052+00:00,v1.0
+43,CHO-003,Cadbury Silk,CHO,Chocolates & Confectionery,Cadbury,Premium,g,20 g,25.0,29.0,4.0,13.79,20 g,25.0,29.0,40 g,51.0,59.0,60 g,76.0,87.0,100 g,126.0,145.0,150 g,179.0,206.0,2026-09-26T14:59:30.746052+00:00,v1.0
+44,CHO-004,Cadbury Perk,CHO,Chocolates & Confectionery,Cadbury,Standard,g,20 g,17.0,20.0,3.0,15.0,20 g,17.0,20.0,40 g,34.0,39.0,60 g,51.0,59.0,100 g,86.0,99.0,150 g,122.0,140.0,2026-09-26T14:59:30.746052+00:00,v1.0
+45,CHO-005,Nestlé KitKat,CHO,Chocolates & Confectionery,Nestlé,Standard,g,20 g,17.0,20.0,3.0,15.0,20 g,17.0,20.0,40 g,34.0,39.0,60 g,51.0,59.0,100 g,86.0,99.0,150 g,122.0,140.0,2026-09-26T14:59:30.746052+00:00,v1.0
+46,CHO-006,Nestlé Munch,CHO,Chocolates & Confectionery,Nestlé,Standard,g,20 g,17.0,20.0,3.0,15.0,20 g,17.0,20.0,40 g,34.0,39.0,60 g,51.0,59.0,100 g,86.0,99.0,150 g,122.0,140.0,2026-09-26T14:59:30.746052+00:00,v1.0
+47,CHO-007,Amul Dark Chocolate,CHO,Chocolates & Confectionery,Amul,Premium,g,20 g,18.0,21.0,3.0,14.29,20 g,18.0,21.0,40 g,35.0,40.0,60 g,53.0,61.0,100 g,88.0,101.0,150 g,124.0,143.0,2026-09-26T14:59:30.746052+00:00,v1.0
+48,CHO-008,Ferrero Rocher,CHO,Chocolates & Confectionery,Ferrero,Premium,g,20 g,129.0,148.0,19.0,12.84,20 g,129.0,148.0,40 g,259.0,298.0,60 g,388.0,446.0,100 g,647.0,744.0,150 g,917.0,1055.0,2026-09-26T14:59:30.746052+00:00,v1.0
+49,CHO-009,Cadbury Gems,CHO,Chocolates & Confectionery,Cadbury,Standard,g,20 g,17.0,20.0,3.0,15.0,20 g,17.0,20.0,40 g,34.0,39.0,60 g,51.0,59.0,100 g,86.0,99.0,150 g,122.0,140.0,2026-09-26T14:59:30.746052+00:00,v1.0
+50,CHO-010,Parle Melody Toffee Pack,CHO,Chocolates & Confectionery,Parle,Standard,g,20 g,17.0,20.0,3.0,15.0,20 g,17.0,20.0,40 g,34.0,39.0,60 g,51.0,59.0,100 g,86.0,99.0,150 g,122.0,140.0,2026-09-26T14:59:30.746052+00:00,v1.0
+51,CLN-001,Surf Excel Matic,CLN,Home Cleaning,Surf Excel,Premium,g,500 g,135.0,155.0,20.0,12.9,500 g,135.0,155.0,1 kg,259.0,298.0,2 kg,497.0,572.0,5 kg,1188.0,1366.0,10 kg,2268.0,2608.0,2026-09-26T14:59:30.746052+00:00,v1.0
+52,CLN-002,Ariel Matic,CLN,Home Cleaning,Ariel,Premium,g,500 g,135.0,155.0,20.0,12.9,500 g,135.0,155.0,1 kg,259.0,298.0,2 kg,497.0,572.0,5 kg,1188.0,1366.0,10 kg,2268.0,2608.0,2026-09-26T14:59:30.746052+00:00,v1.0
+53,CLN-003,Tide Plus,CLN,Home Cleaning,Tide,Standard,g,500 g,100.0,115.0,15.0,13.04,500 g,100.0,115.0,1 kg,192.0,221.0,2 kg,368.0,423.0,5 kg,880.0,1012.0,10 kg,1680.0,1932.0,2026-09-26T14:59:30.746052+00:00,v1.0
+54,CLN-004,Vim Dishwash Liquid,CLN,Home Cleaning,Vim,Standard,ml,50 ml,10.0,12.0,2.0,16.67,50 ml,10.0,12.0,100 ml,18.0,21.0,250 ml,42.0,48.0,500 ml,80.0,92.0,1 L,154.0,177.0,2026-09-26T14:59:30.746052+00:00,v1.0
+55,CLN-005,Vim Dishwash Bar,CLN,Home Cleaning,Vim,Standard,g,50 g,11.0,13.0,2.0,15.38,50 g,11.0,13.0,100 g,22.0,25.0,250 g,52.0,60.0,500 g,100.0,115.0,1 kg,192.0,221.0,2026-09-26T14:59:30.746052+00:00,v1.0
+56,CLN-006,Lizol Floor Cleaner,CLN,Home Cleaning,Lizol,Premium,g,50 g,11.0,13.0,2.0,15.38,50 g,11.0,13.0,100 g,22.0,25.0,250 g,52.0,60.0,500 g,100.0,115.0,1 kg,192.0,221.0,2026-09-26T14:59:30.746052+00:00,v1.0
+57,CLN-007,Harpic Toilet Cleaner,CLN,Home Cleaning,Harpic,Standard,ml,50 ml,10.0,12.0,2.0,16.67,50 ml,10.0,12.0,100 ml,16.0,18.0,250 ml,39.0,45.0,500 ml,75.0,86.0,1 L,144.0,166.0,2026-09-26T14:59:30.746052+00:00,v1.0
+58,CLN-008,Colin Glass Cleaner,CLN,Home Cleaning,Colin,Standard,ml,50 ml,10.0,12.0,2.0,16.67,50 ml,10.0,12.0,100 ml,16.0,18.0,250 ml,39.0,45.0,500 ml,75.0,86.0,1 L,144.0,166.0,2026-09-26T14:59:30.746052+00:00,v1.0
+59,CLN-009,Domex Toilet Cleaner,CLN,Home Cleaning,Domex,Standard,ml,50 ml,10.0,12.0,2.0,16.67,50 ml,10.0,12.0,100 ml,16.0,18.0,250 ml,39.0,45.0,500 ml,75.0,86.0,1 L,144.0,166.0,2026-09-26T14:59:30.746052+00:00,v1.0
+60,CLN-010,Dettol Disinfectant Liquid,CLN,Home Cleaning,Dettol,Premium,ml,50 ml,10.0,12.0,2.0,16.67,50 ml,10.0,12.0,100 ml,16.0,18.0,250 ml,39.0,45.0,500 ml,75.0,86.0,1 L,144.0,166.0,2026-09-26T14:59:30.746052+00:00,v1.0
+61,DAI-001,Amul Full Cream Milk,DAI,Dairy & Milk Products,Amul,Standard,ml,200 ml,85.0,98.0,13.0,13.27,200 ml,85.0,98.0,400 ml,163.0,187.0,500 ml,204.0,235.0,1 L,392.0,451.0,2 L,751.0,864.0,2026-09-26T14:59:30.746052+00:00,v1.0
+62,DAI-002,Amul Taaza Toned Milk,DAI,Dairy & Milk Products,Amul,Standard,ml,200 ml,16.0,18.0,2.0,11.11,200 ml,16.0,18.0,400 ml,31.0,36.0,500 ml,38.0,44.0,1 L,73.0,84.0,2 L,141.0,162.0,2026-09-26T14:59:30.746052+00:00,v1.0
+63,DAI-003,Mother Dairy Toned Milk,DAI,Dairy & Milk Products,Mother Dairy,Standard,ml,200 ml,16.0,18.0,2.0,11.11,200 ml,16.0,18.0,400 ml,30.0,35.0,500 ml,38.0,44.0,1 L,72.0,83.0,2 L,138.0,159.0,2026-09-26T14:59:30.746052+00:00,v1.0
+64,DAI-004,Amul Masti Dahi,DAI,Dairy & Milk Products,Amul,Standard,g,100 g,11.0,13.0,2.0,15.38,100 g,11.0,13.0,200 g,20.0,23.0,500 g,48.0,55.0,1 kg,93.0,107.0,2 kg,178.0,205.0,2026-09-26T14:59:30.746052+00:00,v1.0
+65,DAI-005,Mother Dairy Curd,DAI,Dairy & Milk Products,Mother Dairy,Standard,g,100 g,10.0,12.0,2.0,16.67,100 g,10.0,12.0,200 g,20.0,23.0,500 g,48.0,55.0,1 kg,91.0,105.0,2 kg,175.0,201.0,2026-09-26T14:59:30.746052+00:00,v1.0
+66,DAI-006,Amul Butter,DAI,Dairy & Milk Products,Amul,Premium,g,100 g,65.0,75.0,10.0,13.33,100 g,65.0,75.0,200 g,123.0,141.0,500 g,296.0,340.0,1 kg,568.0,653.0,2 kg,1089.0,1252.0,2026-09-26T14:59:30.746052+00:00,v1.0
+67,DAI-007,Amul Paneer,DAI,Dairy & Milk Products,Amul,Premium,g,100 g,47.0,54.0,7.0,12.96,100 g,47.0,54.0,200 g,89.0,102.0,500 g,214.0,246.0,1 kg,411.0,473.0,2 kg,788.0,906.0,2026-09-26T14:59:30.746052+00:00,v1.0
+68,DAI-008,Amul Cheese Slices,DAI,Dairy & Milk Products,Amul,Premium,g,100 g,58.0,67.0,9.0,13.43,100 g,58.0,67.0,200 g,110.0,126.0,500 g,265.0,305.0,1 kg,509.0,585.0,2 kg,976.0,1122.0,2026-09-26T14:59:30.746052+00:00,v1.0
+69,DAI-009,Epigamia Greek Yogurt,DAI,Dairy & Milk Products,Epigamia,Premium,g,100 g,107.0,123.0,16.0,13.01,100 g,107.0,123.0,200 g,203.0,233.0,500 g,488.0,561.0,1 kg,936.0,1076.0,2 kg,1794.0,2063.0,2026-09-26T14:59:30.746052+00:00,v1.0
+70,DAI-010,Amul Fresh Cream,DAI,Dairy & Milk Products,Amul,Premium,ml,200 ml,85.0,98.0,13.0,13.27,200 ml,85.0,98.0,400 ml,163.0,187.0,500 ml,204.0,235.0,1 L,392.0,451.0,2 L,751.0,864.0,2026-09-26T14:59:30.746052+00:00,v1.0
+71,DAL-001,Tata Sampann Toor Dal,DAL,Pulses & Dal,Tata Sampann,Premium,g,500 g,96.0,110.0,14.0,12.73,500 g,96.0,110.0,1 kg,185.0,213.0,2 kg,354.0,407.0,5 kg,847.0,974.0,10 kg,1617.0,1860.0,2026-09-26T14:59:30.746052+00:00,v1.0
+72,DAL-002,Tata Sampann Moong Dal,DAL,Pulses & Dal,Tata Sampann,Premium,g,500 g,96.0,110.0,14.0,12.73,500 g,96.0,110.0,1 kg,185.0,213.0,2 kg,354.0,407.0,5 kg,847.0,974.0,10 kg,1617.0,1860.0,2026-09-26T14:59:30.746052+00:00,v1.0
+73,DAL-003,Tata Sampann Masoor Dal,DAL,Pulses & Dal,Tata Sampann,Premium,g,500 g,96.0,110.0,14.0,12.73,500 g,96.0,110.0,1 kg,185.0,213.0,2 kg,354.0,407.0,5 kg,847.0,974.0,10 kg,1617.0,1860.0,2026-09-26T14:59:30.746052+00:00,v1.0
+74,DAL-004,Fortune Chana Dal,DAL,Pulses & Dal,Fortune,Standard,g,500 g,88.0,101.0,13.0,12.87,500 g,88.0,101.0,1 kg,168.0,193.0,2 kg,322.0,370.0,5 kg,770.0,885.0,10 kg,1470.0,1690.0,2026-09-26T14:59:30.746052+00:00,v1.0
+75,DAL-005,Fortune Urad Dal,DAL,Pulses & Dal,Fortune,Standard,g,500 g,88.0,101.0,13.0,12.87,500 g,88.0,101.0,1 kg,168.0,193.0,2 kg,322.0,370.0,5 kg,770.0,885.0,10 kg,1470.0,1690.0,2026-09-26T14:59:30.746052+00:00,v1.0
+76,DAL-006,India Gate Moong Dal,DAL,Pulses & Dal,India Gate,Premium,g,500 g,98.0,113.0,15.0,13.27,500 g,98.0,113.0,1 kg,188.0,216.0,2 kg,361.0,415.0,5 kg,862.0,991.0,10 kg,1646.0,1893.0,2026-09-26T14:59:30.746052+00:00,v1.0
+77,DAL-007,India Gate Masoor Dal,DAL,Pulses & Dal,India Gate,Premium,g,500 g,98.0,113.0,15.0,13.27,500 g,98.0,113.0,1 kg,188.0,216.0,2 kg,361.0,415.0,5 kg,862.0,991.0,10 kg,1646.0,1893.0,2026-09-26T14:59:30.746052+00:00,v1.0
+78,DAL-008,Tata Sampann Rajma,DAL,Pulses & Dal,Tata Sampann,Premium,g,500 g,96.0,110.0,14.0,12.73,500 g,96.0,110.0,1 kg,185.0,213.0,2 kg,354.0,407.0,5 kg,847.0,974.0,10 kg,1617.0,1860.0,2026-09-26T14:59:30.746052+00:00,v1.0
+79,DAL-009,Tata Sampann Kabuli Chana,DAL,Pulses & Dal,Tata Sampann,Premium,g,500 g,96.0,110.0,14.0,12.73,500 g,96.0,110.0,1 kg,185.0,213.0,2 kg,354.0,407.0,5 kg,847.0,974.0,10 kg,1617.0,1860.0,2026-09-26T14:59:30.746052+00:00,v1.0
+80,DAL-010,Organic Tattva Moong Dal,DAL,Pulses & Dal,Organic Tattva,Premium,g,500 g,118.0,136.0,18.0,13.24,500 g,118.0,136.0,1 kg,227.0,261.0,2 kg,435.0,500.0,5 kg,1040.0,1196.0,10 kg,1985.0,2283.0,2026-09-26T14:59:30.746052+00:00,v1.0
+81,FLO-001,Aashirvaad Whole Wheat Atta,FLO,"Flour, Atta & Baking Essentials",Aashirvaad,Standard,g,500 g,34.0,39.0,5.0,12.82,500 g,34.0,39.0,1 kg,65.0,75.0,2 kg,125.0,144.0,5 kg,299.0,344.0,10 kg,571.0,657.0,2026-09-26T14:59:30.746052+00:00,v1.0
+82,FLO-002,Fortune Chakki Fresh Atta,FLO,"Flour, Atta & Baking Essentials",Fortune,Standard,g,500 g,34.0,39.0,5.0,12.82,500 g,34.0,39.0,1 kg,65.0,75.0,2 kg,125.0,144.0,5 kg,299.0,344.0,10 kg,571.0,657.0,2026-09-26T14:59:30.746052+00:00,v1.0
+83,FLO-003,Pillsbury Chakki Fresh Atta,FLO,"Flour, Atta & Baking Essentials",Pillsbury,Standard,g,500 g,34.0,39.0,5.0,12.82,500 g,34.0,39.0,1 kg,65.0,75.0,2 kg,125.0,144.0,5 kg,299.0,344.0,10 kg,571.0,657.0,2026-09-26T14:59:30.746052+00:00,v1.0
+84,FLO-004,Annapurna Atta,FLO,"Flour, Atta & Baking Essentials",Annapurna,Standard,g,500 g,34.0,39.0,5.0,12.82,500 g,34.0,39.0,1 kg,65.0,75.0,2 kg,125.0,144.0,5 kg,299.0,344.0,10 kg,571.0,657.0,2026-09-26T14:59:30.746052+00:00,v1.0
+85,FLO-005,Aashirvaad Multigrain Atta,FLO,"Flour, Atta & Baking Essentials",Aashirvaad,Premium,g,500 g,34.0,39.0,5.0,12.82,500 g,34.0,39.0,1 kg,65.0,75.0,2 kg,125.0,144.0,5 kg,299.0,344.0,10 kg,571.0,657.0,2026-09-26T14:59:30.746052+00:00,v1.0
+86,FLO-006,Tata Sampann Besan,FLO,"Flour, Atta & Baking Essentials",Tata Sampann,Premium,g,500 g,37.0,43.0,6.0,13.95,500 g,37.0,43.0,1 kg,72.0,83.0,2 kg,138.0,159.0,5 kg,329.0,378.0,10 kg,628.0,722.0,2026-09-26T14:59:30.746052+00:00,v1.0
+87,FLO-007,Fortune Maida,FLO,"Flour, Atta & Baking Essentials",Fortune,Standard,g,500 g,34.0,39.0,5.0,12.82,500 g,34.0,39.0,1 kg,65.0,75.0,2 kg,125.0,144.0,5 kg,299.0,344.0,10 kg,571.0,657.0,2026-09-26T14:59:30.746052+00:00,v1.0
+88,FLO-008,Rajdhani Besan,FLO,"Flour, Atta & Baking Essentials",Rajdhani,Standard,g,500 g,34.0,39.0,5.0,12.82,500 g,34.0,39.0,1 kg,65.0,75.0,2 kg,125.0,144.0,5 kg,299.0,344.0,10 kg,571.0,657.0,2026-09-26T14:59:30.746052+00:00,v1.0
+89,FLO-009,Pillsbury Maida,FLO,"Flour, Atta & Baking Essentials",Pillsbury,Standard,g,500 g,34.0,39.0,5.0,12.82,500 g,34.0,39.0,1 kg,65.0,75.0,2 kg,125.0,144.0,5 kg,299.0,344.0,10 kg,571.0,657.0,2026-09-26T14:59:30.746052+00:00,v1.0
+90,FLO-010,Baking Soda,FLO,"Flour, Atta & Baking Essentials",Weikfield,Standard,g,500 g,34.0,39.0,5.0,12.82,500 g,34.0,39.0,1 kg,65.0,75.0,2 kg,125.0,144.0,5 kg,299.0,344.0,10 kg,571.0,657.0,2026-09-26T14:59:30.746052+00:00,v1.0
+91,FRT-001,Apple,FRT,Fresh Fruits,Fresho,Premium,g,250 g,55.0,63.0,8.0,12.7,250 g,55.0,63.0,500 g,110.0,126.0,1 kg,220.0,253.0,2 kg,440.0,506.0,5 kg,1100.0,1265.0,2026-09-26T14:59:30.746052+00:00,v1.0
+92,FRT-002,Banana,FRT,Fresh Fruits,Fresho,Standard,dozen,1 dozen,35.0,40.0,5.0,12.5,1 dozen,35.0,40.0,2 dozen,70.0,81.0,4 dozen,140.0,161.0,6 dozen,210.0,241.0,12 dozen,420.0,483.0,2026-09-26T14:59:30.746052+00:00,v1.0
+93,FRT-003,Mango,FRT,Fresh Fruits,Fresho,Premium,g,250 g,40.0,46.0,6.0,13.04,250 g,40.0,46.0,500 g,80.0,92.0,1 kg,160.0,184.0,2 kg,320.0,368.0,5 kg,800.0,920.0,2026-09-26T14:59:30.746052+00:00,v1.0
+94,FRT-004,Orange,FRT,Fresh Fruits,Fresho,Standard,g,250 g,24.0,28.0,4.0,14.29,250 g,24.0,28.0,500 g,48.0,55.0,1 kg,95.0,109.0,2 kg,190.0,218.0,5 kg,475.0,546.0,2026-09-26T14:59:30.746052+00:00,v1.0
+95,FRT-005,Guava,FRT,Fresh Fruits,Fresho,Standard,g,250 g,21.0,24.0,3.0,12.5,250 g,21.0,24.0,500 g,42.0,48.0,1 kg,85.0,98.0,2 kg,170.0,195.0,5 kg,425.0,489.0,2026-09-26T14:59:30.746052+00:00,v1.0
+96,FRT-006,Papaya,FRT,Fresh Fruits,Fresho,Standard,g,250 g,16.0,18.0,2.0,11.11,250 g,16.0,18.0,500 g,32.0,37.0,1 kg,65.0,75.0,2 kg,130.0,150.0,5 kg,325.0,374.0,2026-09-26T14:59:30.746052+00:00,v1.0
+97,FRT-007,Pomegranate,FRT,Fresh Fruits,Fresho,Premium,g,250 g,55.0,63.0,8.0,12.7,250 g,55.0,63.0,500 g,110.0,126.0,1 kg,220.0,253.0,2 kg,440.0,506.0,5 kg,1100.0,1265.0,2026-09-26T14:59:30.746052+00:00,v1.0
+98,FRT-008,Watermelon,FRT,Fresh Fruits,Fresho,Standard,piece,1 piece,55.0,63.0,8.0,12.7,1 piece,55.0,63.0,2 piece,110.0,126.0,4 piece,220.0,253.0,6 piece,330.0,379.0,10 piece,550.0,633.0,2026-09-26T14:59:30.746052+00:00,v1.0
+99,FRT-009,Grapes,FRT,Fresh Fruits,Fresho,Premium,g,250 g,45.0,52.0,7.0,13.46,250 g,45.0,52.0,500 g,90.0,103.0,1 kg,180.0,207.0,2 kg,360.0,414.0,5 kg,900.0,1035.0,2026-09-26T14:59:30.746052+00:00,v1.0
+100,FRT-010,Pineapple,FRT,Fresh Fruits,Fresho,Standard,piece,1 piece,65.0,75.0,10.0,13.33,1 piece,65.0,75.0,2 piece,130.0,150.0,4 piece,260.0,299.0,6 piece,390.0,448.0,10 piece,650.0,747.0,2026-09-26T14:59:30.746052+00:00,v1.0
+101,HOU-001,Presto Garbage Bags,HOU,Household Essentials,Presto,Standard,g,50 g,48.0,55.0,7.0,12.73,50 g,48.0,55.0,100 g,56.0,64.0,250 g,80.0,92.0,500 g,120.0,138.0,1 kg,200.0,230.0,2026-09-26T14:59:30.746052+00:00,v1.0
+102,HOU-002,Origami Tissue Roll Pack,HOU,Household Essentials,Origami,Standard,g,50 g,48.0,55.0,7.0,12.73,50 g,48.0,55.0,100 g,56.0,64.0,250 g,80.0,92.0,500 g,120.0,138.0,1 kg,200.0,230.0,2026-09-26T14:59:30.746052+00:00,v1.0
+103,HOU-003,Freshwrap Aluminium Foil,HOU,Household Essentials,Freshwrap,Standard,g,50 g,48.0,55.0,7.0,12.73,50 g,48.0,55.0,100 g,56.0,64.0,250 g,80.0,92.0,500 g,120.0,138.0,1 kg,200.0,230.0,2026-09-26T14:59:30.746052+00:00,v1.0
+104,HOU-004,Freshwrap Cling Film,HOU,Household Essentials,Freshwrap,Standard,g,50 g,48.0,55.0,7.0,12.73,50 g,48.0,55.0,100 g,56.0,64.0,250 g,80.0,92.0,500 g,120.0,138.0,1 kg,200.0,230.0,2026-09-26T14:59:30.746052+00:00,v1.0
+105,HOU-005,Tupperware Storage Container,HOU,Household Essentials,Tupperware,Premium,piece,1 piece,90.0,103.0,13.0,12.62,1 piece,90.0,103.0,2 piece,148.0,170.0,4 piece,270.0,311.0,6 piece,378.0,435.0,10 piece,585.0,673.0,2026-09-26T14:59:30.746052+00:00,v1.0
+106,HOU-006,Milton Water Bottle,HOU,Household Essentials,Milton,Standard,g,50 g,48.0,55.0,7.0,12.73,50 g,48.0,55.0,100 g,56.0,64.0,250 g,80.0,92.0,500 g,120.0,138.0,1 kg,200.0,230.0,2026-09-26T14:59:30.746052+00:00,v1.0
+107,HOU-007,Cello Storage Container Set,HOU,Household Essentials,Cello,Standard,g,50 g,48.0,55.0,7.0,12.73,50 g,48.0,55.0,100 g,56.0,64.0,250 g,80.0,92.0,500 g,120.0,138.0,1 kg,200.0,230.0,2026-09-26T14:59:30.746052+00:00,v1.0
+108,HOU-008,Scotch-Brite Scrub Pad Pack,HOU,Household Essentials,Scotch-Brite,Standard,g,50 g,48.0,55.0,7.0,12.73,50 g,48.0,55.0,100 g,56.0,64.0,250 g,80.0,92.0,500 g,120.0,138.0,1 kg,200.0,230.0,2026-09-26T14:59:30.746052+00:00,v1.0
+109,HOU-009,Gala Floor Wiper,HOU,Household Essentials,Gala,Standard,piece,1 piece,90.0,103.0,13.0,12.62,1 piece,90.0,103.0,2 piece,148.0,170.0,4 piece,270.0,311.0,6 piece,378.0,435.0,10 piece,585.0,673.0,2026-09-26T14:59:30.746052+00:00,v1.0
+110,HOU-010,Pigeon Kitchen Storage Set,HOU,Household Essentials,Pigeon,Premium,g,50 g,48.0,55.0,7.0,12.73,50 g,48.0,55.0,100 g,56.0,64.0,250 g,80.0,92.0,500 g,120.0,138.0,1 kg,200.0,230.0,2026-09-26T14:59:30.746052+00:00,v1.0
+111,ICE-001,Amul Vanilla Ice Cream,ICE,Ice Cream & Frozen Desserts,Amul,Standard,ml,80 ml,36.0,41.0,5.0,12.2,80 ml,36.0,41.0,125 ml,52.0,60.0,250 ml,82.0,94.0,500 ml,120.0,138.0,1 L,218.0,251.0,2026-09-26T14:59:30.746052+00:00,v1.0
+112,ICE-002,Amul Chocolate Ice Cream,ICE,Ice Cream & Frozen Desserts,Amul,Standard,ml,80 ml,36.0,41.0,5.0,12.2,80 ml,36.0,41.0,125 ml,52.0,60.0,250 ml,82.0,94.0,500 ml,120.0,138.0,1 L,218.0,251.0,2026-09-26T14:59:30.746052+00:00,v1.0
+113,ICE-003,Kwality Wall's Cornetto,ICE,Ice Cream & Frozen Desserts,Kwality Wall's,Standard,ml,80 ml,48.0,55.0,7.0,12.73,80 ml,48.0,55.0,125 ml,69.0,79.0,250 ml,109.0,125.0,500 ml,160.0,184.0,1 L,291.0,335.0,2026-09-26T14:59:30.746052+00:00,v1.0
+114,ICE-004,Kwality Wall's Magnum Classic,ICE,Ice Cream & Frozen Desserts,Kwality Wall's,Premium,ml,80 ml,78.0,90.0,12.0,13.33,80 ml,78.0,90.0,125 ml,112.0,129.0,250 ml,177.0,204.0,500 ml,260.0,299.0,1 L,473.0,544.0,2026-09-26T14:59:30.746052+00:00,v1.0
+115,ICE-005,Havmor Butterscotch Ice Cream,ICE,Ice Cream & Frozen Desserts,Havmor,Standard,ml,80 ml,51.0,59.0,8.0,13.56,80 ml,51.0,59.0,125 ml,73.0,84.0,250 ml,116.0,133.0,500 ml,170.0,195.0,1 L,309.0,355.0,2026-09-26T14:59:30.746052+00:00,v1.0
+116,ICE-006,Havmor Mango Ice Cream,ICE,Ice Cream & Frozen Desserts,Havmor,Standard,ml,80 ml,51.0,59.0,8.0,13.56,80 ml,51.0,59.0,125 ml,73.0,84.0,250 ml,116.0,133.0,500 ml,170.0,195.0,1 L,309.0,355.0,2026-09-26T14:59:30.746052+00:00,v1.0
+117,ICE-007,Vadilal Kesar Pista Ice Cream,ICE,Ice Cream & Frozen Desserts,Vadilal,Standard,ml,80 ml,45.0,52.0,7.0,13.46,80 ml,45.0,52.0,125 ml,64.0,74.0,250 ml,102.0,117.0,500 ml,150.0,173.0,1 L,273.0,314.0,2026-09-26T14:59:30.746052+00:00,v1.0
+118,ICE-008,Naturals Tender Coconut Ice Cream,ICE,Ice Cream & Frozen Desserts,Naturals,Premium,ml,80 ml,66.0,76.0,10.0,13.16,80 ml,66.0,76.0,125 ml,95.0,109.0,250 ml,150.0,173.0,500 ml,220.0,253.0,1 L,400.0,460.0,2026-09-26T14:59:30.746052+00:00,v1.0
+119,ICE-009,Mother Dairy Strawberry Ice Cream,ICE,Ice Cream & Frozen Desserts,Mother Dairy,Standard,ml,80 ml,44.0,51.0,7.0,13.73,80 ml,44.0,51.0,125 ml,62.0,71.0,250 ml,99.0,114.0,500 ml,145.0,167.0,1 L,264.0,304.0,2026-09-26T14:59:30.746052+00:00,v1.0
+120,ICE-010,Amul Rajbhog Ice Cream,ICE,Ice Cream & Frozen Desserts,Amul,Premium,ml,80 ml,36.0,41.0,5.0,12.2,80 ml,36.0,41.0,125 ml,52.0,60.0,250 ml,82.0,94.0,500 ml,120.0,138.0,1 L,218.0,251.0,2026-09-26T14:59:30.746052+00:00,v1.0
+121,INS-001,Maggi 2-Minute Noodles,INS,Instant & Packaged Foods,Nestlé,Standard,g,50 g,10.0,12.0,2.0,16.67,50 g,10.0,12.0,100 g,18.0,21.0,250 g,42.0,48.0,500 g,80.0,92.0,1 kg,154.0,177.0,2026-09-26T14:59:30.746052+00:00,v1.0
+122,INS-002,Yippee Magic Masala Noodles,INS,Instant & Packaged Foods,Sunfeast,Standard,g,50 g,10.0,12.0,2.0,16.67,50 g,10.0,12.0,100 g,18.0,21.0,250 g,42.0,48.0,500 g,80.0,92.0,1 kg,154.0,177.0,2026-09-26T14:59:30.746052+00:00,v1.0
+123,INS-003,MTR Ready-to-Eat Poha,INS,Instant & Packaged Foods,MTR,Standard,g,50 g,14.0,16.0,2.0,12.5,50 g,14.0,16.0,100 g,29.0,33.0,250 g,68.0,78.0,500 g,130.0,150.0,1 kg,250.0,288.0,2026-09-26T14:59:30.746052+00:00,v1.0
+124,INS-004,MTR Ready-to-Eat Upma,INS,Instant & Packaged Foods,MTR,Premium,g,50 g,14.0,16.0,2.0,12.5,50 g,14.0,16.0,100 g,29.0,33.0,250 g,68.0,78.0,500 g,130.0,150.0,1 kg,250.0,288.0,2026-09-26T14:59:30.746052+00:00,v1.0
+125,INS-005,MTR Ready-to-Eat Rajma,INS,Instant & Packaged Foods,MTR,Premium,g,50 g,14.0,16.0,2.0,12.5,50 g,14.0,16.0,100 g,29.0,33.0,250 g,68.0,78.0,500 g,130.0,150.0,1 kg,250.0,288.0,2026-09-26T14:59:30.746052+00:00,v1.0
+126,INS-006,Tata Sampann Poha,INS,Instant & Packaged Foods,Tata Sampann,Standard,g,50 g,10.0,12.0,2.0,16.67,50 g,10.0,12.0,100 g,19.0,22.0,250 g,46.0,53.0,500 g,88.0,101.0,1 kg,169.0,194.0,2026-09-26T14:59:30.746052+00:00,v1.0
+127,INS-007,Saffola Masala Oats,INS,Instant & Packaged Foods,Saffola,Premium,g,50 g,10.0,12.0,2.0,16.67,50 g,10.0,12.0,100 g,21.0,24.0,250 g,49.0,56.0,500 g,94.0,108.0,1 kg,181.0,208.0,2026-09-26T14:59:30.746052+00:00,v1.0
+128,INS-008,Kellogg's Corn Flakes,INS,Instant & Packaged Foods,Kellogg's,Premium,g,50 g,14.0,16.0,2.0,12.5,50 g,14.0,16.0,100 g,29.0,33.0,250 g,68.0,78.0,500 g,130.0,150.0,1 kg,250.0,288.0,2026-09-26T14:59:30.746052+00:00,v1.0
+129,INS-009,Quaker Oats,INS,Instant & Packaged Foods,Quaker,Standard,g,50 g,15.0,17.0,2.0,11.76,50 g,15.0,17.0,100 g,31.0,36.0,250 g,73.0,84.0,500 g,140.0,161.0,1 kg,269.0,309.0,2026-09-26T14:59:30.746052+00:00,v1.0
+130,INS-010,Ching's Schezwan Noodles,INS,Instant & Packaged Foods,Ching's Secret,Standard,g,50 g,10.0,12.0,2.0,16.67,50 g,10.0,12.0,100 g,18.0,21.0,250 g,42.0,48.0,500 g,80.0,92.0,1 kg,154.0,177.0,2026-09-26T14:59:30.746052+00:00,v1.0
+131,OIL-001,Fortune Sunflower Oil,OIL,Cooking Oil & Ghee,Fortune,Standard,ml,500 ml,85.0,98.0,13.0,13.27,500 ml,85.0,98.0,1 L,163.0,187.0,2 L,313.0,360.0,5 L,748.0,860.0,15 L,2142.0,2463.0,2026-09-26T14:59:30.746052+00:00,v1.0
+132,OIL-002,Fortune Rice Bran Oil,OIL,Cooking Oil & Ghee,Fortune,Premium,ml,500 ml,85.0,98.0,13.0,13.27,500 ml,85.0,98.0,1 L,163.0,187.0,2 L,313.0,360.0,5 L,748.0,860.0,15 L,2142.0,2463.0,2026-09-26T14:59:30.746052+00:00,v1.0
+133,OIL-003,Saffola Gold Oil,OIL,Cooking Oil & Ghee,Saffola,Premium,ml,500 ml,100.0,115.0,15.0,13.04,500 ml,100.0,115.0,1 L,193.0,222.0,2 L,369.0,424.0,5 L,883.0,1015.0,15 L,2528.0,2907.0,2026-09-26T14:59:30.746052+00:00,v1.0
+134,OIL-004,Saffola Active Oil,OIL,Cooking Oil & Ghee,Saffola,Premium,ml,500 ml,100.0,115.0,15.0,13.04,500 ml,100.0,115.0,1 L,193.0,222.0,2 L,369.0,424.0,5 L,883.0,1015.0,15 L,2528.0,2907.0,2026-09-26T14:59:30.746052+00:00,v1.0
+135,OIL-005,Emami Healthy & Tasty Mustard Oil,OIL,Cooking Oil & Ghee,Emami,Standard,ml,500 ml,85.0,98.0,13.0,13.27,500 ml,85.0,98.0,1 L,163.0,187.0,2 L,313.0,360.0,5 L,748.0,860.0,15 L,2142.0,2463.0,2026-09-26T14:59:30.746052+00:00,v1.0
+136,OIL-006,Fortune Soyabean Oil,OIL,Cooking Oil & Ghee,Fortune,Standard,ml,500 ml,85.0,98.0,13.0,13.27,500 ml,85.0,98.0,1 L,163.0,187.0,2 L,313.0,360.0,5 L,748.0,860.0,15 L,2142.0,2463.0,2026-09-26T14:59:30.746052+00:00,v1.0
+137,OIL-007,Gemini Refined Sunflower Oil,OIL,Cooking Oil & Ghee,Gemini,Standard,ml,500 ml,85.0,98.0,13.0,13.27,500 ml,85.0,98.0,1 L,163.0,187.0,2 L,313.0,360.0,5 L,748.0,860.0,15 L,2142.0,2463.0,2026-09-26T14:59:30.746052+00:00,v1.0
+138,OIL-008,Dhara Mustard Oil,OIL,Cooking Oil & Ghee,Dhara,Standard,ml,500 ml,85.0,98.0,13.0,13.27,500 ml,85.0,98.0,1 L,163.0,187.0,2 L,313.0,360.0,5 L,748.0,860.0,15 L,2142.0,2463.0,2026-09-26T14:59:30.746052+00:00,v1.0
+139,OIL-009,Amul Pure Ghee,OIL,Cooking Oil & Ghee,Amul,Premium,ml,500 ml,408.0,469.0,61.0,13.01,500 ml,408.0,469.0,1 L,783.0,900.0,2 L,1501.0,1726.0,5 L,3590.0,4129.0,15 L,10282.0,11824.0,2026-09-26T14:59:30.746052+00:00,v1.0
+140,OIL-010,Patanjali Cow Ghee,OIL,Cooking Oil & Ghee,Patanjali,Premium,ml,500 ml,400.0,460.0,60.0,13.04,500 ml,400.0,460.0,1 L,768.0,883.0,2 L,1472.0,1693.0,5 L,3520.0,4048.0,15 L,10080.0,11592.0,2026-09-26T14:59:30.746052+00:00,v1.0
+141,ORL-001,Colgate Strong Teeth,ORL,Oral Care,Colgate,Standard,g,50 g,41.0,47.0,6.0,12.77,50 g,41.0,47.0,100 g,82.0,94.0,250 g,195.0,224.0,500 g,375.0,431.0,1 kg,720.0,828.0,2026-09-26T14:59:30.746052+00:00,v1.0
+142,ORL-002,Colgate MaxFresh,ORL,Oral Care,Colgate,Premium,g,50 g,41.0,47.0,6.0,12.77,50 g,41.0,47.0,100 g,82.0,94.0,250 g,195.0,224.0,500 g,375.0,431.0,1 kg,720.0,828.0,2026-09-26T14:59:30.746052+00:00,v1.0
+143,ORL-003,Colgate Visible White,ORL,Oral Care,Colgate,Premium,g,50 g,41.0,47.0,6.0,12.77,50 g,41.0,47.0,100 g,82.0,94.0,250 g,195.0,224.0,500 g,375.0,431.0,1 kg,720.0,828.0,2026-09-26T14:59:30.746052+00:00,v1.0
+144,ORL-004,Closeup Ever Fresh,ORL,Oral Care,Closeup,Standard,g,50 g,41.0,47.0,6.0,12.77,50 g,41.0,47.0,100 g,82.0,94.0,250 g,195.0,224.0,500 g,375.0,431.0,1 kg,720.0,828.0,2026-09-26T14:59:30.746052+00:00,v1.0
+145,ORL-005,Pepsodent Germicheck,ORL,Oral Care,Pepsodent,Standard,g,50 g,41.0,47.0,6.0,12.77,50 g,41.0,47.0,100 g,82.0,94.0,250 g,195.0,224.0,500 g,375.0,431.0,1 kg,720.0,828.0,2026-09-26T14:59:30.746052+00:00,v1.0
+146,ORL-006,Sensodyne Fresh Mint,ORL,Oral Care,Sensodyne,Premium,g,50 g,153.0,176.0,23.0,13.07,50 g,153.0,176.0,100 g,307.0,353.0,250 g,725.0,834.0,500 g,1395.0,1604.0,1 kg,2678.0,3080.0,2026-09-26T14:59:30.746052+00:00,v1.0
+147,ORL-007,Dabur Red Paste,ORL,Oral Care,Dabur,Standard,g,50 g,41.0,47.0,6.0,12.77,50 g,41.0,47.0,100 g,82.0,94.0,250 g,195.0,224.0,500 g,375.0,431.0,1 kg,720.0,828.0,2026-09-26T14:59:30.746052+00:00,v1.0
+148,ORL-008,Meswak Toothpaste,ORL,Oral Care,Dabur,Premium,g,50 g,41.0,47.0,6.0,12.77,50 g,41.0,47.0,100 g,82.0,94.0,250 g,195.0,224.0,500 g,375.0,431.0,1 kg,720.0,828.0,2026-09-26T14:59:30.746052+00:00,v1.0
+149,ORL-009,Colgate Kids,ORL,Oral Care,Colgate,Standard,g,50 g,58.0,67.0,9.0,13.43,50 g,58.0,67.0,100 g,116.0,133.0,250 g,273.0,314.0,500 g,525.0,604.0,1 kg,1008.0,1159.0,2026-09-26T14:59:30.746052+00:00,v1.0
+150,ORL-010,Oral-B Toothbrush Pack,ORL,Oral Care,Oral-B,Premium,g,50 g,25.0,29.0,4.0,13.79,50 g,25.0,29.0,100 g,50.0,57.0,250 g,117.0,135.0,500 g,225.0,259.0,1 kg,432.0,497.0,2026-09-26T14:59:30.746052+00:00,v1.0
+151,PCR-001,Sunsilk Shampoo,PCR,Personal Care,Sunsilk,Standard,ml,50 ml,33.0,38.0,5.0,13.16,50 ml,33.0,38.0,100 ml,66.0,76.0,250 ml,156.0,179.0,500 ml,300.0,345.0,1 L,576.0,662.0,2026-09-26T14:59:30.746052+00:00,v1.0
+152,PCR-002,Clinic Plus Shampoo,PCR,Personal Care,Clinic Plus,Standard,ml,50 ml,33.0,38.0,5.0,13.16,50 ml,33.0,38.0,100 ml,66.0,76.0,250 ml,156.0,179.0,500 ml,300.0,345.0,1 L,576.0,662.0,2026-09-26T14:59:30.746052+00:00,v1.0
+153,PCR-003,Dove Body Wash,PCR,Personal Care,Dove,Premium,ml,50 ml,30.0,35.0,5.0,14.29,50 ml,30.0,35.0,100 ml,61.0,70.0,250 ml,143.0,164.0,500 ml,275.0,316.0,1 L,528.0,607.0,2026-09-26T14:59:30.746052+00:00,v1.0
+154,PCR-004,Lux Soap,PCR,Personal Care,Lux,Standard,g,50 g,20.0,23.0,3.0,13.04,50 g,20.0,23.0,100 g,38.0,44.0,250 g,91.0,105.0,500 g,175.0,201.0,1 kg,336.0,386.0,2026-09-26T14:59:30.746052+00:00,v1.0
+155,PCR-005,Pears Soap,PCR,Personal Care,Pears,Premium,g,50 g,20.0,23.0,3.0,13.04,50 g,20.0,23.0,100 g,38.0,44.0,250 g,91.0,105.0,500 g,175.0,201.0,1 kg,336.0,386.0,2026-09-26T14:59:30.746052+00:00,v1.0
+156,PCR-006,Dettol Body Wash,PCR,Personal Care,Dettol,Premium,ml,50 ml,30.0,35.0,5.0,14.29,50 ml,30.0,35.0,100 ml,61.0,70.0,250 ml,143.0,164.0,500 ml,275.0,316.0,1 L,528.0,607.0,2026-09-26T14:59:30.746052+00:00,v1.0
+157,PCR-007,Nivea Body Lotion,PCR,Personal Care,Nivea,Premium,ml,50 ml,29.0,33.0,4.0,12.12,50 ml,29.0,33.0,100 ml,57.0,66.0,250 ml,135.0,155.0,500 ml,260.0,299.0,1 L,499.0,574.0,2026-09-26T14:59:30.746052+00:00,v1.0
+158,PCR-008,Vaseline Body Lotion,PCR,Personal Care,Vaseline,Standard,ml,50 ml,29.0,33.0,4.0,12.12,50 ml,29.0,33.0,100 ml,57.0,66.0,250 ml,135.0,155.0,500 ml,260.0,299.0,1 L,499.0,574.0,2026-09-26T14:59:30.746052+00:00,v1.0
+159,PCR-009,Himalaya Face Wash,PCR,Personal Care,Himalaya,Standard,ml,50 ml,40.0,46.0,6.0,13.04,50 ml,40.0,46.0,100 ml,79.0,91.0,250 ml,187.0,215.0,500 ml,360.0,414.0,1 L,691.0,795.0,2026-09-26T14:59:30.746052+00:00,v1.0
+160,PCR-010,Mamaearth Face Wash,PCR,Personal Care,Mamaearth,Premium,ml,50 ml,57.0,66.0,9.0,13.64,50 ml,57.0,66.0,100 ml,115.0,132.0,250 ml,271.0,312.0,500 ml,522.0,600.0,1 L,1002.0,1152.0,2026-09-26T14:59:30.746052+00:00,v1.0
+161,SNK-001,Lay's Classic Salted,SNK,Chips & Namkeen,Lay's,Standard,g,50 g,16.0,18.0,2.0,11.11,50 g,16.0,18.0,90 g,30.0,35.0,100 g,33.0,38.0,200 g,62.0,71.0,400 g,120.0,138.0,2026-09-26T14:59:30.746052+00:00,v1.0
+162,SNK-002,Lay's Magic Masala,SNK,Chips & Namkeen,Lay's,Standard,g,50 g,16.0,18.0,2.0,11.11,50 g,16.0,18.0,90 g,30.0,35.0,100 g,33.0,38.0,200 g,62.0,71.0,400 g,120.0,138.0,2026-09-26T14:59:30.746052+00:00,v1.0
+163,SNK-003,Lay's Cream & Onion,SNK,Chips & Namkeen,Lay's,Standard,g,50 g,16.0,18.0,2.0,11.11,50 g,16.0,18.0,90 g,30.0,35.0,100 g,33.0,38.0,200 g,62.0,71.0,400 g,120.0,138.0,2026-09-26T14:59:30.746052+00:00,v1.0
+164,SNK-004,Bingo Original Style,SNK,Chips & Namkeen,Bingo,Standard,g,50 g,16.0,18.0,2.0,11.11,50 g,16.0,18.0,90 g,30.0,35.0,100 g,33.0,38.0,200 g,62.0,71.0,400 g,120.0,138.0,2026-09-26T14:59:30.746052+00:00,v1.0
+165,SNK-005,Kurkure Masala Munch,SNK,Chips & Namkeen,Kurkure,Standard,g,50 g,16.0,18.0,2.0,11.11,50 g,16.0,18.0,90 g,30.0,35.0,100 g,33.0,38.0,200 g,62.0,71.0,400 g,120.0,138.0,2026-09-26T14:59:30.746052+00:00,v1.0
+166,SNK-006,Haldiram's Aloo Bhujia,SNK,Chips & Namkeen,Haldiram's,Standard,g,50 g,16.0,18.0,2.0,11.11,50 g,16.0,18.0,90 g,30.0,35.0,100 g,33.0,38.0,200 g,62.0,71.0,400 g,120.0,138.0,2026-09-26T14:59:30.746052+00:00,v1.0
+167,SNK-007,Haldiram's Moong Dal,SNK,Chips & Namkeen,Haldiram's,Standard,g,50 g,16.0,18.0,2.0,11.11,50 g,16.0,18.0,90 g,30.0,35.0,100 g,33.0,38.0,200 g,62.0,71.0,400 g,120.0,138.0,2026-09-26T14:59:30.746052+00:00,v1.0
+168,SNK-008,Bikaji Bikaneri Bhujia,SNK,Chips & Namkeen,Bikaji,Standard,g,50 g,16.0,18.0,2.0,11.11,50 g,16.0,18.0,90 g,30.0,35.0,100 g,33.0,38.0,200 g,62.0,71.0,400 g,120.0,138.0,2026-09-26T14:59:30.746052+00:00,v1.0
+169,SNK-009,Uncle Chipps Plain Salted,SNK,Chips & Namkeen,Uncle Chipps,Standard,g,50 g,16.0,18.0,2.0,11.11,50 g,16.0,18.0,90 g,30.0,35.0,100 g,33.0,38.0,200 g,62.0,71.0,400 g,120.0,138.0,2026-09-26T14:59:30.746052+00:00,v1.0
+170,SNK-010,Balaji Wafers Masala,SNK,Chips & Namkeen,Balaji,Standard,g,50 g,16.0,18.0,2.0,11.11,50 g,16.0,18.0,90 g,30.0,35.0,100 g,33.0,38.0,200 g,62.0,71.0,400 g,120.0,138.0,2026-09-26T14:59:30.746052+00:00,v1.0
+171,STP-001,India Gate Basmati Rice,STP,Rice & Staples,India Gate,Premium,g,500 g,40.0,46.0,6.0,13.04,500 g,40.0,46.0,1 kg,77.0,89.0,2 kg,148.0,170.0,5 kg,355.0,408.0,10 kg,677.0,779.0,2026-09-26T14:59:30.746052+00:00,v1.0
+172,STP-002,Daawat Basmati Rice,STP,Rice & Staples,Daawat,Premium,g,500 g,40.0,46.0,6.0,13.04,500 g,40.0,46.0,1 kg,76.0,87.0,2 kg,146.0,168.0,5 kg,348.0,400.0,10 kg,665.0,765.0,2026-09-26T14:59:30.746052+00:00,v1.0
+173,STP-003,Fortune Rozana Rice,STP,Rice & Staples,Fortune,Standard,g,500 g,36.0,41.0,5.0,12.2,500 g,36.0,41.0,1 kg,69.0,79.0,2 kg,132.0,152.0,5 kg,317.0,365.0,10 kg,605.0,696.0,2026-09-26T14:59:30.746052+00:00,v1.0
+174,STP-004,Gobindobhog Rice,STP,Rice & Staples,Local Premium,Premium,g,500 g,36.0,41.0,5.0,12.2,500 g,36.0,41.0,1 kg,69.0,79.0,2 kg,132.0,152.0,5 kg,317.0,365.0,10 kg,605.0,696.0,2026-09-26T14:59:30.746052+00:00,v1.0
+175,STP-005,India Gate Dubar Rice,STP,Rice & Staples,India Gate,Standard,g,500 g,40.0,46.0,6.0,13.04,500 g,40.0,46.0,1 kg,77.0,89.0,2 kg,148.0,170.0,5 kg,355.0,408.0,10 kg,677.0,779.0,2026-09-26T14:59:30.746052+00:00,v1.0
+176,STP-006,Daawat Sona Masuri Rice,STP,Rice & Staples,Daawat,Standard,g,500 g,40.0,46.0,6.0,13.04,500 g,40.0,46.0,1 kg,76.0,87.0,2 kg,146.0,168.0,5 kg,348.0,400.0,10 kg,665.0,765.0,2026-09-26T14:59:30.746052+00:00,v1.0
+177,STP-007,Lal Qilla Basmati Rice,STP,Rice & Staples,Lal Qilla,Premium,g,500 g,36.0,41.0,5.0,12.2,500 g,36.0,41.0,1 kg,69.0,79.0,2 kg,132.0,152.0,5 kg,317.0,365.0,10 kg,605.0,696.0,2026-09-26T14:59:30.746052+00:00,v1.0
+178,STP-008,Fortune Everyday Rice,STP,Rice & Staples,Fortune,Standard,g,500 g,36.0,41.0,5.0,12.2,500 g,36.0,41.0,1 kg,69.0,79.0,2 kg,132.0,152.0,5 kg,317.0,365.0,10 kg,605.0,696.0,2026-09-26T14:59:30.746052+00:00,v1.0
+179,STP-009,Kohinoor Basmati Rice,STP,Rice & Staples,Kohinoor,Premium,g,500 g,36.0,41.0,5.0,12.2,500 g,36.0,41.0,1 kg,69.0,79.0,2 kg,132.0,152.0,5 kg,317.0,365.0,10 kg,605.0,696.0,2026-09-26T14:59:30.746052+00:00,v1.0
+180,STP-010,Miniket Rice,STP,Rice & Staples,Local,Standard,g,500 g,36.0,41.0,5.0,12.2,500 g,36.0,41.0,1 kg,69.0,79.0,2 kg,132.0,152.0,5 kg,317.0,365.0,10 kg,605.0,696.0,2026-09-26T14:59:30.746052+00:00,v1.0
+181,TEA-001,Tata Tea Gold,TEA,Tea & Coffee,Tata Tea,Premium,g,50 g,29.0,33.0,4.0,12.12,50 g,29.0,33.0,100 g,57.0,66.0,250 g,135.0,155.0,500 g,260.0,299.0,1 kg,499.0,574.0,2026-09-26T14:59:30.746052+00:00,v1.0
+182,TEA-002,Tata Tea Premium,TEA,Tea & Coffee,Tata Tea,Standard,g,50 g,29.0,33.0,4.0,12.12,50 g,29.0,33.0,100 g,57.0,66.0,250 g,135.0,155.0,500 g,260.0,299.0,1 kg,499.0,574.0,2026-09-26T14:59:30.746052+00:00,v1.0
+183,TEA-003,Brooke Bond Red Label,TEA,Tea & Coffee,Brooke Bond,Standard,g,50 g,29.0,33.0,4.0,12.12,50 g,29.0,33.0,100 g,57.0,66.0,250 g,135.0,155.0,500 g,260.0,299.0,1 kg,499.0,574.0,2026-09-26T14:59:30.746052+00:00,v1.0
+184,TEA-004,Brooke Bond Taj Mahal,TEA,Tea & Coffee,Brooke Bond,Premium,g,50 g,29.0,33.0,4.0,12.12,50 g,29.0,33.0,100 g,57.0,66.0,250 g,135.0,155.0,500 g,260.0,299.0,1 kg,499.0,574.0,2026-09-26T14:59:30.746052+00:00,v1.0
+185,TEA-005,Society Tea,TEA,Tea & Coffee,Society,Standard,g,50 g,29.0,33.0,4.0,12.12,50 g,29.0,33.0,100 g,57.0,66.0,250 g,135.0,155.0,500 g,260.0,299.0,1 kg,499.0,574.0,2026-09-26T14:59:30.746052+00:00,v1.0
+186,TEA-006,Wagh Bakri Premium Tea,TEA,Tea & Coffee,Wagh Bakri,Premium,g,50 g,29.0,33.0,4.0,12.12,50 g,29.0,33.0,100 g,57.0,66.0,250 g,135.0,155.0,500 g,260.0,299.0,1 kg,499.0,574.0,2026-09-26T14:59:30.746052+00:00,v1.0
+187,TEA-007,Nescafé Classic,TEA,Tea & Coffee,Nescafé,Standard,g,50 g,29.0,33.0,4.0,12.12,50 g,29.0,33.0,100 g,57.0,66.0,250 g,135.0,155.0,500 g,260.0,299.0,1 kg,499.0,574.0,2026-09-26T14:59:30.746052+00:00,v1.0
+188,TEA-008,Nescafé Sunrise,TEA,Tea & Coffee,Nescafé,Standard,g,50 g,29.0,33.0,4.0,12.12,50 g,29.0,33.0,100 g,57.0,66.0,250 g,135.0,155.0,500 g,260.0,299.0,1 kg,499.0,574.0,2026-09-26T14:59:30.746052+00:00,v1.0
+189,TEA-009,Bru Instant Coffee,TEA,Tea & Coffee,Bru,Standard,g,50 g,121.0,139.0,18.0,12.95,50 g,121.0,139.0,100 g,242.0,278.0,250 g,572.0,658.0,500 g,1100.0,1265.0,1 kg,2112.0,2429.0,2026-09-26T14:59:30.746052+00:00,v1.0
+190,TEA-010,Tata Coffee Grand,TEA,Tea & Coffee,Tata Coffee,Premium,g,50 g,91.0,105.0,14.0,13.33,50 g,91.0,105.0,100 g,182.0,209.0,250 g,429.0,493.0,500 g,825.0,949.0,1 kg,1584.0,1822.0,2026-09-26T14:59:30.746052+00:00,v1.0
+191,VEG-001,Potato,VEG,Fresh Vegetables,Fresho,Standard,g,250 g,10.0,12.0,2.0,16.67,250 g,10.0,12.0,500 g,16.0,18.0,1 kg,32.0,37.0,2 kg,64.0,74.0,5 kg,160.0,184.0,2026-09-26T14:59:30.746052+00:00,v1.0
+192,VEG-002,Tomato,VEG,Fresh Vegetables,Fresho,Standard,g,250 g,12.0,14.0,2.0,14.29,250 g,12.0,14.0,500 g,24.0,28.0,1 kg,48.0,55.0,2 kg,96.0,110.0,5 kg,240.0,276.0,2026-09-26T14:59:30.746052+00:00,v1.0
+193,VEG-003,Onion,VEG,Fresh Vegetables,Fresho,Standard,g,250 g,13.0,15.0,2.0,13.33,250 g,13.0,15.0,500 g,26.0,30.0,1 kg,52.0,60.0,2 kg,104.0,120.0,5 kg,260.0,299.0,2026-09-26T14:59:30.746052+00:00,v1.0
+194,VEG-004,Green Peas,VEG,Fresh Vegetables,Fresho,Premium,g,100 g,14.0,16.0,2.0,12.5,100 g,14.0,16.0,250 g,35.0,40.0,500 g,70.0,81.0,1 kg,140.0,161.0,2 kg,280.0,322.0,2026-09-26T14:59:30.746052+00:00,v1.0
+195,VEG-005,Cauliflower,VEG,Fresh Vegetables,Fresho,Standard,piece,1 piece,50.0,57.0,7.0,12.28,1 piece,50.0,57.0,2 piece,100.0,115.0,4 piece,200.0,230.0,6 piece,300.0,345.0,10 piece,500.0,575.0,2026-09-26T14:59:30.746052+00:00,v1.0
+196,VEG-006,Spinach,VEG,Fresh Vegetables,Fresho,Standard,g,100 g,10.0,12.0,2.0,16.67,100 g,10.0,12.0,250 g,25.0,29.0,500 g,50.0,57.0,1 kg,100.0,115.0,2 kg,200.0,230.0,2026-09-26T14:59:30.746052+00:00,v1.0
+197,VEG-007,Carrot,VEG,Fresh Vegetables,Fresho,Standard,g,100 g,10.0,12.0,2.0,16.67,100 g,10.0,12.0,250 g,18.0,21.0,500 g,35.0,40.0,1 kg,70.0,81.0,2 kg,140.0,161.0,2026-09-26T14:59:30.746052+00:00,v1.0
+198,VEG-008,Cucumber,VEG,Fresh Vegetables,Fresho,Standard,g,100 g,10.0,12.0,2.0,16.67,100 g,10.0,12.0,250 g,15.0,17.0,500 g,30.0,35.0,1 kg,60.0,69.0,2 kg,120.0,138.0,2026-09-26T14:59:30.746052+00:00,v1.0
+199,VEG-009,Green Chilli,VEG,Fresh Vegetables,Fresho,Standard,g,100 g,14.0,16.0,2.0,12.5,100 g,14.0,16.0,250 g,35.0,40.0,500 g,70.0,81.0,1 kg,140.0,161.0,2 kg,280.0,322.0,2026-09-26T14:59:30.746052+00:00,v1.0
+200,VEG-010,Brinjal,VEG,Fresh Vegetables,Fresho,Standard,g,100 g,10.0,12.0,2.0,16.67,100 g,10.0,12.0,250 g,16.0,18.0,500 g,32.0,37.0,1 kg,65.0,75.0,2 kg,130.0,150.0,2026-09-26T14:59:30.746052+00:00,v1.0

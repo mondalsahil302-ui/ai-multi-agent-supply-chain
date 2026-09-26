@@ -1,18 +1,17 @@
-dataset_name,input_file,output_file,input_rows,output_rows,quarantined_rows,transformations_applied,validation_failures,status,notes
-Product Master,stg_product_master.csv,std_product_master.csv,200,200,0,"Identifier trimming, text whitespace normalization, price/size rounding (2 decimals)",0,PASS,200 products standardized with preserved lineage
-Location Master,stg_location_master.csv,std_location_master.csv,40,40,0,"Identifier trimming, region text normalization, canonical city mapping",0,PASS,40 Kolkata planning regions standardized
-Warehouse Master,stg_warehouse_master.csv,std_warehouse_master.csv,15,15,0,"Preserved canonical IDs, standardized operating times to HH:MM:SS, rounded GPS coordinates to 6 decimals, integer cast fleet metrics",0,PASS,15 facilities standardized
-Warehouse-Picker,stg_warehouse_picker_mapping.csv,std_warehouse_picker_mapping.csv,750,750,0,"Identifier trimming, preserved 1-to-1 facility assignment cardinality",0,PASS,750 pickers standardized across 15 warehouses
-Inventory Position,stg_inventory_position.csv,std_inventory_position.csv,3000,3000,0,"Identifier trimming, snapshot date standardization (YYYY-MM-DD), boolean flag normalization, prices rounded to 2 decimals, integer quantity casting",0,PASS,"3,000 inventory positions standardized"
-Storage Assignment,stg_storage_assignment.csv,std_storage_assignment.csv,3000,3000,0,"Slot coordinate trimming, integer capacity casting, maintained warehouse+product grain",0,PASS,"3,000 slots standardized"
-Shelf Master,stg_shelf_master.csv,std_shelf_master.csv,600,600,0,"Identifier trimming, capacity integer casting, percentage rounded to 2 decimals",0,PASS,600 physical shelves standardized
-Supplier Master,stg_supplier_master.csv,std_supplier_master.csv,200,200,0,"Identifier trimming, supplier metadata whitespace cleaning, GPS rounded to 6 decimals, capacity/lead-time integer casting",0,PASS,200 suppliers standardized
-Supplier-Product Catalog,stg_supplier_product_catalog.csv,std_supplier_product_catalog.csv,8000,8000,0,"Identifier trimming, text whitespace normalization, supplier cost price rounded to 2 decimal places",0,PASS,"8,000 catalog lines standardized"
-Supplier Area Options,stg_supplier_area_options.csv,N/A,0,0,0,N/A,0,NOT_AVAILABLE,Dataset not available in staging
-Weather Weekly,stg_weather_weekly.csv,std_weather_weekly.csv,105,105,0,"Date formatting (YYYY-MM-DD), environmental temperatures, rainfall and humidity rounded to 2 decimals, weather condition cleaned",0,PASS,105 weekly observations standardized
-Festival Calendar,stg_festival_calendar.csv,std_festival_calendar.csv,36,36,0,"Event title whitespace normalization, date standardization to YYYY-MM-DD",0,PASS,36 festival event dates standardized
-Calendar Week,stg_calendar_week.csv,std_calendar_week.csv,139,139,0,"Week identifier trimming, boundary date formatting (YYYY-MM-DD), integer casting calendar parts",0,PASS,139 planning weeks standardized
-Sales/Demand,stg_sales_demand.csv,std_sales_demand.csv,1112000,1112000,0,"Vectorized boolean standardization, price/currency rounding to 2 decimals, integer quantity formatting, metadata preservation across 12 chunks",0,PASS,"Streamed 1,112,000 records safely (530.50 MB)"
-Inventory Transactions,stg_inventory_transactions.csv,N/A,0,0,0,N/A,0,NOT_AVAILABLE,Dataset not available in staging; no synthetic data fabricated
-Vehicle Master,stg_vehicle_master.csv,N/A,0,0,0,N/A,0,NOT_AVAILABLE,Dataset not available in staging; no synthetic data fabricated
-Order Master,stg_order.csv,N/A,0,0,0,N/A,0,NOT_AVAILABLE,Dataset not available in staging; no synthetic data fabricated
+dataset,staging_file,standardized_file,input_records,standardized_records,quarantined_records,status
+product_master,stg_product_master.csv,std_product_master.csv,200,200,0,STANDARDIZED
+location_master,stg_location_master.csv,std_location_master.csv,40,40,0,STANDARDIZED
+warehouse_master,stg_warehouse_master.csv,std_warehouse_master.csv,15,15,0,STANDARDIZED
+warehouse_picker_mapping,stg_warehouse_picker_mapping.csv,std_warehouse_picker_mapping.csv,750,750,0,STANDARDIZED
+inventory_position,stg_inventory_position.csv,std_inventory_position.csv,3000,3000,0,STANDARDIZED
+storage_assignment,stg_storage_assignment.csv,std_storage_assignment.csv,3000,3000,0,STANDARDIZED
+shelf_master,stg_shelf_master.csv,std_shelf_master.csv,600,600,0,STANDARDIZED
+supplier_master,stg_supplier_master.csv,std_supplier_master.csv,200,200,0,STANDARDIZED
+supplier_product_catalog,stg_supplier_product_catalog.csv,std_supplier_product_catalog.csv,8000,8000,0,STANDARDIZED
+weather_weekly,stg_weather_weekly.csv,std_weather_weekly.csv,105,105,0,STANDARDIZED
+festival_calendar,stg_festival_calendar.csv,std_festival_calendar.csv,36,36,0,STANDARDIZED
+calendar_week,stg_calendar_week.csv,std_calendar_week.csv,139,139,0,STANDARDIZED
+sales_demand,stg_sales_demand.csv,std_sales_demand.csv,1112000,1112000,0,STANDARDIZED
+inventory_transactions,NONE,NONE,0,0,0,NOT_AVAILABLE
+vehicle_master,NONE,NONE,0,0,0,NOT_AVAILABLE
+order,NONE,NONE,0,0,0,NOT_AVAILABLE
