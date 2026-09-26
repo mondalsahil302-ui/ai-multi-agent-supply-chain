@@ -1,0 +1,20 @@
+child_table,fk_column,parent_table,pk_column,total_rows,resolved_rows,orphan_rows,match_rate_pct,status
+dim_product_variant,dim_product_key,dim_product,dim_product_key,1000,1000,0,100.0,PASSED
+dim_picker,dim_warehouse_key,dim_warehouse,dim_warehouse_key,750,750,0,100.0,PASSED
+dim_supplier,dim_location_key,dim_location,dim_location_key,200,200,0,100.0,PASSED
+dim_festival,dim_calendar_key,dim_calendar,dim_calendar_key,36,36,0,100.0,PASSED
+bridge_warehouse_picker,dim_warehouse_key,dim_warehouse,dim_warehouse_key,750,750,0,100.0,PASSED
+bridge_warehouse_picker,dim_picker_key,dim_picker,dim_picker_key,750,750,0,100.0,PASSED
+bridge_storage_assignment,dim_warehouse_key,dim_warehouse,dim_warehouse_key,3000,3000,0,100.0,PASSED
+bridge_storage_assignment,dim_product_key,dim_product,dim_product_key,3000,3000,0,100.0,PASSED
+bridge_supplier_product,dim_supplier_key,dim_supplier,dim_supplier_key,8000,8000,0,100.0,PASSED
+bridge_supplier_product,dim_product_key,dim_product,dim_product_key,8000,8000,0,100.0,PASSED
+bridge_warehouse_location,dim_warehouse_key,dim_warehouse,dim_warehouse_key,600,600,0,100.0,PASSED
+bridge_warehouse_location,dim_location_key,dim_location,dim_location_key,600,600,0,100.0,PASSED
+bridge_supplier_warehouse,dim_supplier_key,dim_supplier,dim_supplier_key,3000,3000,0,100.0,PASSED
+bridge_supplier_warehouse,dim_warehouse_key,dim_warehouse,dim_warehouse_key,3000,3000,0,100.0,PASSED
+fact_inventory_position,dim_warehouse_key,dim_warehouse,dim_warehouse_key,3000,3000,0,100.0,PASSED
+fact_inventory_position,dim_product_key,dim_product,dim_product_key,3000,3000,0,100.0,PASSED
+fact_sales_demand (sample),dim_calendar_key,dim_calendar,dim_calendar_key,100000,100000,0,100.0,PASSED
+fact_sales_demand (sample),dim_location_key,dim_location,dim_location_key,100000,100000,0,100.0,PASSED
+fact_sales_demand (sample),dim_product_key,dim_product,dim_product_key,100000,100000,0,100.0,PASSED

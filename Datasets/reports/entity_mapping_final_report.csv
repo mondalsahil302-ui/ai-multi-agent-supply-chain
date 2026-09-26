@@ -1,0 +1,17 @@
+table_name,entity_type,row_count,col_count,primary_key,natural_key,status
+dim_product,Dimension,200,30,dim_product_key,product_id,CURATED_VALIDATED
+dim_product_variant,Dimension,1000,12,dim_variant_key,variant_id,CURATED_VALIDATED
+dim_location,Dimension,40,8,dim_location_key,location_id,CURATED_VALIDATED
+dim_warehouse,Dimension,15,22,dim_warehouse_key,warehouse_id,CURATED_VALIDATED
+dim_picker,Dimension,750,6,dim_picker_key,picker_id,CURATED_VALIDATED
+dim_supplier,Dimension,200,23,dim_supplier_key,supplier_id,CURATED_VALIDATED
+dim_calendar,Dimension,139,10,dim_calendar_key,week_id,CURATED_VALIDATED
+dim_weather,Dimension,105,14,dim_weather_key,week_start_date,CURATED_VALIDATED
+dim_festival,Dimension,36,8,dim_festival_key,event_date,CURATED_VALIDATED
+bridge_warehouse_picker,Bridge,750,7,warehouse_picker_key,"warehouse_id,picker_id",CURATED_VALIDATED
+bridge_storage_assignment,Bridge,3000,14,storage_assignment_key,"warehouse_id,shelf_id,slot_no",CURATED_VALIDATED
+bridge_supplier_product,Bridge,8000,12,supplier_product_catalog_key,supplier_product_key,CURATED_VALIDATED
+bridge_warehouse_location,Bridge,600,10,warehouse_location_key,"warehouse_id,location_id",CURATED_VALIDATED
+bridge_supplier_warehouse,Bridge,3000,9,supplier_warehouse_key,"supplier_id,warehouse_id",CURATED_VALIDATED
+fact_inventory_position,Fact,3000,32,inventory_fact_key,"warehouse_id,product_id,snapshot_date",CURATED_VALIDATED
+fact_sales_demand,Fact,1112000,30,sales_fact_key,region_product_week_key,CURATED_VALIDATED
