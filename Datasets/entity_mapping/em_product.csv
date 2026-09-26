@@ -1,201 +1,201 @@
 canonical_product_id,category_code,category_name,product_name,brand,unit_type,mapping_status,mapping_source,mapping_ts,mapping_version
-ICE-001,ICE,Ice Cream & Frozen Desserts,Amul Vanilla Ice Cream,Amul,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ICE-002,ICE,Ice Cream & Frozen Desserts,Amul Chocolate Ice Cream,Amul,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ICE-003,ICE,Ice Cream & Frozen Desserts,Kwality Wall's Cornetto,Kwality Wall's,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ICE-004,ICE,Ice Cream & Frozen Desserts,Kwality Wall's Magnum Classic,Kwality Wall's,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ICE-005,ICE,Ice Cream & Frozen Desserts,Havmor Butterscotch Ice Cream,Havmor,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ICE-006,ICE,Ice Cream & Frozen Desserts,Havmor Mango Ice Cream,Havmor,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ICE-007,ICE,Ice Cream & Frozen Desserts,Vadilal Kesar Pista Ice Cream,Vadilal,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ICE-008,ICE,Ice Cream & Frozen Desserts,Naturals Tender Coconut Ice Cream,Naturals,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ICE-009,ICE,Ice Cream & Frozen Desserts,Mother Dairy Strawberry Ice Cream,Mother Dairy,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ICE-010,ICE,Ice Cream & Frozen Desserts,Amul Rajbhog Ice Cream,Amul,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CHO-001,CHO,Chocolates & Confectionery,Cadbury Dairy Milk,Cadbury,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CHO-002,CHO,Chocolates & Confectionery,Cadbury 5 Star,Cadbury,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CHO-003,CHO,Chocolates & Confectionery,Cadbury Silk,Cadbury,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CHO-004,CHO,Chocolates & Confectionery,Cadbury Perk,Cadbury,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CHO-005,CHO,Chocolates & Confectionery,Nestlé KitKat,Nestlé,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CHO-006,CHO,Chocolates & Confectionery,Nestlé Munch,Nestlé,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CHO-007,CHO,Chocolates & Confectionery,Amul Dark Chocolate,Amul,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CHO-008,CHO,Chocolates & Confectionery,Ferrero Rocher,Ferrero,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CHO-009,CHO,Chocolates & Confectionery,Cadbury Gems,Cadbury,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CHO-010,CHO,Chocolates & Confectionery,Parle Melody Toffee Pack,Parle,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-SNK-001,SNK,Chips & Namkeen,Lay's Classic Salted,Lay's,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-SNK-002,SNK,Chips & Namkeen,Lay's Magic Masala,Lay's,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-SNK-003,SNK,Chips & Namkeen,Lay's Cream & Onion,Lay's,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-SNK-004,SNK,Chips & Namkeen,Bingo Original Style,Bingo,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-SNK-005,SNK,Chips & Namkeen,Kurkure Masala Munch,Kurkure,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-SNK-006,SNK,Chips & Namkeen,Haldiram's Aloo Bhujia,Haldiram's,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-SNK-007,SNK,Chips & Namkeen,Haldiram's Moong Dal,Haldiram's,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-SNK-008,SNK,Chips & Namkeen,Bikaji Bikaneri Bhujia,Bikaji,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-SNK-009,SNK,Chips & Namkeen,Uncle Chipps Plain Salted,Uncle Chipps,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-SNK-010,SNK,Chips & Namkeen,Balaji Wafers Masala,Balaji,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BEV-001,BEV,Soft Drinks & Beverages,Coca-Cola,Coca-Cola,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BEV-002,BEV,Soft Drinks & Beverages,Thums Up,Coca-Cola,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BEV-003,BEV,Soft Drinks & Beverages,Sprite,Coca-Cola,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BEV-004,BEV,Soft Drinks & Beverages,Limca,Coca-Cola,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BEV-005,BEV,Soft Drinks & Beverages,Fanta Orange,Coca-Cola,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BEV-006,BEV,Soft Drinks & Beverages,Maaza Mango,Coca-Cola,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BEV-007,BEV,Soft Drinks & Beverages,Frooti Mango,Parle Agro,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BEV-008,BEV,Soft Drinks & Beverages,Paper Boat Aam Panna,Paper Boat,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BEV-009,BEV,Soft Drinks & Beverages,Red Bull Energy Drink,Red Bull,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BEV-010,BEV,Soft Drinks & Beverages,Kinley Mineral Water,Kinley,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAI-001,DAI,Dairy & Milk Products,Amul Full Cream Milk,Amul,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAI-002,DAI,Dairy & Milk Products,Amul Taaza Toned Milk,Amul,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAI-003,DAI,Dairy & Milk Products,Mother Dairy Toned Milk,Mother Dairy,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAI-004,DAI,Dairy & Milk Products,Amul Masti Dahi,Amul,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAI-005,DAI,Dairy & Milk Products,Mother Dairy Curd,Mother Dairy,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAI-006,DAI,Dairy & Milk Products,Amul Butter,Amul,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAI-007,DAI,Dairy & Milk Products,Amul Paneer,Amul,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAI-008,DAI,Dairy & Milk Products,Amul Cheese Slices,Amul,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAI-009,DAI,Dairy & Milk Products,Epigamia Greek Yogurt,Epigamia,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAI-010,DAI,Dairy & Milk Products,Amul Fresh Cream,Amul,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAK-001,BAK,Bread & Bakery,Britannia White Bread,Britannia,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAK-002,BAK,Bread & Bakery,Britannia Brown Bread,Britannia,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAK-003,BAK,Bread & Bakery,Modern Milk Bread,Modern,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAK-004,BAK,Bread & Bakery,Harvest Gold White Bread,Harvest Gold,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAK-005,BAK,Bread & Bakery,Britannia Fruit Cake,Britannia,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAK-006,BAK,Bread & Bakery,Monginis Chocolate Cake,Monginis,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAK-007,BAK,Bread & Bakery,Monginis Cream Roll,Monginis,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAK-008,BAK,Bread & Bakery,Modern Sandwich Bread,Modern,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAK-009,BAK,Bread & Bakery,Britannia Croissant,Britannia,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAK-010,BAK,Bread & Bakery,Theobroma Brownie Box,Theobroma,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-STP-001,STP,Rice & Staples,India Gate Basmati Rice,India Gate,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-STP-002,STP,Rice & Staples,Daawat Basmati Rice,Daawat,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-STP-003,STP,Rice & Staples,Fortune Rozana Rice,Fortune,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-STP-004,STP,Rice & Staples,Gobindobhog Rice,Local Premium,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-STP-005,STP,Rice & Staples,India Gate Dubar Rice,India Gate,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-STP-006,STP,Rice & Staples,Daawat Sona Masuri Rice,Daawat,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-STP-007,STP,Rice & Staples,Lal Qilla Basmati Rice,Lal Qilla,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-STP-008,STP,Rice & Staples,Fortune Everyday Rice,Fortune,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-STP-009,STP,Rice & Staples,Kohinoor Basmati Rice,Kohinoor,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-STP-010,STP,Rice & Staples,Miniket Rice,Local,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FLO-001,FLO,"Flour, Atta & Baking Essentials",Aashirvaad Whole Wheat Atta,Aashirvaad,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FLO-002,FLO,"Flour, Atta & Baking Essentials",Fortune Chakki Fresh Atta,Fortune,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FLO-003,FLO,"Flour, Atta & Baking Essentials",Pillsbury Chakki Fresh Atta,Pillsbury,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FLO-004,FLO,"Flour, Atta & Baking Essentials",Annapurna Atta,Annapurna,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FLO-005,FLO,"Flour, Atta & Baking Essentials",Aashirvaad Multigrain Atta,Aashirvaad,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FLO-006,FLO,"Flour, Atta & Baking Essentials",Tata Sampann Besan,Tata Sampann,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FLO-007,FLO,"Flour, Atta & Baking Essentials",Fortune Maida,Fortune,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FLO-008,FLO,"Flour, Atta & Baking Essentials",Rajdhani Besan,Rajdhani,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FLO-009,FLO,"Flour, Atta & Baking Essentials",Pillsbury Maida,Pillsbury,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FLO-010,FLO,"Flour, Atta & Baking Essentials",Baking Soda,Weikfield,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAL-001,DAL,Pulses & Dal,Tata Sampann Toor Dal,Tata Sampann,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAL-002,DAL,Pulses & Dal,Tata Sampann Moong Dal,Tata Sampann,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAL-003,DAL,Pulses & Dal,Tata Sampann Masoor Dal,Tata Sampann,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAL-004,DAL,Pulses & Dal,Fortune Chana Dal,Fortune,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAL-005,DAL,Pulses & Dal,Fortune Urad Dal,Fortune,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAL-006,DAL,Pulses & Dal,India Gate Moong Dal,India Gate,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAL-007,DAL,Pulses & Dal,India Gate Masoor Dal,India Gate,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAL-008,DAL,Pulses & Dal,Tata Sampann Rajma,Tata Sampann,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAL-009,DAL,Pulses & Dal,Tata Sampann Kabuli Chana,Tata Sampann,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-DAL-010,DAL,Pulses & Dal,Organic Tattva Moong Dal,Organic Tattva,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-OIL-001,OIL,Cooking Oil & Ghee,Fortune Sunflower Oil,Fortune,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-OIL-002,OIL,Cooking Oil & Ghee,Fortune Rice Bran Oil,Fortune,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-OIL-003,OIL,Cooking Oil & Ghee,Saffola Gold Oil,Saffola,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-OIL-004,OIL,Cooking Oil & Ghee,Saffola Active Oil,Saffola,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-OIL-005,OIL,Cooking Oil & Ghee,Emami Healthy & Tasty Mustard Oil,Emami,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-OIL-006,OIL,Cooking Oil & Ghee,Fortune Soyabean Oil,Fortune,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-OIL-007,OIL,Cooking Oil & Ghee,Gemini Refined Sunflower Oil,Gemini,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-OIL-008,OIL,Cooking Oil & Ghee,Dhara Mustard Oil,Dhara,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-OIL-009,OIL,Cooking Oil & Ghee,Amul Pure Ghee,Amul,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-OIL-010,OIL,Cooking Oil & Ghee,Patanjali Cow Ghee,Patanjali,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FRT-001,FRT,Fresh Fruits,Apple,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FRT-002,FRT,Fresh Fruits,Banana,Fresho,dozen,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FRT-003,FRT,Fresh Fruits,Mango,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FRT-004,FRT,Fresh Fruits,Orange,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FRT-005,FRT,Fresh Fruits,Guava,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FRT-006,FRT,Fresh Fruits,Papaya,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FRT-007,FRT,Fresh Fruits,Pomegranate,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FRT-008,FRT,Fresh Fruits,Watermelon,Fresho,piece,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FRT-009,FRT,Fresh Fruits,Grapes,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-FRT-010,FRT,Fresh Fruits,Pineapple,Fresho,piece,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-VEG-001,VEG,Fresh Vegetables,Potato,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-VEG-002,VEG,Fresh Vegetables,Tomato,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-VEG-003,VEG,Fresh Vegetables,Onion,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-VEG-004,VEG,Fresh Vegetables,Green Peas,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-VEG-005,VEG,Fresh Vegetables,Cauliflower,Fresho,piece,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-VEG-006,VEG,Fresh Vegetables,Spinach,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-VEG-007,VEG,Fresh Vegetables,Carrot,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-VEG-008,VEG,Fresh Vegetables,Cucumber,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-VEG-009,VEG,Fresh Vegetables,Green Chilli,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-VEG-010,VEG,Fresh Vegetables,Brinjal,Fresho,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BIS-001,BIS,Biscuits & Cookies,Parle-G,Parle,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BIS-002,BIS,Biscuits & Cookies,Britannia Good Day,Britannia,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BIS-003,BIS,Biscuits & Cookies,Britannia Marie Gold,Britannia,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BIS-004,BIS,Biscuits & Cookies,Britannia Bourbon,Britannia,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BIS-005,BIS,Biscuits & Cookies,Parle Hide & Seek,Parle,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BIS-006,BIS,Biscuits & Cookies,Sunfeast Dark Fantasy,Sunfeast,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BIS-007,BIS,Biscuits & Cookies,Sunfeast Marie Light,Sunfeast,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BIS-008,BIS,Biscuits & Cookies,Oreo Original,Oreo,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BIS-009,BIS,Biscuits & Cookies,Tiger Glucose Biscuits,Britannia,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BIS-010,BIS,Biscuits & Cookies,Jim Jam Sandwich Biscuits,Parle,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-TEA-001,TEA,Tea & Coffee,Tata Tea Gold,Tata Tea,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-TEA-002,TEA,Tea & Coffee,Tata Tea Premium,Tata Tea,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-TEA-003,TEA,Tea & Coffee,Brooke Bond Red Label,Brooke Bond,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-TEA-004,TEA,Tea & Coffee,Brooke Bond Taj Mahal,Brooke Bond,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-TEA-005,TEA,Tea & Coffee,Society Tea,Society,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-TEA-006,TEA,Tea & Coffee,Wagh Bakri Premium Tea,Wagh Bakri,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-TEA-007,TEA,Tea & Coffee,Nescafé Classic,Nescafé,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-TEA-008,TEA,Tea & Coffee,Nescafé Sunrise,Nescafé,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-TEA-009,TEA,Tea & Coffee,Bru Instant Coffee,Bru,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-TEA-010,TEA,Tea & Coffee,Tata Coffee Grand,Tata Coffee,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-PCR-001,PCR,Personal Care,Sunsilk Shampoo,Sunsilk,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-PCR-002,PCR,Personal Care,Clinic Plus Shampoo,Clinic Plus,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-PCR-003,PCR,Personal Care,Dove Body Wash,Dove,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-PCR-004,PCR,Personal Care,Lux Soap,Lux,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-PCR-005,PCR,Personal Care,Pears Soap,Pears,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-PCR-006,PCR,Personal Care,Dettol Body Wash,Dettol,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-PCR-007,PCR,Personal Care,Nivea Body Lotion,Nivea,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-PCR-008,PCR,Personal Care,Vaseline Body Lotion,Vaseline,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-PCR-009,PCR,Personal Care,Himalaya Face Wash,Himalaya,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-PCR-010,PCR,Personal Care,Mamaearth Face Wash,Mamaearth,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ORL-001,ORL,Oral Care,Colgate Strong Teeth,Colgate,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ORL-002,ORL,Oral Care,Colgate MaxFresh,Colgate,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ORL-003,ORL,Oral Care,Colgate Visible White,Colgate,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ORL-004,ORL,Oral Care,Closeup Ever Fresh,Closeup,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ORL-005,ORL,Oral Care,Pepsodent Germicheck,Pepsodent,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ORL-006,ORL,Oral Care,Sensodyne Fresh Mint,Sensodyne,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ORL-007,ORL,Oral Care,Dabur Red Paste,Dabur,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ORL-008,ORL,Oral Care,Meswak Toothpaste,Dabur,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ORL-009,ORL,Oral Care,Colgate Kids,Colgate,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-ORL-010,ORL,Oral Care,Oral-B Toothbrush Pack,Oral-B,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CLN-001,CLN,Home Cleaning,Surf Excel Matic,Surf Excel,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CLN-002,CLN,Home Cleaning,Ariel Matic,Ariel,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CLN-003,CLN,Home Cleaning,Tide Plus,Tide,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CLN-004,CLN,Home Cleaning,Vim Dishwash Liquid,Vim,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CLN-005,CLN,Home Cleaning,Vim Dishwash Bar,Vim,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CLN-006,CLN,Home Cleaning,Lizol Floor Cleaner,Lizol,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CLN-007,CLN,Home Cleaning,Harpic Toilet Cleaner,Harpic,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CLN-008,CLN,Home Cleaning,Colin Glass Cleaner,Colin,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CLN-009,CLN,Home Cleaning,Domex Toilet Cleaner,Domex,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-CLN-010,CLN,Home Cleaning,Dettol Disinfectant Liquid,Dettol,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-HOU-001,HOU,Household Essentials,Presto Garbage Bags,Presto,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-HOU-002,HOU,Household Essentials,Origami Tissue Roll Pack,Origami,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-HOU-003,HOU,Household Essentials,Freshwrap Aluminium Foil,Freshwrap,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-HOU-004,HOU,Household Essentials,Freshwrap Cling Film,Freshwrap,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-HOU-005,HOU,Household Essentials,Tupperware Storage Container,Tupperware,piece,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-HOU-006,HOU,Household Essentials,Milton Water Bottle,Milton,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-HOU-007,HOU,Household Essentials,Cello Storage Container Set,Cello,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-HOU-008,HOU,Household Essentials,Scotch-Brite Scrub Pad Pack,Scotch-Brite,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-HOU-009,HOU,Household Essentials,Gala Floor Wiper,Gala,piece,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-HOU-010,HOU,Household Essentials,Pigeon Kitchen Storage Set,Pigeon,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-INS-001,INS,Instant & Packaged Foods,Maggi 2-Minute Noodles,Nestlé,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-INS-002,INS,Instant & Packaged Foods,Yippee Magic Masala Noodles,Sunfeast,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-INS-003,INS,Instant & Packaged Foods,MTR Ready-to-Eat Poha,MTR,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-INS-004,INS,Instant & Packaged Foods,MTR Ready-to-Eat Upma,MTR,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-INS-005,INS,Instant & Packaged Foods,MTR Ready-to-Eat Rajma,MTR,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-INS-006,INS,Instant & Packaged Foods,Tata Sampann Poha,Tata Sampann,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-INS-007,INS,Instant & Packaged Foods,Saffola Masala Oats,Saffola,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-INS-008,INS,Instant & Packaged Foods,Kellogg's Corn Flakes,Kellogg's,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-INS-009,INS,Instant & Packaged Foods,Quaker Oats,Quaker,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-INS-010,INS,Instant & Packaged Foods,Ching's Schezwan Noodles,Ching's Secret,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAB-001,BAB,Baby Care & Family Care,Pampers Baby Dry Small,Pampers,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAB-002,BAB,Baby Care & Family Care,Pampers Baby Dry Medium,Pampers,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAB-003,BAB,Baby Care & Family Care,Huggies Wonder Pants Small,Huggies,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAB-004,BAB,Baby Care & Family Care,Huggies Wonder Pants Medium,Huggies,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAB-005,BAB,Baby Care & Family Care,Johnson's Baby Shampoo,Johnson's Baby,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAB-006,BAB,Baby Care & Family Care,Johnson's Baby Lotion,Johnson's Baby,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAB-007,BAB,Baby Care & Family Care,Himalaya Baby Wipes,Himalaya,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAB-008,BAB,Baby Care & Family Care,Mamaearth Baby Lotion,Mamaearth,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAB-009,BAB,Baby Care & Family Care,Sebamed Baby Wash,Sebamed,ml,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
-BAB-010,BAB,Baby Care & Family Care,Johnson's Baby Powder,Johnson's Baby,g,MAPPED,std_product_master,2026-09-26T22:44:20+05:30,v1.0
+ICE-001,ICE,Ice Cream & Frozen Desserts,Amul Vanilla Ice Cream,Amul,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ICE-002,ICE,Ice Cream & Frozen Desserts,Amul Chocolate Ice Cream,Amul,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ICE-003,ICE,Ice Cream & Frozen Desserts,Kwality Wall's Cornetto,Kwality Wall's,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ICE-004,ICE,Ice Cream & Frozen Desserts,Kwality Wall's Magnum Classic,Kwality Wall's,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ICE-005,ICE,Ice Cream & Frozen Desserts,Havmor Butterscotch Ice Cream,Havmor,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ICE-006,ICE,Ice Cream & Frozen Desserts,Havmor Mango Ice Cream,Havmor,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ICE-007,ICE,Ice Cream & Frozen Desserts,Vadilal Kesar Pista Ice Cream,Vadilal,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ICE-008,ICE,Ice Cream & Frozen Desserts,Naturals Tender Coconut Ice Cream,Naturals,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ICE-009,ICE,Ice Cream & Frozen Desserts,Mother Dairy Strawberry Ice Cream,Mother Dairy,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ICE-010,ICE,Ice Cream & Frozen Desserts,Amul Rajbhog Ice Cream,Amul,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CHO-001,CHO,Chocolates & Confectionery,Cadbury Dairy Milk,Cadbury,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CHO-002,CHO,Chocolates & Confectionery,Cadbury 5 Star,Cadbury,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CHO-003,CHO,Chocolates & Confectionery,Cadbury Silk,Cadbury,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CHO-004,CHO,Chocolates & Confectionery,Cadbury Perk,Cadbury,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CHO-005,CHO,Chocolates & Confectionery,Nestlé KitKat,Nestlé,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CHO-006,CHO,Chocolates & Confectionery,Nestlé Munch,Nestlé,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CHO-007,CHO,Chocolates & Confectionery,Amul Dark Chocolate,Amul,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CHO-008,CHO,Chocolates & Confectionery,Ferrero Rocher,Ferrero,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CHO-009,CHO,Chocolates & Confectionery,Cadbury Gems,Cadbury,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CHO-010,CHO,Chocolates & Confectionery,Parle Melody Toffee Pack,Parle,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+SNK-001,SNK,Chips & Namkeen,Lay's Classic Salted,Lay's,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+SNK-002,SNK,Chips & Namkeen,Lay's Magic Masala,Lay's,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+SNK-003,SNK,Chips & Namkeen,Lay's Cream & Onion,Lay's,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+SNK-004,SNK,Chips & Namkeen,Bingo Original Style,Bingo,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+SNK-005,SNK,Chips & Namkeen,Kurkure Masala Munch,Kurkure,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+SNK-006,SNK,Chips & Namkeen,Haldiram's Aloo Bhujia,Haldiram's,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+SNK-007,SNK,Chips & Namkeen,Haldiram's Moong Dal,Haldiram's,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+SNK-008,SNK,Chips & Namkeen,Bikaji Bikaneri Bhujia,Bikaji,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+SNK-009,SNK,Chips & Namkeen,Uncle Chipps Plain Salted,Uncle Chipps,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+SNK-010,SNK,Chips & Namkeen,Balaji Wafers Masala,Balaji,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BEV-001,BEV,Soft Drinks & Beverages,Coca-Cola,Coca-Cola,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BEV-002,BEV,Soft Drinks & Beverages,Thums Up,Coca-Cola,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BEV-003,BEV,Soft Drinks & Beverages,Sprite,Coca-Cola,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BEV-004,BEV,Soft Drinks & Beverages,Limca,Coca-Cola,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BEV-005,BEV,Soft Drinks & Beverages,Fanta Orange,Coca-Cola,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BEV-006,BEV,Soft Drinks & Beverages,Maaza Mango,Coca-Cola,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BEV-007,BEV,Soft Drinks & Beverages,Frooti Mango,Parle Agro,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BEV-008,BEV,Soft Drinks & Beverages,Paper Boat Aam Panna,Paper Boat,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BEV-009,BEV,Soft Drinks & Beverages,Red Bull Energy Drink,Red Bull,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BEV-010,BEV,Soft Drinks & Beverages,Kinley Mineral Water,Kinley,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAI-001,DAI,Dairy & Milk Products,Amul Full Cream Milk,Amul,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAI-002,DAI,Dairy & Milk Products,Amul Taaza Toned Milk,Amul,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAI-003,DAI,Dairy & Milk Products,Mother Dairy Toned Milk,Mother Dairy,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAI-004,DAI,Dairy & Milk Products,Amul Masti Dahi,Amul,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAI-005,DAI,Dairy & Milk Products,Mother Dairy Curd,Mother Dairy,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAI-006,DAI,Dairy & Milk Products,Amul Butter,Amul,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAI-007,DAI,Dairy & Milk Products,Amul Paneer,Amul,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAI-008,DAI,Dairy & Milk Products,Amul Cheese Slices,Amul,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAI-009,DAI,Dairy & Milk Products,Epigamia Greek Yogurt,Epigamia,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAI-010,DAI,Dairy & Milk Products,Amul Fresh Cream,Amul,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAK-001,BAK,Bread & Bakery,Britannia White Bread,Britannia,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAK-002,BAK,Bread & Bakery,Britannia Brown Bread,Britannia,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAK-003,BAK,Bread & Bakery,Modern Milk Bread,Modern,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAK-004,BAK,Bread & Bakery,Harvest Gold White Bread,Harvest Gold,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAK-005,BAK,Bread & Bakery,Britannia Fruit Cake,Britannia,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAK-006,BAK,Bread & Bakery,Monginis Chocolate Cake,Monginis,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAK-007,BAK,Bread & Bakery,Monginis Cream Roll,Monginis,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAK-008,BAK,Bread & Bakery,Modern Sandwich Bread,Modern,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAK-009,BAK,Bread & Bakery,Britannia Croissant,Britannia,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAK-010,BAK,Bread & Bakery,Theobroma Brownie Box,Theobroma,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+STP-001,STP,Rice & Staples,India Gate Basmati Rice,India Gate,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+STP-002,STP,Rice & Staples,Daawat Basmati Rice,Daawat,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+STP-003,STP,Rice & Staples,Fortune Rozana Rice,Fortune,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+STP-004,STP,Rice & Staples,Gobindobhog Rice,Local Premium,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+STP-005,STP,Rice & Staples,India Gate Dubar Rice,India Gate,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+STP-006,STP,Rice & Staples,Daawat Sona Masuri Rice,Daawat,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+STP-007,STP,Rice & Staples,Lal Qilla Basmati Rice,Lal Qilla,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+STP-008,STP,Rice & Staples,Fortune Everyday Rice,Fortune,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+STP-009,STP,Rice & Staples,Kohinoor Basmati Rice,Kohinoor,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+STP-010,STP,Rice & Staples,Miniket Rice,Local,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FLO-001,FLO,"Flour, Atta & Baking Essentials",Aashirvaad Whole Wheat Atta,Aashirvaad,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FLO-002,FLO,"Flour, Atta & Baking Essentials",Fortune Chakki Fresh Atta,Fortune,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FLO-003,FLO,"Flour, Atta & Baking Essentials",Pillsbury Chakki Fresh Atta,Pillsbury,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FLO-004,FLO,"Flour, Atta & Baking Essentials",Annapurna Atta,Annapurna,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FLO-005,FLO,"Flour, Atta & Baking Essentials",Aashirvaad Multigrain Atta,Aashirvaad,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FLO-006,FLO,"Flour, Atta & Baking Essentials",Tata Sampann Besan,Tata Sampann,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FLO-007,FLO,"Flour, Atta & Baking Essentials",Fortune Maida,Fortune,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FLO-008,FLO,"Flour, Atta & Baking Essentials",Rajdhani Besan,Rajdhani,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FLO-009,FLO,"Flour, Atta & Baking Essentials",Pillsbury Maida,Pillsbury,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FLO-010,FLO,"Flour, Atta & Baking Essentials",Baking Soda,Weikfield,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAL-001,DAL,Pulses & Dal,Tata Sampann Toor Dal,Tata Sampann,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAL-002,DAL,Pulses & Dal,Tata Sampann Moong Dal,Tata Sampann,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAL-003,DAL,Pulses & Dal,Tata Sampann Masoor Dal,Tata Sampann,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAL-004,DAL,Pulses & Dal,Fortune Chana Dal,Fortune,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAL-005,DAL,Pulses & Dal,Fortune Urad Dal,Fortune,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAL-006,DAL,Pulses & Dal,India Gate Moong Dal,India Gate,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAL-007,DAL,Pulses & Dal,India Gate Masoor Dal,India Gate,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAL-008,DAL,Pulses & Dal,Tata Sampann Rajma,Tata Sampann,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAL-009,DAL,Pulses & Dal,Tata Sampann Kabuli Chana,Tata Sampann,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+DAL-010,DAL,Pulses & Dal,Organic Tattva Moong Dal,Organic Tattva,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+OIL-001,OIL,Cooking Oil & Ghee,Fortune Sunflower Oil,Fortune,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+OIL-002,OIL,Cooking Oil & Ghee,Fortune Rice Bran Oil,Fortune,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+OIL-003,OIL,Cooking Oil & Ghee,Saffola Gold Oil,Saffola,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+OIL-004,OIL,Cooking Oil & Ghee,Saffola Active Oil,Saffola,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+OIL-005,OIL,Cooking Oil & Ghee,Emami Healthy & Tasty Mustard Oil,Emami,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+OIL-006,OIL,Cooking Oil & Ghee,Fortune Soyabean Oil,Fortune,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+OIL-007,OIL,Cooking Oil & Ghee,Gemini Refined Sunflower Oil,Gemini,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+OIL-008,OIL,Cooking Oil & Ghee,Dhara Mustard Oil,Dhara,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+OIL-009,OIL,Cooking Oil & Ghee,Amul Pure Ghee,Amul,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+OIL-010,OIL,Cooking Oil & Ghee,Patanjali Cow Ghee,Patanjali,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FRT-001,FRT,Fresh Fruits,Apple,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FRT-002,FRT,Fresh Fruits,Banana,Fresho,dozen,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FRT-003,FRT,Fresh Fruits,Mango,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FRT-004,FRT,Fresh Fruits,Orange,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FRT-005,FRT,Fresh Fruits,Guava,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FRT-006,FRT,Fresh Fruits,Papaya,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FRT-007,FRT,Fresh Fruits,Pomegranate,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FRT-008,FRT,Fresh Fruits,Watermelon,Fresho,piece,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FRT-009,FRT,Fresh Fruits,Grapes,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+FRT-010,FRT,Fresh Fruits,Pineapple,Fresho,piece,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+VEG-001,VEG,Fresh Vegetables,Potato,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+VEG-002,VEG,Fresh Vegetables,Tomato,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+VEG-003,VEG,Fresh Vegetables,Onion,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+VEG-004,VEG,Fresh Vegetables,Green Peas,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+VEG-005,VEG,Fresh Vegetables,Cauliflower,Fresho,piece,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+VEG-006,VEG,Fresh Vegetables,Spinach,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+VEG-007,VEG,Fresh Vegetables,Carrot,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+VEG-008,VEG,Fresh Vegetables,Cucumber,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+VEG-009,VEG,Fresh Vegetables,Green Chilli,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+VEG-010,VEG,Fresh Vegetables,Brinjal,Fresho,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BIS-001,BIS,Biscuits & Cookies,Parle-G,Parle,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BIS-002,BIS,Biscuits & Cookies,Britannia Good Day,Britannia,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BIS-003,BIS,Biscuits & Cookies,Britannia Marie Gold,Britannia,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BIS-004,BIS,Biscuits & Cookies,Britannia Bourbon,Britannia,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BIS-005,BIS,Biscuits & Cookies,Parle Hide & Seek,Parle,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BIS-006,BIS,Biscuits & Cookies,Sunfeast Dark Fantasy,Sunfeast,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BIS-007,BIS,Biscuits & Cookies,Sunfeast Marie Light,Sunfeast,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BIS-008,BIS,Biscuits & Cookies,Oreo Original,Oreo,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BIS-009,BIS,Biscuits & Cookies,Tiger Glucose Biscuits,Britannia,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BIS-010,BIS,Biscuits & Cookies,Jim Jam Sandwich Biscuits,Parle,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+TEA-001,TEA,Tea & Coffee,Tata Tea Gold,Tata Tea,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+TEA-002,TEA,Tea & Coffee,Tata Tea Premium,Tata Tea,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+TEA-003,TEA,Tea & Coffee,Brooke Bond Red Label,Brooke Bond,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+TEA-004,TEA,Tea & Coffee,Brooke Bond Taj Mahal,Brooke Bond,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+TEA-005,TEA,Tea & Coffee,Society Tea,Society,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+TEA-006,TEA,Tea & Coffee,Wagh Bakri Premium Tea,Wagh Bakri,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+TEA-007,TEA,Tea & Coffee,Nescafé Classic,Nescafé,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+TEA-008,TEA,Tea & Coffee,Nescafé Sunrise,Nescafé,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+TEA-009,TEA,Tea & Coffee,Bru Instant Coffee,Bru,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+TEA-010,TEA,Tea & Coffee,Tata Coffee Grand,Tata Coffee,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+PCR-001,PCR,Personal Care,Sunsilk Shampoo,Sunsilk,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+PCR-002,PCR,Personal Care,Clinic Plus Shampoo,Clinic Plus,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+PCR-003,PCR,Personal Care,Dove Body Wash,Dove,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+PCR-004,PCR,Personal Care,Lux Soap,Lux,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+PCR-005,PCR,Personal Care,Pears Soap,Pears,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+PCR-006,PCR,Personal Care,Dettol Body Wash,Dettol,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+PCR-007,PCR,Personal Care,Nivea Body Lotion,Nivea,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+PCR-008,PCR,Personal Care,Vaseline Body Lotion,Vaseline,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+PCR-009,PCR,Personal Care,Himalaya Face Wash,Himalaya,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+PCR-010,PCR,Personal Care,Mamaearth Face Wash,Mamaearth,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ORL-001,ORL,Oral Care,Colgate Strong Teeth,Colgate,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ORL-002,ORL,Oral Care,Colgate MaxFresh,Colgate,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ORL-003,ORL,Oral Care,Colgate Visible White,Colgate,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ORL-004,ORL,Oral Care,Closeup Ever Fresh,Closeup,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ORL-005,ORL,Oral Care,Pepsodent Germicheck,Pepsodent,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ORL-006,ORL,Oral Care,Sensodyne Fresh Mint,Sensodyne,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ORL-007,ORL,Oral Care,Dabur Red Paste,Dabur,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ORL-008,ORL,Oral Care,Meswak Toothpaste,Dabur,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ORL-009,ORL,Oral Care,Colgate Kids,Colgate,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+ORL-010,ORL,Oral Care,Oral-B Toothbrush Pack,Oral-B,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CLN-001,CLN,Home Cleaning,Surf Excel Matic,Surf Excel,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CLN-002,CLN,Home Cleaning,Ariel Matic,Ariel,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CLN-003,CLN,Home Cleaning,Tide Plus,Tide,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CLN-004,CLN,Home Cleaning,Vim Dishwash Liquid,Vim,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CLN-005,CLN,Home Cleaning,Vim Dishwash Bar,Vim,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CLN-006,CLN,Home Cleaning,Lizol Floor Cleaner,Lizol,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CLN-007,CLN,Home Cleaning,Harpic Toilet Cleaner,Harpic,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CLN-008,CLN,Home Cleaning,Colin Glass Cleaner,Colin,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CLN-009,CLN,Home Cleaning,Domex Toilet Cleaner,Domex,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+CLN-010,CLN,Home Cleaning,Dettol Disinfectant Liquid,Dettol,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+HOU-001,HOU,Household Essentials,Presto Garbage Bags,Presto,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+HOU-002,HOU,Household Essentials,Origami Tissue Roll Pack,Origami,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+HOU-003,HOU,Household Essentials,Freshwrap Aluminium Foil,Freshwrap,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+HOU-004,HOU,Household Essentials,Freshwrap Cling Film,Freshwrap,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+HOU-005,HOU,Household Essentials,Tupperware Storage Container,Tupperware,piece,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+HOU-006,HOU,Household Essentials,Milton Water Bottle,Milton,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+HOU-007,HOU,Household Essentials,Cello Storage Container Set,Cello,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+HOU-008,HOU,Household Essentials,Scotch-Brite Scrub Pad Pack,Scotch-Brite,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+HOU-009,HOU,Household Essentials,Gala Floor Wiper,Gala,piece,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+HOU-010,HOU,Household Essentials,Pigeon Kitchen Storage Set,Pigeon,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+INS-001,INS,Instant & Packaged Foods,Maggi 2-Minute Noodles,Nestlé,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+INS-002,INS,Instant & Packaged Foods,Yippee Magic Masala Noodles,Sunfeast,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+INS-003,INS,Instant & Packaged Foods,MTR Ready-to-Eat Poha,MTR,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+INS-004,INS,Instant & Packaged Foods,MTR Ready-to-Eat Upma,MTR,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+INS-005,INS,Instant & Packaged Foods,MTR Ready-to-Eat Rajma,MTR,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+INS-006,INS,Instant & Packaged Foods,Tata Sampann Poha,Tata Sampann,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+INS-007,INS,Instant & Packaged Foods,Saffola Masala Oats,Saffola,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+INS-008,INS,Instant & Packaged Foods,Kellogg's Corn Flakes,Kellogg's,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+INS-009,INS,Instant & Packaged Foods,Quaker Oats,Quaker,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+INS-010,INS,Instant & Packaged Foods,Ching's Schezwan Noodles,Ching's Secret,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAB-001,BAB,Baby Care & Family Care,Pampers Baby Dry Small,Pampers,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAB-002,BAB,Baby Care & Family Care,Pampers Baby Dry Medium,Pampers,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAB-003,BAB,Baby Care & Family Care,Huggies Wonder Pants Small,Huggies,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAB-004,BAB,Baby Care & Family Care,Huggies Wonder Pants Medium,Huggies,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAB-005,BAB,Baby Care & Family Care,Johnson's Baby Shampoo,Johnson's Baby,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAB-006,BAB,Baby Care & Family Care,Johnson's Baby Lotion,Johnson's Baby,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAB-007,BAB,Baby Care & Family Care,Himalaya Baby Wipes,Himalaya,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAB-008,BAB,Baby Care & Family Care,Mamaearth Baby Lotion,Mamaearth,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAB-009,BAB,Baby Care & Family Care,Sebamed Baby Wash,Sebamed,ml,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
+BAB-010,BAB,Baby Care & Family Care,Johnson's Baby Powder,Johnson's Baby,g,MAPPED,std_product_master,2026-09-26T22:48:47+05:30,v1.0
