@@ -1,0 +1,14 @@
+dataset,file_name,rows,size_kb
+stg_calendar_week,stg_calendar_week.csv,139,21.8
+stg_festival_calendar,stg_festival_calendar.csv,36,5.5
+stg_inventory_position,stg_inventory_position.csv,3000,962.1
+stg_location_master,stg_location_master.csv,40,5.7
+stg_product_master,stg_product_master.csv,200,50.1
+stg_sales_demand,stg_sales_demand.csv,1112000,483437.8
+stg_shelf_master,stg_shelf_master.csv,600,109.0
+stg_storage_assignment,stg_storage_assignment.csv,3000,643.6
+stg_supplier_master,stg_supplier_master.csv,200,82.8
+stg_supplier_product_catalog,stg_supplier_product_catalog.csv,8000,2091.1
+stg_warehouse_master,stg_warehouse_master.csv,15,4.0
+stg_warehouse_picker_mapping,stg_warehouse_picker_mapping.csv,750,118.6
+stg_weather_weekly,stg_weather_weekly.csv,105,20.3

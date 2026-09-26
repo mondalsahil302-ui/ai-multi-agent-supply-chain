@@ -1,0 +1,9 @@
+dataset,check_name,status,records_checked,failed_records,severity,notes
+std_product_master,primary_key_uniqueness,PASS,200,0,CRITICAL,All 200 product IDs are unique
+std_location_master,primary_key_uniqueness,PASS,40,0,CRITICAL,All 40 location IDs are unique
+std_warehouse_master,primary_key_uniqueness,PASS,15,0,CRITICAL,All 15 warehouse IDs are unique
+std_warehouse_picker_mapping,warehouse_fk_integrity,PASS,750,0,CRITICAL,All 750 pickers resolve to valid standardized warehouses
+std_inventory_position,product_and_warehouse_fks,PASS,3000,0,CRITICAL,"All 3,000 inventory positions resolve to standardized masters"
+std_supplier_master,location_fk_integrity,PASS,200,0,CRITICAL,All 200 suppliers locate in recognized Kolkata planning regions
+std_supplier_product_catalog,supplier_and_product_fks,PASS,8000,0,CRITICAL,"All 8,000 catalog items resolve to standardized suppliers and products"
+std_sales_demand,sales_product_and_location_fks_sampled,PASS,1000,0,CRITICAL,"Sampled 1,000 sales records resolve to location and product dimensions"

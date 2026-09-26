@@ -1,3 +1,6 @@
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*sales_demand.csv filter=lfs diff=lfs merge=lfs -text
+*inventory_transactions_reconstructed.csv filter=lfs diff=lfs merge=lfs -text
 *inventory_transactions*.csv filter=lfs diff=lfs merge=lfs -text
 *demand_integrated*.csv filter=lfs diff=lfs merge=lfs -text
 *supply_chain_core*.csv filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,201 @@
+﻿product_id,category_code,category_name,product_name,brand,quality_level,unit_type,unit_size,cost_price_rs,selling_price_rs,avg_cost_price_rs,avg_selling_price_rs,margin_per_unit_rs
+ICE-001,ICE,Ice Cream & Frozen Desserts,Amul Vanilla Ice Cream,Amul,Standard,ml,80 ml,36,41,101.6,116.8,15.2
+ICE-002,ICE,Ice Cream & Frozen Desserts,Amul Chocolate Ice Cream,Amul,Standard,ml,80 ml,36,41,101.6,116.8,15.2
+ICE-003,ICE,Ice Cream & Frozen Desserts,Kwality Wall's Cornetto,Kwality Wall's,Standard,ml,80 ml,48,55,135.4,155.6,20.19999999999999
+ICE-004,ICE,Ice Cream & Frozen Desserts,Kwality Wall's Magnum Classic,Kwality Wall's,Premium,ml,80 ml,78,90,220,253.2,33.19999999999999
+ICE-005,ICE,Ice Cream & Frozen Desserts,Havmor Butterscotch Ice Cream,Havmor,Standard,ml,80 ml,51,59,143.8,165.2,21.39999999999998
+ICE-006,ICE,Ice Cream & Frozen Desserts,Havmor Mango Ice Cream,Havmor,Standard,ml,80 ml,51,59,143.8,165.2,21.39999999999998
+ICE-007,ICE,Ice Cream & Frozen Desserts,Vadilal Kesar Pista Ice Cream,Vadilal,Standard,ml,80 ml,45,52,126.8,146,19.2
+ICE-008,ICE,Ice Cream & Frozen Desserts,Naturals Tender Coconut Ice Cream,Naturals,Premium,ml,80 ml,66,76,186.2,214.2,28
+ICE-009,ICE,Ice Cream & Frozen Desserts,Mother Dairy Strawberry Ice Cream,Mother Dairy,Standard,ml,80 ml,44,51,122.8,141.4,18.60000000000001
+ICE-010,ICE,Ice Cream & Frozen Desserts,Amul Rajbhog Ice Cream,Amul,Premium,ml,80 ml,36,41,101.6,116.8,15.2
+CHO-001,CHO,Chocolates & Confectionery,Cadbury Dairy Milk,Cadbury,Standard,g,20 g,17,20,62,71.40000000000001,9.400000000000006
+CHO-002,CHO,Chocolates & Confectionery,Cadbury 5 Star,Cadbury,Standard,g,20 g,17,20,62,71.40000000000001,9.400000000000006
+CHO-003,CHO,Chocolates & Confectionery,Cadbury Silk,Cadbury,Premium,g,20 g,25,29,91.40000000000001,105.2,13.8
+CHO-004,CHO,Chocolates & Confectionery,Cadbury Perk,Cadbury,Standard,g,20 g,17,20,62,71.40000000000001,9.400000000000006
+CHO-005,CHO,Chocolates & Confectionery,Nestlé KitKat,Nestlé,Standard,g,20 g,17,20,62,71.40000000000001,9.400000000000006
+CHO-006,CHO,Chocolates & Confectionery,Nestlé Munch,Nestlé,Standard,g,20 g,17,20,62,71.40000000000001,9.400000000000006
+CHO-007,CHO,Chocolates & Confectionery,Amul Dark Chocolate,Amul,Premium,g,20 g,18,21,63.6,73.2,9.600000000000001
+CHO-008,CHO,Chocolates & Confectionery,Ferrero Rocher,Ferrero,Premium,g,20 g,129,148,468,538.2,70.20000000000005
+CHO-009,CHO,Chocolates & Confectionery,Cadbury Gems,Cadbury,Standard,g,20 g,17,20,62,71.40000000000001,9.400000000000006
+CHO-010,CHO,Chocolates & Confectionery,Parle Melody Toffee Pack,Parle,Standard,g,20 g,17,20,62,71.40000000000001,9.400000000000006
+SNK-001,SNK,Chips & Namkeen,Lay's Classic Salted,Lay's,Standard,g,50 g,16,18,52.2,60,7.799999999999997
+SNK-002,SNK,Chips & Namkeen,Lay's Magic Masala,Lay's,Standard,g,50 g,16,18,52.2,60,7.799999999999997
+SNK-003,SNK,Chips & Namkeen,Lay's Cream & Onion,Lay's,Standard,g,50 g,16,18,52.2,60,7.799999999999997
+SNK-004,SNK,Chips & Namkeen,Bingo Original Style,Bingo,Standard,g,50 g,16,18,52.2,60,7.799999999999997
+SNK-005,SNK,Chips & Namkeen,Kurkure Masala Munch,Kurkure,Standard,g,50 g,16,18,52.2,60,7.799999999999997
+SNK-006,SNK,Chips & Namkeen,Haldiram's Aloo Bhujia,Haldiram's,Standard,g,50 g,16,18,52.2,60,7.799999999999997
+SNK-007,SNK,Chips & Namkeen,Haldiram's Moong Dal,Haldiram's,Standard,g,50 g,16,18,52.2,60,7.799999999999997
+SNK-008,SNK,Chips & Namkeen,Bikaji Bikaneri Bhujia,Bikaji,Standard,g,50 g,16,18,52.2,60,7.799999999999997
+SNK-009,SNK,Chips & Namkeen,Uncle Chipps Plain Salted,Uncle Chipps,Standard,g,50 g,16,18,52.2,60,7.799999999999997
+SNK-010,SNK,Chips & Namkeen,Balaji Wafers Masala,Balaji,Standard,g,50 g,16,18,52.2,60,7.799999999999997
+BEV-001,BEV,Soft Drinks & Beverages,Coca-Cola,Coca-Cola,Standard,ml,200 ml,16,18,40,46,6
+BEV-002,BEV,Soft Drinks & Beverages,Thums Up,Coca-Cola,Standard,ml,200 ml,16,18,40,46,6
+BEV-003,BEV,Soft Drinks & Beverages,Sprite,Coca-Cola,Standard,ml,200 ml,16,18,40,46,6
+BEV-004,BEV,Soft Drinks & Beverages,Limca,Coca-Cola,Standard,ml,200 ml,16,18,40,46,6
+BEV-005,BEV,Soft Drinks & Beverages,Fanta Orange,Coca-Cola,Standard,ml,200 ml,16,18,40,46,6
+BEV-006,BEV,Soft Drinks & Beverages,Maaza Mango,Coca-Cola,Standard,ml,200 ml,16,18,40,46,6
+BEV-007,BEV,Soft Drinks & Beverages,Frooti Mango,Parle Agro,Standard,ml,200 ml,14,16,36,41.4,5.399999999999999
+BEV-008,BEV,Soft Drinks & Beverages,Paper Boat Aam Panna,Paper Boat,Premium,ml,200 ml,33,38,84.8,97.40000000000001,12.60000000000001
+BEV-009,BEV,Soft Drinks & Beverages,Red Bull Energy Drink,Red Bull,Premium,ml,200 ml,284,327,722.4,830.6,108.2
+BEV-010,BEV,Soft Drinks & Beverages,Kinley Mineral Water,Kinley,Standard,ml,200 ml,14,16,36,41.4,5.399999999999999
+DAI-001,DAI,Dairy & Milk Products,Amul Full Cream Milk,Amul,Standard,ml,200 ml,85,98,319,367,48
+DAI-002,DAI,Dairy & Milk Products,Amul Taaza Toned Milk,Amul,Standard,ml,200 ml,16,18,59.8,68.8,9
+DAI-003,DAI,Dairy & Milk Products,Mother Dairy Toned Milk,Mother Dairy,Standard,ml,200 ml,16,18,58.8,67.8,9
+DAI-004,DAI,Dairy & Milk Products,Amul Masti Dahi,Amul,Standard,g,100 g,11,13,70,80.59999999999999,10.59999999999999
+DAI-005,DAI,Dairy & Milk Products,Mother Dairy Curd,Mother Dairy,Standard,g,100 g,10,12,68.8,79.2,10.40000000000001
+DAI-006,DAI,Dairy & Milk Products,Amul Butter,Amul,Premium,g,100 g,65,75,428.2,492.2,64
+DAI-007,DAI,Dairy & Milk Products,Amul Paneer,Amul,Premium,g,100 g,47,54,309.8,356.2,46.39999999999998
+DAI-008,DAI,Dairy & Milk Products,Amul Cheese Slices,Amul,Premium,g,100 g,58,67,383.6,441,57.39999999999998
+DAI-009,DAI,Dairy & Milk Products,Epigamia Greek Yogurt,Epigamia,Premium,g,100 g,107,123,705.6,811.2,105.6
+DAI-010,DAI,Dairy & Milk Products,Amul Fresh Cream,Amul,Premium,ml,200 ml,85,98,319,367,48
+BAK-001,BAK,Bread & Bakery,Britannia White Bread,Britannia,Standard,g,200 g,21,24,42.8,49.2,6.400000000000006
+BAK-002,BAK,Bread & Bakery,Britannia Brown Bread,Britannia,Standard,g,200 g,21,24,42.8,49.2,6.400000000000006
+BAK-003,BAK,Bread & Bakery,Modern Milk Bread,Modern,Standard,g,200 g,21,24,42.8,49.2,6.400000000000006
+BAK-004,BAK,Bread & Bakery,Harvest Gold White Bread,Harvest Gold,Standard,g,200 g,21,24,42.8,49.2,6.400000000000006
+BAK-005,BAK,Bread & Bakery,Britannia Fruit Cake,Britannia,Standard,g,200 g,79,91,162.4,186.8,24.40000000000001
+BAK-006,BAK,Bread & Bakery,Monginis Chocolate Cake,Monginis,Premium,g,200 g,79,91,162.4,186.8,24.40000000000001
+BAK-007,BAK,Bread & Bakery,Monginis Cream Roll,Monginis,Premium,g,200 g,42,48,85.59999999999999,98.40000000000001,12.80000000000001
+BAK-008,BAK,Bread & Bakery,Modern Sandwich Bread,Modern,Standard,g,200 g,21,24,42.8,49.2,6.400000000000006
+BAK-009,BAK,Bread & Bakery,Britannia Croissant,Britannia,Premium,g,200 g,46,53,94,108,14
+BAK-010,BAK,Bread & Bakery,Theobroma Brownie Box,Theobroma,Premium,g,200 g,206,237,422.2,485.6,63.40000000000003
+STP-001,STP,Rice & Staples,India Gate Basmati Rice,India Gate,Premium,g,500 g,40,46,259.4,298.4,39
+STP-002,STP,Rice & Staples,Daawat Basmati Rice,Daawat,Premium,g,500 g,40,46,255,293.2,38.19999999999999
+STP-003,STP,Rice & Staples,Fortune Rozana Rice,Fortune,Standard,g,500 g,36,41,231.8,266.6,34.80000000000001
+STP-004,STP,Rice & Staples,Gobindobhog Rice,Local Premium,Premium,g,500 g,36,41,231.8,266.6,34.80000000000001
+STP-005,STP,Rice & Staples,India Gate Dubar Rice,India Gate,Standard,g,500 g,40,46,259.4,298.4,39
+STP-006,STP,Rice & Staples,Daawat Sona Masuri Rice,Daawat,Standard,g,500 g,40,46,255,293.2,38.19999999999999
+STP-007,STP,Rice & Staples,Lal Qilla Basmati Rice,Lal Qilla,Premium,g,500 g,36,41,231.8,266.6,34.80000000000001
+STP-008,STP,Rice & Staples,Fortune Everyday Rice,Fortune,Standard,g,500 g,36,41,231.8,266.6,34.80000000000001
+STP-009,STP,Rice & Staples,Kohinoor Basmati Rice,Kohinoor,Premium,g,500 g,36,41,231.8,266.6,34.80000000000001
+STP-010,STP,Rice & Staples,Miniket Rice,Local,Standard,g,500 g,36,41,231.8,266.6,34.80000000000001
+FLO-001,FLO,"Flour, Atta & Baking Essentials",Aashirvaad Whole Wheat Atta,Aashirvaad,Standard,g,500 g,34,39,218.8,251.8,33
+FLO-002,FLO,"Flour, Atta & Baking Essentials",Fortune Chakki Fresh Atta,Fortune,Standard,g,500 g,34,39,218.8,251.8,33
+FLO-003,FLO,"Flour, Atta & Baking Essentials",Pillsbury Chakki Fresh Atta,Pillsbury,Standard,g,500 g,34,39,218.8,251.8,33
+FLO-004,FLO,"Flour, Atta & Baking Essentials",Annapurna Atta,Annapurna,Standard,g,500 g,34,39,218.8,251.8,33
+FLO-005,FLO,"Flour, Atta & Baking Essentials",Aashirvaad Multigrain Atta,Aashirvaad,Premium,g,500 g,34,39,218.8,251.8,33
+FLO-006,FLO,"Flour, Atta & Baking Essentials",Tata Sampann Besan,Tata Sampann,Premium,g,500 g,37,43,240.8,277,36.19999999999999
+FLO-007,FLO,"Flour, Atta & Baking Essentials",Fortune Maida,Fortune,Standard,g,500 g,34,39,218.8,251.8,33
+FLO-008,FLO,"Flour, Atta & Baking Essentials",Rajdhani Besan,Rajdhani,Standard,g,500 g,34,39,218.8,251.8,33
+FLO-009,FLO,"Flour, Atta & Baking Essentials",Pillsbury Maida,Pillsbury,Standard,g,500 g,34,39,218.8,251.8,33
+FLO-010,FLO,"Flour, Atta & Baking Essentials",Baking Soda,Weikfield,Standard,g,500 g,34,39,218.8,251.8,33
+DAL-001,DAL,Pulses & Dal,Tata Sampann Toor Dal,Tata Sampann,Premium,g,500 g,96,110,619.8,712.8,93
+DAL-002,DAL,Pulses & Dal,Tata Sampann Moong Dal,Tata Sampann,Premium,g,500 g,96,110,619.8,712.8,93
+DAL-003,DAL,Pulses & Dal,Tata Sampann Masoor Dal,Tata Sampann,Premium,g,500 g,96,110,619.8,712.8,93
+DAL-004,DAL,Pulses & Dal,Fortune Chana Dal,Fortune,Standard,g,500 g,88,101,563.6,647.8,84.19999999999993
+DAL-005,DAL,Pulses & Dal,Fortune Urad Dal,Fortune,Standard,g,500 g,88,101,563.6,647.8,84.19999999999993
+DAL-006,DAL,Pulses & Dal,India Gate Moong Dal,India Gate,Premium,g,500 g,98,113,631,725.6,94.60000000000002
+DAL-007,DAL,Pulses & Dal,India Gate Masoor Dal,India Gate,Premium,g,500 g,98,113,631,725.6,94.60000000000002
+DAL-008,DAL,Pulses & Dal,Tata Sampann Rajma,Tata Sampann,Premium,g,500 g,96,110,619.8,712.8,93
+DAL-009,DAL,Pulses & Dal,Tata Sampann Kabuli Chana,Tata Sampann,Premium,g,500 g,96,110,619.8,712.8,93
+DAL-010,DAL,Pulses & Dal,Organic Tattva Moong Dal,Organic Tattva,Premium,g,500 g,118,136,761,875.2,114.2
+OIL-001,OIL,Cooking Oil & Ghee,Fortune Sunflower Oil,Fortune,Standard,ml,500 ml,85,98,690.2,793.6,103.4
+OIL-002,OIL,Cooking Oil & Ghee,Fortune Rice Bran Oil,Fortune,Premium,ml,500 ml,85,98,690.2,793.6,103.4
+OIL-003,OIL,Cooking Oil & Ghee,Saffola Gold Oil,Saffola,Premium,ml,500 ml,100,115,814.6,936.6,122
+OIL-004,OIL,Cooking Oil & Ghee,Saffola Active Oil,Saffola,Premium,ml,500 ml,100,115,814.6,936.6,122
+OIL-005,OIL,Cooking Oil & Ghee,Emami Healthy & Tasty Mustard Oil,Emami,Standard,ml,500 ml,85,98,690.2,793.6,103.4
+OIL-006,OIL,Cooking Oil & Ghee,Fortune Soyabean Oil,Fortune,Standard,ml,500 ml,85,98,690.2,793.6,103.4
+OIL-007,OIL,Cooking Oil & Ghee,Gemini Refined Sunflower Oil,Gemini,Standard,ml,500 ml,85,98,690.2,793.6,103.4
+OIL-008,OIL,Cooking Oil & Ghee,Dhara Mustard Oil,Dhara,Standard,ml,500 ml,85,98,690.2,793.6,103.4
+OIL-009,OIL,Cooking Oil & Ghee,Amul Pure Ghee,Amul,Premium,ml,500 ml,408,469,3312.8,3809.6,496.7999999999997
+OIL-010,OIL,Cooking Oil & Ghee,Patanjali Cow Ghee,Patanjali,Premium,ml,500 ml,400,460,3248,3735.2,487.1999999999998
+FRT-001,FRT,Fresh Fruits,Apple,Fresho,Premium,g,250 g,55,63,385,442.6,57.60000000000002
+FRT-002,FRT,Fresh Fruits,Banana,Fresho,Standard,dozen,1 dozen,35,40,175,201.2,26.19999999999999
+FRT-003,FRT,Fresh Fruits,Mango,Fresho,Premium,g,250 g,40,46,280,322,42
+FRT-004,FRT,Fresh Fruits,Orange,Fresho,Standard,g,250 g,24,28,166.4,191.2,24.79999999999998
+FRT-005,FRT,Fresh Fruits,Guava,Fresho,Standard,g,250 g,21,24,148.6,170.8,22.20000000000002
+FRT-006,FRT,Fresh Fruits,Papaya,Fresho,Standard,g,250 g,16,18,113.6,130.8,17.20000000000002
+FRT-007,FRT,Fresh Fruits,Pomegranate,Fresho,Premium,g,250 g,55,63,385,442.6,57.60000000000002
+FRT-008,FRT,Fresh Fruits,Watermelon,Fresho,Standard,piece,1 piece,55,63,253,290.8,37.80000000000001
+FRT-009,FRT,Fresh Fruits,Grapes,Fresho,Premium,g,250 g,45,52,315,362.2,47.19999999999999
+FRT-010,FRT,Fresh Fruits,Pineapple,Fresho,Standard,piece,1 piece,65,75,299,343.8,44.80000000000001
+VEG-001,VEG,Fresh Vegetables,Potato,Fresho,Standard,g,250 g,10,12,56.4,65,8.600000000000001
+VEG-002,VEG,Fresh Vegetables,Tomato,Fresho,Standard,g,250 g,12,14,84,96.59999999999999,12.59999999999999
+VEG-003,VEG,Fresh Vegetables,Onion,Fresho,Standard,g,250 g,13,15,91,104.8,13.8
+VEG-004,VEG,Fresh Vegetables,Green Peas,Fresho,Premium,g,100 g,14,16,107.8,124,16.2
+VEG-005,VEG,Fresh Vegetables,Cauliflower,Fresho,Standard,piece,1 piece,50,57,230,264.4,34.39999999999998
+VEG-006,VEG,Fresh Vegetables,Spinach,Fresho,Standard,g,100 g,10,12,77,88.59999999999999,11.59999999999999
+VEG-007,VEG,Fresh Vegetables,Carrot,Fresho,Standard,g,100 g,10,12,54.6,63,8.399999999999999
+VEG-008,VEG,Fresh Vegetables,Cucumber,Fresho,Standard,g,100 g,10,12,47,54.2,7.200000000000003
+VEG-009,VEG,Fresh Vegetables,Green Chilli,Fresho,Standard,g,100 g,14,16,107.8,124,16.2
+VEG-010,VEG,Fresh Vegetables,Brinjal,Fresho,Standard,g,100 g,10,12,50.6,58.4,7.799999999999997
+BIS-001,BIS,Biscuits & Cookies,Parle-G,Parle,Standard,g,50 g,8,9,29.4,33.6,4.200000000000003
+BIS-002,BIS,Biscuits & Cookies,Britannia Good Day,Britannia,Standard,g,50 g,8,9,32.2,36.8,4.599999999999994
+BIS-003,BIS,Biscuits & Cookies,Britannia Marie Gold,Britannia,Standard,g,50 g,8,9,32.2,36.8,4.599999999999994
+BIS-004,BIS,Biscuits & Cookies,Britannia Bourbon,Britannia,Premium,g,50 g,8,9,32.2,36.8,4.599999999999994
+BIS-005,BIS,Biscuits & Cookies,Parle Hide & Seek,Parle,Premium,g,50 g,8,9,32.2,36.8,4.599999999999994
+BIS-006,BIS,Biscuits & Cookies,Sunfeast Dark Fantasy,Sunfeast,Premium,g,50 g,8,9,32.2,36.8,4.599999999999994
+BIS-007,BIS,Biscuits & Cookies,Sunfeast Marie Light,Sunfeast,Standard,g,50 g,8,9,32.2,36.8,4.599999999999994
+BIS-008,BIS,Biscuits & Cookies,Oreo Original,Oreo,Premium,g,50 g,8,9,32.2,36.8,4.599999999999994
+BIS-009,BIS,Biscuits & Cookies,Tiger Glucose Biscuits,Britannia,Standard,g,50 g,8,9,29.4,33.6,4.200000000000003
+BIS-010,BIS,Biscuits & Cookies,Jim Jam Sandwich Biscuits,Parle,Standard,g,50 g,8,9,32.2,36.8,4.599999999999994
+TEA-001,TEA,Tea & Coffee,Tata Tea Gold,Tata Tea,Premium,g,50 g,29,33,196,225.4,29.40000000000001
+TEA-002,TEA,Tea & Coffee,Tata Tea Premium,Tata Tea,Standard,g,50 g,29,33,196,225.4,29.40000000000001
+TEA-003,TEA,Tea & Coffee,Brooke Bond Red Label,Brooke Bond,Standard,g,50 g,29,33,196,225.4,29.40000000000001
+TEA-004,TEA,Tea & Coffee,Brooke Bond Taj Mahal,Brooke Bond,Premium,g,50 g,29,33,196,225.4,29.40000000000001
+TEA-005,TEA,Tea & Coffee,Society Tea,Society,Standard,g,50 g,29,33,196,225.4,29.40000000000001
+TEA-006,TEA,Tea & Coffee,Wagh Bakri Premium Tea,Wagh Bakri,Premium,g,50 g,29,33,196,225.4,29.40000000000001
+TEA-007,TEA,Tea & Coffee,Nescafé Classic,Nescafé,Standard,g,50 g,29,33,196,225.4,29.40000000000001
+TEA-008,TEA,Tea & Coffee,Nescafé Sunrise,Nescafé,Standard,g,50 g,29,33,196,225.4,29.40000000000001
+TEA-009,TEA,Tea & Coffee,Bru Instant Coffee,Bru,Standard,g,50 g,121,139,829.4,953.8,124.4
+TEA-010,TEA,Tea & Coffee,Tata Coffee Grand,Tata Coffee,Premium,g,50 g,91,105,622.2,715.6,93.39999999999998
+PCR-001,PCR,Personal Care,Sunsilk Shampoo,Sunsilk,Standard,ml,50 ml,33,38,226.2,260,33.80000000000001
+PCR-002,PCR,Personal Care,Clinic Plus Shampoo,Clinic Plus,Standard,ml,50 ml,33,38,226.2,260,33.80000000000001
+PCR-003,PCR,Personal Care,Dove Body Wash,Dove,Premium,ml,50 ml,30,35,207.4,238.4,31
+PCR-004,PCR,Personal Care,Lux Soap,Lux,Standard,g,50 g,20,23,132,151.8,19.80000000000001
+PCR-005,PCR,Personal Care,Pears Soap,Pears,Premium,g,50 g,20,23,132,151.8,19.80000000000001
+PCR-006,PCR,Personal Care,Dettol Body Wash,Dettol,Premium,ml,50 ml,30,35,207.4,238.4,31
+PCR-007,PCR,Personal Care,Nivea Body Lotion,Nivea,Premium,ml,50 ml,29,33,196,225.4,29.40000000000001
+PCR-008,PCR,Personal Care,Vaseline Body Lotion,Vaseline,Standard,ml,50 ml,29,33,196,225.4,29.40000000000001
+PCR-009,PCR,Personal Care,Himalaya Face Wash,Himalaya,Standard,ml,50 ml,40,46,271.4,312.2,40.80000000000001
+PCR-010,PCR,Personal Care,Mamaearth Face Wash,Mamaearth,Premium,ml,50 ml,57,66,393.4,452.4,59
+ORL-001,ORL,Oral Care,Colgate Strong Teeth,Colgate,Standard,g,50 g,41,47,282.6,324.8,42.19999999999999
+ORL-002,ORL,Oral Care,Colgate MaxFresh,Colgate,Premium,g,50 g,41,47,282.6,324.8,42.19999999999999
+ORL-003,ORL,Oral Care,Colgate Visible White,Colgate,Premium,g,50 g,41,47,282.6,324.8,42.19999999999999
+ORL-004,ORL,Oral Care,Closeup Ever Fresh,Closeup,Standard,g,50 g,41,47,282.6,324.8,42.19999999999999
+ORL-005,ORL,Oral Care,Pepsodent Germicheck,Pepsodent,Standard,g,50 g,41,47,282.6,324.8,42.19999999999999
+ORL-006,ORL,Oral Care,Sensodyne Fresh Mint,Sensodyne,Premium,g,50 g,153,176,1051.6,1209.4,157.8000000000002
+ORL-007,ORL,Oral Care,Dabur Red Paste,Dabur,Standard,g,50 g,41,47,282.6,324.8,42.19999999999999
+ORL-008,ORL,Oral Care,Meswak Toothpaste,Dabur,Premium,g,50 g,41,47,282.6,324.8,42.19999999999999
+ORL-009,ORL,Oral Care,Colgate Kids,Colgate,Standard,g,50 g,58,67,396,455.4,59.39999999999998
+ORL-010,ORL,Oral Care,Oral-B Toothbrush Pack,Oral-B,Premium,g,50 g,25,29,169.8,195.4,25.59999999999999
+CLN-001,CLN,Home Cleaning,Surf Excel Matic,Surf Excel,Premium,g,500 g,135,155,869.4,999.8,130.4
+CLN-002,CLN,Home Cleaning,Ariel Matic,Ariel,Premium,g,500 g,135,155,869.4,999.8,130.4
+CLN-003,CLN,Home Cleaning,Tide Plus,Tide,Standard,g,500 g,100,115,644,740.6,96.60000000000002
+CLN-004,CLN,Home Cleaning,Vim Dishwash Liquid,Vim,Standard,ml,50 ml,10,12,60.8,70,9.200000000000003
+CLN-005,CLN,Home Cleaning,Vim Dishwash Bar,Vim,Standard,g,50 g,11,13,75.40000000000001,86.8,11.39999999999999
+CLN-006,CLN,Home Cleaning,Lizol Floor Cleaner,Lizol,Premium,g,50 g,11,13,75.40000000000001,86.8,11.39999999999999
+CLN-007,CLN,Home Cleaning,Harpic Toilet Cleaner,Harpic,Standard,ml,50 ml,10,12,56.8,65.40000000000001,8.600000000000009
+CLN-008,CLN,Home Cleaning,Colin Glass Cleaner,Colin,Standard,ml,50 ml,10,12,56.8,65.40000000000001,8.600000000000009
+CLN-009,CLN,Home Cleaning,Domex Toilet Cleaner,Domex,Standard,ml,50 ml,10,12,56.8,65.40000000000001,8.600000000000009
+CLN-010,CLN,Home Cleaning,Dettol Disinfectant Liquid,Dettol,Premium,ml,50 ml,10,12,56.8,65.40000000000001,8.600000000000009
+HOU-001,HOU,Household Essentials,Presto Garbage Bags,Presto,Standard,g,50 g,48,55,100.8,115.8,15
+HOU-002,HOU,Household Essentials,Origami Tissue Roll Pack,Origami,Standard,g,50 g,48,55,100.8,115.8,15
+HOU-003,HOU,Household Essentials,Freshwrap Aluminium Foil,Freshwrap,Standard,g,50 g,48,55,100.8,115.8,15
+HOU-004,HOU,Household Essentials,Freshwrap Cling Film,Freshwrap,Standard,g,50 g,48,55,100.8,115.8,15
+HOU-005,HOU,Household Essentials,Tupperware Storage Container,Tupperware,Premium,piece,1 piece,90,103,294.2,338.4,44.19999999999999
+HOU-006,HOU,Household Essentials,Milton Water Bottle,Milton,Standard,g,50 g,48,55,100.8,115.8,15
+HOU-007,HOU,Household Essentials,Cello Storage Container Set,Cello,Standard,g,50 g,48,55,100.8,115.8,15
+HOU-008,HOU,Household Essentials,Scotch-Brite Scrub Pad Pack,Scotch-Brite,Standard,g,50 g,48,55,100.8,115.8,15
+HOU-009,HOU,Household Essentials,Gala Floor Wiper,Gala,Standard,piece,1 piece,90,103,294.2,338.4,44.19999999999999
+HOU-010,HOU,Household Essentials,Pigeon Kitchen Storage Set,Pigeon,Premium,g,50 g,48,55,100.8,115.8,15
+INS-001,INS,Instant & Packaged Foods,Maggi 2-Minute Noodles,Nestlé,Standard,g,50 g,10,12,60.8,70,9.200000000000003
+INS-002,INS,Instant & Packaged Foods,Yippee Magic Masala Noodles,Sunfeast,Standard,g,50 g,10,12,60.8,70,9.200000000000003
+INS-003,INS,Instant & Packaged Foods,MTR Ready-to-Eat Poha,MTR,Standard,g,50 g,14,16,98.2,113,14.8
+INS-004,INS,Instant & Packaged Foods,MTR Ready-to-Eat Upma,MTR,Premium,g,50 g,14,16,98.2,113,14.8
+INS-005,INS,Instant & Packaged Foods,MTR Ready-to-Eat Rajma,MTR,Premium,g,50 g,14,16,98.2,113,14.8
+INS-006,INS,Instant & Packaged Foods,Tata Sampann Poha,Tata Sampann,Standard,g,50 g,10,12,66.40000000000001,76.40000000000001,10
+INS-007,INS,Instant & Packaged Foods,Saffola Masala Oats,Saffola,Premium,g,50 g,10,12,71,81.59999999999999,10.59999999999999
+INS-008,INS,Instant & Packaged Foods,Kellogg's Corn Flakes,Kellogg's,Premium,g,50 g,14,16,98.2,113,14.8
+INS-009,INS,Instant & Packaged Foods,Quaker Oats,Quaker,Standard,g,50 g,15,17,105.6,121.4,15.80000000000001
+INS-010,INS,Instant & Packaged Foods,Ching's Schezwan Noodles,Ching's Secret,Standard,g,50 g,10,12,60.8,70,9.200000000000003
+BAB-001,BAB,Baby Care & Family Care,Pampers Baby Dry Small,Pampers,Premium,g,50 g,52,60,358.2,412,53.80000000000001
+BAB-002,BAB,Baby Care & Family Care,Pampers Baby Dry Medium,Pampers,Premium,g,50 g,52,60,358.2,412,53.80000000000001
+BAB-003,BAB,Baby Care & Family Care,Huggies Wonder Pants Small,Huggies,Premium,g,50 g,52,60,358.2,412,53.80000000000001
+BAB-004,BAB,Baby Care & Family Care,Huggies Wonder Pants Medium,Huggies,Premium,g,50 g,52,60,358.2,412,53.80000000000001
+BAB-005,BAB,Baby Care & Family Care,Johnson's Baby Shampoo,Johnson's Baby,Standard,ml,50 ml,61,70,414.8,477,62.19999999999999
+BAB-006,BAB,Baby Care & Family Care,Johnson's Baby Lotion,Johnson's Baby,Standard,ml,50 ml,61,70,414.8,477,62.19999999999999
+BAB-007,BAB,Baby Care & Family Care,Himalaya Baby Wipes,Himalaya,Standard,g,50 g,44,51,301.6,346.8,45.19999999999999
+BAB-008,BAB,Baby Care & Family Care,Mamaearth Baby Lotion,Mamaearth,Premium,ml,50 ml,88,101,601.4,691.6,90.20000000000005
+BAB-009,BAB,Baby Care & Family Care,Sebamed Baby Wash,Sebamed,Premium,ml,50 ml,115,132,787.8,906,118.2
+BAB-010,BAB,Baby Care & Family Care,Johnson's Baby Powder,Johnson's Baby,Standard,g,50 g,44,51,301.6,346.8,45.19999999999999

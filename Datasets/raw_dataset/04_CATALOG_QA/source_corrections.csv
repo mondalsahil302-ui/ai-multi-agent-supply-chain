@@ -1,0 +1,5 @@
+﻿issue,action,status
+Earlier partial sales CSV,Excluded; original sales workbook retained instead,FIXED
+Warehouse-picker ID format mismatch,Canonicalized picker warehouse IDs to WH-KOL-###,FIXED
+Inventory transaction source unavailable,Kept deterministic reconstruction separately and labelled synthetic,DISCLOSED
+No road network source,Haversine reference only; road routing to be added via OSRM later,DISCLOSED

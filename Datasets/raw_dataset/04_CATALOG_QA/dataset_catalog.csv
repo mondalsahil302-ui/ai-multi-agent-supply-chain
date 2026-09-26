@@ -1,0 +1,26 @@
+﻿dataset_name,layer,row_count_or_expected,grain,primary_key,source,data_status,notes
+product_master.csv,01_RAW_SOURCE,200,product,product_id,Final product list(2).xlsx,SOURCE,
+location_regions.csv,01_RAW_SOURCE,40,location,location_id,locations.csv(1).csv,SOURCE,
+sales_history_source.xlsx,01_RAW_SOURCE,region x product x week,region_product_week_key,SELL of past 2 years.xlsx,SOURCE,"139 weekly sheets x 8,000 records; expected 1,112,000"
+demand_agent_training.csv,01_RAW_SOURCE,27800,location x selected product x week,demand_id,Demand of last 2 years.xlsx,SOURCE_EXPORT,"27,800 rows"
+festival_calendar.csv,01_RAW_SOURCE,36,festival date,festival_event + event_date,festival_calendar(1).csv,SOURCE,
+weather_weekly.csv,01_RAW_SOURCE,105,week,week_start_date,weather_weekly(1).csv,SOURCE,
+warehouse_master.csv,01_RAW_SOURCE,15,warehouse,warehouse_id,warehouses(1).xlsx,SOURCE,
+inventory_position.csv,01_RAW_SOURCE,3000,warehouse x product,warehouse_id + product_id,inventory_stock(1).xlsx,SOURCE,
+shelf_master.csv,01_RAW_SOURCE,600,warehouse x shelf,warehouse_id + shelf_id,inventory_stock(1).xlsx,SOURCE,
+product_shelf_assignment.csv,01_RAW_SOURCE,3000,warehouse x product,warehouse_id + product_id,inventory_stock(1).xlsx,SOURCE,
+supplier_master.csv,01_RAW_SOURCE,200,supplier,supplier_id,supplier_inventory(1).xlsx,SOURCE,
+supplier_area_options.csv,01_RAW_SOURCE,200,location x supplier,location_id + supplier_id,supplier_inventory(1).xlsx,SOURCE,
+supplier_product_catalog.csv,01_RAW_SOURCE,8000,supplier x product,supplier_product_key,supplier_inventory(1).xlsx,SOURCE,
+location_master.csv,02_DERIVED_REFERENCE,40,location,location_id,locations + Area_Master,DERIVED_ENRICHED,
+calendar_week.csv,02_DERIVED_REFERENCE,139,week,week_id,demand_agent_training.csv,DERIVED,
+product_variant_master.csv,02_DERIVED_REFERENCE,1000,product variant,variant_id,product_master.csv,DERIVED,
+warehouse_location_mapping.csv,02_DERIVED_REFERENCE,75,warehouse x location,warehouse_id + location_id,warehouse/location coordinates,DERIVED_PLANNING,
+warehouse_picker_mapping.csv,02_DERIVED_REFERENCE,750,warehouse x picker,warehouse_id + picker_id,project requirement,SYNTHETIC_PLANNING,50 pickers per warehouse
+vehicle_master.csv,02_DERIVED_REFERENCE,664,vehicle,vehicle_id,warehouse vehicle counts,DERIVED_IDENTITIES,
+distance_matrix_haversine.csv,02_DERIVED_REFERENCE,600,warehouse x location,warehouse_id + location_id,warehouse/location coordinates,DERIVED_GEOMETRIC,
+supplier_warehouse_distance_haversine.csv,02_DERIVED_REFERENCE,3000,supplier x warehouse,supplier_id + warehouse_id,supplier/warehouse coordinates,DERIVED_GEOMETRIC,
+inventory_transactions_reconstructed.csv,03_SYNTHETIC_SUPPORT,417000,warehouse x product x week,warehouse_product_week_key,inventory position + calendar,RECONSTRUCTED_SYNTHETIC,
+vehicle_availability_weekly.csv,03_SYNTHETIC_SUPPORT,92296,vehicle x week,week_id + vehicle_id,planning rule,SYNTHETIC_PLANNING,
+delivery_demand_requests_proxy.csv,03_SYNTHETIC_SUPPORT,27800,location x selected product x week,request_id,demand training units_sold,SYNTHETIC_PROXY,
+festival_calendar_2026_researched.csv,03_SYNTHETIC_SUPPORT,5,festival date,festival_event + event_date,project research,RESEARCHED_INPUT,

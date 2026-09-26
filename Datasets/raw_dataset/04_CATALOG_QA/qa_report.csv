@@ -1,0 +1,28 @@
+﻿check,result,observed,expected
+Product master rows,PASS,200,200
+Product IDs unique,PASS,200,200
+Location rows,PASS,40,40
+Warehouse rows,PASS,15,15
+Demand agent training rows,PASS,27800,27800
+Demand location-week products,PASS,5 per location-week,5
+Calendar weeks,PASS,139,139
+Sales weekly sheets,PASS,139,139
+Sales expected records from source workbook metadata,PASS,1112000,1112000
+Inventory position rows,PASS,3000,3000
+Shelf rows,PASS,600,600
+Storage assignment rows,PASS,3000,3000
+Supplier rows,PASS,200,200
+Supplier product catalog rows,PASS,8000,8000
+Supplier area options rows,PASS,200,200
+Picker rows,PASS,750,750
+Picker IDs unique,PASS,750,750
+Picker warehouse IDs valid,PASS,all valid,all valid
+Vehicle IDs match source vehicle total,PASS,664,664
+Warehouse-location mapping,PASS,75,75
+Warehouse-location distance matrix,PASS,600,600
+Supplier-warehouse distance matrix,PASS,3000,3000
+Reconstructed inventory transactions,PASS,417000,417000
+Inventory warehouse FK,PASS,all valid,all valid
+Inventory product FK,PASS,all valid,all valid
+Supplier location FK,PASS,all valid,all valid
+Supplier catalog product FK,PASS,all valid,all valid

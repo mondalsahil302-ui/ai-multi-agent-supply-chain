@@ -1,0 +1,15 @@
+dataset_name,source_file,source_available,source_rows,staged_rows,quarantined_rows,primary_key,primary_key_duplicates,required_field_failures,foreign_key_failures,range_failures,output_file,status,notes
+Product Master,product_master.csv,True,200,200,0,product_id,0,0,0,0,stg_product_master.csv,PASS,200 standard grocery products staged
+Location Master,location_regions.csv,True,40,40,0,location_id,0,0,0,0,stg_location_master.csv,PASS,40 Kolkata planning regions staged
+Warehouse Master,warehouse_master.csv,True,15,15,0,warehouse_id,0,0,0,0,stg_warehouse_master.csv,PASS,15 regional warehouses staged with fleet metrics
+Warehouse-Picker,warehouse_picker_mapping.csv,True,750,750,0,picker_id,0,0,0,0,stg_warehouse_picker_mapping.csv,PASS,750 pickers staged (50 per warehouse)
+Inventory Position,inventory_position.csv,True,3000,3000,0,"warehouse_id, product_id, snapshot_date",0,0,0,0,stg_inventory_position.csv,PASS,"3,000 inventory positions staged with normalized dates (2026-08-31)"
+Storage Assignment,product_shelf_assignment.csv,True,3000,3000,0,"warehouse_id, product_id, shelf_id, bin_id",0,0,0,0,stg_storage_assignment.csv,PASS,"3,000 slotting assignments staged"
+Shelf Master,shelf_master.csv,True,600,600,0,"warehouse_id, shelf_id",0,0,0,0,stg_shelf_master.csv,PASS,600 physical shelf units staged
+Supplier Master,supplier_master.csv,True,200,200,0,supplier_id,0,0,0,0,stg_supplier_master.csv,PASS,200 regional suppliers staged
+Supplier Product,supplier_product_catalog.csv,True,8000,8000,0,supplier_product_key,0,0,0,0,stg_supplier_product_catalog.csv,PASS,"8,000 supplier-product catalog offerings staged"
+Weather,weather_weekly.csv,True,105,105,0,week_start_date,0,0,0,0,stg_weather_weekly.csv,PASS,105 weekly environmental observations staged
+Festival,festival_calendar.csv,True,36,36,0,"festival_event, event_date",0,0,0,0,stg_festival_calendar.csv,PASS,36 festival event dates staged
+Calendar,calendar_week.csv,True,139,139,0,week_id,0,0,0,0,stg_calendar_week.csv,PASS,139 calendar weeks staged
+Sales/Demand,sales_history_source.xlsx,True,1112000,1112000,0,region_product_week_key,0,0,0,0,stg_sales_demand.csv,PASS,139 weekly sales sheets safely streamed (~1.1M rows)
+Inventory Transactions,inventory_transactions.csv,False,0,0,0,warehouse_product_week_key,0,0,0,0,N/A,NOT_AVAILABLE,No genuine raw source in 01_RAW_SOURCE; synthetic data not staged
