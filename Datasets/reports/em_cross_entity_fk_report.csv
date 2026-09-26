@@ -1,0 +1,15 @@
+Entity Map,FK Column,Reference,Distinct FKs,Matched,Orphans,Match Rate %,Status
+em_inventory_position,warehouse_id,em_warehouse,15,15,0,100.0,PASS
+em_inventory_position,product_id,em_product,200,200,0,100.0,PASS
+em_sales_demand,region_id,em_location,40,40,0,100.0,PASS
+em_sales_demand,product_id,em_product,200,200,0,100.0,PASS
+em_supplier_product,supplier_id,em_supplier,200,200,0,100.0,PASS
+em_supplier_product,product_supplied_id,em_product,200,200,0,100.0,PASS
+em_warehouse_location,warehouse_id,em_warehouse,15,15,0,100.0,PASS
+em_warehouse_location,location_id,em_location,33,33,0,100.0,PASS
+em_warehouse_picker,warehouse_id,em_warehouse,15,15,0,100.0,PASS
+em_supplier_area,supplier_id,em_supplier,200,200,0,100.0,PASS
+em_supplier_area,location_id,em_location,40,40,0,100.0,PASS
+em_inventory_transactions,warehouse_id,em_warehouse,15,15,0,100.0,PASS
+em_inventory_transactions,product_id,em_product,200,200,0,100.0,PASS
+em_inventory_transactions,week_id,em_calendar_week,139,139,0,100.0,PASS

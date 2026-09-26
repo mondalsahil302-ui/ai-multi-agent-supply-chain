@@ -1,19 +1,16 @@
 dataset,layer,status,notes
-Product Master,STAGING+STANDARDIZED,INCLUDED,
-Location Master,STAGING+STANDARDIZED,INCLUDED,
-Warehouse Master,STAGING+STANDARDIZED,INCLUDED,
-Warehouse-Picker Mapping,STAGING+STANDARDIZED,INCLUDED,
-Inventory Position,STAGING+STANDARDIZED,INCLUDED,
-Storage Assignment,STAGING+STANDARDIZED,INCLUDED,
-Shelf Master,STAGING+STANDARDIZED,INCLUDED,
-Supplier Master,STAGING+STANDARDIZED,INCLUDED,
-Supplier Product Catalog,STAGING+STANDARDIZED,INCLUDED,
-Supplier Area Options,STAGING+STANDARDIZED,INCLUDED,
-Weather,STAGING+STANDARDIZED,INCLUDED,
-Festival Calendar,STAGING+STANDARDIZED,INCLUDED,
-Calendar,STAGING+STANDARDIZED,INCLUDED,
-Sales / Demand,STAGING+STANDARDIZED,INCLUDED,
-Inventory Transactions,STAGING+STANDARDIZED,INCLUDED,RECONSTRUCTED_SYNTHETIC - preserve provenance
-Demand Agent Training,STAGING+STANDARDIZED,INCLUDED,
+Product Master,ENTITY_MAPPING,MAPPED,em_product.csv
+Location Master,ENTITY_MAPPING,MAPPED,em_location.csv
+Warehouse Master,ENTITY_MAPPING,MAPPED,em_warehouse.csv
+Supplier Master,ENTITY_MAPPING,MAPPED,em_supplier.csv
+Calendar Week,ENTITY_MAPPING,MAPPED,em_calendar_week.csv
+Product Variant,ENTITY_MAPPING,MAPPED,em_product_variant.csv
+Warehouse-Location,ENTITY_MAPPING,MAPPED,em_warehouse_location.csv
+Warehouse-Picker,ENTITY_MAPPING,MAPPED,em_warehouse_picker.csv
+Inventory Position,ENTITY_MAPPING,MAPPED,em_inventory_position.csv
+Sales/Demand,ENTITY_MAPPING,MAPPED,em_sales_demand.csv
+Inventory Transactions,ENTITY_MAPPING,MAPPED,em_inventory_transactions.csv - RECONSTRUCTED_SYNTHETIC
+Supplier-Product,ENTITY_MAPPING,MAPPED,em_supplier_product.csv
+Supplier-Area,ENTITY_MAPPING,MAPPED,em_supplier_area.csv
 Vehicle Master,NOT_STARTED,DEFERRED,Awaiting instruction
 Order Data,NOT_STARTED,DEFERRED,Awaiting instruction

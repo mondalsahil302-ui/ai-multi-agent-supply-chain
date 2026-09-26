@@ -2,6 +2,7 @@ dataset,file_name,rows,size_kb
 stg_calendar_week,stg_calendar_week.csv,139,21.8
 stg_festival_calendar,stg_festival_calendar.csv,36,5.5
 stg_inventory_position,stg_inventory_position.csv,3000,962.1
+stg_inventory_transactions,stg_inventory_transactions.csv,417000,146310.3
 stg_location_master,stg_location_master.csv,40,5.7
 stg_product_master,stg_product_master.csv,200,50.1
 stg_sales_demand,stg_sales_demand.csv,1112000,483437.8
