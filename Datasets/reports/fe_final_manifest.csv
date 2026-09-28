@@ -1,16 +1,20 @@
 Metric,Value
 Feature Engineering Version,v1.0.0
-Processing Timestamp,2026-09-28T17:22:56Z
-Output Datasets Written,9
-Total Features Configured,55
+Processing Timestamp (UTC),2026-09-28T18:58:22Z
+Output Feature Datasets Written,9
+Total Features Configured,53
+Feature Groups,11
 Demand Feature Rows,"1,112,000"
 Inventory Feature Rows,"3,000"
 Transaction Feature Rows (SYNTHETIC),"417,000"
-Synthetic Provenance Preserved,YES — RECONSTRUCTED_SYNTHETIC retained
+Total Feature Lineage Entries,54
+Synthetic Provenance Preserved,YES — RECONSTRUCTED_SYNTHETIC retained in all transaction features
 Temporal Lookahead Violations,0 — ZERO_LEAKAGE
-Target Generated Here,NO — Target Generation is separate stage
-Route Optimization Performed,NO — Routing features only
+Target Columns in Feature Outputs,0 — Target generation is a separate stage
+Route Optimization Performed,NO — Routing features only (descriptive)
 Vehicle Master Fabricated,NO — DEFERRED
 Order Data Fabricated,NO — DEFERRED
-Business Decisions Generated,NO — Feature Engineering only
-Stop Condition,STOP_BEFORE_TARGET_GENERATION
+Business Decisions Generated,NO — Feature Engineering creates inputs only
+Haversine Correctly Labeled,YES — HAVERSINE_GEOGRAPHIC_NOT_ROAD
+Integrated Source Files Modified,NO — Read-only access throughout
+Stop Condition,STOP_BEFORE_TARGET_GENERATION — next: Feature Validation (Phase 7)

@@ -1,20 +1,16 @@
 dataset_name,file_name,availability,row_count,column_count,size_mb,grain,primary_key,time_column,synthetic_status
-product_integrated,product_integrated.csv,AVAILABLE,200,32,0.07,product,product_id,N/A,NO
-product_variant_integrated,product_variant_integrated.csv,AVAILABLE,1000,15,0.18,product x variant,product_id,N/A,NO
-location_integrated,location_integrated.csv,AVAILABLE,40,13,0.01,location,location_id,N/A,NO
-calendar_integrated,calendar_integrated.csv,AVAILABLE,139,17,0.03,week,week_id,week_start_date,NO
-demand_integrated,demand_integrated.csv,AVAILABLE_LARGE,1112000,52,593.74,location x product x week,region_product_week_key,week_start_date,NO
-weather_event_integrated,weather_event_integrated.csv,AVAILABLE,139,16,0.02,week,week_id,week_start_date,NO
-inventory_integrated,inventory_integrated.csv,AVAILABLE,3000,48,1.33,warehouse x product,warehouse_id+product_id,snapshot_date,NO
-inventory_transactions_integrated,inventory_transactions_integrated.csv,AVAILABLE_LARGE,417000,27,200.98,warehouse x product x week,warehouse_product_week_key,week_start_date,RECONSTRUCTED_SYNTHETIC
-supplier_integrated,supplier_integrated.csv,AVAILABLE,200,27,0.09,supplier,supplier_id,N/A,NO
-supplier_product_integrated,supplier_product_integrated.csv,AVAILABLE,8000,24,3.02,supplier x product,supplier_product_key,N/A,NO
-supplier_area_integrated,supplier_area_integrated.csv,AVAILABLE,200,22,0.06,supplier x location,supplier_id+location_id,N/A,NO
+product_integrated,product_integrated.csv,AVAILABLE,200,32,0.1,product,product_id,N/A,NO
+product_variant_integrated,product_variant_integrated.csv,AVAILABLE,"1,000",15,0.2,product x variant,product_id,N/A,NO
+location_integrated,location_integrated.csv,AVAILABLE,40,13,0.0,location,location_id,N/A,NO
+calendar_integrated,calendar_integrated.csv,AVAILABLE,139,17,0.0,week,week_id,week_start_date,NO
+demand_integrated,demand_integrated.csv,AVAILABLE (LARGE),"1,112,000",52,593.7,location x product x week,region_product_week_key,week_start_date,NO
+weather_event_integrated,weather_event_integrated.csv,AVAILABLE,139,16,0.0,week,week_id,week_start_date,NO
+inventory_integrated,inventory_integrated.csv,AVAILABLE,"3,000",48,1.3,warehouse x product,warehouse_id+product_id,snapshot_date,NO
+inventory_transactions_integrated,inventory_transactions_integrated.csv,AVAILABLE (LARGE),"417,000",27,201.0,warehouse x product x week,warehouse_product_week_key,week_start_date,RECONSTRUCTED_SYNTHETIC
+supplier_integrated,supplier_integrated.csv,AVAILABLE,200,27,0.1,supplier,supplier_id,N/A,NO
+supplier_product_integrated,supplier_product_integrated.csv,AVAILABLE,"8,000",24,3.0,supplier x product,supplier_product_key,N/A,NO
+supplier_area_integrated,supplier_area_integrated.csv,AVAILABLE,200,22,0.1,supplier x location,supplier_id+location_id,N/A,NO
 warehouse_integrated,warehouse_integrated.csv,AVAILABLE,15,27,0.0,warehouse,warehouse_id,N/A,NO
-warehouse_picker_integrated,warehouse_picker_integrated.csv,AVAILABLE,750,13,0.21,warehouse x picker,picker_composite_key,N/A,NO
-warehouse_location_integrated,warehouse_location_integrated.csv,AVAILABLE,75,15,0.02,warehouse x location,warehouse_id+location_id,N/A,NO
+warehouse_picker_integrated,warehouse_picker_integrated.csv,AVAILABLE,750,13,0.2,warehouse x picker,picker_composite_key,N/A,NO
+warehouse_location_integrated,warehouse_location_integrated.csv,AVAILABLE,75,15,0.0,warehouse x location,warehouse_id+location_id,N/A,NO
 supply_chain_core,supply_chain_core.csv,AVAILABLE,2,1,0.0,location x product x week,region_product_week_key,week_start_date,PARTIAL
-agent_demand_integrated,agent_demand_integrated.csv,AVAILABLE,2,1,0.0,location x product x week,region_product_week_key,week_start_date,NO
-agent_inventory_integrated,agent_inventory_integrated.csv,AVAILABLE,3000,51,1.37,warehouse x product,warehouse_id+product_id,N/A,NO
-agent_supplier_integrated,agent_supplier_integrated.csv,AVAILABLE,200,31,0.1,supplier,supplier_id,N/A,NO
-agent_warehouse_integrated,agent_warehouse_integrated.csv,AVAILABLE,15,31,0.01,warehouse,warehouse_id,N/A,NO

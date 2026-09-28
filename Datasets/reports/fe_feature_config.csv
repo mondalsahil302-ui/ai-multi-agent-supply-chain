@@ -1,56 +1,54 @@
 feature_name,feature_group,source_dataset,source_columns,formula,grain,time_dependency,unit,description
-lag_1_demand,demand_timeseries,demand_integrated,units_sold,shift(1) within region_id+product_id group,location x product x week,t-1,units,Demand at t-1 for same location-product
-lag_2_demand,demand_timeseries,demand_integrated,units_sold,shift(2),location x product x week,t-2,units,Demand at t-2
-lag_3_demand,demand_timeseries,demand_integrated,units_sold,shift(3),location x product x week,t-3,units,Demand at t-3
-lag_4_demand,demand_timeseries,demand_integrated,units_sold,shift(4),location x product x week,t-4,units,Demand at t-4
-rolling_mean_4,demand_timeseries,demand_integrated,units_sold,"rolling(window=4,min_periods=1).mean() on shifted series (past only)",location x product x week,t-4..t-1,units,4-week rolling mean of past demand
-rolling_mean_8,demand_timeseries,demand_integrated,units_sold,"rolling(window=8,min_periods=1).mean() on shifted series",location x product x week,t-8..t-1,units,8-week rolling mean of past demand
-rolling_std_4,demand_timeseries,demand_integrated,units_sold,"rolling(window=4,min_periods=2).std() on shifted series",location x product x week,t-4..t-1,units,4-week rolling std dev of past demand
-rolling_std_8,demand_timeseries,demand_integrated,units_sold,"rolling(window=8,min_periods=2).std() on shifted series",location x product x week,t-8..t-1,units,8-week rolling std dev of past demand
-rolling_sum_4,demand_timeseries,demand_integrated,units_sold,"rolling(window=4,min_periods=1).sum() on shifted series",location x product x week,t-4..t-1,units,4-week rolling sum of past demand
-recent_min_demand,demand_timeseries,demand_integrated,units_sold,rolling(window=4).min() on shifted series,location x product x week,t-4..t-1,units,Minimum demand over past 4 weeks
-recent_max_demand,demand_timeseries,demand_integrated,units_sold,rolling(window=4).max() on shifted series,location x product x week,t-4..t-1,units,Maximum demand over past 4 weeks
-demand_change,demand_trend,demand_integrated,units_sold,units_sold_t - units_sold_(t-1),location x product x week,t and t-1,units,Absolute demand change from previous week
-demand_growth_rate,demand_trend,demand_integrated,units_sold,(units_sold_t - units_sold_(t-1)) / units_sold_(t-1); 0 when denom=0,location x product x week,t and t-1,ratio,Percentage demand growth from previous week
-week_of_year,seasonality,demand_integrated,week_number,week_number directly from source,location x product x week,t,week 1-52,ISO week number of year
-month,seasonality,demand_integrated,month,month from week_start_date,location x product x week,t,1-12,Calendar month
-quarter,seasonality,demand_integrated,quarter,quarter from calendar_integrated,location x product x week,t,1-4,Calendar quarter
-season,seasonality,demand_integrated,season,season from demand_integrated (derived from weather),location x product x week,t,categorical,Season label: Winter/Summer/Monsoon
-sin_week,seasonality,demand_integrated,week_number,sin(2*pi*week_number/52),location x product x week,t,"[-1,1]",Cyclical encoding of week of year (sin)
-cos_week,seasonality,demand_integrated,week_number,cos(2*pi*week_number/52),location x product x week,t,"[-1,1]",Cyclical encoding of week of year (cos)
-year,calendar,calendar_integrated,year,year from calendar_integrated,week,t,YYYY,Calendar year
-holiday_flag,calendar,weather_event_integrated,holiday_flag,holiday_flag from weather_event_integrated,week,t,0/1,Public holiday in this week
-festival_count,festival,weather_event_integrated,festival_count,festival_count from weather_event_integrated,week,t,count,Number of festivals in this week
-festival_flag,festival,weather_event_integrated,festival_count,1 if festival_count > 0 else 0,week,t,0/1,Binary: at least one festival this week
-temperature_mean_c,weather,weather_event_integrated,temperature_mean_c,direct from source,week,t,Celsius,Mean temperature for week
-temperature_max_c,weather,weather_event_integrated,temperature_max_c,direct from source,week,t,Celsius,Maximum temperature for week
-temperature_min_c,weather,weather_event_integrated,temperature_min_c,direct from source,week,t,Celsius,Minimum temperature for week
-rainfall_mm,weather,weather_event_integrated,rainfall_mm,direct from source,week,t,mm,Total weekly rainfall
-humidity_pct,weather,weather_event_integrated,humidity_pct,direct from source,week,t,percent,Mean weekly humidity
-rainfall_flag,weather,weather_event_integrated,rainfall_mm,1 if rainfall_mm > 0 else 0,week,t,0/1,Binary: any rainfall this week
-high_rainfall_flag,weather,weather_event_integrated,rainfall_mm,1 if rainfall_mm > 50 else 0 (project-defined monsoon threshold),week,t,0/1,High rainfall week (>50mm)
-temp_deviation_c,weather,weather_event_integrated,temperature_mean_c,temperature_mean_c - temperature_mean_c.mean() over all weeks,week,t,Celsius,Deviation of weekly temp from annual mean
-available_stock_units,inventory,inventory_integrated,available_stock_units,direct from source,warehouse x product,snapshot,units,Available stock at snapshot
-stock_gap,inventory,inventory_integrated,"available_stock_units, target_stock_units",available_stock_units - target_stock_units; null if target is null,warehouse x product,snapshot,units,Gap between available and target stock
-stock_coverage,inventory,inventory_integrated,"available_stock_units, avg_weekly_demand_units",available_stock_units / avg_weekly_demand_units; null if denom=0 or null,warehouse x product,snapshot,weeks,Weeks of stock coverage based on historical avg demand
-stockout_indicator,inventory,inventory_integrated,available_stock_units,1 if available_stock_units <= 0 else 0,warehouse x product,snapshot,0/1,Binary stockout indicator
-reorder_flag,inventory,inventory_integrated,reorder_flag,direct from source,warehouse x product,snapshot,0/1,Reorder trigger flag from inventory system
-space_utilization_pct,inventory,inventory_integrated,space_utilization_pct,direct from source,warehouse x product,snapshot,percent,Storage space utilization percentage
-weekly_sold_units,inv_movement,inventory_transactions_integrated,sold_units,direct from source (RECONSTRUCTED_SYNTHETIC),warehouse x product x week,t,units,Weekly sold units from reconstructed transaction (RECONSTRUCTED_SYNTHETIC)
-rolling_sold_4w,inv_movement,inventory_transactions_integrated,sold_units,rolling(4).mean() on shifted series within warehouse+product,warehouse x product x week,t-4..t-1,units,4-week rolling mean of sold units (RECONSTRUCTED_SYNTHETIC)
-lead_time_days,supplier,supplier_integrated,lead_time_days,direct from source,supplier,static,days,Supplier lead time
-min_order_qty,supplier,supplier_integrated,minimum_order_qty_units,direct from source,supplier,static,units,Supplier minimum order quantity
-max_order_qty,supplier,supplier_integrated,max_order_qty_units,direct from source,supplier,static,units,Supplier maximum order quantity
-supplier_capacity,supplier,supplier_integrated,supplier_storage_capacity_units,direct from source,supplier,static,units,Supplier storage capacity
-vehicle_load_capacity,supplier,supplier_integrated,vehicle_load_capacity_units,direct from source,supplier,static,units,Supplier vehicle load capacity per trip
-supplier_cost_price_rs,supplier,supplier_product_integrated,supplier_cost_price_rs,direct from source,supplier x product,static,INR,Supplier cost price for product
-supply_status,supplier,supplier_product_integrated,supply_status,direct from source,supplier x product,static,categorical,Active/Inactive supply relationship
-area_coverage_km,supplier,supplier_area_integrated,distance_from_location_center_km,direct from source,supplier x location,static,km,Distance from supplier to location center
-wh_capacity_units,warehouse,warehouse_integrated,capacity_units,direct from source,warehouse,static,units,Warehouse total capacity
-wh_dispatch_capacity,warehouse,warehouse_integrated,daily_dispatch_capacity_units,direct from source,warehouse,static,units/day,Warehouse daily dispatch capacity
-wh_picker_count,warehouse,warehouse_picker_integrated,picker_id,count(picker_id) grouped by warehouse_id,warehouse,static,count,Number of pickers assigned to warehouse
-wh_inventory_load,warehouse,inventory_integrated,"current_stock_units, capacity_units",sum(current_stock_units) / capacity_units within warehouse; null if denom=0,warehouse,snapshot,ratio,Warehouse inventory load ratio
-wh_service_radius_km,warehouse,warehouse_integrated,service_radius_km,direct from source,warehouse,static,km,Warehouse service radius
-haversine_distance_km,routing,warehouse_location_integrated,haversine_distance_km,"direct from source (straight-line geographic distance, NOT road distance)",warehouse x location,static,km,Haversine (geographic) distance between warehouse and location — NOT road distance
-mapping_rank,routing,warehouse_location_integrated,mapping_rank,direct from source,warehouse x location,static,ordinal,Proximity rank of warehouse to location (1=nearest)
-supplier_area_distance_km,routing,supplier_area_integrated,distance_from_location_center_km,direct from source,supplier x location,static,km,Haversine distance from supplier to location center — NOT road distance
+lag_1_demand,demand_timeseries,demand_integrated,units_sold,shift(1) within group,location x product x week,t-1,units,Demand observed one week before current week (t-1) for the same location-product pair. Initial value is NaN for the first record in each group.
+lag_2_demand,demand_timeseries,demand_integrated,units_sold,shift(2),location x product x week,t-2,units,Demand at t-2.
+lag_3_demand,demand_timeseries,demand_integrated,units_sold,shift(3),location x product x week,t-3,units,Demand at t-3.
+lag_4_demand,demand_timeseries,demand_integrated,units_sold,shift(4),location x product x week,t-4,units,Demand at t-4.
+rolling_mean_4,demand_timeseries,demand_integrated,units_sold,"lag_1_demand.rolling(4, min_periods=1).mean()",location x product x week,t-4 to t-1,units,4-week rolling mean computed on the lag_1 series — guarantees no lookahead into current week t.
+rolling_mean_8,demand_timeseries,demand_integrated,units_sold,"lag_1_demand.rolling(8, min_periods=1).mean()",location x product x week,t-8 to t-1,units,8-week rolling mean of historical demand.
+rolling_std_4,demand_timeseries,demand_integrated,units_sold,"lag_1_demand.rolling(4, min_periods=2).std()",location x product x week,t-4 to t-1,units,4-week rolling standard deviation — captures demand variability.
+rolling_std_8,demand_timeseries,demand_integrated,units_sold,"lag_1_demand.rolling(8, min_periods=2).std()",location x product x week,t-8 to t-1,units,8-week rolling standard deviation.
+rolling_sum_4,demand_timeseries,demand_integrated,units_sold,"lag_1_demand.rolling(4, min_periods=1).sum()",location x product x week,t-4 to t-1,units,Total demand over past 4 weeks — useful for reorder quantity estimation.
+recent_min_demand,demand_timeseries,demand_integrated,units_sold,"lag_1_demand.rolling(4, min_periods=1).min()",location x product x week,t-4 to t-1,units,Minimum demand observed over past 4 weeks.
+recent_max_demand,demand_timeseries,demand_integrated,units_sold,"lag_1_demand.rolling(4, min_periods=1).max()",location x product x week,t-4 to t-1,units,Maximum demand observed over past 4 weeks.
+demand_change,demand_trend,demand_integrated,"units_sold, lag_1_demand",units_sold_t - units_sold_(t-1),location x product x week,t and t-1,units,"Absolute change in demand from previous week. Positive = growing, Negative = shrinking."
+demand_growth_rate,demand_trend,demand_integrated,"units_sold, lag_1_demand",(D_t - D_{t-1}) / D_{t-1}; NaN when D_{t-1}=0 or null,location x product x week,t and t-1,ratio,"Percentage growth rate. Zero-denominator → NaN (documented, not silently 0 or inf)."
+week_of_year,seasonality,demand_integrated,week_number,week_number (integer 1-52),location x product x week,t,1-52,ISO week number of the year — captures weekly seasonality.
+month,seasonality,demand_integrated,month,month from week_start_date,location x product x week,t,1-12,Calendar month — captures monthly seasonality.
+quarter,seasonality,demand_integrated,quarter,quarter from calendar_integrated,location x product x week,t,1-4,Calendar quarter.
+season,seasonality,demand_integrated,season,season label from weather data,location x product x week,t,categorical,Season: Winter / Summer / Pre-Monsoon / Monsoon / Post-Monsoon.
+sin_week,seasonality,demand_integrated,week_number,sin(2*pi*week_number/52),location x product x week,t,"[-1,1]",Sine encoding of week — allows ML models to capture continuous cyclical patterns without ordinality artifacts.
+cos_week,seasonality,demand_integrated,week_number,cos(2*pi*week_number/52),location x product x week,t,"[-1,1]",Cosine encoding of week — paired with sin_week for full cyclical representation.
+holiday_flag,calendar,weather_event_integrated,holiday_flag,direct from source (0/1),week,t,0/1,1 if this week contains a public holiday.
+festival_count,festival,weather_event_integrated,festival_count,direct from source,week,t,count,Number of festivals occurring in this week.
+festival_flag,festival,weather_event_integrated,festival_count,1 if festival_count > 0 else 0,week,t,0/1,Binary: at least one festival event in this week.
+temperature_mean_c,weather,weather_event_integrated,temperature_mean_c,direct,week,t,°C,Mean temperature for the week in Celsius.
+temperature_max_c,weather,weather_event_integrated,temperature_max_c,direct,week,t,°C,Maximum temperature for the week.
+temperature_min_c,weather,weather_event_integrated,temperature_min_c,direct,week,t,°C,Minimum temperature for the week.
+rainfall_mm,weather,weather_event_integrated,rainfall_mm,direct,week,t,mm,Total weekly rainfall in millimeters.
+humidity_pct,weather,weather_event_integrated,humidity_pct,direct,week,t,%,Mean weekly relative humidity.
+rainfall_flag,weather,weather_event_integrated,rainfall_mm,1 if rainfall_mm > 0 else 0,week,t,0/1,Binary: any rainfall this week.
+high_rainfall_flag,weather,weather_event_integrated,rainfall_mm,1 if rainfall_mm > 50 else 0 (project-defined monsoon threshold of 50mm/week),week,t,0/1,"High-rainfall week indicator. Threshold: 50mm (project-defined, documented here)."
+temp_deviation_c,weather,weather_event_integrated,temperature_mean_c,temperature_mean_c - mean(temperature_mean_c) over all weeks in dataset,week,t,°C,Deviation of weekly temperature from the dataset-wide annual mean.
+available_stock_units,inventory,inventory_integrated,available_stock_units,direct,warehouse x product,snapshot,units,Currently available units (current_stock - reserved_stock).
+stock_gap,inventory,inventory_integrated,"available_stock_units, target_stock_units",available_stock_units - target_stock_units; NaN if target is null,warehouse x product,snapshot,units,Gap between available and target stock. Negative = below target.
+stock_coverage,inventory,inventory_integrated,"available_stock_units, avg_weekly_demand_units",available_stock_units / avg_weekly_demand_units; NaN if denom=0 or null,warehouse x product,snapshot,weeks,Estimated weeks of coverage at historical average demand rate. Does NOT use future demand.
+stockout_indicator,inventory,inventory_integrated,available_stock_units,1 if available_stock_units <= 0 else 0,warehouse x product,snapshot,0/1,Binary: product is out of stock at this warehouse.
+reorder_flag,inventory,inventory_integrated,reorder_flag,direct from source,warehouse x product,snapshot,0/1,Reorder trigger flag from the inventory system.
+space_utilization_pct,inventory,inventory_integrated,space_utilization_pct,direct from source,warehouse x product,snapshot,%,Shelf/slot space utilization percentage for this product at this warehouse.
+weekly_sold_units,inv_movement,inventory_transactions_integrated,sold_units,direct (RECONSTRUCTED_SYNTHETIC),warehouse x product x week,t,units,Weekly sold units from reconstructed synthetic transaction data. Source: RECONSTRUCTED_SYNTHETIC.
+rolling_sold_4w,inv_movement,inventory_transactions_integrated,sold_units,"lag_1_sold.rolling(4, min_periods=1).mean() within warehouse+product group",warehouse x product x week,t-4 to t-1,units,4-week rolling mean of weekly sold units. Computed on lag_1 series — no lookahead. Source: RECONSTRUCTED_SYNTHETIC.
+lead_time_days,supplier,supplier_integrated,lead_time_days,direct,supplier,static,days,Number of days from order placement to delivery.
+min_order_qty,supplier,supplier_integrated,minimum_order_qty_units,direct,supplier,static,units,Minimum order quantity the supplier accepts.
+max_order_qty,supplier,supplier_integrated,max_order_qty_units,direct,supplier,static,units,Maximum order quantity per order.
+supplier_capacity,supplier,supplier_integrated,supplier_storage_capacity_units,direct,supplier,static,units,Total storage capacity at supplier site.
+vehicle_load_capacity,supplier,supplier_integrated,vehicle_load_capacity_units,direct,supplier,static,units,Maximum load per delivery vehicle.
+supplier_cost_price,supplier,supplier_product_integrated,supplier_cost_price_rs,direct,supplier x product,static,INR,Cost price charged by supplier for this product.
+supply_status,supplier,supplier_product_integrated,supply_status,direct,supplier x product,static,categorical,Active or Inactive supply relationship for this supplier-product pair.
+area_coverage_km,supplier,supplier_area_integrated,distance_from_location_center_km,direct (Haversine),supplier x location,static,km,Haversine distance from supplier to the location center. Geographic distance — NOT road distance.
+wh_capacity_units,warehouse,warehouse_integrated,capacity_units,direct,warehouse,static,units,Total capacity of the warehouse in storage units.
+wh_dispatch_capacity,warehouse,warehouse_integrated,daily_dispatch_capacity_units,direct,warehouse,static,units/day,Maximum dispatch volume per day.
+wh_picker_count,warehouse,warehouse_picker_integrated,picker_id,COUNT(picker_id) GROUP BY warehouse_id,warehouse,static,count,Number of pickers assigned to this warehouse.
+wh_inventory_load,warehouse,inventory_integrated,"current_stock_units, capacity_units",SUM(current_stock_units) / capacity_units; NaN if capacity=0,warehouse,snapshot,"ratio [0,1+]",Proportion of warehouse capacity occupied by current stock.
+wh_service_radius_km,warehouse,warehouse_integrated,service_radius_km,direct,warehouse,static,km,Defined service radius of the warehouse.
+haversine_distance_km,routing,warehouse_location_integrated,haversine_distance_km,direct (already computed using Haversine formula in entity mapping stage),warehouse x location,static,km,Geographic straight-line distance (Haversine). This is NOT road distance and NOT travel time. It cannot be used as road distance without separate road-network data.
+mapping_rank,routing,warehouse_location_integrated,mapping_rank,direct from entity mapping,warehouse x location,static,ordinal (1=nearest),Rank of warehouse proximity to this location (1 = nearest warehouse).

@@ -1,22 +1,26 @@
-feature,latest_source,uses_future,status
-lag_1_demand,t-1,No,SAFE
-lag_2_demand,t-2,No,SAFE
-lag_3_demand,t-3,No,SAFE
-lag_4_demand,t-4,No,SAFE
-rolling_mean_4,t-4..t-1 (lag_1 series),No,SAFE
-rolling_mean_8,t-8..t-1 (lag_1 series),No,SAFE
-rolling_std_4,t-4..t-1 (lag_1 series),No,SAFE
-rolling_sum_4,t-4..t-1 (lag_1 series),No,SAFE
-recent_min_demand,t-4..t-1 (lag_1 series),No,SAFE
-recent_max_demand,t-4..t-1 (lag_1 series),No,SAFE
-demand_change,t and t-1,No,SAFE — current week demand used
-demand_growth_rate,t and t-1,No,SAFE — current week demand used
-week_of_year,t (calendar),No,SAFE
-sin_week/cos_week,t (calendar),No,SAFE
-season,t (calendar),No,SAFE
-holiday_flag,t (known in advance),No,SAFE
-festival_flag,t (known in advance),No,SAFE
-temperature_mean_c,t (observation),No,SAFE — current week weather
-rainfall_mm,t (observation),No,SAFE — current week weather
-stock_coverage,snapshot (static),No,SAFE
-rolling_sold_4w,t-4..t-1 (lag_1 series),No,SAFE — RECONSTRUCTED_SYNTHETIC
+feature,latest_source,uses_future,convention,status
+lag_1_demand,t-1,No,strictly past,✅ SAFE
+lag_2_demand,t-2,No,strictly past,✅ SAFE
+lag_3_demand,t-3,No,strictly past,✅ SAFE
+lag_4_demand,t-4,No,strictly past,✅ SAFE
+rolling_mean_4,t-4..t-1,No,lag_1 series — no lookahead,✅ SAFE
+rolling_mean_8,t-8..t-1,No,lag_1 series — no lookahead,✅ SAFE
+rolling_std_4,t-4..t-1,No,lag_1 series — no lookahead,✅ SAFE
+rolling_std_8,t-8..t-1,No,lag_1 series — no lookahead,✅ SAFE
+rolling_sum_4,t-4..t-1,No,lag_1 series — no lookahead,✅ SAFE
+recent_min_demand,t-4..t-1,No,lag_1 series,✅ SAFE
+recent_max_demand,t-4..t-1,No,lag_1 series,✅ SAFE
+demand_change,t and t-1,No,D_t available at end of week t,✅ SAFE
+demand_growth_rate,t and t-1,No,D_t available at end of week t,✅ SAFE
+week_of_year,t (calendar),No,pure calendar knowledge,✅ SAFE
+sin_week / cos_week,t (calendar),No,pure calendar knowledge,✅ SAFE
+season,t (calendar),No,pure calendar knowledge,✅ SAFE
+holiday_flag,t (published),No,published calendar — known in advance,✅ SAFE
+festival_flag,t (published),No,published religious calendar — known in advance,✅ SAFE
+temperature_mean_c,t (observed),No,observation complete when week ends,✅ SAFE
+rainfall_mm,t (observed),No,observation complete when week ends,✅ SAFE
+available_stock_units,snapshot (static),No,point-in-time inventory snapshot,✅ SAFE
+stock_coverage,snapshot (static),No,uses historical avg demand — NOT future,✅ SAFE
+rolling_sold_4w,t-4..t-1 (synthetic),No,lag_1 series on synthetic transactions,✅ SAFE
+lead_time_days,static master,No,static master data,✅ SAFE
+haversine_distance_km,static geographic,No,geographic constant — does not change,✅ SAFE
