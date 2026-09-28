@@ -1,0 +1,10 @@
+dataset_name,file_name,path,row_count,column_count,grain,primary_key,date_column,synthetic_status,status
+demand_features,demand_features.csv,D:\ai-multi-agent-supply-chain\Datasets\feature_engineered\demand_features.csv,27800,62,location x product x week,region_product_week_key,week_start_date,OBSERVED_PLUS_DERIVED,AVAILABLE
+demand_targets,demand_targets.csv,D:\ai-multi-agent-supply-chain\Datasets\feature_engineered\demand_targets.csv,27800,6,1 target per demand record,demand_id,forecast_target_start,SUPERVISED_TARGET,AVAILABLE
+inventory_features,inventory_features.csv,D:\ai-multi-agent-supply-chain\Datasets\feature_engineered\inventory_features.csv,3000,28,warehouse x product x snapshot,warehouse_id + product_id,snapshot_date,OBSERVED_PLUS_DERIVED,AVAILABLE
+inventory_transactions_features,inventory_transactions_features.csv,D:\ai-multi-agent-supply-chain\Datasets\feature_engineered\inventory_transactions_features.csv,417000,27,warehouse x product x week,warehouse_product_week_key,week_start_date,RECONSTRUCTED_SYNTHETIC,AVAILABLE
+supplier_features,supplier_features.csv,D:\ai-multi-agent-supply-chain\Datasets\feature_engineered\supplier_features.csv,8000,19,supplier x product,supplier_id + product_id,None,OBSERVED_COMMERCIAL,AVAILABLE
+warehouse_features,warehouse_features.csv,D:\ai-multi-agent-supply-chain\Datasets\feature_engineered\warehouse_features.csv,15,31,1 warehouse,warehouse_id,None,OBSERVED_FACILITY,AVAILABLE
+routing_features,routing_features.csv,D:\ai-multi-agent-supply-chain\Datasets\feature_engineered\routing_features.csv,800,10,origin x destination,origin_id + destination_id,None,DERIVED_GEOMETRIC,AVAILABLE
+risk_features,risk_features.csv,D:\ai-multi-agent-supply-chain\Datasets\feature_engineered\risk_features.csv,3,5,risk_feature_type,risk_feature_type,None,MULTI_DOMAIN_RISK,AVAILABLE
+cross_domain_features,cross_domain_features.csv,None,0,0,location x product x week,region_product_week_key,week_start_date,CROSS_DOMAIN_MART,NOT_AVAILABLE

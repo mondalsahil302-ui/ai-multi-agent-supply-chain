@@ -1,0 +1,2 @@
+source_dataset,business_key,feature_name,failure_reason,validation_rule,validation_timestamp
+demand_features.csv,"1,035 entity groups with non-contiguous sheet order",year + week_number,DISORDERED_CHRONOLOGICAL_SEQUENCE_IN_SOURCE,RULE_08_TEMPORAL_MONOTONICITY,2026-09-28T19:26:25+05:30

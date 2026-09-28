@@ -1,0 +1,8 @@
+dataset_name,feature_count,row_count,grain,duplicate_keys,null_issues,infinite_issues,temporal_issues,lag_issues,leakage_issues,provenance_issues,status
+demand_features,62,27800,location x product x week,0,0,0,1035,0,0,0,WARNING
+demand_targets,6,27800,1 target per demand record,0,0,0,0,0,0,0,PASS
+inventory_features,28,3000,warehouse x product x snapshot,0,0,0,0,0,0,0,PASS
+inventory_transactions_features,27,417000,warehouse x product x week,0,0,0,0,0,0,0,PASS
+supplier_features,19,8000,supplier x product,0,0,0,0,0,0,0,PASS
+warehouse_features,31,15,1 warehouse,0,0,0,0,0,0,0,PASS
+routing_features,10,800,origin x destination,0,0,0,0,0,0,0,PASS

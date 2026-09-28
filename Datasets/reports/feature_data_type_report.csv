@@ -1,0 +1,9 @@
+dataset,numeric_features,string_features,boolean_features,trapped_numeric_in_object,status
+demand_features,31,30,1,None,PASS
+demand_targets,1,5,0,None,PASS
+inventory_features,18,10,0,None,PASS
+inventory_transactions_features,2,25,0,None,PASS
+supplier_features,9,10,0,None,PASS
+warehouse_features,17,14,0,None,PASS
+routing_features,1,9,0,None,PASS
+risk_features,1,4,0,None,PASS

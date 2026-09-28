@@ -1,0 +1,10 @@
+Metric,Value
+Datasets Discovered & Audited,8
+Total Rows Validated,"484,418"
+Target Leakage Incidents,0 (ZERO_LEAKAGE)
+Lookahead Rolling Violations,0
+Division-by-Zero Infinite Values,0
+Synthetic Provenance Preserved,YES (RECONSTRUCTED_SYNTHETIC)
+Chronological Re-Indexing Applied,YES (validated_demand_features.csv sorted)
+Quarantined Audit Records,1 (Temporal sheet order finding)
+Final Validation Status,PASS (WITH_DOCUMENTED_WARNINGS)

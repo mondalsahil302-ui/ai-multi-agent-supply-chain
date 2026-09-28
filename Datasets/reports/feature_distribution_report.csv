@@ -1,0 +1,16 @@
+feature,mean,std,min,median,max,unique_count,is_constant,status
+year,2024.86,0.78,2024.0,2025.0,2026.0,3,NO,PASS
+week_number,70.0,40.13,1.0,70.0,139.0,139,NO,PASS
+demand_rank,3.0,1.41,1.0,3.0,5.0,5,NO,PASS
+weekday_units_sold,85.75,26.51,26.0,80.0,238.0,182,NO,PASS
+weekend_units_sold,33.02,12.28,11.0,30.0,104.0,86,NO,PASS
+units_sold,118.77,37.61,38.0,111.0,325.0,249,NO,PASS
+avg_selling_price_rs,144.1,270.38,8.76,65.28,2541.41,12460,NO,PASS
+promotion_flag,0.19,0.39,0.0,0.0,1.0,2,NO,PASS
+discount_pct,2.11,4.85,0.0,0.0,20.0,7,NO,PASS
+holiday_flag,0.22,0.41,0.0,0.0,1.0,2,NO,PASS
+temperature_c,28.29,5.01,15.3,29.7,37.0,94,NO,PASS
+rainfall_mm,20.31,26.02,0.0,11.2,132.5,119,NO,PASS
+humidity_pct,70.27,10.99,48.0,68.9,93.7,117,NO,PASS
+stockout_flag,0.02,0.15,0.0,0.0,1.0,2,NO,PASS
+recorded_at,46279.51,0.11,46279.45,46279.45,46279.69,1163,NO,PASS

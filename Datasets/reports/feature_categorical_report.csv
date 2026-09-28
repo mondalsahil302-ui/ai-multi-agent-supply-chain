@@ -1,0 +1,6 @@
+dataset,feature,distinct_count,observed_values,unexpected_values,status
+demand_features,season,5,"['Winter', 'Autumn', 'Spring', 'Summer', 'Monsoon']",None,PASS
+demand_features,weekday_weekend,1,['Weekday'],None,PASS
+demand_features,stockout_flag,2,"[np.int64(0), np.int64(1)]",None,PASS
+demand_features,holiday_flag,2,"[np.int64(0), np.int64(1)]",None,PASS
+supplier_features,supply_status,1,['Available'],['Available'],WARNING
