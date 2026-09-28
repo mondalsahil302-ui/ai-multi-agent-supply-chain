@@ -1,0 +1,16 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Data outputs (large files, not committed)
+data/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
