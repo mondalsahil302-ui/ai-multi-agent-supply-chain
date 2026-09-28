@@ -1,0 +1,14 @@
+dataset,grain_keys,total_rows,duplicate_keys,status
+product_integrated,product_id,200,0,PASS
+location_integrated,location_id,40,0,PASS
+warehouse_integrated,warehouse_id,15,0,PASS
+calendar_integrated,week_id,139,0,PASS
+weather_event_integrated,week_id,139,0,PASS
+inventory_integrated,warehouse_id+product_id,3000,0,PASS
+supplier_integrated,supplier_id,200,0,PASS
+supplier_product_integrated,supplier_id+product_supplied_id,8000,0,PASS
+supplier_area_integrated,supplier_id+location_id,200,0,PASS
+warehouse_picker_integrated,warehouse_id+picker_id,750,0,PASS
+warehouse_location_integrated,warehouse_id+location_id,75,0,PASS
+demand_integrated,region_id+product_id+week_id,1112000,0,PASS
+inventory_transactions_integrated,warehouse_id+product_id+week_id,417000,0,PASS

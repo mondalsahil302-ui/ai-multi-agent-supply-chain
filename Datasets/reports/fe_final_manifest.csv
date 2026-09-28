@@ -1,0 +1,16 @@
+Metric,Value
+Feature Engineering Version,v1.0.0
+Processing Timestamp,2026-09-28T17:22:56Z
+Output Datasets Written,9
+Total Features Configured,55
+Demand Feature Rows,"1,112,000"
+Inventory Feature Rows,"3,000"
+Transaction Feature Rows (SYNTHETIC),"417,000"
+Synthetic Provenance Preserved,YES — RECONSTRUCTED_SYNTHETIC retained
+Temporal Lookahead Violations,0 — ZERO_LEAKAGE
+Target Generated Here,NO — Target Generation is separate stage
+Route Optimization Performed,NO — Routing features only
+Vehicle Master Fabricated,NO — DEFERRED
+Order Data Fabricated,NO — DEFERRED
+Business Decisions Generated,NO — Feature Engineering only
+Stop Condition,STOP_BEFORE_TARGET_GENERATION

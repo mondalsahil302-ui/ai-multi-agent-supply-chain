@@ -1,0 +1,22 @@
+feature,latest_source,uses_future,status
+lag_1_demand,t-1,No,SAFE
+lag_2_demand,t-2,No,SAFE
+lag_3_demand,t-3,No,SAFE
+lag_4_demand,t-4,No,SAFE
+rolling_mean_4,t-4..t-1 (lag_1 series),No,SAFE
+rolling_mean_8,t-8..t-1 (lag_1 series),No,SAFE
+rolling_std_4,t-4..t-1 (lag_1 series),No,SAFE
+rolling_sum_4,t-4..t-1 (lag_1 series),No,SAFE
+recent_min_demand,t-4..t-1 (lag_1 series),No,SAFE
+recent_max_demand,t-4..t-1 (lag_1 series),No,SAFE
+demand_change,t and t-1,No,SAFE — current week demand used
+demand_growth_rate,t and t-1,No,SAFE — current week demand used
+week_of_year,t (calendar),No,SAFE
+sin_week/cos_week,t (calendar),No,SAFE
+season,t (calendar),No,SAFE
+holiday_flag,t (known in advance),No,SAFE
+festival_flag,t (known in advance),No,SAFE
+temperature_mean_c,t (observation),No,SAFE — current week weather
+rainfall_mm,t (observation),No,SAFE — current week weather
+stock_coverage,snapshot (static),No,SAFE
+rolling_sold_4w,t-4..t-1 (lag_1 series),No,SAFE — RECONSTRUCTED_SYNTHETIC

@@ -1,0 +1,53 @@
+feature_name,output_dataset,feature_group,source_dataset,source_columns,transformation,grain,time_dependency,target_dependency,synthetic_dependency,description
+lag_1_demand,demand_features.csv,demand_timeseries,demand_integrated,units_sold,shift(1) within region_id+product_id group,location x product x week,t-1,No,No,Demand at t-1 for same location-product
+lag_2_demand,demand_features.csv,demand_timeseries,demand_integrated,units_sold,shift(2),location x product x week,t-2,No,No,Demand at t-2
+lag_3_demand,demand_features.csv,demand_timeseries,demand_integrated,units_sold,shift(3),location x product x week,t-3,No,No,Demand at t-3
+lag_4_demand,demand_features.csv,demand_timeseries,demand_integrated,units_sold,shift(4),location x product x week,t-4,No,No,Demand at t-4
+rolling_mean_4,demand_features.csv,demand_timeseries,demand_integrated,units_sold,"rolling(window=4,min_periods=1).mean() on shifted series (past only)",location x product x week,t-4..t-1,No,No,4-week rolling mean of past demand
+rolling_mean_8,demand_features.csv,demand_timeseries,demand_integrated,units_sold,"rolling(window=8,min_periods=1).mean() on shifted series",location x product x week,t-8..t-1,No,No,8-week rolling mean of past demand
+rolling_std_4,demand_features.csv,demand_timeseries,demand_integrated,units_sold,"rolling(window=4,min_periods=2).std() on shifted series",location x product x week,t-4..t-1,No,No,4-week rolling std dev of past demand
+rolling_std_8,demand_features.csv,demand_timeseries,demand_integrated,units_sold,"rolling(window=8,min_periods=2).std() on shifted series",location x product x week,t-8..t-1,No,No,8-week rolling std dev of past demand
+rolling_sum_4,demand_features.csv,demand_timeseries,demand_integrated,units_sold,"rolling(window=4,min_periods=1).sum() on shifted series",location x product x week,t-4..t-1,No,No,4-week rolling sum of past demand
+recent_min_demand,demand_features.csv,demand_timeseries,demand_integrated,units_sold,rolling(window=4).min() on shifted series,location x product x week,t-4..t-1,No,No,Minimum demand over past 4 weeks
+recent_max_demand,demand_features.csv,demand_timeseries,demand_integrated,units_sold,rolling(window=4).max() on shifted series,location x product x week,t-4..t-1,No,No,Maximum demand over past 4 weeks
+demand_change,demand_features.csv,demand_trend,demand_integrated,units_sold,units_sold_t - units_sold_(t-1),location x product x week,t and t-1,No,No,Absolute demand change from previous week
+demand_growth_rate,demand_features.csv,demand_trend,demand_integrated,units_sold,(units_sold_t - units_sold_(t-1)) / units_sold_(t-1); 0 when denom=0,location x product x week,t and t-1,No,No,Percentage demand growth from previous week
+week_of_year,demand_features.csv,seasonality,demand_integrated,week_number,week_number directly from source,location x product x week,t,No,No,ISO week number of year
+sin_week,demand_features.csv,seasonality,demand_integrated,week_number,sin(2*pi*week_number/52),location x product x week,t,No,No,Cyclical encoding of week of year (sin)
+cos_week,demand_features.csv,seasonality,demand_integrated,week_number,cos(2*pi*week_number/52),location x product x week,t,No,No,Cyclical encoding of week of year (cos)
+month,demand_features.csv,seasonality,demand_integrated,month,month from week_start_date,location x product x week,t,No,No,Calendar month
+quarter,demand_features.csv,seasonality,demand_integrated,quarter,quarter from calendar_integrated,location x product x week,t,No,No,Calendar quarter
+season,demand_features.csv,seasonality,demand_integrated,season,season from demand_integrated (derived from weather),location x product x week,t,No,No,Season label: Winter/Summer/Monsoon
+holiday_flag,demand_features.csv,calendar,weather_event_integrated,holiday_flag,holiday_flag from weather_event_integrated,location x product x week,t,No,No,Public holiday in this week
+festival_flag,demand_features.csv,festival,weather_event_integrated,festival_count,1 if festival_count > 0 else 0,location x product x week,t,No,No,Binary: at least one festival this week
+festival_count,demand_features.csv,festival,weather_event_integrated,festival_count,festival_count from weather_event_integrated,location x product x week,t,No,No,Number of festivals in this week
+temperature_mean_c,demand_features.csv,weather,weather_event_integrated,temperature_mean_c,direct from source,location x product x week,t,No,No,Mean temperature for week
+temperature_max_c,demand_features.csv,weather,weather_event_integrated,temperature_max_c,direct from source,location x product x week,t,No,No,Maximum temperature for week
+temperature_min_c,demand_features.csv,weather,weather_event_integrated,temperature_min_c,direct from source,location x product x week,t,No,No,Minimum temperature for week
+rainfall_mm,demand_features.csv,weather,weather_event_integrated,rainfall_mm,direct from source,location x product x week,t,No,No,Total weekly rainfall
+humidity_pct,demand_features.csv,weather,weather_event_integrated,humidity_pct,direct from source,location x product x week,t,No,No,Mean weekly humidity
+rainfall_flag,demand_features.csv,weather,weather_event_integrated,rainfall_mm,1 if rainfall_mm > 0 else 0,location x product x week,t,No,No,Binary: any rainfall this week
+high_rainfall_flag,demand_features.csv,weather,weather_event_integrated,rainfall_mm,1 if rainfall_mm > 50 else 0 (project-defined monsoon threshold),location x product x week,t,No,No,High rainfall week (>50mm)
+temp_deviation_c,demand_features.csv,weather,weather_event_integrated,temperature_mean_c,temperature_mean_c - temperature_mean_c.mean() over all weeks,location x product x week,t,No,No,Deviation of weekly temp from annual mean
+promotion_flag,demand_features.csv,demand,demand_integrated,promotion_flag,direct,location x product x week,t,No,No,
+discount_pct,demand_features.csv,demand,demand_integrated,discount_pct,direct,location x product x week,t,No,No,
+available_stock_units,inventory_features.csv,inventory,inventory_integrated,available_stock_units,direct from source,warehouse x product,snapshot,No,No,Available stock at snapshot
+stock_gap,inventory_features.csv,inventory,inventory_integrated,"available_stock_units, target_stock_units",available_stock_units - target_stock_units; null if target is null,warehouse x product,snapshot,No,No,Gap between available and target stock
+stock_coverage,inventory_features.csv,inventory,inventory_integrated,"available_stock_units, avg_weekly_demand_units",available_stock_units / avg_weekly_demand_units; null if denom=0 or null,warehouse x product,snapshot,No,No,Weeks of stock coverage based on historical avg demand
+stockout_indicator,inventory_features.csv,inventory,inventory_integrated,available_stock_units,1 if available_stock_units <= 0 else 0,warehouse x product,snapshot,No,No,Binary stockout indicator
+reorder_flag,inventory_features.csv,inventory,inventory_integrated,reorder_flag,direct from source,warehouse x product,snapshot,No,No,Reorder trigger flag from inventory system
+space_utilization_pct,inventory_features.csv,inventory,inventory_integrated,space_utilization_pct,direct from source,warehouse x product,snapshot,No,No,Storage space utilization percentage
+weekly_sold_units,inventory_transaction_features.csv,inv_movement,inventory_transactions_integrated,sold_units,direct / rolling on lag_1 series,warehouse x product x week,t / t-4..t-1,No,RECONSTRUCTED_SYNTHETIC,weekly_sold_units derived from RECONSTRUCTED_SYNTHETIC transactions
+rolling_sold_4w,inventory_transaction_features.csv,inv_movement,inventory_transactions_integrated,sold_units,direct / rolling on lag_1 series,warehouse x product x week,t / t-4..t-1,No,RECONSTRUCTED_SYNTHETIC,rolling_sold_4w derived from RECONSTRUCTED_SYNTHETIC transactions
+lead_time_days,supplier_features.csv,supplier,supplier_integrated,lead_time_days,direct,supplier,static,No,No,lead_time_days
+min_order_qty,supplier_features.csv,supplier,supplier_integrated,min_order_qty,direct,supplier,static,No,No,min_order_qty
+max_order_qty,supplier_features.csv,supplier,supplier_integrated,max_order_qty,direct,supplier,static,No,No,max_order_qty
+supplier_capacity,supplier_features.csv,supplier,supplier_integrated,supplier_capacity,direct,supplier,static,No,No,supplier_capacity
+vehicle_load_capacity,supplier_features.csv,supplier,supplier_integrated,vehicle_load_capacity,direct,supplier,static,No,No,vehicle_load_capacity
+wh_picker_count,warehouse_features.csv,warehouse,warehouse_integrated + inventory + picker,wh_picker_count,direct/aggregation,warehouse,static/snapshot,No,No,wh_picker_count
+wh_inventory_load,warehouse_features.csv,warehouse,warehouse_integrated + inventory + picker,wh_inventory_load,direct/aggregation,warehouse,static/snapshot,No,No,wh_inventory_load
+wh_capacity_units,warehouse_features.csv,warehouse,warehouse_integrated + inventory + picker,wh_capacity_units,direct/aggregation,warehouse,static/snapshot,No,No,wh_capacity_units
+wh_dispatch_capacity,warehouse_features.csv,warehouse,warehouse_integrated + inventory + picker,wh_dispatch_capacity,direct/aggregation,warehouse,static/snapshot,No,No,wh_dispatch_capacity
+wh_service_radius_km,warehouse_features.csv,warehouse,warehouse_integrated + inventory + picker,wh_service_radius_km,direct/aggregation,warehouse,static/snapshot,No,No,wh_service_radius_km
+wh_location_haversine_km,routing_features.csv,routing,warehouse_location_integrated,wh_location_haversine_km,direct (Haversine geographic — NOT road),warehouse x location,static,No,No,Geographic straight-line distance — NOT road distance
+mapping_rank,routing_features.csv,routing,warehouse_location_integrated,mapping_rank,direct (Haversine geographic — NOT road),warehouse x location,static,No,No,Geographic straight-line distance — NOT road distance

@@ -1,0 +1,12 @@
+dataset_name,input_rows,output_rows,input_cols,output_cols,grain,primary_key,synthetic_status,status
+demand_features,1112000,1112000,21,48,location x product x week,region_product_week_key,NO,COMPLETE
+inventory_features,3000,3000,21,26,warehouse x product,warehouse_id+product_id,NO,COMPLETE
+inventory_transaction_features,417000,417000,8,14,warehouse x product x week,warehouse_product_week_key,RECONSTRUCTED_SYNTHETIC,COMPLETE
+supplier_features,200,200,15,17,supplier,supplier_id,NO,COMPLETE
+supplier_product_features,8000,8000,9,11,supplier x product,supplier_id+product_supplied_id,NO,COMPLETE
+supplier_area_features,200,200,9,11,supplier x location,supplier_id+location_id,NO,COMPLETE
+warehouse_features,15,15,17,22,warehouse,warehouse_id,NO,COMPLETE
+routing_features,75,75,8,11,warehouse x location,warehouse_id+location_id,NO,COMPLETE
+supplier_routing_features,200,200,4,6,supplier x location,supplier_id+location_id,NO,COMPLETE
+demand_integrated (LFS),LFS,N/A,N/A,N/A,N/A,N/A,NO,NOT_PROCESSED_LARGE_LFS
+supply_chain_core (LFS),LFS,N/A,N/A,N/A,N/A,N/A,PARTIAL,NOT_PROCESSED_LARGE_LFS

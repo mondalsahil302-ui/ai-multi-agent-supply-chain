@@ -1,0 +1,201 @@
+supplier_id,location_id,supplier_name,supplier_type_name,distance_from_location_center_km,lead_time_days,service_available_flag,supplier_option_rank,region_of_kolkata,fe_timestamp,fe_version
+SUP-KOL-001-01,KOL-LOC-001,Lake Gardens Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Lake Gardens,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-001-02,KOL-LOC-001,Lake Gardens Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Lake Gardens,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-001-03,KOL-LOC-001,Lake Gardens Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Lake Gardens,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-001-04,KOL-LOC-001,Lake Gardens Beverages Supply Point,Beverages,0.188,1,Yes,4,Lake Gardens,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-001-05,KOL-LOC-001,"Lake Gardens Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Lake Gardens,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-002-01,KOL-LOC-002,Jadavpur Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Jadavpur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-002-02,KOL-LOC-002,Jadavpur Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Jadavpur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-002-03,KOL-LOC-002,Jadavpur Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Jadavpur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-002-04,KOL-LOC-002,Jadavpur Beverages Supply Point,Beverages,0.188,1,Yes,4,Jadavpur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-002-05,KOL-LOC-002,"Jadavpur Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Jadavpur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-003-01,KOL-LOC-003,Dhakuria Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Dhakuria,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-003-02,KOL-LOC-003,Dhakuria Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Dhakuria,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-003-03,KOL-LOC-003,Dhakuria Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Dhakuria,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-003-04,KOL-LOC-003,Dhakuria Beverages Supply Point,Beverages,0.188,1,Yes,4,Dhakuria,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-003-05,KOL-LOC-003,"Dhakuria Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Dhakuria,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-004-01,KOL-LOC-004,Gariahat Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Gariahat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-004-02,KOL-LOC-004,Gariahat Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Gariahat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-004-03,KOL-LOC-004,Gariahat Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Gariahat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-004-04,KOL-LOC-004,Gariahat Beverages Supply Point,Beverages,0.188,1,Yes,4,Gariahat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-004-05,KOL-LOC-004,"Gariahat Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Gariahat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-005-01,KOL-LOC-005,Ballygunge Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Ballygunge,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-005-02,KOL-LOC-005,Ballygunge Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Ballygunge,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-005-03,KOL-LOC-005,Ballygunge Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Ballygunge,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-005-04,KOL-LOC-005,Ballygunge Beverages Supply Point,Beverages,0.188,1,Yes,4,Ballygunge,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-005-05,KOL-LOC-005,"Ballygunge Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Ballygunge,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-006-01,KOL-LOC-006,Jodhpur Park Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Jodhpur Park,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-006-02,KOL-LOC-006,Jodhpur Park Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Jodhpur Park,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-006-03,KOL-LOC-006,Jodhpur Park Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Jodhpur Park,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-006-04,KOL-LOC-006,Jodhpur Park Beverages Supply Point,Beverages,0.188,1,Yes,4,Jodhpur Park,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-006-05,KOL-LOC-006,"Jodhpur Park Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Jodhpur Park,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-007-01,KOL-LOC-007,Tollygunge Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Tollygunge,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-007-02,KOL-LOC-007,Tollygunge Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Tollygunge,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-007-03,KOL-LOC-007,Tollygunge Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Tollygunge,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-007-04,KOL-LOC-007,Tollygunge Beverages Supply Point,Beverages,0.188,1,Yes,4,Tollygunge,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-007-05,KOL-LOC-007,"Tollygunge Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Tollygunge,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-008-01,KOL-LOC-008,Golf Green Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Golf Green,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-008-02,KOL-LOC-008,Golf Green Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Golf Green,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-008-03,KOL-LOC-008,Golf Green Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Golf Green,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-008-04,KOL-LOC-008,Golf Green Beverages Supply Point,Beverages,0.188,1,Yes,4,Golf Green,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-008-05,KOL-LOC-008,"Golf Green Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Golf Green,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-009-01,KOL-LOC-009,Garia Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Garia,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-009-02,KOL-LOC-009,Garia Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Garia,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-009-03,KOL-LOC-009,Garia Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Garia,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-009-04,KOL-LOC-009,Garia Beverages Supply Point,Beverages,0.188,1,Yes,4,Garia,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-009-05,KOL-LOC-009,"Garia Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Garia,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-010-01,KOL-LOC-010,Kasba Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Kasba,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-010-02,KOL-LOC-010,Kasba Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Kasba,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-010-03,KOL-LOC-010,Kasba Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Kasba,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-010-04,KOL-LOC-010,Kasba Beverages Supply Point,Beverages,0.188,1,Yes,4,Kasba,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-010-05,KOL-LOC-010,"Kasba Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Kasba,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-011-01,KOL-LOC-011,Mukundapur Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Mukundapur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-011-02,KOL-LOC-011,Mukundapur Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Mukundapur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-011-03,KOL-LOC-011,Mukundapur Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Mukundapur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-011-04,KOL-LOC-011,Mukundapur Beverages Supply Point,Beverages,0.188,1,Yes,4,Mukundapur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-011-05,KOL-LOC-011,"Mukundapur Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Mukundapur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-012-01,KOL-LOC-012,Santoshpur Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Santoshpur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-012-02,KOL-LOC-012,Santoshpur Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Santoshpur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-012-03,KOL-LOC-012,Santoshpur Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Santoshpur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-012-04,KOL-LOC-012,Santoshpur Beverages Supply Point,Beverages,0.188,1,Yes,4,Santoshpur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-012-05,KOL-LOC-012,"Santoshpur Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Santoshpur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-013-01,KOL-LOC-013,New Alipore Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,New Alipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-013-02,KOL-LOC-013,New Alipore Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,New Alipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-013-03,KOL-LOC-013,New Alipore Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,New Alipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-013-04,KOL-LOC-013,New Alipore Beverages Supply Point,Beverages,0.188,1,Yes,4,New Alipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-013-05,KOL-LOC-013,"New Alipore Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,New Alipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-014-01,KOL-LOC-014,Behala Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Behala,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-014-02,KOL-LOC-014,Behala Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Behala,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-014-03,KOL-LOC-014,Behala Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Behala,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-014-04,KOL-LOC-014,Behala Beverages Supply Point,Beverages,0.188,1,Yes,4,Behala,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-014-05,KOL-LOC-014,"Behala Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Behala,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-015-01,KOL-LOC-015,Chetla Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Chetla,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-015-02,KOL-LOC-015,Chetla Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Chetla,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-015-03,KOL-LOC-015,Chetla Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Chetla,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-015-04,KOL-LOC-015,Chetla Beverages Supply Point,Beverages,0.188,1,Yes,4,Chetla,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-015-05,KOL-LOC-015,"Chetla Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Chetla,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-016-01,KOL-LOC-016,Alipore Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Alipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-016-02,KOL-LOC-016,Alipore Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Alipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-016-03,KOL-LOC-016,Alipore Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Alipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-016-04,KOL-LOC-016,Alipore Beverages Supply Point,Beverages,0.188,1,Yes,4,Alipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-016-05,KOL-LOC-016,"Alipore Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Alipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-017-01,KOL-LOC-017,Kalighat Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Kalighat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-017-02,KOL-LOC-017,Kalighat Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Kalighat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-017-03,KOL-LOC-017,Kalighat Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Kalighat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-017-04,KOL-LOC-017,Kalighat Beverages Supply Point,Beverages,0.188,1,Yes,4,Kalighat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-017-05,KOL-LOC-017,"Kalighat Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Kalighat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-018-01,KOL-LOC-018,Bhawanipore Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Bhawanipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-018-02,KOL-LOC-018,Bhawanipore Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Bhawanipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-018-03,KOL-LOC-018,Bhawanipore Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Bhawanipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-018-04,KOL-LOC-018,Bhawanipore Beverages Supply Point,Beverages,0.188,1,Yes,4,Bhawanipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-018-05,KOL-LOC-018,"Bhawanipore Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Bhawanipore,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-019-01,KOL-LOC-019,Park Street Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Park Street,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-019-02,KOL-LOC-019,Park Street Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Park Street,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-019-03,KOL-LOC-019,Park Street Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Park Street,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-019-04,KOL-LOC-019,Park Street Beverages Supply Point,Beverages,0.188,1,Yes,4,Park Street,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-019-05,KOL-LOC-019,"Park Street Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Park Street,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-020-01,KOL-LOC-020,Esplanade Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Esplanade,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-020-02,KOL-LOC-020,Esplanade Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Esplanade,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-020-03,KOL-LOC-020,Esplanade Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Esplanade,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-020-04,KOL-LOC-020,Esplanade Beverages Supply Point,Beverages,0.188,1,Yes,4,Esplanade,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-020-05,KOL-LOC-020,"Esplanade Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Esplanade,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-021-01,KOL-LOC-021,Entally Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Entally,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-021-02,KOL-LOC-021,Entally Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Entally,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-021-03,KOL-LOC-021,Entally Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Entally,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-021-04,KOL-LOC-021,Entally Beverages Supply Point,Beverages,0.188,1,Yes,4,Entally,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-021-05,KOL-LOC-021,"Entally Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Entally,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-022-01,KOL-LOC-022,Sealdah Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Sealdah,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-022-02,KOL-LOC-022,Sealdah Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Sealdah,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-022-03,KOL-LOC-022,Sealdah Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Sealdah,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-022-04,KOL-LOC-022,Sealdah Beverages Supply Point,Beverages,0.188,1,Yes,4,Sealdah,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-022-05,KOL-LOC-022,"Sealdah Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Sealdah,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-023-01,KOL-LOC-023,Tangra Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Tangra,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-023-02,KOL-LOC-023,Tangra Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Tangra,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-023-03,KOL-LOC-023,Tangra Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Tangra,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-023-04,KOL-LOC-023,Tangra Beverages Supply Point,Beverages,0.188,1,Yes,4,Tangra,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-023-05,KOL-LOC-023,"Tangra Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Tangra,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-024-01,KOL-LOC-024,Topsia Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Topsia,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-024-02,KOL-LOC-024,Topsia Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Topsia,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-024-03,KOL-LOC-024,Topsia Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Topsia,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-024-04,KOL-LOC-024,Topsia Beverages Supply Point,Beverages,0.188,1,Yes,4,Topsia,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-024-05,KOL-LOC-024,"Topsia Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Topsia,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-025-01,KOL-LOC-025,Beliaghata Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Beliaghata,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-025-02,KOL-LOC-025,Beliaghata Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Beliaghata,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-025-03,KOL-LOC-025,Beliaghata Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Beliaghata,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-025-04,KOL-LOC-025,Beliaghata Beverages Supply Point,Beverages,0.188,1,Yes,4,Beliaghata,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-025-05,KOL-LOC-025,"Beliaghata Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Beliaghata,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-026-01,KOL-LOC-026,Maniktala Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Maniktala,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-026-02,KOL-LOC-026,Maniktala Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Maniktala,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-026-03,KOL-LOC-026,Maniktala Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Maniktala,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-026-04,KOL-LOC-026,Maniktala Beverages Supply Point,Beverages,0.188,1,Yes,4,Maniktala,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-026-05,KOL-LOC-026,"Maniktala Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Maniktala,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-027-01,KOL-LOC-027,Kankurgachi Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Kankurgachi,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-027-02,KOL-LOC-027,Kankurgachi Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Kankurgachi,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-027-03,KOL-LOC-027,Kankurgachi Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Kankurgachi,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-027-04,KOL-LOC-027,Kankurgachi Beverages Supply Point,Beverages,0.188,1,Yes,4,Kankurgachi,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-027-05,KOL-LOC-027,"Kankurgachi Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Kankurgachi,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-028-01,KOL-LOC-028,Ultadanga Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Ultadanga,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-028-02,KOL-LOC-028,Ultadanga Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Ultadanga,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-028-03,KOL-LOC-028,Ultadanga Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Ultadanga,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-028-04,KOL-LOC-028,Ultadanga Beverages Supply Point,Beverages,0.188,1,Yes,4,Ultadanga,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-028-05,KOL-LOC-028,"Ultadanga Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Ultadanga,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-029-01,KOL-LOC-029,Lake Town Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Lake Town,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-029-02,KOL-LOC-029,Lake Town Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Lake Town,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-029-03,KOL-LOC-029,Lake Town Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Lake Town,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-029-04,KOL-LOC-029,Lake Town Beverages Supply Point,Beverages,0.188,1,Yes,4,Lake Town,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-029-05,KOL-LOC-029,"Lake Town Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Lake Town,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-030-01,KOL-LOC-030,Dum Dum Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Dum Dum,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-030-02,KOL-LOC-030,Dum Dum Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Dum Dum,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-030-03,KOL-LOC-030,Dum Dum Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Dum Dum,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-030-04,KOL-LOC-030,Dum Dum Beverages Supply Point,Beverages,0.188,1,Yes,4,Dum Dum,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-030-05,KOL-LOC-030,"Dum Dum Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Dum Dum,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-031-01,KOL-LOC-031,Nagerbazar Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Nagerbazar,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-031-02,KOL-LOC-031,Nagerbazar Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Nagerbazar,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-031-03,KOL-LOC-031,Nagerbazar Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Nagerbazar,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-031-04,KOL-LOC-031,Nagerbazar Beverages Supply Point,Beverages,0.188,1,Yes,4,Nagerbazar,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-031-05,KOL-LOC-031,"Nagerbazar Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Nagerbazar,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-032-01,KOL-LOC-032,Shyambazar Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Shyambazar,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-032-02,KOL-LOC-032,Shyambazar Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Shyambazar,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-032-03,KOL-LOC-032,Shyambazar Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Shyambazar,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-032-04,KOL-LOC-032,Shyambazar Beverages Supply Point,Beverages,0.188,1,Yes,4,Shyambazar,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-032-05,KOL-LOC-032,"Shyambazar Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Shyambazar,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-033-01,KOL-LOC-033,Salt Lake Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Salt Lake,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-033-02,KOL-LOC-033,Salt Lake Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Salt Lake,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-033-03,KOL-LOC-033,Salt Lake Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Salt Lake,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-033-04,KOL-LOC-033,Salt Lake Beverages Supply Point,Beverages,0.188,1,Yes,4,Salt Lake,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-033-05,KOL-LOC-033,"Salt Lake Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Salt Lake,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-034-01,KOL-LOC-034,Sector V Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Sector V,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-034-02,KOL-LOC-034,Sector V Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Sector V,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-034-03,KOL-LOC-034,Sector V Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Sector V,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-034-04,KOL-LOC-034,Sector V Beverages Supply Point,Beverages,0.188,1,Yes,4,Sector V,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-034-05,KOL-LOC-034,"Sector V Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Sector V,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-035-01,KOL-LOC-035,New Town Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,New Town,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-035-02,KOL-LOC-035,New Town Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,New Town,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-035-03,KOL-LOC-035,New Town Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,New Town,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-035-04,KOL-LOC-035,New Town Beverages Supply Point,Beverages,0.188,1,Yes,4,New Town,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-035-05,KOL-LOC-035,"New Town Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,New Town,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-036-01,KOL-LOC-036,Rajarhat Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Rajarhat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-036-02,KOL-LOC-036,Rajarhat Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Rajarhat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-036-03,KOL-LOC-036,Rajarhat Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Rajarhat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-036-04,KOL-LOC-036,Rajarhat Beverages Supply Point,Beverages,0.188,1,Yes,4,Rajarhat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-036-05,KOL-LOC-036,"Rajarhat Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Rajarhat,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-037-01,KOL-LOC-037,Anandapur Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Anandapur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-037-02,KOL-LOC-037,Anandapur Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Anandapur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-037-03,KOL-LOC-037,Anandapur Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Anandapur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-037-04,KOL-LOC-037,Anandapur Beverages Supply Point,Beverages,0.188,1,Yes,4,Anandapur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-037-05,KOL-LOC-037,"Anandapur Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Anandapur,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-038-01,KOL-LOC-038,Patuli Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Patuli,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-038-02,KOL-LOC-038,Patuli Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Patuli,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-038-03,KOL-LOC-038,Patuli Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Patuli,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-038-04,KOL-LOC-038,Patuli Beverages Supply Point,Beverages,0.188,1,Yes,4,Patuli,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-038-05,KOL-LOC-038,"Patuli Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Patuli,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-039-01,KOL-LOC-039,Nayabad Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Nayabad,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-039-02,KOL-LOC-039,Nayabad Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Nayabad,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-039-03,KOL-LOC-039,Nayabad Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Nayabad,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-039-04,KOL-LOC-039,Nayabad Beverages Supply Point,Beverages,0.188,1,Yes,4,Nayabad,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-039-05,KOL-LOC-039,"Nayabad Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Nayabad,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-040-01,KOL-LOC-040,Chak Garia Fresh Produce & Chilled Market,Fresh Produce & Chilled,0.198,1,Yes,1,Chak Garia,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-040-02,KOL-LOC-040,Chak Garia Staples & Cooking Depot,Staples & Cooking,0.177,1,Yes,2,Chak Garia,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-040-03,KOL-LOC-040,Chak Garia Packaged Foods & Bakery Distribution Hub,Packaged Foods & Bakery,0.189,1,Yes,3,Chak Garia,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-040-04,KOL-LOC-040,Chak Garia Beverages Supply Point,Beverages,0.188,1,Yes,4,Chak Garia,2026-09-28T17:22:56Z,v1.0.0
+SUP-KOL-040-05,KOL-LOC-040,"Chak Garia Home, Personal & Family Wholesale Hub","Home, Personal & Family",0.0,1,Yes,5,Chak Garia,2026-09-28T17:22:56Z,v1.0.0
