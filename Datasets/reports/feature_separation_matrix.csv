@@ -1,6 +1,0 @@
-Category,Feature Count,Sample Columns
-IDENTIFIER_COLUMNS,7,"demand_id, location_id, product_id, week_start_date"
-TEMPORAL_COLUMNS,4,"year, week_number, weekday_weekend, season"
-INPUT_FEATURES,25,"units_sold, weekday_units_sold, weekend_units_sold, avg_selling_price_rs"
-TARGET_COLUMNS,1,next_week_demand_target_units
-METADATA_COLUMNS,7,"data_source, recorded_at, source_file, standardized_at"

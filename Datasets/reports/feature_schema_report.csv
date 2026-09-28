@@ -1,9 +1,0 @@
-dataset,column_count,duplicate_columns,missing_primary_keys,has_date_column,status
-demand_features,62,None,None,True,PASS
-demand_targets,6,None,None,True,PASS
-inventory_features,28,None,None,True,PASS
-inventory_transactions_features,27,None,None,True,PASS
-supplier_features,19,None,None,N/A,PASS
-warehouse_features,31,None,None,N/A,PASS
-routing_features,10,None,None,N/A,PASS
-risk_features,5,None,None,N/A,PASS

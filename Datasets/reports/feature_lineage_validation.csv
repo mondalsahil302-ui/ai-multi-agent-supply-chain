@@ -1,7 +1,0 @@
-feature_name,source_dataset,source_column,transformation,dependency
-lag_1w_units_sold,demand_integrated.csv,units_sold,"Shift(1) per (location, product)",Historical (t-1)
-rolling_mean_4w,demand_integrated.csv,units_sold,"RollingMean(4) per (location, product)",Historical (t-3 to t)
-weekday_ratio,demand_integrated.csv,weekday_units_sold / units_sold,Ratio,Within Observation (t)
-days_to_next_festival,festival_calendar.csv,event_date,Temporal Distance,Calendar Schedule
-capacity_utilization_pct,inventory_integrated.csv,total_stock / capacity,Ratio,Warehouse Position
-euclidean_distance_km,warehouse_location_integrated.csv,coordinates,Haversine Distance,Spatial Geometry

@@ -1,2 +1,0 @@
-dataset,groups_audited,sorting_keys,monotonic_chronological,disordered_sequences,diagnostic_finding,status
-demand_features,1370,location_id + product_id + year + week_number,NO,1035,Source records contain clustered sheets; require explicit chronological sorting before ML modeling,WARNING

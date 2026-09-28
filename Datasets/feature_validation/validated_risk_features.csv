@@ -1,4 +1,0 @@
-risk_feature_type,record_count,key_grain,output_file,pipeline_timestamp,validation_status,validation_timestamp,validation_version
-INVENTORY_SHORTAGE,3000,warehouse_id + product_id,RISK_FEATURES_INVENTORY.csv,2026-09-21T14:26:38.170968+00:00,CERTIFIED_FEATURE_VALIDATED,2026-09-28T19:26:25+05:30,v1.0
-DEMAND_STOCKOUT,27800,location_id + product_id + week_start_date,RISK_FEATURES_DEMAND.csv,2026-09-21T14:26:38.170968+00:00,CERTIFIED_FEATURE_VALIDATED,2026-09-28T19:26:25+05:30,v1.0
-SUPPLIER_LEAD_TIME,8000,supplier_id + product_id,RISK_FEATURES_SUPPLY.csv,2026-09-21T14:26:38.170968+00:00,CERTIFIED_FEATURE_VALIDATED,2026-09-28T19:26:25+05:30,v1.0

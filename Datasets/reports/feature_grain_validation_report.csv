@@ -1,9 +1,0 @@
-dataset,declared_grain,primary_key,total_rows,unique_keys,duplicate_keys,grain_preserved,status
-demand_features,location x product x week,region_product_week_key,27800,27800,0,YES,PASS
-demand_targets,1 target per demand record,demand_id,27800,27800,0,YES,PASS
-inventory_features,warehouse x product x snapshot,warehouse_id + product_id,3000,3000,0,YES,PASS
-inventory_transactions_features,warehouse x product x week,warehouse_product_week_key,417000,417000,0,YES,PASS
-supplier_features,supplier x product,supplier_id + product_id,8000,8000,0,YES,PASS
-warehouse_features,1 warehouse,warehouse_id,15,15,0,YES,PASS
-routing_features,origin x destination,origin_id + destination_id,800,800,0,YES,PASS
-risk_features,risk_feature_type,risk_feature_type,3,3,0,YES,PASS
