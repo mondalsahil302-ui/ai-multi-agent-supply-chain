@@ -1,0 +1,15 @@
+integration_name,primary_dataset,primary_grain,join_key,input_rows,output_rows,rows_added,rows_removed,duplicate_rows,duplicate_business_keys,expected_cardinality,actual_cardinality,status,notes
+Product Integration,std_product_master,1 product,product_id,200,200,0,0,0,0,1:1,1:1,PASS,"Canonical mapping enriched, zero row change"
+Product Variant Integration,em_product_variant,1 product x 1 variant,variant_id,1000,1000,0,0,0,0,1:1,1:1,PASS,"Product names and categories attached, preserved SKU grain"
+Location Integration,std_location_master,1 location,location_id,40,40,0,0,0,0,1:1,1:1,PASS,Exact match on canonical location
+Calendar Integration,std_calendar_week,1 week,week_id,139,139,0,0,0,0,1:1,1:1,PASS,139 planning weeks 2024-2026
+Weather & Festival Integration,std_calendar_week,1 week,week_id,139,139,0,0,0,0,1:1,1:1,PASS,Controlled weekly aggregation prevented multi-event row multiplication
+Demand Integration,std_sales_demand,location x product x week,region_product_week_key,1112000,1112000,0,0,0,0,1:1,1:1,PASS,Zero row multiplication across 1.112M rows
+Inventory Integration,std_inventory_position,warehouse x product x snapshot,warehouse_id + product_id,3000,3000,0,0,0,0,1:1,1:1,PASS,Storage and shelf attributes joined deterministically
+Inventory Transactions Integration,std_inventory_transactions,warehouse x product x week,warehouse_product_week_key,417000,417000,0,0,0,0,1:1,1:1,PASS,RECONSTRUCTED_SYNTHETIC provenance preserved
+Supplier Master Integration,std_supplier_master,1 supplier,supplier_id,200,200,0,0,0,0,1:1,1:1,PASS,Enriched with canonical supplier attributes
+Supplier Product Integration,std_supplier_product_catalog,supplier x product,supplier_product_key,8000,8000,0,0,0,0,1:1,1:1,PASS,Supplier lead times and product attributes enriched
+Supplier Area Integration,em_supplier_area,supplier x location,supplier_id + location_id,200,200,0,0,0,0,1:1,1:1,PASS,Location regional metadata and supplier types aligned
+Warehouse Master Integration,std_warehouse_master,1 warehouse,warehouse_id,15,15,0,0,0,0,1:1,1:1,PASS,Facility profile and dispatch capacities preserved
+Warehouse-Picker Integration,std_warehouse_picker_mapping,warehouse x picker,warehouse_id + picker_id,750,750,0,0,0,0,1:1,1:1,PASS,Warehouse names and areas enriched
+Warehouse-Location Integration,em_warehouse_location,warehouse x location,warehouse_id + location_id,75,75,0,0,0,0,1:1,1:1,PASS,Haversine distance and service rankings enriched

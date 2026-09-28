@@ -1,0 +1,11 @@
+domain,primary_file,rows,grain,status
+Demand,demand_integrated.csv,1112000,location x product x week,READY
+Inventory,inventory_integrated.csv,3000,warehouse x product x snapshot,READY
+Inventory Transactions,inventory_transactions_integrated.csv,417000,warehouse x product x week,READY_RECONSTRUCTED_SYNTHETIC
+Supplier,"supplier_integrated.csv, supplier_product_integrated.csv, supplier_area_integrated.csv",8400,"supplier, supplier x product, supplier x location",READY
+Warehouse,"warehouse_integrated.csv, warehouse_picker_integrated.csv, warehouse_location_integrated.csv",840,"warehouse, warehouse x picker, warehouse x location",READY
+Weather & Festival,weather_event_integrated.csv,139,1 week,READY
+Supply Chain Core,supply_chain_core.csv,1112000,location x product x week,READY
+Agent Views,"agent_demand_integrated.csv, agent_inventory_integrated.csv, agent_warehouse_integrated.csv, agent_supplier_integrated.csv",1115215,Agent-specific operational grains,READY
+Vehicle Master,None,0,1 vehicle,DEFERRED
+Order Data,None,0,1 order,DEFERRED

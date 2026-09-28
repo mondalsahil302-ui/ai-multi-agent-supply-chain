@@ -1,0 +1,20 @@
+dataset_name,input_file,grain,primary_key,entity_type,row_count,mapping_dependency,availability_status
+Product Master,std_product_master.csv,1 product,product_id,Master Dimension,200,em_product.csv,AVAILABLE
+Product Variant,em_product_variant.csv,1 product x 1 variant,variant_id,Sub-Dimension,1000,em_product_variant.csv,AVAILABLE
+Location Master,std_location_master.csv,1 location,location_id,Master Dimension,40,em_location.csv,AVAILABLE
+Calendar Week,std_calendar_week.csv,1 week,week_id,Master Dimension,139,em_calendar_week.csv,AVAILABLE
+Weather,std_weather_weekly.csv,1 week (2024-2025),year + week_number,Context Attribute,105,em_calendar_week.csv,AVAILABLE
+Festival Calendar,std_festival_calendar.csv,1 festival event,event_date + festival_event,Event Dimension,36,em_calendar_week.csv,AVAILABLE
+Sales / Demand,std_sales_demand.csv,location x product x week,region_product_week_key,Primary Fact Table,1112000,em_sales_demand.csv,AVAILABLE
+Inventory Position,std_inventory_position.csv,warehouse x product x snapshot,warehouse_id + product_id + snapshot_date,Operational Fact Table,3000,em_inventory_position.csv,AVAILABLE
+Storage Assignment,std_storage_assignment.csv,warehouse x product,warehouse_id + product_id,Operational Bridge,3000,em_inventory_position.csv,AVAILABLE
+Shelf Master,std_shelf_master.csv,warehouse x shelf,warehouse_id + shelf_id,Facility Dimension,600,em_warehouse.csv,AVAILABLE
+Inventory Transactions,std_inventory_transactions.csv,warehouse x product x week,warehouse_product_week_key,Support Movement Fact,417000,em_inventory_transactions.csv,INCLUDED_RECONSTRUCTED_SYNTHETIC
+Supplier Master,std_supplier_master.csv,1 supplier,supplier_id,Master Dimension,200,em_supplier.csv,AVAILABLE
+Supplier Product Catalog,std_supplier_product_catalog.csv,supplier x product,supplier_product_key,Commercial Bridge,8000,em_supplier_product.csv,AVAILABLE
+Supplier Area Options,em_supplier_area.csv,supplier x location,supplier_id + location_id,Commercial Coverage Bridge,200,em_supplier_area.csv,AVAILABLE
+Warehouse Master,std_warehouse_master.csv,1 warehouse,warehouse_id,Master Dimension,15,em_warehouse.csv,AVAILABLE
+Warehouse-Picker Mapping,std_warehouse_picker_mapping.csv,warehouse x picker,warehouse_id + picker_id,Operational Staffing Bridge,750,em_warehouse_picker.csv,AVAILABLE
+Warehouse-Location Mapping,em_warehouse_location.csv,warehouse x location,warehouse_id + location_id,Logistics Network Bridge,75,em_warehouse_location.csv,AVAILABLE
+Vehicle Master,None,1 vehicle,vehicle_id,Fleet Dimension,0,None,DEFERRED
+Order Data,None,1 order line / order,order_id,Transaction Fact,0,None,DEFERRED

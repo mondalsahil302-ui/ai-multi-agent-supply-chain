@@ -1,0 +1,14 @@
+dataset,check_name,expected,actual,failed_records,severity,status,notes
+product_integrated.csv,Primary Key Uniqueness,200 unique product_ids,200 unique product_ids,0,CRITICAL,PASS,Zero duplicates
+location_integrated.csv,Primary Key Uniqueness,40 unique location_ids,40 unique location_ids,0,CRITICAL,PASS,Zero duplicates
+calendar_integrated.csv,Primary Key Uniqueness,139 unique week_ids,139 unique week_ids,0,CRITICAL,PASS,Zero duplicates
+weather_event_integrated.csv,Weekly Grain Control,139 unique week_ids,139 unique week_ids,0,CRITICAL,PASS,Controlled aggregation
+demand_integrated.csv,Primary Key Uniqueness,"1,112,000 unique region_product_week_keys","1,112,000 unique keys",0,CRITICAL,PASS,Zero row multiplication
+inventory_integrated.csv,Composite Grain Uniqueness,"3,000 unique WH-Product positions","3,000 unique positions",0,CRITICAL,PASS,Zero row multiplication
+inventory_transactions_integrated.csv,Synthetic Provenance Preservation,record_status = RECONSTRUCTED_SYNTHETIC,100% RECONSTRUCTED_SYNTHETIC,0,CRITICAL,PASS,Provenance intact
+supplier_product_integrated.csv,Supplier-Product Key Uniqueness,"8,000 unique supplier_product_keys","8,000 unique keys",0,CRITICAL,PASS,Zero duplicates
+warehouse_picker_integrated.csv,Composite Staff Key Uniqueness,750 unique picker assignments,750 unique assignments,0,CRITICAL,PASS,Zero duplicates
+warehouse_location_integrated.csv,Network Link Uniqueness,75 unique WH-Location links,75 unique links,0,CRITICAL,PASS,Zero duplicates
+supply_chain_core.csv,Cross-Domain Core Grain Integrity,"1,112,000 rows (location x product x week)","1,112,000 rows",0,CRITICAL,PASS,Deterministic 1:1 cross-domain features
+vehicle_master,Deferred Dataset Policy,DEFERRED,DEFERRED (0 records integrated),0,POLICY,DEFERRED,Strict adherence to policy
+order_data,Deferred Dataset Policy,DEFERRED,DEFERRED (0 records integrated),0,POLICY,DEFERRED,Strict adherence to policy
