@@ -4,5 +4,6 @@
 *inventory_transactions*.csv filter=lfs diff=lfs merge=lfs -text
 *demand_integrated*.csv filter=lfs diff=lfs merge=lfs -text
 *supply_chain_core*.csv filter=lfs diff=lfs merge=lfs -text
-Datasets/feature_engineered/demand_features.csv filter=lfs diff=lfs merge=lfs -text
-Datasets/feature_engineered/inventory_transaction_features.csv filter=lfs diff=lfs merge=lfs -text
+*demand_features*.csv filter=lfs diff=lfs merge=lfs -text
+*inventory_transaction*.csv filter=lfs diff=lfs merge=lfs -text
+Datasets/feature_validation/* filter=lfs diff=lfs merge=lfs -text

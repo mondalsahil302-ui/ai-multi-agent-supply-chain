@@ -1,0 +1,11 @@
+dataset_name,file_name,row_count,column_count,size_mb,expected_grain,business_key,time_column,synthetic_status,availability,status
+demand_features,demand_features.csv,1112000,48,375.41,location x product x week,region_product_week_key,week_start_date,NO,AVAILABLE,PASS
+inventory_features,inventory_features.csv,3000,26,0.55,warehouse x product,warehouse_id + product_id,snapshot_date,NO,AVAILABLE,PASS
+inventory_transaction_features,inventory_transaction_features.csv,417000,17,111.81,warehouse x product x week,warehouse_product_week_key,week_start_date,RECONSTRUCTED_SYNTHETIC,AVAILABLE,PASS
+supplier_features,supplier_features.csv,200,17,0.03,supplier,supplier_id,N/A,NO,AVAILABLE,PASS
+supplier_product_features,supplier_product_features.csv,8000,11,1.28,supplier x product,supplier_id + product_supplied_id,N/A,NO,AVAILABLE,PASS
+supplier_area_features,supplier_area_features.csv,200,11,0.03,supplier x location,supplier_id + location_id,N/A,NO,AVAILABLE,PASS
+warehouse_features,warehouse_features.csv,15,22,0.0,warehouse,warehouse_id,N/A,NO,AVAILABLE,PASS
+routing_features,routing_features.csv,75,11,0.01,warehouse x location,warehouse_id + location_id,N/A,NO,AVAILABLE,PASS
+supplier_routing_features,supplier_routing_features.csv,200,7,0.02,supplier x location,supplier_id + location_id,N/A,NO,AVAILABLE,PASS
+cross_domain_features,cross_domain_features.csv,0,0,0.0,cross-domain multi-entity,composite_key,N/A,NO,NOT_AVAILABLE,WARNING

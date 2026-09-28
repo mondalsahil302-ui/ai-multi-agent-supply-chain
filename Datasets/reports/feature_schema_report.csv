@@ -1,0 +1,10 @@
+dataset,total_columns,duplicate_columns,missing_primary_keys,target_leakage_columns,status
+demand_features,48,0,NONE,NONE,PASS
+inventory_features,26,0,NONE,NONE,PASS
+inventory_transaction_features,17,0,NONE,NONE,PASS
+supplier_features,17,0,NONE,NONE,PASS
+supplier_product_features,11,0,NONE,NONE,PASS
+supplier_area_features,11,0,NONE,NONE,PASS
+warehouse_features,22,0,NONE,NONE,PASS
+routing_features,11,0,NONE,NONE,PASS
+supplier_routing_features,7,0,NONE,NONE,PASS

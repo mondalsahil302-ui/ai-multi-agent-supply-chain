@@ -1,0 +1,54 @@
+feature_name,source_dataset,source_columns,formula,grain,time_dependency,status
+lag_1_demand,demand_integrated,units_sold,shift(1) within group,location x product x week,t-1,PASS
+lag_2_demand,demand_integrated,units_sold,shift(2),location x product x week,t-2,PASS
+lag_3_demand,demand_integrated,units_sold,shift(3),location x product x week,t-3,PASS
+lag_4_demand,demand_integrated,units_sold,shift(4),location x product x week,t-4,PASS
+rolling_mean_4,demand_integrated,units_sold,"lag_1_demand.rolling(4, min_periods=1).mean()",location x product x week,t-4 to t-1,PASS
+rolling_mean_8,demand_integrated,units_sold,"lag_1_demand.rolling(8, min_periods=1).mean()",location x product x week,t-8 to t-1,PASS
+rolling_std_4,demand_integrated,units_sold,"lag_1_demand.rolling(4, min_periods=2).std()",location x product x week,t-4 to t-1,PASS
+rolling_std_8,demand_integrated,units_sold,"lag_1_demand.rolling(8, min_periods=2).std()",location x product x week,t-8 to t-1,PASS
+rolling_sum_4,demand_integrated,units_sold,"lag_1_demand.rolling(4, min_periods=1).sum()",location x product x week,t-4 to t-1,PASS
+recent_min_demand,demand_integrated,units_sold,"lag_1_demand.rolling(4, min_periods=1).min()",location x product x week,t-4 to t-1,PASS
+recent_max_demand,demand_integrated,units_sold,"lag_1_demand.rolling(4, min_periods=1).max()",location x product x week,t-4 to t-1,PASS
+demand_change,demand_integrated,"units_sold, lag_1_demand",units_sold_t - units_sold_(t-1),location x product x week,t and t-1,PASS
+demand_growth_rate,demand_integrated,"units_sold, lag_1_demand",(D_t - D_{t-1}) / D_{t-1}; NaN when D_{t-1}=0 or null,location x product x week,t and t-1,PASS
+week_of_year,demand_integrated,week_number,week_number (integer 1-52),location x product x week,t,PASS
+month,demand_integrated,month,month from week_start_date,location x product x week,t,PASS
+quarter,demand_integrated,quarter,quarter from calendar_integrated,location x product x week,t,PASS
+season,demand_integrated,season,season label from weather data,location x product x week,t,PASS
+sin_week,demand_integrated,week_number,sin(2*pi*week_number/52),location x product x week,t,PASS
+cos_week,demand_integrated,week_number,cos(2*pi*week_number/52),location x product x week,t,PASS
+holiday_flag,weather_event_integrated,holiday_flag,direct from source (0/1),week,t,PASS
+festival_count,weather_event_integrated,festival_count,direct from source,week,t,PASS
+festival_flag,weather_event_integrated,festival_count,1 if festival_count > 0 else 0,week,t,PASS
+temperature_mean_c,weather_event_integrated,temperature_mean_c,direct,week,t,PASS
+temperature_max_c,weather_event_integrated,temperature_max_c,direct,week,t,PASS
+temperature_min_c,weather_event_integrated,temperature_min_c,direct,week,t,PASS
+rainfall_mm,weather_event_integrated,rainfall_mm,direct,week,t,PASS
+humidity_pct,weather_event_integrated,humidity_pct,direct,week,t,PASS
+rainfall_flag,weather_event_integrated,rainfall_mm,1 if rainfall_mm > 0 else 0,week,t,PASS
+high_rainfall_flag,weather_event_integrated,rainfall_mm,1 if rainfall_mm > 50 else 0 (project-defined monsoon threshold of 50mm/week),week,t,PASS
+temp_deviation_c,weather_event_integrated,temperature_mean_c,temperature_mean_c - mean(temperature_mean_c) over all weeks in dataset,week,t,PASS
+available_stock_units,inventory_integrated,available_stock_units,direct,warehouse x product,snapshot,PASS
+stock_gap,inventory_integrated,"available_stock_units, target_stock_units",available_stock_units - target_stock_units; NaN if target is null,warehouse x product,snapshot,PASS
+stock_coverage,inventory_integrated,"available_stock_units, avg_weekly_demand_units",available_stock_units / avg_weekly_demand_units; NaN if denom=0 or null,warehouse x product,snapshot,PASS
+stockout_indicator,inventory_integrated,available_stock_units,1 if available_stock_units <= 0 else 0,warehouse x product,snapshot,PASS
+reorder_flag,inventory_integrated,reorder_flag,direct from source,warehouse x product,snapshot,PASS
+space_utilization_pct,inventory_integrated,space_utilization_pct,direct from source,warehouse x product,snapshot,PASS
+weekly_sold_units,inventory_transactions_integrated,sold_units,direct (RECONSTRUCTED_SYNTHETIC),warehouse x product x week,t,PASS
+rolling_sold_4w,inventory_transactions_integrated,sold_units,"lag_1_sold.rolling(4, min_periods=1).mean() within warehouse+product group",warehouse x product x week,t-4 to t-1,PASS
+lead_time_days,supplier_integrated,lead_time_days,direct,supplier,static,PASS
+min_order_qty,supplier_integrated,minimum_order_qty_units,direct,supplier,static,PASS
+max_order_qty,supplier_integrated,max_order_qty_units,direct,supplier,static,PASS
+supplier_capacity,supplier_integrated,supplier_storage_capacity_units,direct,supplier,static,PASS
+vehicle_load_capacity,supplier_integrated,vehicle_load_capacity_units,direct,supplier,static,PASS
+supplier_cost_price,supplier_product_integrated,supplier_cost_price_rs,direct,supplier x product,static,PASS
+supply_status,supplier_product_integrated,supply_status,direct,supplier x product,static,PASS
+area_coverage_km,supplier_area_integrated,distance_from_location_center_km,direct (Haversine),supplier x location,static,PASS
+wh_capacity_units,warehouse_integrated,capacity_units,direct,warehouse,static,PASS
+wh_dispatch_capacity,warehouse_integrated,daily_dispatch_capacity_units,direct,warehouse,static,PASS
+wh_picker_count,warehouse_picker_integrated,picker_id,COUNT(picker_id) GROUP BY warehouse_id,warehouse,static,PASS
+wh_inventory_load,inventory_integrated,"current_stock_units, capacity_units",SUM(current_stock_units) / capacity_units; NaN if capacity=0,warehouse,snapshot,PASS
+wh_service_radius_km,warehouse_integrated,service_radius_km,direct,warehouse,static,PASS
+haversine_distance_km,warehouse_location_integrated,haversine_distance_km,direct (already computed using Haversine formula in entity mapping stage),warehouse x location,static,PASS
+mapping_rank,warehouse_location_integrated,mapping_rank,direct from entity mapping,warehouse x location,static,PASS

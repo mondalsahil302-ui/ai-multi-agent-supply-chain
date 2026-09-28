@@ -1,0 +1,10 @@
+dataset_name,row_count,feature_count,grain,duplicate_key_count,null_issue_count,infinite_issue_count,type_issue_count,range_issue_count,categorical_issue_count,temporal_issue_count,lag_issue_count,rolling_issue_count,leakage_issue_count,lineage_issue_count,provenance_issue_count,status
+demand_features,1112000,48,location x product x week,0,0,0,0,0,0,0,0,0,0,0,0,PASS
+inventory_features,3000,26,warehouse x product,0,0,0,0,0,0,0,0,0,0,0,0,PASS
+inventory_transaction_features,417000,17,warehouse x product x week,0,0,0,0,0,0,0,0,0,0,0,0,PASS
+supplier_features,200,17,supplier,0,0,0,0,0,0,0,0,0,0,0,0,PASS
+supplier_product_features,8000,11,supplier x product,0,0,0,0,0,0,0,0,0,0,0,0,PASS
+supplier_area_features,200,11,supplier x location,0,0,0,0,0,0,0,0,0,0,0,0,PASS
+warehouse_features,15,22,warehouse,0,0,0,0,0,0,0,0,0,0,0,0,PASS
+routing_features,75,11,warehouse x location,0,0,0,0,0,0,0,0,0,0,0,0,PASS
+supplier_routing_features,200,7,supplier x location,0,0,0,0,0,0,0,0,0,0,0,0,PASS

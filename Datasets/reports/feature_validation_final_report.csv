@@ -1,0 +1,13 @@
+Metric,Value
+Validation Stage Version,v1.0.0
+Validation Timestamp (UTC),2026-09-28T19:50:33Z
+Datasets Validated,9
+Demand Rows Validated,"1,112,000"
+Transaction Rows Validated,"417,000"
+Duplicate Business Keys Detected,0
+Infinite Numerical Values Detected,0
+Target Leakage Violations,0 (ZERO_LEAKAGE)
+Synthetic Provenance Preserved,YES (100% RECONSTRUCTED_SYNTHETIC)
+Quarantined Records,0
+Final Governance Status,PASS
+Stop Condition Enforced,STOP_BEFORE_TARGET_GENERATION

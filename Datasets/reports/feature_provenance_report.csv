@@ -1,0 +1,2 @@
+dataset,synthetic_dependency,observed_record_status,observed_fe_source,provenance_preserved,status
+inventory_transaction_features.csv,True,RECONSTRUCTED_SYNTHETIC,RECONSTRUCTED_SYNTHETIC,True,PASS

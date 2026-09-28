@@ -1,0 +1,10 @@
+dataset,expected_grain,observed_rows,expected_key,duplicate_key_count,status
+demand_features,location x product x week,1112000,region_product_week_key,0,PASS
+inventory_features,warehouse x product,3000,warehouse_id + product_id,0,PASS
+inventory_transaction_features,warehouse x product x week,417000,warehouse_product_week_key,0,PASS
+supplier_features,supplier,200,supplier_id,0,PASS
+supplier_product_features,supplier x product,8000,supplier_id + product_supplied_id,0,PASS
+supplier_area_features,supplier x location,200,supplier_id + location_id,0,PASS
+warehouse_features,warehouse,15,warehouse_id,0,PASS
+routing_features,warehouse x location,75,warehouse_id + location_id,0,PASS
+supplier_routing_features,supplier x location,200,supplier_id + location_id,0,PASS

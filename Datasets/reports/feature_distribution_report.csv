@@ -1,0 +1,7 @@
+dataset,feature,count,mean,std,min,p25,p50,p75,max,zero_count,unique_count,diagnostic_flag
+demand_features.csv,units_sold,100000,35.215,36.493,5.0,8.0,11.0,58.0,325.0,0,241,NORMAL
+demand_features.csv,lag_1_demand,99280,35.253,36.55,5.0,8.0,11.0,57.25,325.0,0,241,NORMAL
+demand_features.csv,rolling_mean_4,99280,35.279,35.531,5.0,7.75,10.75,61.75,222.75,0,849,NORMAL
+demand_features.csv,demand_change,99280,-0.03,13.437,-259.0,-2.0,0.0,2.0,192.0,13709,271,NORMAL
+demand_features.csv,sin_week,100000,0.084,0.695,-1.0,-0.568,0.121,0.749,1.0,0,106,NORMAL
+demand_features.csv,cos_week,100000,-0.058,0.711,-1.0,-0.749,-0.121,0.663,1.0,0,105,NORMAL

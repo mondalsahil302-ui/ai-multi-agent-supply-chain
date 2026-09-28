@@ -1,0 +1,6 @@
+dataset,feature,entity_key,period,units_sold,expected_value,observed_value,mismatch,status
+demand_features.csv,lag_1_demand,KOL-LOC-001_BAB-001,2024-01-01,6,,,False,PASS
+demand_features.csv,lag_1_demand,KOL-LOC-001_BAB-001,2024-01-07,8,6.0,6.0,False,PASS
+demand_features.csv,lag_1_demand,KOL-LOC-001_BAB-001,2024-01-14,8,8.0,8.0,False,PASS
+demand_features.csv,lag_1_demand,KOL-LOC-001_BAB-001,2024-01-21,6,8.0,8.0,False,PASS
+demand_features.csv,lag_1_demand,KOL-LOC-001_BAB-001,2024-01-28,8,6.0,6.0,False,PASS

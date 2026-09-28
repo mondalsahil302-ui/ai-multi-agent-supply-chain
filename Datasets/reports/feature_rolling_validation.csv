@@ -1,0 +1,6 @@
+dataset,feature,entity_key,period,expected_value,observed_value,difference,status
+demand_features.csv,rolling_mean_4,KOL-LOC-001_BAB-001,2024-01-01,,,0.0,PASS
+demand_features.csv,rolling_mean_4,KOL-LOC-001_BAB-001,2024-01-07,6.0,6.0,0.0,PASS
+demand_features.csv,rolling_mean_4,KOL-LOC-001_BAB-001,2024-01-14,7.0,7.0,0.0,PASS
+demand_features.csv,rolling_mean_4,KOL-LOC-001_BAB-001,2024-01-21,7.333333333333333,7.333333333333333,0.0,PASS
+demand_features.csv,rolling_mean_4,KOL-LOC-001_BAB-001,2024-01-28,7.0,7.0,0.0,PASS

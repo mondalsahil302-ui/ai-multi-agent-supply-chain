@@ -1,0 +1,2 @@
+dataset,entity_groups_checked,reversed_order_groups,temporal_monotonicity,status
+demand_features.csv,20,0,STRICTLY_MONOTONIC,PASS
