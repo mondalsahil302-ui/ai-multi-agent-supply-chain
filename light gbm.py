@@ -95,3 +95,4 @@ test_results['predicted_demand'] = y_pred_test
 
 weekly_agg = test_results.groupby('week_start_date')[['next_week_demand_target_units', 'predicted_demand']].sum().reset_index()
 
+                                                                        
