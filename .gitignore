@@ -1,0 +1,22 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Testing and code quality
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Logs and local runtime files
+*.log
+logs/

@@ -1,0 +1,42 @@
+
+[build-system]
+requires = ["setuptools>=75,<82", "wheel>=0.45,<1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "demand-agent-ingestion"
+version = "0.1.0"
+description = "Production-oriented external data ingestion for the Demand Agent"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "httpx>=0.28,<1",
+    "pydantic>=2.10,<3",
+    "pydantic-settings>=2.7,<3",
+    "pymongo>=4.11,<5",
+    "tenacity>=9,<10",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3,<10",
+    "pytest-cov>=6,<8",
+    "ruff>=0.11,<1",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra --strict-markers"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
