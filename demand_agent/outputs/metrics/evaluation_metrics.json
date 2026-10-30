@@ -1,0 +1,78 @@
+{
+  "metrics": [
+    {
+      "model": "Last-Week Naive",
+      "n_samples": 2059,
+      "MAE": 27.6513,
+      "RMSE": 35.547,
+      "R2": -0.0131,
+      "WAPE": 0.2286,
+      "ForecastBias": 0.3205,
+      "Precision@5": 1.0,
+      "NDCG@5": 0.9676,
+      "DemandCapture@5": 1.0,
+      "n_groups": 702,
+      "k_used": 5
+    },
+    {
+      "model": "4-Week MA",
+      "n_samples": 1547,
+      "MAE": 24.4667,
+      "RMSE": 31.1856,
+      "R2": 0.2455,
+      "WAPE": 0.1977,
+      "ForecastBias": -1.5902,
+      "Precision@5": 1.0,
+      "NDCG@5": 0.9721,
+      "DemandCapture@5": 1.0,
+      "n_groups": 616,
+      "k_used": 5
+    },
+    {
+      "model": "LightGBM",
+      "n_samples": 2059,
+      "MAE": 21.7605,
+      "RMSE": 27.2675,
+      "R2": 0.4039,
+      "WAPE": 0.1799,
+      "ForecastBias": 0.6165,
+      "Precision@5": 1.0,
+      "NDCG@5": 0.9669,
+      "DemandCapture@5": 1.0,
+      "n_groups": 702,
+      "k_used": 5
+    },
+    {
+      "model": "CatBoost",
+      "n_samples": 2059,
+      "MAE": 20.4971,
+      "RMSE": 26.0094,
+      "R2": 0.4576,
+      "WAPE": 0.1695,
+      "ForecastBias": 0.7779,
+      "Precision@5": 1.0,
+      "NDCG@5": 0.9682,
+      "DemandCapture@5": 1.0,
+      "n_groups": 702,
+      "k_used": 5
+    },
+    {
+      "model": "Ensemble (avg)",
+      "n_samples": 2059,
+      "MAE": 20.9137,
+      "RMSE": 26.3309,
+      "R2": 0.4441,
+      "WAPE": 0.1729,
+      "ForecastBias": 0.6972,
+      "Precision@5": 1.0,
+      "NDCG@5": 0.9672,
+      "DemandCapture@5": 1.0,
+      "n_groups": 702,
+      "k_used": 5
+    }
+  ],
+  "limitation_notice": "Cannot compute @10 metrics: maximum group size is 5. Dataset contains only 5 products per region-week. Computing @5 instead. To compute @10, ingest the full 200-product dataset.",
+  "ranking_k_requested": 10,
+  "ranking_k_available": 5,
+  "ranking_k_used": 5
+}

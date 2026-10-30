@@ -1,0 +1,401 @@
+location_id,region_of_kolkata,product_id,product_name,category_name,forecast_start_date,forecast_end_date,predicted_units,demand_rank
+KOL-LOC-001,Lake Gardens,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,85,1
+KOL-LOC-001,Lake Gardens,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,84,2
+KOL-LOC-001,Lake Gardens,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,74,3
+KOL-LOC-001,Lake Gardens,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,70,4
+KOL-LOC-001,Lake Gardens,VEG-008,Cucumber,Fresh Vegetables,2026-08-30,2026-09-05,70,5
+KOL-LOC-001,Lake Gardens,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,69,6
+KOL-LOC-001,Lake Gardens,BIS-008,Oreo Original,Biscuits & Cookies,2026-08-30,2026-09-05,67,7
+KOL-LOC-001,Lake Gardens,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,67,8
+KOL-LOC-001,Lake Gardens,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,67,9
+KOL-LOC-001,Lake Gardens,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,66,10
+KOL-LOC-002,Jadavpur,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,98,1
+KOL-LOC-002,Jadavpur,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,98,2
+KOL-LOC-002,Jadavpur,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,97,3
+KOL-LOC-002,Jadavpur,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,90,4
+KOL-LOC-002,Jadavpur,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,89,5
+KOL-LOC-002,Jadavpur,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,89,6
+KOL-LOC-002,Jadavpur,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,88,7
+KOL-LOC-002,Jadavpur,BEV-006,Maaza Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,86,8
+KOL-LOC-002,Jadavpur,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,86,9
+KOL-LOC-002,Jadavpur,TEA-001,Tata Tea Gold,Tea & Coffee,2026-08-30,2026-09-05,86,10
+KOL-LOC-003,Dhakuria,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,85,1
+KOL-LOC-003,Dhakuria,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,81,2
+KOL-LOC-003,Dhakuria,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,80,3
+KOL-LOC-003,Dhakuria,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,72,4
+KOL-LOC-003,Dhakuria,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,70,5
+KOL-LOC-003,Dhakuria,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,69,6
+KOL-LOC-003,Dhakuria,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,69,7
+KOL-LOC-003,Dhakuria,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,67,8
+KOL-LOC-003,Dhakuria,BIS-008,Oreo Original,Biscuits & Cookies,2026-08-30,2026-09-05,67,9
+KOL-LOC-003,Dhakuria,TEA-004,Brooke Bond Taj Mahal,Tea & Coffee,2026-08-30,2026-09-05,67,10
+KOL-LOC-004,Gariahat,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,103,1
+KOL-LOC-004,Gariahat,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,98,2
+KOL-LOC-004,Gariahat,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,97,3
+KOL-LOC-004,Gariahat,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,91,4
+KOL-LOC-004,Gariahat,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,89,5
+KOL-LOC-004,Gariahat,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,86,6
+KOL-LOC-004,Gariahat,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,85,7
+KOL-LOC-004,Gariahat,TEA-009,Bru Instant Coffee,Tea & Coffee,2026-08-30,2026-09-05,85,8
+KOL-LOC-004,Gariahat,BEV-001,Coca-Cola,Soft Drinks & Beverages,2026-08-30,2026-09-05,84,9
+KOL-LOC-004,Gariahat,BEV-006,Maaza Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,84,10
+KOL-LOC-005,Ballygunge,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,105,1
+KOL-LOC-005,Ballygunge,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,103,2
+KOL-LOC-005,Ballygunge,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,99,3
+KOL-LOC-005,Ballygunge,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,95,4
+KOL-LOC-005,Ballygunge,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,88,5
+KOL-LOC-005,Ballygunge,TEA-002,Tata Tea Premium,Tea & Coffee,2026-08-30,2026-09-05,87,6
+KOL-LOC-005,Ballygunge,BEV-006,Maaza Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,86,7
+KOL-LOC-005,Ballygunge,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,86,8
+KOL-LOC-005,Ballygunge,SNK-004,Bingo Original Style,Chips & Namkeen,2026-08-30,2026-09-05,86,9
+KOL-LOC-005,Ballygunge,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,86,10
+KOL-LOC-006,Jodhpur Park,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,85,1
+KOL-LOC-006,Jodhpur Park,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,81,2
+KOL-LOC-006,Jodhpur Park,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,80,3
+KOL-LOC-006,Jodhpur Park,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,72,4
+KOL-LOC-006,Jodhpur Park,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,71,5
+KOL-LOC-006,Jodhpur Park,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,67,6
+KOL-LOC-006,Jodhpur Park,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,66,7
+KOL-LOC-006,Jodhpur Park,DAI-002,Amul Taaza Toned Milk,Dairy & Milk Products,2026-08-30,2026-09-05,65,8
+KOL-LOC-006,Jodhpur Park,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,65,9
+KOL-LOC-006,Jodhpur Park,INS-010,Ching's Schezwan Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,65,10
+KOL-LOC-007,Tollygunge,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,82,1
+KOL-LOC-007,Tollygunge,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,75,2
+KOL-LOC-007,Tollygunge,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,73,3
+KOL-LOC-007,Tollygunge,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,71,4
+KOL-LOC-007,Tollygunge,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,68,5
+KOL-LOC-007,Tollygunge,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,67,6
+KOL-LOC-007,Tollygunge,SNK-004,Bingo Original Style,Chips & Namkeen,2026-08-30,2026-09-05,66,7
+KOL-LOC-007,Tollygunge,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,65,8
+KOL-LOC-007,Tollygunge,TEA-004,Brooke Bond Taj Mahal,Tea & Coffee,2026-08-30,2026-09-05,65,9
+KOL-LOC-007,Tollygunge,TEA-005,Society Tea,Tea & Coffee,2026-08-30,2026-09-05,65,10
+KOL-LOC-008,Golf Green,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,84,1
+KOL-LOC-008,Golf Green,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,82,2
+KOL-LOC-008,Golf Green,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,80,3
+KOL-LOC-008,Golf Green,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,72,4
+KOL-LOC-008,Golf Green,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,70,5
+KOL-LOC-008,Golf Green,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,68,6
+KOL-LOC-008,Golf Green,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,68,7
+KOL-LOC-008,Golf Green,DAI-002,Amul Taaza Toned Milk,Dairy & Milk Products,2026-08-30,2026-09-05,67,8
+KOL-LOC-008,Golf Green,TEA-002,Tata Tea Premium,Tea & Coffee,2026-08-30,2026-09-05,67,9
+KOL-LOC-008,Golf Green,BAK-004,Harvest Gold White Bread,Bread & Bakery,2026-08-30,2026-09-05,66,10
+KOL-LOC-009,Garia,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,87,1
+KOL-LOC-009,Garia,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,87,2
+KOL-LOC-009,Garia,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,84,3
+KOL-LOC-009,Garia,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,82,4
+KOL-LOC-009,Garia,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,80,5
+KOL-LOC-009,Garia,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,79,6
+KOL-LOC-009,Garia,TEA-001,Tata Tea Gold,Tea & Coffee,2026-08-30,2026-09-05,78,7
+KOL-LOC-009,Garia,TEA-002,Tata Tea Premium,Tea & Coffee,2026-08-30,2026-09-05,78,8
+KOL-LOC-009,Garia,TEA-009,Bru Instant Coffee,Tea & Coffee,2026-08-30,2026-09-05,78,9
+KOL-LOC-009,Garia,SNK-004,Bingo Original Style,Chips & Namkeen,2026-08-30,2026-09-05,77,10
+KOL-LOC-010,Kasba,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,89,1
+KOL-LOC-010,Kasba,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,89,2
+KOL-LOC-010,Kasba,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,89,3
+KOL-LOC-010,Kasba,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,86,4
+KOL-LOC-010,Kasba,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,84,5
+KOL-LOC-010,Kasba,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,83,6
+KOL-LOC-010,Kasba,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,80,7
+KOL-LOC-010,Kasba,TEA-001,Tata Tea Gold,Tea & Coffee,2026-08-30,2026-09-05,80,8
+KOL-LOC-010,Kasba,TEA-009,Bru Instant Coffee,Tea & Coffee,2026-08-30,2026-09-05,80,9
+KOL-LOC-010,Kasba,BEV-003,Sprite,Soft Drinks & Beverages,2026-08-30,2026-09-05,79,10
+KOL-LOC-011,Mukundapur,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,80,1
+KOL-LOC-011,Mukundapur,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,77,2
+KOL-LOC-011,Mukundapur,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,76,3
+KOL-LOC-011,Mukundapur,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,74,4
+KOL-LOC-011,Mukundapur,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,69,5
+KOL-LOC-011,Mukundapur,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,68,6
+KOL-LOC-011,Mukundapur,SNK-002,Lay's Magic Masala,Chips & Namkeen,2026-08-30,2026-09-05,65,7
+KOL-LOC-011,Mukundapur,VEG-008,Cucumber,Fresh Vegetables,2026-08-30,2026-09-05,65,8
+KOL-LOC-011,Mukundapur,BAK-003,Modern Milk Bread,Bread & Bakery,2026-08-30,2026-09-05,64,9
+KOL-LOC-011,Mukundapur,TEA-001,Tata Tea Gold,Tea & Coffee,2026-08-30,2026-09-05,64,10
+KOL-LOC-012,Santoshpur,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,84,1
+KOL-LOC-012,Santoshpur,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,82,2
+KOL-LOC-012,Santoshpur,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,73,3
+KOL-LOC-012,Santoshpur,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,68,4
+KOL-LOC-012,Santoshpur,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,67,5
+KOL-LOC-012,Santoshpur,DAI-002,Amul Taaza Toned Milk,Dairy & Milk Products,2026-08-30,2026-09-05,66,6
+KOL-LOC-012,Santoshpur,BAK-003,Modern Milk Bread,Bread & Bakery,2026-08-30,2026-09-05,65,7
+KOL-LOC-012,Santoshpur,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,65,8
+KOL-LOC-012,Santoshpur,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,65,9
+KOL-LOC-012,Santoshpur,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,65,10
+KOL-LOC-013,New Alipore,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,92,1
+KOL-LOC-013,New Alipore,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,91,2
+KOL-LOC-013,New Alipore,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,83,3
+KOL-LOC-013,New Alipore,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,82,4
+KOL-LOC-013,New Alipore,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,80,5
+KOL-LOC-013,New Alipore,TEA-009,Bru Instant Coffee,Tea & Coffee,2026-08-30,2026-09-05,79,6
+KOL-LOC-013,New Alipore,DAI-002,Amul Taaza Toned Milk,Dairy & Milk Products,2026-08-30,2026-09-05,78,7
+KOL-LOC-013,New Alipore,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,77,8
+KOL-LOC-013,New Alipore,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,77,9
+KOL-LOC-013,New Alipore,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,76,10
+KOL-LOC-014,Behala,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,81,1
+KOL-LOC-014,Behala,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,80,2
+KOL-LOC-014,Behala,TEA-009,Bru Instant Coffee,Tea & Coffee,2026-08-30,2026-09-05,71,3
+KOL-LOC-014,Behala,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,70,4
+KOL-LOC-014,Behala,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,69,5
+KOL-LOC-014,Behala,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,66,6
+KOL-LOC-014,Behala,BEV-001,Coca-Cola,Soft Drinks & Beverages,2026-08-30,2026-09-05,65,7
+KOL-LOC-014,Behala,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,65,8
+KOL-LOC-014,Behala,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,65,9
+KOL-LOC-014,Behala,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,65,10
+KOL-LOC-015,Chetla,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,82,1
+KOL-LOC-015,Chetla,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,79,2
+KOL-LOC-015,Chetla,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,75,3
+KOL-LOC-015,Chetla,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,72,4
+KOL-LOC-015,Chetla,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,72,5
+KOL-LOC-015,Chetla,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,69,6
+KOL-LOC-015,Chetla,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,68,7
+KOL-LOC-015,Chetla,BEV-006,Maaza Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,67,8
+KOL-LOC-015,Chetla,SNK-004,Bingo Original Style,Chips & Namkeen,2026-08-30,2026-09-05,67,9
+KOL-LOC-015,Chetla,BAK-004,Harvest Gold White Bread,Bread & Bakery,2026-08-30,2026-09-05,66,10
+KOL-LOC-016,Alipore,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,91,1
+KOL-LOC-016,Alipore,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,88,2
+KOL-LOC-016,Alipore,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,82,3
+KOL-LOC-016,Alipore,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,79,4
+KOL-LOC-016,Alipore,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,79,5
+KOL-LOC-016,Alipore,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,77,6
+KOL-LOC-016,Alipore,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,77,7
+KOL-LOC-016,Alipore,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,74,8
+KOL-LOC-016,Alipore,TEA-002,Tata Tea Premium,Tea & Coffee,2026-08-30,2026-09-05,73,9
+KOL-LOC-016,Alipore,TEA-009,Bru Instant Coffee,Tea & Coffee,2026-08-30,2026-09-05,73,10
+KOL-LOC-017,Kalighat,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,85,1
+KOL-LOC-017,Kalighat,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,84,2
+KOL-LOC-017,Kalighat,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,83,3
+KOL-LOC-017,Kalighat,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,73,4
+KOL-LOC-017,Kalighat,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,69,5
+KOL-LOC-017,Kalighat,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,69,6
+KOL-LOC-017,Kalighat,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,68,7
+KOL-LOC-017,Kalighat,BAK-004,Harvest Gold White Bread,Bread & Bakery,2026-08-30,2026-09-05,67,8
+KOL-LOC-017,Kalighat,BEV-001,Coca-Cola,Soft Drinks & Beverages,2026-08-30,2026-09-05,67,9
+KOL-LOC-017,Kalighat,BEV-002,Thums Up,Soft Drinks & Beverages,2026-08-30,2026-09-05,67,10
+KOL-LOC-018,Bhawanipore,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,86,1
+KOL-LOC-018,Bhawanipore,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,84,2
+KOL-LOC-018,Bhawanipore,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,83,3
+KOL-LOC-018,Bhawanipore,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,83,4
+KOL-LOC-018,Bhawanipore,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,82,5
+KOL-LOC-018,Bhawanipore,SNK-004,Bingo Original Style,Chips & Namkeen,2026-08-30,2026-09-05,77,6
+KOL-LOC-018,Bhawanipore,DAI-002,Amul Taaza Toned Milk,Dairy & Milk Products,2026-08-30,2026-09-05,76,7
+KOL-LOC-018,Bhawanipore,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,76,8
+KOL-LOC-018,Bhawanipore,BEV-006,Maaza Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,75,9
+KOL-LOC-018,Bhawanipore,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,75,10
+KOL-LOC-019,Park Street,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,105,1
+KOL-LOC-019,Park Street,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,104,2
+KOL-LOC-019,Park Street,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,100,3
+KOL-LOC-019,Park Street,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,96,4
+KOL-LOC-019,Park Street,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,95,5
+KOL-LOC-019,Park Street,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,89,6
+KOL-LOC-019,Park Street,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,88,7
+KOL-LOC-019,Park Street,SNK-004,Bingo Original Style,Chips & Namkeen,2026-08-30,2026-09-05,88,8
+KOL-LOC-019,Park Street,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,87,9
+KOL-LOC-019,Park Street,BEV-001,Coca-Cola,Soft Drinks & Beverages,2026-08-30,2026-09-05,86,10
+KOL-LOC-020,Esplanade,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,100,1
+KOL-LOC-020,Esplanade,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,95,2
+KOL-LOC-020,Esplanade,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,92,3
+KOL-LOC-020,Esplanade,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,91,4
+KOL-LOC-020,Esplanade,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,87,5
+KOL-LOC-020,Esplanade,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,86,6
+KOL-LOC-020,Esplanade,ICE-001,Amul Vanilla Ice Cream,Ice Cream & Frozen Desserts,2026-08-30,2026-09-05,85,7
+KOL-LOC-020,Esplanade,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,85,8
+KOL-LOC-020,Esplanade,TEA-002,Tata Tea Premium,Tea & Coffee,2026-08-30,2026-09-05,85,9
+KOL-LOC-020,Esplanade,TEA-006,Wagh Bakri Premium Tea,Tea & Coffee,2026-08-30,2026-09-05,85,10
+KOL-LOC-021,Entally,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,84,1
+KOL-LOC-021,Entally,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,82,2
+KOL-LOC-021,Entally,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,80,3
+KOL-LOC-021,Entally,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,76,4
+KOL-LOC-021,Entally,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,74,5
+KOL-LOC-021,Entally,SNK-004,Bingo Original Style,Chips & Namkeen,2026-08-30,2026-09-05,74,6
+KOL-LOC-021,Entally,BAK-004,Harvest Gold White Bread,Bread & Bakery,2026-08-30,2026-09-05,73,7
+KOL-LOC-021,Entally,BEV-002,Thums Up,Soft Drinks & Beverages,2026-08-30,2026-09-05,73,8
+KOL-LOC-021,Entally,DAI-005,Mother Dairy Curd,Dairy & Milk Products,2026-08-30,2026-09-05,73,9
+KOL-LOC-021,Entally,ICE-001,Amul Vanilla Ice Cream,Ice Cream & Frozen Desserts,2026-08-30,2026-09-05,73,10
+KOL-LOC-022,Sealdah,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,89,1
+KOL-LOC-022,Sealdah,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,86,2
+KOL-LOC-022,Sealdah,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,80,3
+KOL-LOC-022,Sealdah,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,74,4
+KOL-LOC-022,Sealdah,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,73,5
+KOL-LOC-022,Sealdah,BAK-004,Harvest Gold White Bread,Bread & Bakery,2026-08-30,2026-09-05,69,6
+KOL-LOC-022,Sealdah,BEV-003,Sprite,Soft Drinks & Beverages,2026-08-30,2026-09-05,69,7
+KOL-LOC-022,Sealdah,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,69,8
+KOL-LOC-022,Sealdah,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,69,9
+KOL-LOC-022,Sealdah,BEV-010,Kinley Mineral Water,Soft Drinks & Beverages,2026-08-30,2026-09-05,69,10
+KOL-LOC-023,Tangra,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,86,1
+KOL-LOC-023,Tangra,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,84,2
+KOL-LOC-023,Tangra,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,79,3
+KOL-LOC-023,Tangra,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,79,4
+KOL-LOC-023,Tangra,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,78,5
+KOL-LOC-023,Tangra,BEV-006,Maaza Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,76,6
+KOL-LOC-023,Tangra,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,72,7
+KOL-LOC-023,Tangra,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,72,8
+KOL-LOC-023,Tangra,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,70,9
+KOL-LOC-023,Tangra,ICE-010,Amul Rajbhog Ice Cream,Ice Cream & Frozen Desserts,2026-08-30,2026-09-05,70,10
+KOL-LOC-024,Topsia,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,94,1
+KOL-LOC-024,Topsia,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,93,2
+KOL-LOC-024,Topsia,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,81,3
+KOL-LOC-024,Topsia,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,81,4
+KOL-LOC-024,Topsia,TEA-002,Tata Tea Premium,Tea & Coffee,2026-08-30,2026-09-05,80,5
+KOL-LOC-024,Topsia,TEA-001,Tata Tea Gold,Tea & Coffee,2026-08-30,2026-09-05,77,6
+KOL-LOC-024,Topsia,BAK-004,Harvest Gold White Bread,Bread & Bakery,2026-08-30,2026-09-05,76,7
+KOL-LOC-024,Topsia,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,76,8
+KOL-LOC-024,Topsia,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,76,9
+KOL-LOC-024,Topsia,DAI-005,Mother Dairy Curd,Dairy & Milk Products,2026-08-30,2026-09-05,76,10
+KOL-LOC-025,Beliaghata,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,87,1
+KOL-LOC-025,Beliaghata,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,83,2
+KOL-LOC-025,Beliaghata,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,82,3
+KOL-LOC-025,Beliaghata,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,74,4
+KOL-LOC-025,Beliaghata,TEA-002,Tata Tea Premium,Tea & Coffee,2026-08-30,2026-09-05,71,5
+KOL-LOC-025,Beliaghata,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,70,6
+KOL-LOC-025,Beliaghata,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,70,7
+KOL-LOC-025,Beliaghata,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,70,8
+KOL-LOC-025,Beliaghata,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,69,9
+KOL-LOC-025,Beliaghata,DAI-010,Amul Fresh Cream,Dairy & Milk Products,2026-08-30,2026-09-05,69,10
+KOL-LOC-026,Maniktala,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,82,1
+KOL-LOC-026,Maniktala,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,79,2
+KOL-LOC-026,Maniktala,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,78,3
+KOL-LOC-026,Maniktala,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,73,4
+KOL-LOC-026,Maniktala,BEV-002,Thums Up,Soft Drinks & Beverages,2026-08-30,2026-09-05,70,5
+KOL-LOC-026,Maniktala,BEV-003,Sprite,Soft Drinks & Beverages,2026-08-30,2026-09-05,70,6
+KOL-LOC-026,Maniktala,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,70,7
+KOL-LOC-026,Maniktala,BEV-005,Fanta Orange,Soft Drinks & Beverages,2026-08-30,2026-09-05,70,8
+KOL-LOC-026,Maniktala,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,70,9
+KOL-LOC-026,Maniktala,ICE-002,Amul Chocolate Ice Cream,Ice Cream & Frozen Desserts,2026-08-30,2026-09-05,70,10
+KOL-LOC-027,Kankurgachi,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,86,1
+KOL-LOC-027,Kankurgachi,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,83,2
+KOL-LOC-027,Kankurgachi,TEA-001,Tata Tea Gold,Tea & Coffee,2026-08-30,2026-09-05,70,3
+KOL-LOC-027,Kankurgachi,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,69,4
+KOL-LOC-027,Kankurgachi,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,66,5
+KOL-LOC-027,Kankurgachi,DAI-002,Amul Taaza Toned Milk,Dairy & Milk Products,2026-08-30,2026-09-05,65,6
+KOL-LOC-027,Kankurgachi,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,65,7
+KOL-LOC-027,Kankurgachi,DAI-005,Mother Dairy Curd,Dairy & Milk Products,2026-08-30,2026-09-05,64,8
+KOL-LOC-027,Kankurgachi,ICE-004,Kwality Wall's Magnum Classic,Ice Cream & Frozen Desserts,2026-08-30,2026-09-05,64,9
+KOL-LOC-027,Kankurgachi,ICE-010,Amul Rajbhog Ice Cream,Ice Cream & Frozen Desserts,2026-08-30,2026-09-05,64,10
+KOL-LOC-028,Ultadanga,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,90,1
+KOL-LOC-028,Ultadanga,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,87,2
+KOL-LOC-028,Ultadanga,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,85,3
+KOL-LOC-028,Ultadanga,TEA-002,Tata Tea Premium,Tea & Coffee,2026-08-30,2026-09-05,80,4
+KOL-LOC-028,Ultadanga,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,78,5
+KOL-LOC-028,Ultadanga,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,76,6
+KOL-LOC-028,Ultadanga,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,74,7
+KOL-LOC-028,Ultadanga,TEA-001,Tata Tea Gold,Tea & Coffee,2026-08-30,2026-09-05,73,8
+KOL-LOC-028,Ultadanga,TEA-009,Bru Instant Coffee,Tea & Coffee,2026-08-30,2026-09-05,73,9
+KOL-LOC-028,Ultadanga,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,72,10
+KOL-LOC-029,Lake Town,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,92,1
+KOL-LOC-029,Lake Town,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,88,2
+KOL-LOC-029,Lake Town,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,88,3
+KOL-LOC-029,Lake Town,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,83,4
+KOL-LOC-029,Lake Town,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,81,5
+KOL-LOC-029,Lake Town,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,79,6
+KOL-LOC-029,Lake Town,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,78,7
+KOL-LOC-029,Lake Town,BAK-003,Modern Milk Bread,Bread & Bakery,2026-08-30,2026-09-05,77,8
+KOL-LOC-029,Lake Town,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,77,9
+KOL-LOC-029,Lake Town,TEA-001,Tata Tea Gold,Tea & Coffee,2026-08-30,2026-09-05,77,10
+KOL-LOC-030,Dum Dum,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,90,1
+KOL-LOC-030,Dum Dum,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,85,2
+KOL-LOC-030,Dum Dum,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,82,3
+KOL-LOC-030,Dum Dum,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,78,4
+KOL-LOC-030,Dum Dum,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,77,5
+KOL-LOC-030,Dum Dum,TEA-002,Tata Tea Premium,Tea & Coffee,2026-08-30,2026-09-05,76,6
+KOL-LOC-030,Dum Dum,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,75,7
+KOL-LOC-030,Dum Dum,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,75,8
+KOL-LOC-030,Dum Dum,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,75,9
+KOL-LOC-030,Dum Dum,TEA-006,Wagh Bakri Premium Tea,Tea & Coffee,2026-08-30,2026-09-05,75,10
+KOL-LOC-031,Nagerbazar,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,89,1
+KOL-LOC-031,Nagerbazar,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,87,2
+KOL-LOC-031,Nagerbazar,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,84,3
+KOL-LOC-031,Nagerbazar,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,79,4
+KOL-LOC-031,Nagerbazar,BEV-001,Coca-Cola,Soft Drinks & Beverages,2026-08-30,2026-09-05,73,5
+KOL-LOC-031,Nagerbazar,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,73,6
+KOL-LOC-031,Nagerbazar,ICE-003,Kwality Wall's Cornetto,Ice Cream & Frozen Desserts,2026-08-30,2026-09-05,73,7
+KOL-LOC-031,Nagerbazar,ICE-005,Havmor Butterscotch Ice Cream,Ice Cream & Frozen Desserts,2026-08-30,2026-09-05,73,8
+KOL-LOC-031,Nagerbazar,ICE-006,Havmor Mango Ice Cream,Ice Cream & Frozen Desserts,2026-08-30,2026-09-05,73,9
+KOL-LOC-031,Nagerbazar,SNK-004,Bingo Original Style,Chips & Namkeen,2026-08-30,2026-09-05,73,10
+KOL-LOC-032,Shyambazar,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,91,1
+KOL-LOC-032,Shyambazar,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,85,2
+KOL-LOC-032,Shyambazar,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,84,3
+KOL-LOC-032,Shyambazar,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,82,4
+KOL-LOC-032,Shyambazar,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,80,5
+KOL-LOC-032,Shyambazar,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,79,6
+KOL-LOC-032,Shyambazar,TEA-001,Tata Tea Gold,Tea & Coffee,2026-08-30,2026-09-05,77,7
+KOL-LOC-032,Shyambazar,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,76,8
+KOL-LOC-032,Shyambazar,TEA-009,Bru Instant Coffee,Tea & Coffee,2026-08-30,2026-09-05,76,9
+KOL-LOC-032,Shyambazar,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,75,10
+KOL-LOC-033,Salt Lake,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,100,1
+KOL-LOC-033,Salt Lake,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,99,2
+KOL-LOC-033,Salt Lake,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,98,3
+KOL-LOC-033,Salt Lake,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,90,4
+KOL-LOC-033,Salt Lake,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,90,5
+KOL-LOC-033,Salt Lake,TEA-002,Tata Tea Premium,Tea & Coffee,2026-08-30,2026-09-05,89,6
+KOL-LOC-033,Salt Lake,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,88,7
+KOL-LOC-033,Salt Lake,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,88,8
+KOL-LOC-033,Salt Lake,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,88,9
+KOL-LOC-033,Salt Lake,DAI-002,Amul Taaza Toned Milk,Dairy & Milk Products,2026-08-30,2026-09-05,87,10
+KOL-LOC-034,Sector V,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,96,1
+KOL-LOC-034,Sector V,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,93,2
+KOL-LOC-034,Sector V,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,89,3
+KOL-LOC-034,Sector V,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,87,4
+KOL-LOC-034,Sector V,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,86,5
+KOL-LOC-034,Sector V,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,85,6
+KOL-LOC-034,Sector V,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,83,7
+KOL-LOC-034,Sector V,SNK-004,Bingo Original Style,Chips & Namkeen,2026-08-30,2026-09-05,83,8
+KOL-LOC-034,Sector V,BEV-001,Coca-Cola,Soft Drinks & Beverages,2026-08-30,2026-09-05,82,9
+KOL-LOC-034,Sector V,BEV-006,Maaza Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,82,10
+KOL-LOC-035,New Town,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,93,1
+KOL-LOC-035,New Town,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,93,2
+KOL-LOC-035,New Town,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,92,3
+KOL-LOC-035,New Town,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,90,4
+KOL-LOC-035,New Town,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,90,5
+KOL-LOC-035,New Town,DAI-002,Amul Taaza Toned Milk,Dairy & Milk Products,2026-08-30,2026-09-05,89,6
+KOL-LOC-035,New Town,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,87,7
+KOL-LOC-035,New Town,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,86,8
+KOL-LOC-035,New Town,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,86,9
+KOL-LOC-035,New Town,BEV-006,Maaza Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,85,10
+KOL-LOC-036,Rajarhat,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,90,1
+KOL-LOC-036,Rajarhat,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,88,2
+KOL-LOC-036,Rajarhat,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,84,3
+KOL-LOC-036,Rajarhat,TEA-002,Tata Tea Premium,Tea & Coffee,2026-08-30,2026-09-05,83,4
+KOL-LOC-036,Rajarhat,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,82,5
+KOL-LOC-036,Rajarhat,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,80,6
+KOL-LOC-036,Rajarhat,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,80,7
+KOL-LOC-036,Rajarhat,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,79,8
+KOL-LOC-036,Rajarhat,TEA-007,Nescafé Classic,Tea & Coffee,2026-08-30,2026-09-05,79,9
+KOL-LOC-036,Rajarhat,INS-010,Ching's Schezwan Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,78,10
+KOL-LOC-037,Anandapur,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,86,1
+KOL-LOC-037,Anandapur,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,79,2
+KOL-LOC-037,Anandapur,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,76,3
+KOL-LOC-037,Anandapur,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,68,4
+KOL-LOC-037,Anandapur,DAI-002,Amul Taaza Toned Milk,Dairy & Milk Products,2026-08-30,2026-09-05,67,5
+KOL-LOC-037,Anandapur,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,66,6
+KOL-LOC-037,Anandapur,SNK-004,Bingo Original Style,Chips & Namkeen,2026-08-30,2026-09-05,66,7
+KOL-LOC-037,Anandapur,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,64,8
+KOL-LOC-037,Anandapur,SNK-008,Bikaji Bikaneri Bhujia,Chips & Namkeen,2026-08-30,2026-09-05,64,9
+KOL-LOC-037,Anandapur,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,64,10
+KOL-LOC-038,Patuli,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,85,1
+KOL-LOC-038,Patuli,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,81,2
+KOL-LOC-038,Patuli,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,78,3
+KOL-LOC-038,Patuli,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,75,4
+KOL-LOC-038,Patuli,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,68,5
+KOL-LOC-038,Patuli,TEA-001,Tata Tea Gold,Tea & Coffee,2026-08-30,2026-09-05,68,6
+KOL-LOC-038,Patuli,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,67,7
+KOL-LOC-038,Patuli,BEV-006,Maaza Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,67,8
+KOL-LOC-038,Patuli,BEV-001,Coca-Cola,Soft Drinks & Beverages,2026-08-30,2026-09-05,66,9
+KOL-LOC-038,Patuli,BEV-002,Thums Up,Soft Drinks & Beverages,2026-08-30,2026-09-05,66,10
+KOL-LOC-039,Nayabad,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,87,1
+KOL-LOC-039,Nayabad,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,86,2
+KOL-LOC-039,Nayabad,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,83,3
+KOL-LOC-039,Nayabad,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,71,4
+KOL-LOC-039,Nayabad,BEV-007,Frooti Mango,Soft Drinks & Beverages,2026-08-30,2026-09-05,71,5
+KOL-LOC-039,Nayabad,DAI-002,Amul Taaza Toned Milk,Dairy & Milk Products,2026-08-30,2026-09-05,71,6
+KOL-LOC-039,Nayabad,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,71,7
+KOL-LOC-039,Nayabad,BAK-004,Harvest Gold White Bread,Bread & Bakery,2026-08-30,2026-09-05,70,8
+KOL-LOC-039,Nayabad,BEV-001,Coca-Cola,Soft Drinks & Beverages,2026-08-30,2026-09-05,70,9
+KOL-LOC-039,Nayabad,BEV-002,Thums Up,Soft Drinks & Beverages,2026-08-30,2026-09-05,70,10
+KOL-LOC-040,Chak Garia,INS-009,Quaker Oats,Instant & Packaged Foods,2026-08-30,2026-09-05,82,1
+KOL-LOC-040,Chak Garia,INS-001,Maggi 2-Minute Noodles,Instant & Packaged Foods,2026-08-30,2026-09-05,81,2
+KOL-LOC-040,Chak Garia,SNK-009,Uncle Chipps Plain Salted,Chips & Namkeen,2026-08-30,2026-09-05,72,3
+KOL-LOC-040,Chak Garia,INS-004,MTR Ready-to-Eat Upma,Instant & Packaged Foods,2026-08-30,2026-09-05,71,4
+KOL-LOC-040,Chak Garia,INS-008,Kellogg's Corn Flakes,Instant & Packaged Foods,2026-08-30,2026-09-05,70,5
+KOL-LOC-040,Chak Garia,SNK-010,Balaji Wafers Masala,Chips & Namkeen,2026-08-30,2026-09-05,68,6
+KOL-LOC-040,Chak Garia,BEV-004,Limca,Soft Drinks & Beverages,2026-08-30,2026-09-05,65,7
+KOL-LOC-040,Chak Garia,TEA-006,Wagh Bakri Premium Tea,Tea & Coffee,2026-08-30,2026-09-05,65,8
+KOL-LOC-040,Chak Garia,BAK-003,Modern Milk Bread,Bread & Bakery,2026-08-30,2026-09-05,64,9
+KOL-LOC-040,Chak Garia,BAK-004,Harvest Gold White Bread,Bread & Bakery,2026-08-30,2026-09-05,64,10
