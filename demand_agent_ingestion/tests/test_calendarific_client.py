@@ -1,4 +1,5 @@
 
+from copy import deepcopy
 from datetime import date
 
 import httpx
@@ -7,6 +8,7 @@ import pytest
 from demand_ingestion.calendarific_client import (
     CalendarificAPIError,
     CalendarificClient,
+    CalendarificHTTPError,
     CalendarificResponseError,
 )
 from demand_ingestion.config import Settings
@@ -115,6 +117,9 @@ def test_successful_response_produces_festival_records():
     assert records[0].source == "calendarific"
     assert records[1].event_name == "Kali Puja"
     assert len(records[0].event_key) == 64
+    assert records[0].provider_data["country"]["name"] == "India"
+    assert records[1].description is None
+    assert records[1].event_types == ["Observance"]
 
 
 def test_country_code_is_normalized():
@@ -210,6 +215,58 @@ def test_missing_holidays_array_is_rejected():
         fetch_with_handler(handler)
 
 
+def test_empty_holiday_response_is_valid_and_metadata_marks_unavailable():
+    payload = valid_payload()
+    payload["response"]["holidays"] = []
+
+    def handler(request):
+        return httpx.Response(201, json=payload)
+
+    settings = make_settings()
+    with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
+        result = CalendarificClient(
+            settings=settings,
+            http_client=http_client,
+        ).fetch_holidays_result(year=2026)
+
+    assert result.records == []
+    assert result.metadata.request_status == "success"
+    assert result.metadata.response_status == 201
+    assert result.metadata.data_available is False
+    assert result.metadata.requested_year == 2026
+
+
+def test_duplicate_festival_records_are_returned_once():
+    payload = valid_payload()
+    payload["response"]["holidays"].append(
+        deepcopy(payload["response"]["holidays"][0])
+    )
+
+    def handler(request):
+        return httpx.Response(200, json=payload)
+
+    records = fetch_with_handler(handler)
+
+    assert len(records) == 2
+    assert len({record.event_key for record in records}) == 2
+
+
+def test_default_region_uses_configured_region_and_captures_metadata():
+    def handler(request):
+        assert request.url.params["country"] == "IN"
+        assert request.url.params["location"] == "in-wb"
+        return httpx.Response(200, json=valid_payload())
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
+        result = CalendarificClient(
+            settings=make_settings(),
+            http_client=http_client,
+        ).fetch_default_region_holidays_result(year=2026)
+
+    assert result.metadata.region_id == "IN-WB"
+    assert result.metadata.data_available is True
+
+
 def test_invalid_event_date_is_rejected():
     payload = valid_payload()
     payload["response"]["holidays"][0]["date"]["iso"] = (
@@ -284,7 +341,48 @@ def test_authentication_failure_is_not_retried():
     assert attempts == 1
 
 
-def test_quota_failure_is_not_retried():
+def test_api_key_is_redacted_from_provider_errors_and_metadata():
+    secret = "sensitive-test-token"
+
+    def handler(request):
+        return httpx.Response(
+            401,
+            json={
+                "meta": {
+                    "error_type": "invalid_key",
+                    "error_detail": f"Rejected {secret}",
+                }
+            },
+        )
+
+    settings = make_settings(calendarific_api_key=secret)
+    with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
+        client = CalendarificClient(settings=settings, http_client=http_client)
+        with pytest.raises(CalendarificAPIError) as error:
+            client.fetch_holidays_result(year=2026)
+
+    assert secret not in str(error.value)
+    assert error.value.response_status == 401
+    assert error.value.source_metadata.response_status == 401
+    assert secret not in error.value.source_metadata.error_details
+
+
+def test_network_timeout_is_reported_without_api_key():
+    def handler(request):
+        raise httpx.ReadTimeout("request timed out", request=request)
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
+        client = CalendarificClient(
+            settings=make_settings(http_max_retries=0),
+            http_client=http_client,
+        )
+        with pytest.raises(CalendarificHTTPError, match="request failed") as error:
+            client.fetch_holidays(year=2026)
+
+    assert "test-api-key" not in str(error.value)
+
+
+def test_quota_failure_retries_a_bounded_number_of_times():
     attempts = 0
 
     def handler(request):
@@ -300,7 +398,7 @@ def test_quota_failure_is_not_retried():
     ):
         fetch_with_handler(handler, settings=settings)
 
-    assert attempts == 1
+    assert attempts == 4
 
 
 def test_temporary_server_error_is_retried():

@@ -3,7 +3,7 @@ from functools import lru_cache
 from typing import Literal
 from urllib.parse import parse_qs, urlsplit
 
-from pydantic import Field, SecretStr, model_validator
+from pydantic import AliasChoices, Field, SecretStr, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -47,12 +47,16 @@ class Settings(BaseSettings):
     )
 
     # Open-Meteo configuration
-    open_meteo_archive_url: str = (
-        "https://archive-api.open-meteo.com/v1/archive"
+    open_meteo_base_url: str = Field(
+        default="https://api.open-meteo.com/v1/forecast",
+        validation_alias=AliasChoices(
+            "OPEN_METEO_BASE_URL",
+            "OPEN_METEO_FORECAST_URL",
+        ),
     )
 
-    open_meteo_forecast_url: str = (
-        "https://api.open-meteo.com/v1/forecast"
+    open_meteo_archive_url: str = (
+        "https://archive-api.open-meteo.com/v1/archive"
     )
 
     # Calendarific configuration
@@ -61,6 +65,24 @@ class Settings(BaseSettings):
     )
 
     calendarific_api_key: SecretStr | None = None
+
+    # External API source context
+    default_timezone: str = "Asia/Kolkata"
+    default_country: str = "IN"
+    default_region_code: str = "IN-WB"
+    default_forecast_days: int = Field(default=7, ge=1, le=16)
+    region_master_dataset_path: str = "region_master.csv"
+    ingestion_batch_size: int = Field(default=500, ge=1, le=10000)
+    weather_history_lookback_days: int = Field(default=2, ge=1, le=365)
+    weather_backfill_start_date: str | None = None
+    festival_context_months: int = Field(default=12, ge=1, le=60)
+    festival_cache_ttl_hours: int = Field(default=720, ge=1, le=8760)
+    weather_ingestion_schedule: str = "0 1 * * *"
+    festival_ingestion_schedule: str = "0 2 1 * *"
+
+    # Independent manual historical-demand loader
+    historical_demand_dataset_path: str = "agent_demand_integrated.txt"
+    product_master_dataset_path: str | None = None
 
     # HTTP configuration
     http_timeout_seconds: float = Field(
@@ -83,7 +105,17 @@ class Settings(BaseSettings):
 
     @model_validator(mode="after")
     def validate_production_security(self) -> "Settings":
-        """Reject unsafe configuration in production."""
+        """Validate credential pairing and reject unsafe production settings."""
+
+        username_set = bool(self.mongo_username and self.mongo_username.strip())
+        password_set = bool(
+            self.mongo_password
+            and self.mongo_password.get_secret_value().strip()
+        )
+        if username_set != password_set:
+            raise ValueError(
+                "MongoDB username and password must be configured together."
+            )
 
         if self.app_env != "production":
             return self

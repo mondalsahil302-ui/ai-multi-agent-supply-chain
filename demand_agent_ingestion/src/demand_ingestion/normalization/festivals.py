@@ -59,6 +59,7 @@ class NormalizedFestivalRecord(BaseModel):
     )
 
     canonical_url: str | None = Field(default=None, max_length=2000)
+    provider_data: dict[str, Any] = Field(default_factory=dict)
     source: Literal["calendarific"] = "calendarific"
     retrieved_at_utc: datetime
 
@@ -204,6 +205,7 @@ def normalize_festival_record(
             locations=base_data.get("locations"),
             states=base_data.get("states"),
             canonical_url=base_data.get("canonical_url"),
+            provider_data=base_data.get("provider_data", {}),
             source="calendarific",
             retrieved_at_utc=base_data["retrieved_at_utc"],
         )

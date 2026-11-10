@@ -1,10 +1,12 @@
 
+import logging
 import re
 from datetime import UTC, date, datetime
 from typing import Any
 
 import httpx
 from tenacity import (
+    RetryCallState,
     Retrying,
     retry_if_exception,
     stop_after_attempt,
@@ -13,10 +15,22 @@ from tenacity import (
 
 from demand_ingestion.config import Settings, get_settings
 from demand_ingestion.festival_models import FestivalRecord
+from demand_ingestion.source_metadata import SourceMetadata, SourceResult
 
+logger = logging.getLogger(__name__)
 
 class CalendarificError(RuntimeError):
     """Base exception for Calendarific ingestion errors."""
+
+    def __init__(
+        self,
+        message: str,
+        *,
+        response_status: int | None = None,
+    ) -> None:
+        super().__init__(message)
+        self.response_status = response_status
+        self.source_metadata: SourceMetadata | None = None
 
 
 class CalendarificResponseError(CalendarificError):
@@ -34,7 +48,7 @@ class CalendarificHTTPError(CalendarificError):
 class CalendarificClient:
     """Fetch, validate, and normalize Calendarific holiday data."""
 
-    RETRYABLE_STATUS_CODES = {408, 500, 502, 503, 504}
+    RETRYABLE_STATUS_CODES = {408, 429, 500, 502, 503, 504}
 
     def __init__(
         self,
@@ -66,18 +80,36 @@ class CalendarificClient:
     def fetch_holidays(
         self,
         *,
-        country_code: str,
+        country_code: str | None = None,
         year: int,
         location: str | None = None,
     ) -> list[FestivalRecord]:
+        """Fetch holidays for one country and year."""
+
+        records, _ = self._fetch_holidays(
+            country_code=country_code,
+            year=year,
+            location=location,
+        )
+        return records
+
+    def _fetch_holidays(
+        self,
+        *,
+        country_code: str | None,
+        year: int,
+        location: str | None,
+    ) -> tuple[list[FestivalRecord], int]:
         """
-        Fetch holidays for one country and year.
+        Fetch holidays and return the exact HTTP response status.
 
         `location` is an optional Calendarific region code, such as
         an ISO 3166-2 code supported by the provider.
         """
 
-        normalized_country = country_code.strip().upper()
+        normalized_country = (
+            country_code or self.settings.default_country
+        ).strip().upper()
 
         if not re.fullmatch(r"[A-Z]{2}", normalized_country):
             raise ValueError(
@@ -111,22 +143,117 @@ class CalendarificClient:
 
             params["location"] = normalized_location
 
-        payload = self._request_json(
-            self.settings.calendarific_base_url,
-            params,
+        try:
+            payload, response_status = self._request_json(
+                self.settings.calendarific_base_url,
+                params,
+            )
+            try:
+                records = self._parse_response(
+                    payload=payload,
+                    country_code=normalized_country,
+                    year=year,
+                )
+            except CalendarificError as exc:
+                if exc.response_status is None:
+                    exc.response_status = response_status
+                raise
+        except CalendarificError as exc:
+            logger.warning(
+                "Calendarific request failed for country %s, year %s (HTTP %s): %s",
+                normalized_country,
+                year,
+                exc.response_status,
+                self._redact_api_key(str(exc)),
+            )
+            raise
+
+        return records, response_status
+
+    def fetch_holidays_result(
+        self,
+        *,
+        year: int,
+        country_code: str | None = None,
+        location: str | None = None,
+    ) -> SourceResult[FestivalRecord]:
+        """Fetch validated festival records with separate source metadata."""
+
+        normalized_country = (
+            country_code or self.settings.default_country
+        ).strip().upper()
+        try:
+            records, response_status = self._fetch_holidays(
+                country_code=normalized_country,
+                year=year,
+                location=location,
+            )
+        except CalendarificError as exc:
+            exc.source_metadata = SourceMetadata(
+                source_name="calendarific",
+                retrieved_at_utc=datetime.now(UTC),
+                requested_year=year,
+                region_id=location,
+                request_status="failure",
+                response_status=exc.response_status,
+                data_available=False,
+                error_details=self._redact_api_key(str(exc)),
+            )
+            raise
+
+        return SourceResult[FestivalRecord](
+            records=records,
+            metadata=SourceMetadata(
+                source_name="calendarific",
+                retrieved_at_utc=datetime.now(UTC),
+                requested_year=year,
+                region_id=location,
+                request_status="success",
+                response_status=response_status,
+                data_available=bool(records),
+            ),
         )
 
-        return self._parse_response(
-            payload=payload,
-            country_code=normalized_country,
+    def fetch_default_region_holidays(
+        self,
+        *,
+        year: int,
+        country_code: str | None = None,
+    ) -> list[FestivalRecord]:
+        """Fetch holidays for the configured country and default region."""
+
+        return self.fetch_holidays(
+            country_code=country_code,
             year=year,
+            location=self.settings.default_region_code,
         )
+
+    def fetch_default_region_holidays_result(
+        self,
+        *,
+        year: int,
+        country_code: str | None = None,
+    ) -> SourceResult[FestivalRecord]:
+        """Fetch default-region holidays with separate request metadata."""
+
+        return self.fetch_holidays_result(
+            year=year,
+            country_code=country_code,
+            location=self.settings.default_region_code,
+        )
+
+    def _redact_api_key(self, message: str) -> str:
+        api_key = self.settings.calendarific_api_key
+        if api_key is None:
+            return message
+        secret = api_key.get_secret_value()
+        return message.replace(secret, "[REDACTED]") if secret else message
 
     def _request_json(
         self,
         url: str,
         params: dict[str, Any],
-    ) -> dict[str, Any]:
+    ) -> tuple[dict[str, Any], int]:
         """Make a bounded-retry request without exposing credentials."""
 
         retryable = retry_if_exception(
@@ -144,10 +271,7 @@ class CalendarificClient:
             stop=stop_after_attempt(
                 self.settings.http_max_retries + 1
             ),
-            wait=wait_exponential(
-                multiplier=1,
-                max=self.settings.http_backoff_max_seconds,
-            ),
+            wait=self._retry_wait,
             retry=retryable,
             reraise=True,
         )
@@ -158,9 +282,15 @@ class CalendarificClient:
         except httpx.HTTPStatusError as exc:
             # Do not propagate the HTTPX exception, which may contain
             # the request URL and the API key query parameter.
+            if exc.response.status_code == 429:
+                raise CalendarificAPIError(
+                    "Calendarific quota/rate limit persisted after bounded retries.",
+                    response_status=429,
+                ) from None
             raise CalendarificHTTPError(
                 f"Calendarific returned HTTP "
-                f"{exc.response.status_code} after retry handling."
+                f"{exc.response.status_code} after retry handling.",
+                response_status=exc.response.status_code,
             ) from None
 
         except httpx.RequestError:
@@ -168,11 +298,33 @@ class CalendarificClient:
                 "Calendarific request failed after retry handling."
             ) from None
 
+    def _retry_wait(self, state: RetryCallState) -> float:
+        default_wait = wait_exponential(
+            multiplier=1,
+            max=self.settings.http_backoff_max_seconds,
+        )(state)
+        if state.outcome is None:
+            return default_wait
+        error = state.outcome.exception()
+        if not isinstance(error, httpx.HTTPStatusError):
+            return default_wait
+        retry_after = error.response.headers.get("Retry-After")
+        if retry_after is None:
+            return default_wait
+        try:
+            requested_wait = float(retry_after)
+        except ValueError:
+            return default_wait
+        return min(
+            max(requested_wait, 0.0),
+            self.settings.http_backoff_max_seconds,
+        )
+
     def _perform_request(
         self,
         url: str,
         params: dict[str, Any],
-    ) -> dict[str, Any]:
+    ) -> tuple[dict[str, Any], int]:
         """Perform one request and classify provider errors."""
 
         response = self.http.get(url, params=params)
@@ -189,12 +341,14 @@ class CalendarificClient:
             payload = response.json()
         except ValueError:
             raise CalendarificResponseError(
-                "Calendarific returned invalid JSON."
+                "Calendarific returned invalid JSON.",
+                response_status=response.status_code,
             ) from None
 
         if not isinstance(payload, dict):
             raise CalendarificResponseError(
-                "Calendarific response must be a JSON object."
+                "Calendarific response must be a JSON object.",
+                response_status=response.status_code,
             )
 
         # Calendarific may also describe errors in its JSON envelope.
@@ -209,13 +363,15 @@ class CalendarificClient:
             )
 
             raise CalendarificAPIError(
-                f"Calendarific API error ({error_type}): {detail}"
+                self._redact_api_key(
+                    f"Calendarific API error ({error_type}): {detail}"
+                ),
+                response_status=response.status_code,
             )
 
-        return payload
+        return payload, response.status_code
 
-    @staticmethod
-    def _raise_provider_error(response: httpx.Response) -> None:
+    def _raise_provider_error(self, response: httpx.Response) -> None:
         """Raise a sanitized error without including the request URL."""
 
         status = response.status_code
@@ -254,15 +410,25 @@ class CalendarificClient:
             }[status]
 
             if error_type:
-                message += f" Error type: {error_type}."
+                message += (
+                    " Error type: "
+                    f"{self._redact_api_key(str(error_type))}."
+                )
 
             if detail:
-                message += f" Provider detail: {detail}"
+                message += (
+                    " Provider detail: "
+                    f"{self._redact_api_key(str(detail))}"
+                )
 
-            raise CalendarificAPIError(message)
+            raise CalendarificAPIError(
+                message,
+                response_status=status,
+            )
 
         raise CalendarificAPIError(
-            f"Calendarific rejected the request with HTTP {status}."
+            f"Calendarific rejected the request with HTTP {status}.",
+            response_status=status,
         )
 
     def _parse_response(
@@ -302,6 +468,7 @@ class CalendarificClient:
 
         retrieved_at = datetime.now(UTC)
         records: list[FestivalRecord] = []
+        seen_event_keys: set[str] = set()
 
         for index, holiday in enumerate(holidays):
             if not isinstance(holiday, dict):
@@ -399,6 +566,7 @@ class CalendarificClient:
                     canonical_url=canonical_url,
                     locations=locations,
                     states=states,
+                    provider_data=holiday,
                     retrieved_at_utc=retrieved_at,
                 )
             except (TypeError, ValueError):
@@ -406,6 +574,8 @@ class CalendarificClient:
                     f"Holiday at index {index} failed record validation."
                 ) from None
 
-            records.append(record)
+            if record.event_key not in seen_event_keys:
+                seen_event_keys.add(record.event_key)
+                records.append(record)
 
         return records

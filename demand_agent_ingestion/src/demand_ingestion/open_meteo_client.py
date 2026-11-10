@@ -1,5 +1,8 @@
+import logging
+import math
 from datetime import UTC, date, datetime, timedelta
 from typing import Any
+from zoneinfo import ZoneInfo
 
 import httpx
 from tenacity import (
@@ -10,11 +13,24 @@ from tenacity import (
 )
 
 from demand_ingestion.config import Settings, get_settings
+from demand_ingestion.source_metadata import SourceMetadata, SourceResult
 from demand_ingestion.weather_models import WeatherDailyRecord
+
+logger = logging.getLogger(__name__)
 
 
 class OpenMeteoError(RuntimeError):
     """Base exception for Open-Meteo ingestion errors."""
+
+    def __init__(
+        self,
+        message: str,
+        *,
+        response_status: int | None = None,
+    ) -> None:
+        super().__init__(message)
+        self.response_status = response_status
+        self.source_metadata: SourceMetadata | None = None
 
 
 class OpenMeteoResponseError(OpenMeteoError):
@@ -34,10 +50,13 @@ class OpenMeteoClient:
         "temperature_2m_min",
         "temperature_2m_max",
         "precipitation_sum",
+        "rain_sum",
         "relative_humidity_2m_mean",
+        "wind_speed_10m_mean",
     )
 
     RETRYABLE_STATUS_CODES = {408, 429, 500, 502, 503, 504}
+    MAX_FORECAST_DAYS = 16
 
     def __init__(
         self,
@@ -74,15 +93,41 @@ class OpenMeteoClient:
         longitude: float,
         start_date: date,
         end_date: date,
-        timezone: str = "Asia/Kolkata",
+        timezone: str | None = None,
     ) -> list[WeatherDailyRecord]:
         """Fetch daily historical weather for one configured location."""
 
+        records, _ = self._fetch_historical_daily(
+            location_id=location_id,
+            latitude=latitude,
+            longitude=longitude,
+            start_date=start_date,
+            end_date=end_date,
+            timezone=timezone,
+        )
+        return records
+
+    def _fetch_historical_daily(
+        self,
+        *,
+        location_id: str,
+        latitude: float,
+        longitude: float,
+        start_date: date,
+        end_date: date,
+        timezone: str | None,
+    ) -> tuple[list[WeatherDailyRecord], int]:
+        """Fetch historical records and the exact HTTP response status."""
+
+        timezone = timezone or self.settings.default_timezone
         if start_date > end_date:
             raise ValueError("start_date cannot be after end_date")
 
         if not location_id.strip():
             raise ValueError("location_id cannot be blank")
+
+        self._validate_coordinates(latitude, longitude)
+        self._validate_timezone(timezone)
 
         params = {
             "latitude": latitude,
@@ -96,26 +141,281 @@ class OpenMeteoClient:
             "timeformat": "iso8601",
         }
 
-        payload = self._request_json(
-            self.settings.open_meteo_archive_url,
-            params,
-        )
+        response_status: int | None = None
+        try:
+            payload, response_status = self._request_json(
+                self.settings.open_meteo_archive_url,
+                params,
+            )
+            records = self._parse_daily_response(
+                payload=payload,
+                location_id=location_id,
+                latitude=latitude,
+                longitude=longitude,
+                expected_timezone=timezone,
+                expected_start_date=start_date,
+                expected_end_date=end_date,
+                data_kind="historical",
+            )
+            return records, response_status
+        except OpenMeteoError as exc:
+            if exc.response_status is None:
+                exc.response_status = response_status
+            logger.warning(
+                "Open-Meteo historical request failed for region %s (HTTP %s): %s",
+                location_id,
+                exc.response_status,
+                str(exc),
+            )
+            raise
 
-        return self._parse_daily_response(
-            payload=payload,
+    def fetch_forecast_daily(
+        self,
+        *,
+        location_id: str,
+        latitude: float,
+        longitude: float,
+        forecast_days: int | None = None,
+        timezone: str | None = None,
+    ) -> list[WeatherDailyRecord]:
+        """Fetch daily forecasts for one configured location."""
+
+        records, _ = self._fetch_forecast_daily(
             location_id=location_id,
             latitude=latitude,
             longitude=longitude,
-            expected_timezone=timezone,
-            expected_start_date=start_date,
-            expected_end_date=end_date,
+            forecast_days=forecast_days,
+            timezone=timezone,
+            forecast_start_date=None,
+        )
+        return records
+
+    def _fetch_forecast_daily(
+        self,
+        *,
+        location_id: str,
+        latitude: float,
+        longitude: float,
+        forecast_days: int | None,
+        timezone: str | None,
+        forecast_start_date: date | None,
+    ) -> tuple[list[WeatherDailyRecord], int]:
+        """Fetch forecast records and the exact HTTP response status."""
+
+        if not location_id.strip():
+            raise ValueError("location_id cannot be blank")
+
+        self._validate_coordinates(latitude, longitude)
+        timezone = timezone or self.settings.default_timezone
+        self._validate_timezone(timezone)
+        forecast_days = (
+            self.settings.default_forecast_days
+            if forecast_days is None
+            else forecast_days
+        )
+        if (
+            isinstance(forecast_days, bool)
+            or not isinstance(forecast_days, int)
+            or not 1 <= forecast_days <= self.MAX_FORECAST_DAYS
+        ):
+            raise ValueError("forecast_days must be between 1 and 16")
+
+        start_date = forecast_start_date or datetime.now(
+            ZoneInfo(timezone)
+        ).date()
+        end_date = start_date + timedelta(days=forecast_days - 1)
+        params = {
+            "latitude": latitude,
+            "longitude": longitude,
+            "daily": ",".join(self.DAILY_VARIABLES),
+            "timezone": timezone,
+            "temperature_unit": "celsius",
+            "precipitation_unit": "mm",
+            "wind_speed_unit": "kmh",
+            "timeformat": "iso8601",
+            "forecast_days": forecast_days,
+        }
+
+        response_status: int | None = None
+        try:
+            payload, response_status = self._request_json(
+                self.settings.open_meteo_base_url,
+                params,
+            )
+            records = self._parse_daily_response(
+                payload=payload,
+                location_id=location_id,
+                latitude=latitude,
+                longitude=longitude,
+                expected_timezone=timezone,
+                expected_start_date=start_date,
+                expected_end_date=end_date,
+                data_kind="forecast",
+            )
+            return records, response_status
+        except OpenMeteoError as exc:
+            if exc.response_status is None:
+                exc.response_status = response_status
+            logger.warning(
+                "Open-Meteo forecast request failed for region %s (HTTP %s): %s",
+                location_id,
+                exc.response_status,
+                str(exc),
+            )
+            raise
+
+    def fetch_historical_daily_result(
+        self,
+        *,
+        location_id: str,
+        latitude: float,
+        longitude: float,
+        start_date: date,
+        end_date: date,
+        timezone: str | None = None,
+    ) -> SourceResult[WeatherDailyRecord]:
+        """Fetch validated historical observations with separate metadata."""
+
+        timezone = timezone or self.settings.default_timezone
+        try:
+            records, response_status = self._fetch_historical_daily(
+                location_id=location_id,
+                latitude=latitude,
+                longitude=longitude,
+                start_date=start_date,
+                end_date=end_date,
+                timezone=timezone,
+            )
+        except OpenMeteoError as exc:
+            exc.source_metadata = self._failure_metadata(
+                exc,
+                location_id=location_id,
+                start_date=start_date,
+                end_date=end_date,
+            )
+            raise
+
+        return SourceResult[WeatherDailyRecord](
+            records=records,
+            metadata=SourceMetadata(
+                source_name="open_meteo",
+                retrieved_at_utc=datetime.now(UTC),
+                requested_start_date=start_date,
+                requested_end_date=end_date,
+                region_id=location_id,
+                request_status="success",
+                response_status=response_status,
+                data_available=bool(records),
+            ),
+        )
+
+    def fetch_forecast_daily_result(
+        self,
+        *,
+        location_id: str,
+        latitude: float,
+        longitude: float,
+        forecast_days: int | None = None,
+        timezone: str | None = None,
+    ) -> SourceResult[WeatherDailyRecord]:
+        """Fetch validated forecasts with separate request metadata."""
+
+        timezone = timezone or self.settings.default_timezone
+        forecast_days = (
+            self.settings.default_forecast_days
+            if forecast_days is None
+            else forecast_days
+        )
+        self._validate_timezone(timezone)
+        if (
+            isinstance(forecast_days, bool)
+            or not isinstance(forecast_days, int)
+            or not 1 <= forecast_days <= self.MAX_FORECAST_DAYS
+        ):
+            raise ValueError("forecast_days must be between 1 and 16")
+        request_start = datetime.now(ZoneInfo(timezone)).date()
+        request_end = request_start + timedelta(days=forecast_days - 1)
+        try:
+            records, response_status = self._fetch_forecast_daily(
+                location_id=location_id,
+                latitude=latitude,
+                longitude=longitude,
+                forecast_days=forecast_days,
+                timezone=timezone,
+                forecast_start_date=request_start,
+            )
+        except OpenMeteoError as exc:
+            exc.source_metadata = self._failure_metadata(
+                exc,
+                location_id=location_id,
+                start_date=request_start,
+                end_date=request_end,
+            )
+            raise
+
+        return SourceResult[WeatherDailyRecord](
+            records=records,
+            metadata=SourceMetadata(
+                source_name="open_meteo",
+                retrieved_at_utc=datetime.now(UTC),
+                requested_start_date=request_start,
+                requested_end_date=request_end,
+                region_id=location_id,
+                request_status="success",
+                response_status=response_status,
+                data_available=bool(records),
+            ),
+        )
+
+    @staticmethod
+    def _validate_coordinates(latitude: float, longitude: float) -> None:
+        if (
+            isinstance(latitude, bool)
+            or not isinstance(latitude, (int, float))
+            or not math.isfinite(latitude)
+            or not -90 <= latitude <= 90
+        ):
+            raise ValueError("latitude must be a finite value between -90 and 90")
+        if (
+            isinstance(longitude, bool)
+            or not isinstance(longitude, (int, float))
+            or not math.isfinite(longitude)
+            or not -180 <= longitude <= 180
+        ):
+            raise ValueError("longitude must be a finite value between -180 and 180")
+
+    @staticmethod
+    def _validate_timezone(timezone: str) -> None:
+        try:
+            ZoneInfo(timezone)
+        except (TypeError, ValueError, KeyError) as exc:
+            raise ValueError("timezone must be a valid IANA timezone") from exc
+
+    @staticmethod
+    def _failure_metadata(
+        error: OpenMeteoError,
+        *,
+        location_id: str,
+        start_date: date,
+        end_date: date,
+    ) -> SourceMetadata:
+        return SourceMetadata(
+            source_name="open_meteo",
+            retrieved_at_utc=datetime.now(UTC),
+            requested_start_date=start_date,
+            requested_end_date=end_date,
+            region_id=location_id,
+            request_status="failure",
+            response_status=error.response_status,
+            data_available=False,
+            error_details=str(error),
         )
 
     def _request_json(
         self,
         url: str,
         params: dict[str, Any],
-    ) -> dict[str, Any]:
+    ) -> tuple[dict[str, Any], int]:
         """Make a bounded-retry request and validate the JSON envelope."""
 
         retryable = retry_if_exception(
@@ -147,7 +447,8 @@ class OpenMeteoClient:
         except httpx.HTTPStatusError as exc:
             raise OpenMeteoHTTPError(
                 f"Open-Meteo returned HTTP "
-                f"{exc.response.status_code} after retry handling."
+                f"{exc.response.status_code} after retry handling.",
+                response_status=exc.response.status_code,
             ) from exc
 
         except httpx.RequestError as exc:
@@ -159,7 +460,7 @@ class OpenMeteoClient:
         self,
         url: str,
         params: dict[str, Any],
-    ) -> dict[str, Any]:
+    ) -> tuple[dict[str, Any], int]:
         """Perform one HTTP attempt."""
 
         response = self.http.get(url, params=params)
@@ -170,7 +471,8 @@ class OpenMeteoClient:
         if response.is_error:
             raise OpenMeteoHTTPError(
                 f"Open-Meteo returned permanent HTTP "
-                f"error {response.status_code}."
+                f"error {response.status_code}.",
+                response_status=response.status_code,
             )
 
         try:
@@ -188,10 +490,11 @@ class OpenMeteoClient:
         if payload.get("error") is True:
             raise OpenMeteoResponseError(
                 "Open-Meteo reported an API error: "
-                f"{payload.get('reason', 'reason not provided')}"
+                f"{payload.get('reason', 'reason not provided')}",
+                response_status=response.status_code,
             )
 
-        return payload
+        return payload, response.status_code
 
     def _parse_daily_response(
         self,
@@ -203,6 +506,7 @@ class OpenMeteoClient:
         expected_timezone: str,
         expected_start_date: date,
         expected_end_date: date,
+        data_kind: str,
     ) -> list[WeatherDailyRecord]:
         """Validate metadata and measurements, then normalize records."""
 
@@ -280,10 +584,14 @@ class OpenMeteoClient:
             "temperature_2m_min": "°c",
             "temperature_2m_max": "°c",
             "precipitation_sum": "mm",
+            "rain_sum": "mm",
             "relative_humidity_2m_mean": "%",
+            "wind_speed_10m_mean": "km/h",
         }
 
         for variable, expected_unit in expected_units.items():
+            if variable not in daily:
+                continue
             actual_unit = daily_units.get(variable)
 
             if (
@@ -295,19 +603,26 @@ class OpenMeteoClient:
                     f"{actual_unit!r}."
                 )
 
-        # Validate that every requested variable has a matching array.
+        # Missing variables are represented as null rather than blocking
+        # otherwise usable weather observations.
+        variable_values: dict[str, list[Any]] = {}
         for variable in self.DAILY_VARIABLES:
             values = daily.get(variable)
 
+            if values is None:
+                variable_values[variable] = [None] * len(parsed_dates)
+                continue
+
             if not isinstance(values, list):
                 raise OpenMeteoResponseError(
-                    f"Daily response is missing {variable}."
+                    f"Daily response variable {variable} must be an array."
                 )
 
             if len(values) != len(parsed_dates):
                 raise OpenMeteoResponseError(
                     f"Array length mismatch for {variable}."
                 )
+            variable_values[variable] = values
 
         # Normalize the provider response into application records.
         retrieved_at = datetime.now(UTC)
@@ -320,30 +635,37 @@ class OpenMeteoClient:
                     latitude=latitude,
                     longitude=longitude,
                     weather_date=weather_date,
-                    data_kind="historical",
-                    temperature_mean_c=daily[
+                    data_kind=data_kind,
+                    temperature_mean_c=variable_values[
                         "temperature_2m_mean"
                     ][index],
-                    temperature_min_c=daily[
+                    temperature_min_c=variable_values[
                         "temperature_2m_min"
                     ][index],
-                    temperature_max_c=daily[
+                    temperature_max_c=variable_values[
                         "temperature_2m_max"
                     ][index],
-                    rainfall_mm=daily[
+                    precipitation_mm=variable_values[
                         "precipitation_sum"
                     ][index],
-                    humidity_mean_pct=daily[
+                    rainfall_mm=variable_values["rain_sum"][index],
+                    humidity_mean_pct=variable_values[
                         "relative_humidity_2m_mean"
                     ][index],
-                    weather_code=daily["weather_code"][index],
+                    weather_code=variable_values["weather_code"][index],
+                    wind_speed_mean_kmh=variable_values[
+                        "wind_speed_10m_mean"
+                    ][index],
                     retrieved_at_utc=retrieved_at,
                 )
 
             except (TypeError, ValueError) as exc:
+                if isinstance(exc, OpenMeteoError):
+                    raise
                 raise OpenMeteoResponseError(
                     f"Invalid weather measurements for "
-                    f"{weather_date}."
+                    f"{weather_date}.",
+                    response_status=200,
                 ) from exc
 
             records.append(record)

@@ -39,11 +39,13 @@ class WeatherDailyRecord(BaseModel):
     temperature_max_c: float | None = Field(
         default=None, ge=-100, le=70
     )
+    precipitation_mm: float | None = Field(default=None, ge=0)
     rainfall_mm: float | None = Field(default=None, ge=0)
     humidity_mean_pct: float | None = Field(
         default=None, ge=0, le=100
     )
     weather_code: int | None = Field(default=None, ge=0, le=99)
+    wind_speed_mean_kmh: float | None = Field(default=None, ge=0)
 
     # Forecast coverage information
     coverage_hours: int | None = Field(default=None, ge=0, le=24)
@@ -100,9 +102,11 @@ class WeatherDailyRecord(BaseModel):
             mean,
             minimum,
             maximum,
+            self.precipitation_mm,
             self.rainfall_mm,
             self.humidity_mean_pct,
             self.weather_code,
+            self.wind_speed_mean_kmh,
         )
 
         if all(value is None for value in measurements):

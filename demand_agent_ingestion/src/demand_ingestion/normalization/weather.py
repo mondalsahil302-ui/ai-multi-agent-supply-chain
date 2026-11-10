@@ -57,9 +57,11 @@ class NormalizedWeatherRecord(BaseModel):
     temperature_mean_c: float | None = Field(default=None, ge=-100.0, le=70.0)
     temperature_min_c: float | None = Field(default=None, ge=-100.0, le=70.0)
     temperature_max_c: float | None = Field(default=None, ge=-100.0, le=70.0)
+    precipitation_mm: float | None = Field(default=None, ge=0.0)
     rainfall_mm: float | None = Field(default=None, ge=0.0)
     humidity_mean_pct: float | None = Field(default=None, ge=0.0, le=100.0)
     weather_code: int | None = Field(default=None, ge=0, le=99)
+    wind_speed_mean_kmh: float | None = Field(default=None, ge=0.0)
     coverage_hours: int | None = Field(default=None, ge=0, le=24)
 
     # Provenance
@@ -109,9 +111,11 @@ class NormalizedWeatherRecord(BaseModel):
             mean,
             minimum,
             maximum,
+            self.precipitation_mm,
             self.rainfall_mm,
             self.humidity_mean_pct,
             self.weather_code,
+            self.wind_speed_mean_kmh,
         )
 
         if all(value is None for value in measurements):
@@ -192,9 +196,11 @@ def compute_weather_content_hash(
         data.get("temperature_mean_c"),
         data.get("temperature_min_c"),
         data.get("temperature_max_c"),
+        data.get("precipitation_mm"),
         data.get("rainfall_mm"),
         data.get("humidity_mean_pct"),
         data.get("weather_code"),
+        data.get("wind_speed_mean_kmh"),
         data.get("coverage_hours"),
     ]
     serialized = json.dumps(payload_components, sort_keys=False, separators=(",", ":"))
@@ -284,9 +290,11 @@ def normalize_weather_record(
             temperature_mean_c=base_data.get("temperature_mean_c"),
             temperature_min_c=base_data.get("temperature_min_c"),
             temperature_max_c=base_data.get("temperature_max_c"),
+            precipitation_mm=base_data.get("precipitation_mm"),
             rainfall_mm=base_data.get("rainfall_mm"),
             humidity_mean_pct=base_data.get("humidity_mean_pct"),
             weather_code=base_data.get("weather_code"),
+            wind_speed_mean_kmh=base_data.get("wind_speed_mean_kmh"),
             coverage_hours=base_data.get("coverage_hours"),
             source="open_meteo",
             retrieved_at_utc=base_data["retrieved_at_utc"],

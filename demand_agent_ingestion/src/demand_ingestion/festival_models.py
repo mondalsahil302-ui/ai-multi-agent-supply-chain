@@ -2,7 +2,7 @@ import json
 import re
 from datetime import UTC, date, datetime
 from hashlib import sha256
-from typing import Literal
+from typing import Any, Literal
 
 from pydantic import (
     BaseModel,
@@ -36,6 +36,7 @@ class FestivalRecord(BaseModel):
 
     # Provider metadata
     canonical_url: str | None = Field(default=None, max_length=2000)
+    provider_data: dict[str, Any] = Field(default_factory=dict)
     source: Literal["calendarific"] = "calendarific"
     retrieved_at_utc: datetime
 
