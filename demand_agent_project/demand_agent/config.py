@@ -17,6 +17,7 @@ COLLECTION_KEYS = {
     "demand_features": "COL_DEMAND_FEATURES",
     "forecast_results": "COL_FORECAST_RESULTS",
     "run_metadata": "COL_RUN_METADATA",
+    "warehouse_master": "COL_WAREHOUSE_MASTER",
 }
 
 
@@ -38,6 +39,7 @@ class Settings:
     min_history_weeks: int
     log_level: str
     collections: dict = field(default_factory=dict)
+    warehouse_id: str = "WH-001"
 
 
 def get_settings() -> Settings:
@@ -52,6 +54,7 @@ def get_settings() -> Settings:
         mongo_connect_timeout_ms=int(_e("MONGO_CONNECT_TIMEOUT_MS", "5000")),
         mongo_socket_timeout_ms=int(_e("MONGO_SOCKET_TIMEOUT_MS", "20000")),
         region_id=_e("REGION_ID", "KOL-LOC-001"),
+        warehouse_id=_e("WAREHOUSE_ID", "WH-001"),
         min_history_weeks=int(_e("MIN_HISTORY_WEEKS", "52")),
         log_level=_e("LOG_LEVEL", "INFO"),
         collections=cols,

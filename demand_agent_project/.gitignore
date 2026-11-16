@@ -6,3 +6,5 @@ mlruns/
 artifacts/
 airflow/
 .env.bak
+*.db
+mlruns.db
