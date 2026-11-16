@@ -23,21 +23,28 @@ def env(name: str, default: str = "") -> str:
     return os.environ.get(name, default).strip()
 
 
-# ---------- 1. .env sanity ----------
 def check_env() -> None:
-    required = ["MONGO_URI", "MONGO_DB", "REGION_ID", "REGION_LATITUDE", "REGION_LONGITUDE",
+    required = ["MONGO_URI", "MONGO_DATABASE", "MONGO_USERNAME", "MONGO_PASSWORD", "MONGO_AUTH_SOURCE",
+                "REGION_ID", "REGION_LATITUDE", "REGION_LONGITUDE",
                 "CALENDARIFIC_API_KEY", "LLM_API_KEY", "LLM_MODEL", "API_KEY"]
     bad = [k for k in required if env(k) in ("", "CHANGE_ME")]
     record(".env required keys", not bad, "all set" if not bad else f"missing/placeholder: {bad}")
 
 
-# ---------- 2. MongoDB ----------
 def check_mongo() -> None:
     try:
         from pymongo import MongoClient
-        c = MongoClient(env("MONGO_URI"), serverSelectionTimeoutMS=int(env("MONGO_SERVER_TIMEOUT_MS", "5000")))
+        c = MongoClient(
+            env("MONGO_URI"),
+            username=env("MONGO_USERNAME"),
+            password=env("MONGO_PASSWORD"),
+            authSource=env("MONGO_AUTH_SOURCE"),
+            serverSelectionTimeoutMS=int(env("MONGO_SERVER_SELECTION_TIMEOUT_MS", "5000")),
+            connectTimeoutMS=int(env("MONGO_CONNECT_TIMEOUT_MS", "5000")),
+            socketTimeoutMS=int(env("MONGO_SOCKET_TIMEOUT_MS", "20000")),
+        )
         c.admin.command("ping")
-        db = c[env("MONGO_DB")]
+        db = c[env("MONGO_DATABASE")]
         expected = {"region_master": 40, "product_master": 200, "calendar_weeks": 152,
                     "weather_history": 150, "weather_forecasts": 7, "festival_calendar": 24,
                     "festival_week_features": 152, "historical_demand": 30000,
@@ -56,13 +63,13 @@ def check_mongo() -> None:
         record("MongoDB", False, f"{type(e).__name__}: {e}")
 
 
-# ---------- 3. Open-Meteo ----------
 def check_open_meteo() -> None:
     timeout = int(env("API_TIMEOUT_SECONDS", "15"))
     lat, lon = env("REGION_LATITUDE"), env("REGION_LONGITUDE")
+    tz = env("TIMEZONE", "Asia/Kolkata")
     try:
         r = requests.get(env("OPEN_METEO_FORECAST_URL"), timeout=timeout, params={
-            "latitude": lat, "longitude": lon, "timezone": env("TIMEZONE", "Asia/Kolkata"),
+            "latitude": lat, "longitude": lon, "timezone": tz,
             "daily": "temperature_2m_max,temperature_2m_min,precipitation_sum",
             "forecast_days": 7})
         r.raise_for_status()
@@ -74,7 +81,7 @@ def check_open_meteo() -> None:
         end = date.today() - timedelta(days=7)
         start = end - timedelta(days=6)
         r = requests.get(env("OPEN_METEO_ARCHIVE_URL"), timeout=timeout, params={
-            "latitude": lat, "longitude": lon, "timezone": env("TIMEZONE", "Asia/Kolkata"),
+            "latitude": lat, "longitude": lon, "timezone": tz,
             "start_date": start.isoformat(), "end_date": end.isoformat(),
             "daily": "temperature_2m_mean,precipitation_sum,relative_humidity_2m_mean"})
         r.raise_for_status()
@@ -84,7 +91,6 @@ def check_open_meteo() -> None:
         record("Open-Meteo archive", False, f"{type(e).__name__}: {e}")
 
 
-# ---------- 4. Calendarific ----------
 def check_calendarific() -> None:
     try:
         r = requests.get(f"{env('CALENDARIFIC_BASE_URL')}/holidays", timeout=int(env("API_TIMEOUT_SECONDS", "15")),
@@ -100,7 +106,6 @@ def check_calendarific() -> None:
         record("Calendarific", False, f"{type(e).__name__}: {e}")
 
 
-# ---------- 5. Gemini ----------
 def check_gemini() -> None:
     try:
         from google import genai

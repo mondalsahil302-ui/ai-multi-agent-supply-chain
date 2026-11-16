@@ -5,3 +5,4 @@ __pycache__/
 mlruns/
 artifacts/
 airflow/
+.env.bak
